@@ -123,13 +123,15 @@
                 @click="reserve"
             >
                 {{message.from}}
+             
             </v-btn>
             <v-btn                
                 text
                 color="green"
                 @click="reserve"
             >
-                508
+            <router-link to="projects/boem/chrome/allure-report/index.html">508</router-link>
+                
             </v-btn>
         </v-card-actions>
         </v-card>
@@ -138,7 +140,9 @@
     </v-col>
     <v-col cols="3">
     </v-col>
-    </v-row>
+    
+    </v-row>    
+    
   </v-container>
 </template>
 
@@ -168,19 +172,6 @@
         }),
         methods: {
             reserve () {                
-                const { exec } = require('child_process');
-                exec('cat *.js bad_file | wc -l', (err, stdout, stderr) => {
-                if (err) {
-                    console.log("erro");
-                    // node couldn't execute the command
-                    return;
-                }
-
-                // the *entire* stdout and stderr (buffered)
-                console.log('stdout: ${stdout}');
-                console.log('stderr: ${stderr}');
-                });
-              
                 this.loading = true                
                 setTimeout(() => (this.loading = false), 2000)
             },

@@ -22,6 +22,7 @@
 
     <v-main>
       <project/>
+      <allure/>
     </v-main>
   </v-app>
 </template>
@@ -30,12 +31,13 @@
 //import HelloWorld from './components/HelloWorld';
 import Project from './components/Project';
 
+
 export default {
   name: 'App',
 
   components: {
   //  HelloWorld,
-    Project
+    Project,
   },
 
   data: () => ({
