@@ -122,7 +122,7 @@
             <a 
                 v-for="message in messages"
                 :key="message.time"                
-                target="_blank" :href="'projects/cosd/'+message.from+'/allure-report/index.html'">
+                target="_blank" :href="'projects/cosd/'+message.from.toLowerCase()+'/allure-report/index.html'">
                 <v-btn
                     :color="message.color"                                
                     text
