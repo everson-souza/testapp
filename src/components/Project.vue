@@ -49,23 +49,27 @@
             </v-timeline>
         </v-card-text> 
         <v-card-actions>
+            <a 
+                v-for="message in messages"
+                :key="message.time"                
+                target="_blank" :href="'projects/boem/'+message.from+'/allure-report/index.html'">
             <v-btn
-            v-for="message in messages"
-                :key="message.time"
                 :color="message.color"                                
                 text
-                @click="reserve"
-            >
-                {{message.from}}
+                @click="reserve">
+                {{message.from}}             
             </v-btn>
+            </a>
+            
             <v-btn                
                 text
                 color="green"
                 @click="reserve"
             >
-                508
+            508                
             </v-btn>
-        </v-card-actions>       
+        
+        </v-card-actions>
         </v-card>
     </v-col>
     <v-col cols="3">   
@@ -115,25 +119,26 @@
             </v-timeline>
         </v-card-text>    
         <v-card-actions>
-            <v-btn
-            v-for="message in messages"
-                :key="message.time"
-                :color="message.color"                                
-                text
-                @click="reserve"
-            >
-                {{message.from}}
-             
-            </v-btn>
-            <a target="_blank" href="projects/boem/chrome/allure-report/index.html">
-                <v-btn                
+            <a 
+                v-for="message in messages"
+                :key="message.time"                
+                target="_blank" :href="'projects/cosd/'+message.from+'/allure-report/index.html'">
+                <v-btn
+                    :color="message.color"                                
                     text
-                    color="green"
-                    @click="reserve"
-                >
-                508                
+                    @click="reserve">
+                    {{message.from}}             
                 </v-btn>
             </a>
+            
+            <v-btn                
+                text
+                color="green"
+                @click="download"
+            >
+            508                
+            </v-btn>
+        
         </v-card-actions>
         </v-card>
     </v-col>
@@ -148,6 +153,7 @@
 </template>
 
 <script>
+    import JSZip from 'jszip'
     export default {
         name: 'Project',
         data: () => ({
@@ -176,6 +182,9 @@
                 this.loading = true                
                 setTimeout(() => (this.loading = false), 2000)
             },
+            download(){
+               
+            }
         },
     }
 </script>  
