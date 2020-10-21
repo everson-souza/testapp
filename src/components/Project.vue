@@ -48,27 +48,22 @@
                 </v-timeline-item>
             </v-timeline>
         </v-card-text> 
-        <v-card-actions>
-            <a 
-                v-for="message in messages"
-                :key="message.time"                
-                target="_blank" :href="'projects/boem/'+message.from+'/allure-report/index.html'">
+        <v-card-actions>            
             <v-btn
+                v-for="message in messages"
+                :key="message.time"   
                 :color="message.color"                                
                 text
-                @click="reserve">
+                @click="reserve('boem', message.from.toLowerCase())">
                 {{message.from}}             
-            </v-btn>
-            </a>
-            
+            </v-btn>            
             <v-btn                
                 text
                 color="green"
                 @click="reserve"
             >
             508                
-            </v-btn>
-        
+            </v-btn>        
         </v-card-actions>
         </v-card>
     </v-col>
@@ -119,18 +114,15 @@
             </v-timeline>
         </v-card-text>    
         <v-card-actions>
-            <a 
+        
+            <v-btn
                 v-for="message in messages"
-                :key="message.time"                
-                target="_blank" :href="'projects/cosd/'+message.from.toLowerCase()+'/allure-report/index.html'">
-                <v-btn
-                    :color="message.color"                                
-                    text
-                    @click="reserve">
-                    {{message.from}}             
-                </v-btn>
-            </a>
-            
+                :key="message.time"   
+                :color="message.color"                                
+                text
+                @click="reserve('cosd', message.from.toLowerCase())">
+                {{message.from}}             
+            </v-btn>            
             <v-btn                
                 text
                 color="green"
@@ -178,12 +170,21 @@
             ],
         }),
         methods: {
-            reserve () {                
-                this.loading = true                
-                setTimeout(() => (this.loading = false), 2000)
+            reserve (project, browser) {                
+                var pdfurl = './../../public/projects/'+project+'/'+browser+'/allure-report/index.html'
+                if (File.Exists(pdfurl)){
+                    window.open(
+                    'projects/'+project+'/'+browser+'/allure-report/index.html',
+                    '_blank' // <- This is what makes it open in a new window.
+                    );
+                                    
+                   
+                } else {
+                    console.log('./../../public/projects/'+project+'/'+browser+'/allure-report/index.html')
+                }                
             },
             download(){
-               
+                
             }
         },
     }
