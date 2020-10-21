@@ -22,7 +22,6 @@
 
     <v-main>
       <project/>
-      <allure/>
     </v-main>
   </v-app>
 </template>

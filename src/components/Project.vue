@@ -60,7 +60,7 @@
             <v-btn                
                 text
                 color="green"
-                @click="reserve"
+                @click="download('boem')"
             >
             508                
             </v-btn>        
@@ -118,7 +118,7 @@
             <v-btn
                 v-for="message in messages"
                 :key="message.time"   
-                :color="message.color"                                
+                :color="message.color"                                                
                 text
                 @click="reserve('cosd', message.from.toLowerCase())">
                 {{message.from}}             
@@ -126,7 +126,7 @@
             <v-btn                
                 text
                 color="green"
-                @click="download"
+                @click="download('cosd')"
             >
             508                
             </v-btn>
@@ -145,15 +145,14 @@
 </template>
 
 <script>
-    import JSZip from 'jszip'
+    
     export default {
-        name: 'Project',
+        name: 'Project',                
         data: () => ({
             hover: false,
             loading: false,
             selection: 1,
-            
-            
+                        
             messages: [
                 {
                 from: 'Chrome',            
@@ -170,23 +169,27 @@
             ],
         }),
         methods: {
-            reserve (project, browser) {                
-                var pdfurl = './../../public/projects/'+project+'/'+browser+'/allure-report/index.html'
-                if (File.Exists(pdfurl)){
-                    window.open(
+            reserve (project, browser) {
+                
+                window.open(
                     'projects/'+project+'/'+browser+'/allure-report/index.html',
                     '_blank' // <- This is what makes it open in a new window.
-                    );
-                                    
-                   
-                } else {
-                    console.log('./../../public/projects/'+project+'/'+browser+'/allure-report/index.html')
-                }                
+                );  
+        
             },
-            download(){
+            download(project){                                
+                
+                try{                    
+                    window.open(
+                        './../projects/'+project+'/508/508.zip',
+                        '_blank' // <- This is what makes it open in a new window.
+                    );
+                }catch(err){
+                    console.log("erro");
+                }
                 
             }
-        },
+        },          
     }
 </script>  
 <style> 
