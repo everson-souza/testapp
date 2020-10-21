@@ -130,7 +130,7 @@
                 color="green"
                 @click="reserve"
             >
-            <a href="projects/boem/chrome/allure-report/index.html">508</a>
+            <a target="_blank" href="projects/boem/chrome/allure-report/index.html">508</a>
                 
             </v-btn>
         </v-card-actions>
