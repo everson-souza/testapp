@@ -25,17 +25,14 @@
     </v-main>
   </v-app>
 </template>
-
 <script>
-//import HelloWorld from './components/HelloWorld';
-import Project from './components/Project';
 
+import Project from './components/Project';
 
 export default {
   name: 'App',
 
   components: {
-  //  HelloWorld,
     Project,
   },
 

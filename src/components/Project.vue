@@ -1,7 +1,11 @@
 <template>
    <v-container>
     <v-row justify="space-around">
-      <v-col cols="3">   
+      <v-col 
+        cols="3"
+        v-for="project in projects"
+        :key="project.name"  
+      >   
         <v-card
         :loading="loading"
         class="mx-auto my-12"
@@ -16,10 +20,10 @@
             ></v-progress-linear>
         </template>
     
-        <v-card-title>BOEM</v-card-title>
+        <v-card-title>{{project.name}}</v-card-title>
     
         <v-card-text>
-            <div>Outer Continental Shelf (OCS) Air Quality System</div>
+            <div>{{project.text}}</div>
         </v-card-text>
         
         <v-card-text>
@@ -30,115 +34,38 @@
                 dense
             >
                 <v-timeline-item
-                v-for="message in messages"
-                :key="message.time"
-                :color="message.color"    
+                v-for="browser in project.browsers"
+                :key="browser.time"
+                :color="browser.color"    
                 class="browser"            
                 small
                 >
                 <template v-slot:icon>
-                <i :class="message.icon"></i>
+                <i :class="browser.icon"></i>
                 </template>
                 <div>
                     <div class="font-weight-normal">
-                    <strong>{{ message.from }}</strong> 
+                    <strong>{{ browser.from }}</strong> 
                     </div>
-                    <div>Latest run was @ {{ message.time }}</div>
+                    <div>Latest run was @ {{ browser.time }}</div>
                 </div>
                 </v-timeline-item>
             </v-timeline>
         </v-card-text> 
         <v-card-actions>            
             <v-btn
-                v-for="message in messages"
-                :key="message.time"   
-                :color="message.color"                                
+                v-for="browser in project.browsers"
+                :key="browser.time"   
+                :color="browser.color"                                
                 text
-                @click="reserve('boem', message.from.toLowerCase())">
-                {{message.from}}             
-            </v-btn>            
-            <v-btn                
-                text
-                color="green"
-                @click="download('boem')"
-            >
-            508                
-            </v-btn>        
-        </v-card-actions>
-        </v-card>
-    </v-col>
-    <v-col cols="3">   
-        <v-card
-        :loading="loading"
-        class="mx-auto my-12"
-        max-width="300"
-        elevation="5"
-        >
-        <template slot="progress">
-            <v-progress-linear
-            color="green"
-            height="5"
-            indeterminate
-            ></v-progress-linear>
-        </template>
-    
-        <v-card-title>COSD</v-card-title>
-        <v-card-text>
-            <div>San Diego APCD - Emissions Inventory System (EIS)</div>
-        </v-card-text>
-        <v-card-text>
-            <div class="font-weight-bold ml-8 mb-2">
-                Browsers                
-            </div>
+                :disabled="browser.disabled"
+                @click="browser.type == '1' ? (reserve(project.name.toLowerCase(), browser.from.toLowerCase())) : (download(project.name.toLowerCase()))">
+                {{browser.from}}             
+            </v-btn>           
             
-            <v-timeline                
-                dense
-            >
-                <v-timeline-item
-                v-for="message in messages"
-                :key="message.time"
-                :color="message.color"                
-                class="browser"
-                small
-                >
-                <template v-slot:icon>
-                <i :class="message.icon"></i>
-                </template>
-                <div>                  
-                    <div class="font-weight-normal">
-                    <strong>{{ message.from }}</strong> 
-                    </div>
-                    <div>Latest run was @ {{ message.time }}</div>
-                </div>
-                </v-timeline-item>
-            </v-timeline>
-        </v-card-text>    
-        <v-card-actions>
-        
-            <v-btn
-                v-for="message in messages"
-                :key="message.time"   
-                :color="message.color"                                                
-                text
-                @click="reserve('cosd', message.from.toLowerCase())">
-                {{message.from}}             
-            </v-btn>            
-            <v-btn                
-                text
-                color="green"
-                @click="download('cosd')"
-            >
-            508                
-            </v-btn>
-        
         </v-card-actions>
         </v-card>
-    </v-col>
-    <v-col cols="3">
-    </v-col>
-    <v-col cols="3">
-    </v-col>
-    
+    </v-col>    
     </v-row>    
     
   </v-container>
@@ -153,19 +80,61 @@
             loading: false,
             selection: 1,
                         
-            messages: [
+            projects: [
                 {
-                from: 'Chrome',            
-                icon:'fab fa-chrome',
-                time: '10:42am 19/10/2020',
-                color: 'light-blue lighten-1',
-                },
+                    name: 'BOEM',
+                    text: 'Outer Continental Shelf (OCS) Air Quality System',
+                    browsers: [
+                        {
+                        from: 'Chrome',            
+                        icon:'fab fa-chrome',
+                        time: '10:42am 19/10/2020',
+                        color: 'light-blue lighten-1',
+                        type: '1',
+                        },
+                        {
+                        from: 'Firefox',
+                        icon:'fab fa-firefox-browser',
+                        time: '10:37am 19/10/2020',
+                        color: 'orange',
+                        type: '1',
+                        },
+                        {
+                        from: '508',
+                        icon:'',
+                        time: '10:37am 19/10/2020',
+                        color: 'green',
+                        type: '2',
+                        }
+                    ],
+                },  
                 {
-                from: 'Firefox',
-                icon:'fab fa-firefox-browser',
-                time: '10:37am 19/10/2020',
-                color: 'orange',
-                }                
+                    name: 'COSD',
+                    text: 'San Diego APCD - Emissions Inventory System (EIS)',
+                    browsers: [
+                        {
+                        from: 'Chrome',            
+                        icon:'fab fa-chrome',
+                        time: '10:42am 19/10/2020',
+                        color: 'light-blue lighten-1',
+                        },
+                        {
+                        from: 'Firefox',
+                        icon:'fab fa-firefox-browser',
+                        time: '10:37am 19/10/2020',
+                        color: 'orange',
+                        disabled: true,
+                        },
+                        {
+                        from: '508',
+                        icon:'',
+                        time: '10:37am 19/10/2020',
+                        color: 'green',
+                        type: '2',
+                        disabled: true
+                        }                
+                    ],
+                }  
             ],
         }),
         methods: {
