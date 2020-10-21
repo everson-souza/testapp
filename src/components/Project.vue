@@ -125,14 +125,15 @@
                 {{message.from}}
              
             </v-btn>
-            <v-btn                
-                text
-                color="green"
-                @click="reserve"
-            >
-            <a target="_blank" href="projects/boem/chrome/allure-report/index.html">508</a>
-                
-            </v-btn>
+            <a target="_blank" href="projects/boem/chrome/allure-report/index.html">
+                <v-btn                
+                    text
+                    color="green"
+                    @click="reserve"
+                >
+                508                
+                </v-btn>
+            </a>
         </v-card-actions>
         </v-card>
     </v-col>
@@ -178,5 +179,9 @@
         },
     }
 </script>  
-<style>    
+<style> 
+    a {
+        color: '';
+        text-decoration: none;
+    }   
 </style>
