@@ -171,11 +171,16 @@
                     .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
                     .then(response => {       
                         let js = JSON.parse(JSON.stringify(response.headers));
-                        console.log(js);
-                        window.open(
-                            'projects/'+project+'/'+browser+'/allure-report/index.html',
-                            '_blank' // <- This is what makes it open in a new window.
-                        )
+                        if (js.status == '304'){
+                            window.open(
+                                'projects/'+project+'/'+browser+'/allure-report/index.html',
+                                '_blank' // <- This is what makes it open in a new window.
+                            )
+                        }else{
+                            this.snackbar=true;
+                            console.log('aqui');
+                        }
+                        
                     })
                     .catch(error => {
                         this.snackbar=true;
