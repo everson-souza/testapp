@@ -2,14 +2,19 @@
    <v-container>
     <v-row justify="space-around">
       <v-col 
-        cols="3"
+        cols="12"        
+        xs="12"
+        sm="6"
+        md="4"
+        lg="4"
+        xl="6"
         v-for="project in projects"
         :key="project.name"  
       >   
         <v-card
         :loading="loading"
         class="mx-auto my-12"
-        max-width="300"
+        max-width="400"
         elevation="5"
         >
         <template slot="progress">
