@@ -149,7 +149,7 @@
                         time: '10:37am 19/10/2020',
                         color: 'orange',
                         type: '1',
-                        //disabled: true,
+                        disabled: true,
                         },
                         {
                         from: '508',
@@ -163,41 +163,13 @@
                 }  
             ],
         }),
-        methods: {
-            async reserve (project, browser) {        
-
+        methods: {            
+            reserve (project, browser) {
                 
-                axios
-                    .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
-                    .then(response => {       
-                        console.log(response.data);
-                        console.log(response.status);
-                        console.log(response.statusText);
-                        console.log(response.headers);
-                        console.log(response.config);
-                        console.log("--------------------------------------");
-                        // let js = JSON.parse(JSON.stringify(response.headers));
-                        // if (js.status == '304'){
-                        //     window.open(
-                        //         'projects/'+project+'/'+browser+'/allure-report/index.html',
-                        //         '_blank' // <- This is what makes it open in a new window.
-                        //     )
-                        // }else{
-                        //     this.snackbar=true;
-                        //     console.log('aqui');
-                        // }
-                        
-                    })
-                    .catch(error => {
-                        this.snackbar=true;
-                        console.log('./../../public/projects/'+project+'/'+browser+'/allure-report/index.html');
-                    })
-            // reserve (project, browser) {
-                
-            //     window.open(
-            //         'projects/'+project+'/'+browser+'/allure-report/index.html',
-            //         '_blank' // <- This is what makes it open in a new window.
-            //     );  
+                window.open(
+                    'projects/'+project+'/'+browser+'/allure-report/index.html',
+                    '_blank' // <- This is what makes it open in a new window.
+                );  
             },
             download(project){                                
                                 
