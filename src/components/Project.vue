@@ -170,16 +170,22 @@
                 axios
                     .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
                     .then(response => {       
-                        let js = JSON.parse(JSON.stringify(response.headers));
-                        if (js.status == '304'){
-                            window.open(
-                                'projects/'+project+'/'+browser+'/allure-report/index.html',
-                                '_blank' // <- This is what makes it open in a new window.
-                            )
-                        }else{
-                            this.snackbar=true;
-                            console.log('aqui');
-                        }
+                        console.log(response.data);
+                        console.log(response.status);
+                        console.log(response.statusText);
+                        console.log(response.headers);
+                        console.log(response.config);
+                        console.log("--------------------------------------");
+                        // let js = JSON.parse(JSON.stringify(response.headers));
+                        // if (js.status == '304'){
+                        //     window.open(
+                        //         'projects/'+project+'/'+browser+'/allure-report/index.html',
+                        //         '_blank' // <- This is what makes it open in a new window.
+                        //     )
+                        // }else{
+                        //     this.snackbar=true;
+                        //     console.log('aqui');
+                        // }
                         
                     })
                     .catch(error => {
