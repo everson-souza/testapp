@@ -169,11 +169,12 @@
                 axios
                     .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
                     .then(response => {
-                        console.log(response);  
-                        window.open(
-                            'projects/'+project+'/'+browser+'/allure-report/index.html',
-                            '_blank' // <- This is what makes it open in a new window.
-                        )
+                        console.log(response.data);
+                        if (response.data)
+                            window.open(
+                                'projects/'+project+'/'+browser+'/allure-report/index.html',
+                                '_blank' // <- This is what makes it open in a new window.
+                            )
                     })
                     .catch(error => {
                         this.snackbar=true;
