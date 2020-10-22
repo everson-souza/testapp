@@ -94,7 +94,7 @@
 </template>
 
 <script>
-    import axios from "axios";
+    import axios from "axios";    
 
     export default {
         name: 'Project',                
@@ -119,14 +119,14 @@
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '10:37am 19/10/2020',
+                        time: '10:36am 19/10/2020',
                         color: 'orange',
                         type: '1',
                         },
                         {
                         from: '508',
                         icon:'',
-                        time: '10:37am 19/10/2020',
+                        time: '10:39am 19/10/2020',
                         color: 'green',
                         type: '2',
                         }
@@ -154,7 +154,7 @@
                         {
                         from: '508',
                         icon:'',
-                        time: '10:37am 19/10/2020',
+                        time: '10:38am 19/10/2020',
                         color: 'green',
                         type: '2',
                         disabled: true
@@ -165,24 +165,28 @@
         }),
         methods: {
             async reserve (project, browser) {        
+
+                
                 axios
                     .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
-                    .then(response => {
-                        console.log(response.data);
-                        console.log(response.status);
-                        console.log(response.statusText);
-                        console.log(response.headers);
-                        console.log(response.config);
-                        if (response.data)
-                            window.open(
-                                'projects/'+project+'/'+browser+'/allure-report/index.html',
-                                '_blank' // <- This is what makes it open in a new window.
-                            )
+                    .then(response => {       
+                        let js = JSON.parse(JSON.stringify(response.headers));
+                        console.log(js);
+                        window.open(
+                            'projects/'+project+'/'+browser+'/allure-report/index.html',
+                            '_blank' // <- This is what makes it open in a new window.
+                        )
                     })
                     .catch(error => {
                         this.snackbar=true;
                         console.log('./../../public/projects/'+project+'/'+browser+'/allure-report/index.html');
                     })
+            // reserve (project, browser) {
+                
+            //     window.open(
+            //         'projects/'+project+'/'+browser+'/allure-report/index.html',
+            //         '_blank' // <- This is what makes it open in a new window.
+            //     );  
             },
             download(project){                                
                                 
