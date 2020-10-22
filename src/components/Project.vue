@@ -70,6 +70,23 @@
             
         </v-card-actions>
         </v-card>
+        <v-snackbar
+            v-model="snackbar"
+            :timeout="2000"
+            >
+            {{ text }}
+
+            <template v-slot:action="{ attrs }">
+                <v-btn
+                color="pink"
+                text
+                v-bind="attrs"
+                @click="snackbar = false"
+                >
+                Close
+                </v-btn>
+            </template>
+            </v-snackbar>
     </v-col>    
     </v-row>    
     
@@ -77,14 +94,17 @@
 </template>
 
 <script>
-    
+    import axios from "axios";
+
     export default {
         name: 'Project',                
         data: () => ({
             hover: false,
             loading: false,
             selection: 1,
-                        
+            snackbar: false,
+            text: 'Sorry, this is not yet available',
+
             projects: [
                 {
                     name: 'BOEM',
@@ -130,7 +150,7 @@
                         time: '10:37am 19/10/2020',
                         color: 'orange',
                         type: '1',
-                        disabled: true,
+                        
                         },
                         {
                         from: '508',
@@ -138,32 +158,42 @@
                         time: '10:37am 19/10/2020',
                         color: 'green',
                         type: '2',
-                        disabled: true
+                        
                         }                
                     ],
                 }  
             ],
         }),
         methods: {
-            reserve (project, browser) {
-                
-                window.open(
-                    'projects/'+project+'/'+browser+'/allure-report/index.html',
-                    '_blank' // <- This is what makes it open in a new window.
-                );  
-        
+             async reserve (project, browser) {        
+                axios
+                    .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
+                    .then(response => {
+                        console.log(response);  
+                        window.open(
+                            'projects/'+project+'/'+browser+'/allure-report/index.html',
+                            '_blank' // <- This is what makes it open in a new window.
+                        )
+                    })
+                    .catch(error => {
+                        this.snackbar=true;
+                        console.log('./../../public/projects/'+project+'/'+browser+'/allure-report/index.html');
+                    })              
             },
             download(project){                                
-                                
-                try{                    
-                    window.open(
-                        './../projects/'+project+'/508/508.zip',
-                        '_blank' // <- This is what makes it open in a new window.
-                    );
-                }catch(err){
-                    console.log("erro");
-                }
-                
+                axios
+                    .get('/projects/'+project+'/508/508.zip')
+                    .then(response => {         
+                        console.log(response);
+                        window.open(
+                            './../projects/'+project+'/508/508.zip',
+                            '_blank' // <- This is what makes it open in a new window.
+                        )
+                    })
+                    .catch(error => {
+                        this.snackbar=true;
+                        console.log('./../../public/projects/'+project+'/508/508.zip');
+                    })               
             }
         },          
     }
