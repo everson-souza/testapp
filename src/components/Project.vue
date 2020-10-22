@@ -94,8 +94,7 @@
 </template>
 
 <script>
-    import axios from "axios";
-
+    
     export default {
         name: 'Project',                
         data: () => ({
@@ -104,7 +103,6 @@
             selection: 1,
             snackbar: false,
             text: 'Sorry, this is not yet available',
-
             projects: [
                 {
                     name: 'BOEM',
@@ -150,7 +148,7 @@
                         time: '10:37am 19/10/2020',
                         color: 'orange',
                         type: '1',
-                        
+                        disabled: true,
                         },
                         {
                         from: '508',
@@ -158,43 +156,32 @@
                         time: '10:37am 19/10/2020',
                         color: 'green',
                         type: '2',
-                        
+                        disabled: true
                         }                
                     ],
                 }  
             ],
         }),
         methods: {
-             async reserve (project, browser) {        
-                axios
-                    .get('/projects/'+project+'/'+browser+'/allure-report/index.html')
-                    .then(response => {
-                        console.log(response.data);
-                        if (response.data)
-                            window.open(
-                                'projects/'+project+'/'+browser+'/allure-report/index.html',
-                                '_blank' // <- This is what makes it open in a new window.
-                            )
-                    })
-                    .catch(error => {
-                        this.snackbar=true;
-                        console.log('./../../public/projects/'+project+'/'+browser+'/allure-report/index.html');
-                    })              
+            reserve (project, browser) {
+                
+                window.open(
+                    'projects/'+project+'/'+browser+'/allure-report/index.html',
+                    '_blank' // <- This is what makes it open in a new window.
+                );  
+        
             },
             download(project){                                
-                axios
-                    .get('/projects/'+project+'/508/508.zip')
-                    .then(response => {         
-                        console.log(response);
-                        window.open(
-                            './../projects/'+project+'/508/508.zip',
-                            '_blank' // <- This is what makes it open in a new window.
-                        )
-                    })
-                    .catch(error => {
-                        this.snackbar=true;
-                        console.log('./../../public/projects/'+project+'/508/508.zip');
-                    })               
+                                
+                try{                    
+                    window.open(
+                        './../projects/'+project+'/508/508.zip',
+                        '_blank' // <- This is what makes it open in a new window.
+                    );
+                }catch(err){
+                    console.log("erro");
+                }
+                
             }
         },          
     }
