@@ -57,7 +57,7 @@
                 </v-timeline-item>
             </v-timeline>
         </v-card-text> 
-        <v-card-actions>            
+        <v-card-actions>   
             <v-btn
                 v-for="browser in project.browsers"
                 :key="browser.time"   
@@ -169,7 +169,11 @@
                 window.open(
                     'projects/'+project+'/'+browser+'/allure-report/index.html',
                     '_blank' // <- This is what makes it open in a new window.
-                );  
+                ); 
+                window.open(
+                        'projects/'+project+'/'+browser+'/test-images.zip',
+                        '_blank' // <- This is what makes it open in a new window.
+                ); 
             },
             download(project){                                
                                 
