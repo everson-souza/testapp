@@ -39,54 +39,84 @@
                 dense
             >
                 <v-timeline-item
-                v-for="browser in project.browsers"
-                :key="browser.time"
-                :color="browser.color"    
+                v-for="item in project.timeline"
+                :key="item.time"
+                :color="item.color"    
                 class="browser"            
                 small
                 >
                 <template v-slot:icon>
-                <i :class="browser.icon"></i>
+                <i :class="item.icon"></i>
                 </template>
                 <div>
                     <div class="font-weight-normal">
-                    <strong>{{ browser.from }}</strong> 
+                    <strong>{{ item.from }}</strong> 
                     </div>
-                    <div>Latest run was @ {{ browser.time }}</div>
+                    <div>Latest run was @ {{ item.time }}</div>
                 </div>
                 </v-timeline-item>
             </v-timeline>
         </v-card-text> 
         <v-card-actions>   
-            <v-btn
-                v-for="browser in project.browsers"
-                :key="browser.time"   
-                :color="browser.color"                                
-                text
-                :disabled="browser.disabled"
-                @click="browser.type == '1' ? (reserve(project.name.toLowerCase(), browser.from.toLowerCase())) : (download(project.name.toLowerCase()))">
-                {{browser.from}}             
-            </v-btn>           
-            
-        </v-card-actions>
-        </v-card>
-        <v-snackbar
-            v-model="snackbar"
-            :timeout="2000"
-            >
-            {{ text }}
-
-            <template v-slot:action="{ attrs }">
+        <div
+            v-for="browser in project.browsers"
+            :key="browser.time"   
+        >
                 <v-btn
-                color="pink"
+                    :color="browser.color"                                
+                    text
+                    :disabled="browser.disabled"                
+                    @click.stop="browser.dialog = true"                    
+                    >
+                    {{browser.from}} 
+                    </v-btn>
+
+                    <v-dialog
+                    v-model="browser.dialog"
+                    max-width="400"
+                    >
+                    <v-card>
+                        <v-card-title class="headline">
+                            {{browser.from}}
+                        </v-card-title>
+
+                        <v-card-text>
+                            What you wanna do?
+                        </v-card-text>
+
+                        <v-card-actions>
+                        <v-spacer></v-spacer>
+
+                        <v-btn
+                            :color="browser.color"
+                            text
+                            @click="reserve(project.name.toLowerCase(), browser.from.toLowerCase())"
+                        >
+                            Allure reports
+                        </v-btn>
+
+                        <v-btn
+                            :color="browser.color"
+                            text
+                            @click="downloadImages(project.name.toLowerCase(), browser.from.toLowerCase())"
+                        >
+                            Download images
+                        </v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-dialog>            
+            </div>
+             <v-btn
+                v-for="option in project.otherOptions"
+                :key="option.time"   
+                :color="option.color"                                
                 text
-                v-bind="attrs"
-                @click="snackbar = false"
-                >
-                Close
-                </v-btn>
-            </template>
-            </v-snackbar>
+                :disabled="option.disabled"
+                @click="download(project.name.toLowerCase())">
+                {{option.from}}             
+            </v-btn>  
+        </v-card-actions>
+        </v-card>        
     </v-col>    
     </v-row>    
     
@@ -95,6 +125,7 @@
 
 <script>
     import axios from "axios";    
+    import configFile from '../tests.json'
 
     export default {
         name: 'Project',                
@@ -110,66 +141,111 @@
                     text: 'Outer Continental Shelf (OCS) Air Quality System',
                     browsers: [
                         {
+                        from: 'Chrome',                                    
+                        color: 'light-blue lighten-1',
+                        type: '1',
+                        dialog: false,
+                        },
+                        {
+                        from: 'Firefox',                        
+                        color: 'orange',
+                        type: '1',
+                        dialog: false,
+                        }
+                        
+                    ],
+                    otherOptions: [
+                        {
+                        from: '508',                        
+                        color: 'green',
+                        type: '2',
+                        }
+                    ],
+                    timeline: [
+                        {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
                         time: '10:42am 19/10/2020',
                         color: 'light-blue lighten-1',
-                        type: '1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
                         time: '10:36am 19/10/2020',
                         color: 'orange',
-                        type: '1',
                         },
                         {
                         from: '508',
                         icon:'',
                         time: '10:39am 19/10/2020',
                         color: 'green',
-                        type: '2',
                         }
-                    ],
+                    ]
                 },  
                 {
                     name: 'COSD',
                     text: 'San Diego APCD - Emissions Inventory System (EIS)',
                     browsers: [
                         {
+                        from: 'Chrome',                                    
+                        color: 'light-blue lighten-1',
+                        type: '1',
+                        dialog: false,
+                        },
+                        {
+                        from: 'Firefox',
+                        color: 'orange',
+                        type: '1',                        
+                        disabled: true,
+                        dialog: false,
+                        },                                                               
+                    ],
+                    otherOptions: [
+                        {
+                        from: '508',                        
+                        color: 'green',
+                        type: '2',
+                        disabled: true
+                        },
+                    ],
+                    timeline: [
+                        {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
                         time: '10:42am 19/10/2020',
                         color: 'light-blue lighten-1',
-                        type: '1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '10:37am 19/10/2020',
+                        time: '10:36am 19/10/2020',
                         color: 'orange',
-                        type: '1',
-                        disabled: true,
                         },
                         {
                         from: '508',
                         icon:'',
-                        time: '10:38am 19/10/2020',
+                        time: '10:39am 19/10/2020',
                         color: 'green',
-                        type: '2',
-                        disabled: true
-                        }                
-                    ],
-                }  
+                        }
+                    ]
+                }                  
             ],
+            
         }),
         methods: {            
-            reserve (project, browser) {
-                
+            init(){
+                console.log("testes");
+            },
+            
+            reserve (project, browser) {        
+               
                 window.open(
                     'projects/'+project+'/'+browser+'/allure-report/index.html',
                     '_blank' // <- This is what makes it open in a new window.
                 ); 
+                
+            },
+            downloadImages (project, browser) {        
                 window.open(
                         'projects/'+project+'/'+browser+'/test-images.zip',
                         '_blank' // <- This is what makes it open in a new window.
@@ -187,7 +263,7 @@
                 }
                 
             }
-        },          
+        }  
     }
 </script>  
 <style> 
