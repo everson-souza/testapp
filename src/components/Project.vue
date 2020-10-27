@@ -232,11 +232,7 @@
             ],
             
         }),
-        methods: {            
-            init(){
-                console.log("testes");
-            },
-            
+        methods: {                        
             reserve (project, browser) {        
                
                 window.open(
@@ -245,11 +241,11 @@
                 ); 
                 
             },
-            downloadImages (project, browser) {        
-                window.open(
-                        'projects/'+project+'/'+browser+'/test-images.zip',
+            downloadImages (project, browser) {                        
+                 window.open(
+                        './../projects/'+project+'/'+browser+'/test-images.zip',
                         '_blank' // <- This is what makes it open in a new window.
-                ); 
+                    );        
             },
             download(project){                                
                                 
