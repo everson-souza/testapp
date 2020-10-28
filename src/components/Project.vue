@@ -100,7 +100,7 @@
                             text
                             @click="downloadImages(project.name.toLowerCase(), browser.from.toLowerCase())"
                         >
-                            Download images
+                            Test images
                         </v-btn>
                         </v-card-actions>
                     </v-card>
@@ -165,19 +165,19 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '10:42am 19/10/2020',
+                        time: '12:07am 06/10/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '10:36am 19/10/2020',
+                        time: '10:31am 02/10/2020',
                         color: 'orange',
                         },
                         {
                         from: '508',
                         icon:'',
-                        time: '10:39am 19/10/2020',
+                        time: '12:39am 15/10/2020',
                         color: 'green',
                         }
                     ]
@@ -212,19 +212,19 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '10:42am 19/10/2020',
+                        time: '00:55am 28/10/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '10:36am 19/10/2020',
+                        time: '',
                         color: 'orange',
                         },
                         {
                         from: '508',
                         icon:'',
-                        time: '10:39am 19/10/2020',
+                        time: '',
                         color: 'green',
                         }
                     ]

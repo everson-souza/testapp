@@ -4,52 +4,134 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "System.NotImplementedException : Email being sent needs to verified manually",
+      "name" : "  Expected: False\r\n  But was:  True\r\n",
       "children" : [ {
-        "name" : "ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail",
-        "uid" : "6108d922650c4a9b",
-        "parentUid" : "0ebd22cd458d97eb4728ffa717175d77",
+        "name" : "CheckAdminAccess_AllActivityListCOSD",
+        "uid" : "7a4e5c095081025a",
+        "parentUid" : "06344b684aae083913b4429219012354",
         "status" : "failed",
         "time" : {
-          "start" : 1602787621556,
-          "stop" : 1602787627652,
-          "duration" : 6096
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0ebd22cd458d97eb4728ffa717175d77"
-    }, {
-      "name" : "  Expected: True\r\n  But was:  False\r\n",
-      "children" : [ {
-        "name" : "TooManyFailedAttempts",
-        "uid" : "769ec6282298a94",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1602787670809,
-          "stop" : 1602787847695,
-          "duration" : 176886
+          "start" : 1603852798896,
+          "stop" : 1603852831331,
+          "duration" : 32435
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "TooManyFailedAttemptsOnFirstTry",
-        "uid" : "4429ea4706fb4f1",
+        "name" : "AddControlRequestWithoutName",
+        "uid" : "dcda01ff167fd8c7",
+        "parentUid" : "06344b684aae083913b4429219012354",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603854624977,
+          "stop" : 1603854706485,
+          "duration" : 81508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AddDataRequestWithoutName",
+        "uid" : "b5f552ffddc90baa",
+        "parentUid" : "06344b684aae083913b4429219012354",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603855110626,
+          "stop" : 1603855176416,
+          "duration" : 65790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "06344b684aae083913b4429219012354"
+    }, {
+      "name" : "  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "CheckNotAdminAccess_WizInviteUsers",
+        "uid" : "9362654f815024bb",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1602787847712,
-          "stop" : 1602787861114,
-          "duration" : 13402
+          "start" : 1603852974529,
+          "stop" : 1603852995171,
+          "duration" : 20642
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckNotAdminAccess_WizSyncInventory",
+        "uid" : "e99652bb6b35873d",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603853239765,
+          "stop" : 1603853264358,
+          "duration" : 24593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckAdminAccess_WizShadowUser",
+        "uid" : "c6655d8072eb89d0",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603853458216,
+          "stop" : 1603853488635,
+          "duration" : 30419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckAdminAccess_TradeSecretReports",
+        "uid" : "84792ef30ff6bd73",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603853846098,
+          "stop" : 1603853876195,
+          "duration" : 30097
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "WaitToBeRedirected",
+        "uid" : "a942720beeb4cbf4",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603856330122,
+          "stop" : 1603856352976,
+          "duration" : 22854
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "c86ed87ee3c8ca31116e6fa9f6aa518a"
+    }, {
+      "name" : "System.NotImplementedException : Email being sent needs to verified manually",
+      "children" : [ {
+        "name" : "ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail",
+        "uid" : "4029dee3d2c874fb",
+        "parentUid" : "0ebd22cd458d97eb4728ffa717175d77",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603855953625,
+          "stop" : 1603855960474,
+          "duration" : 6849
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ebd22cd458d97eb4728ffa717175d77"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
