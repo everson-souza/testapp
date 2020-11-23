@@ -165,19 +165,19 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '11:16am 11/5/2020',
+                        time: '11:16am 11/05/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '02:08pm 11/5/2020',
+                        time: '02:27pm 11/20/2020',
                         color: 'orange',
                         },
                         {
                         from: '508',
                         icon:'',
-                        time: '12:39am 15/10/2020',
+                        time: '10:30am 11/19/2020',
                         color: 'green',
                         }
                     ]

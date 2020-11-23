@@ -1,0 +1,173 @@
+{
+  "uid" : "3e8c9c5c1117a22f",
+  "name" : "GlycolEmissionsImport",
+  "fullName" : "BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport",
+  "historyId" : "BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport",
+  "time" : {
+    "start" : 1605834313959,
+    "stop" : 1605834411013,
+    "duration" : 97054
+  },
+  "description" : "Ensure Inventory is Locked. Verify if Glycol Emissions Import page can not be accessed.\n",
+  "descriptionHtml" : "<p>Ensure Inventory is Locked. Verify if Glycol Emissions Import page can not be accessed.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1605834411011,
+      "stop" : 1605834411011,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1605834411011,
+      "stop" : 1605834411011,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure Inventory is Locked. Verify if Glycol Emissions Import page can not be accessed.\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GlycolEmissionsImport",
+      "time" : {
+        "start" : 1605834313959,
+        "stop" : 1605834411013,
+        "duration" : 97054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dafb523d3517cd21",
+        "name" : "Console Output",
+        "source" : "dafb523d3517cd21.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1605834411011,
+      "stop" : 1605834411011,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "testMethod",
+    "value" : "GlycolEmissionsImport"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "tag",
+    "value" : "LOCKEDINVENTORY.1"
+  }, {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5edba4da62a665c",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wizard-step-content']/div/div[2]/div/label[2]/div/ins",
+      "time" : {
+        "start" : 1604519086757,
+        "stop" : 1604519181607,
+        "duration" : 94850
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "67199e3f0b31100c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wizard-step-content']/div/div[2]/div/label[2]/div/ins",
+        "time" : {
+          "start" : 1604519086757,
+          "stop" : 1604519181607,
+          "duration" : 94850
+        }
+      }, {
+        "uid" : "5e73b47f96e67b9a",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverException : [Exception... \"Data conversion failed because significant data would be lost\"  nsresult: \"0x80460003 (NS_ERROR_LOSS_OF_SIGNIFICANT_DATA)\"  location: \"<unknown>\"  data: no]",
+        "time" : {
+          "start" : 1601681958845,
+          "stop" : 1601682043679,
+          "duration" : 84834
+        }
+      } ]
+    },
+    "tags" : [ "LOCKEDINVENTORY.1" ]
+  },
+  "source" : "3e8c9c5c1117a22f.json",
+  "parameterValues" : [ ]
+}
