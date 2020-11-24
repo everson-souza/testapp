@@ -165,7 +165,7 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '11:16am 11/05/2020',
+                        time: '07:25pm 11/23/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
@@ -212,7 +212,7 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '00:55am 28/10/2020',
+                        time: '00:55am 10/28/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
