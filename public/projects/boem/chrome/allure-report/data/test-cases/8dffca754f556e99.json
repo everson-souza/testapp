@@ -1,0 +1,179 @@
+{
+  "uid" : "8dffca754f556e99",
+  "name" : "CheckAccess_ProjectMappingAdmin",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_ProjectMappingAdmin",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_ProjectMappingAdmin",
+  "time" : {
+    "start" : 1606234580452,
+    "stop" : 1606234604273,
+    "duration" : 23821
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1606234604272,
+      "stop" : 1606234604272,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1606234604272,
+      "stop" : 1606234604272,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_ProjectMappingAdmin",
+      "time" : {
+        "start" : 1606234580452,
+        "stop" : 1606234604272,
+        "duration" : 23820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4e14aa7958726fd1",
+        "name" : "Console Output",
+        "source" : "4e14aa7958726fd1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1606234604272,
+      "stop" : 1606234604272,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_ProjectMappingAdmin"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.18"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41b64a772686b3e9",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 49.334\n  (Session info: chrome=86.0.4240.198)",
+      "time" : {
+        "start" : 1606175994438,
+        "stop" : 1606176050718,
+        "duration" : 56280
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "57060930293bf157",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605882476130,
+          "stop" : 1605882500225,
+          "duration" : 24095
+        }
+      }, {
+        "uid" : "9a5b1689c11453c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604441278096,
+          "stop" : 1604441309421,
+          "duration" : 31325
+        }
+      }, {
+        "uid" : "7347610e64cddccf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601653262755,
+          "stop" : 1601653290684,
+          "duration" : 27929
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.18" ]
+  },
+  "source" : "8dffca754f556e99.json",
+  "parameterValues" : [ ]
+}
