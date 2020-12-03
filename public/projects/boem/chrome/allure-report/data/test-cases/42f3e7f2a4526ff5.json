@@ -1,0 +1,214 @@
+{
+  "uid" : "42f3e7f2a4526ff5",
+  "name" : "FlareGasVolumeByFacilityReport",
+  "fullName" : "BOEM_Tests.Tests.Reports.FlareGasVolumeByFacilityReport",
+  "historyId" : "BOEM_Tests.Tests.Reports.FlareGasVolumeByFacilityReport",
+  "time" : {
+    "start" : 1606863140122,
+    "stop" : 1606863376757,
+    "duration" : 236635
+  },
+  "description" : "Generate a report about 'Flare Gas Volume by Facility' and verify the current pages\n",
+  "descriptionHtml" : "<p>Generate a report about 'Flare Gas Volume by Facility' and verify the current pages</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1606863376756,
+      "stop" : 1606863376756,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1606863376756,
+      "stop" : 1606863376756,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Generate a report about 'Flare Gas Volume by Facility' and verify the current pages\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "FlareGasVolumeByFacilityReport",
+      "time" : {
+        "start" : 1606863140122,
+        "stop" : 1606863376757,
+        "duration" : 236635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8fbb6de97d45bba3",
+        "name" : "Console Output",
+        "source" : "8fbb6de97d45bba3.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1606863376756,
+      "stop" : 1606863376756,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "testMethod",
+    "value" : "FlareGasVolumeByFacilityReport"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "tag",
+    "value" : "REPORTS.34"
+  }, {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb0baca71618e303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606786878812,
+        "stop" : 1606787071337,
+        "duration" : 192525
+      }
+    }, {
+      "uid" : "e7532f70c3eedd3d",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 44.811\n  (Session info: chrome=87.0.4280.66)",
+      "time" : {
+        "start" : 1606783665689,
+        "stop" : 1606783722634,
+        "duration" : 56945
+      }
+    }, {
+      "uid" : "6cff8dd464473b16",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: rpt_FlareTotalsByFacility",
+      "time" : {
+        "start" : 1606752022327,
+        "stop" : 1606752061704,
+        "duration" : 39377
+      }
+    }, {
+      "uid" : "f7f0397e1c98489e",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wrapper']/div[1]/nav/div/ul/li[1]/a",
+      "time" : {
+        "start" : 1606436427724,
+        "stop" : 1606436458511,
+        "duration" : 30787
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "56d7c62638b028e3",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wrapper']/div[1]/nav/div/ul/li[1]/a",
+        "time" : {
+          "start" : 1606192888590,
+          "stop" : 1606192914023,
+          "duration" : 25433
+        }
+      }, {
+        "uid" : "745d66f47aa98335",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605902816203,
+          "stop" : 1605903001765,
+          "duration" : 185562
+        }
+      }, {
+        "uid" : "1b061fa406412c64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604542956878,
+          "stop" : 1604543139950,
+          "duration" : 183072
+        }
+      }, {
+        "uid" : "f6665ad788d561a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601950839244,
+          "stop" : 1601951023711,
+          "duration" : 184467
+        }
+      } ]
+    },
+    "tags" : [ "REPORTS.34" ]
+  },
+  "source" : "42f3e7f2a4526ff5.json",
+  "parameterValues" : [ ]
+}

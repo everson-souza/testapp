@@ -1,0 +1,205 @@
+{
+  "uid" : "f9e8eb2d6d5cc7c3",
+  "name" : "AnnualFacilityPollutantTotalsReport",
+  "fullName" : "BOEM_Tests.Tests.Reports.AnnualFacilityPollutantTotalsReport",
+  "historyId" : "BOEM_Tests.Tests.Reports.AnnualFacilityPollutantTotalsReport",
+  "time" : {
+    "start" : 1606857416912,
+    "stop" : 1606857610054,
+    "duration" : 193142
+  },
+  "description" : "Generate a Report about 'Annual Facility Pollutant Totals' and verify the current page\n",
+  "descriptionHtml" : "<p>Generate a Report about 'Annual Facility Pollutant Totals' and verify the current page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1606857610052,
+      "stop" : 1606857610052,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1606857610052,
+      "stop" : 1606857610052,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Generate a Report about 'Annual Facility Pollutant Totals' and verify the current page\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "AnnualFacilityPollutantTotalsReport",
+      "time" : {
+        "start" : 1606857416912,
+        "stop" : 1606857610053,
+        "duration" : 193141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9faabe59d97c5663",
+        "name" : "Console Output",
+        "source" : "9faabe59d97c5663.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1606857610052,
+      "stop" : 1606857610052,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "testMethod",
+    "value" : "AnnualFacilityPollutantTotalsReport"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "tag",
+    "value" : "REPORTS.10"
+  }, {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f1587686afa2566c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606778647229,
+        "stop" : 1606778867793,
+        "duration" : 220564
+      }
+    }, {
+      "uid" : "80c240eff4325b92",
+      "status" : "failed",
+      "statusDetails" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 50.000\n  (Session info: chrome=87.0.4280.66)",
+      "time" : {
+        "start" : 1606750917056,
+        "stop" : 1606750982187,
+        "duration" : 65131
+      }
+    }, {
+      "uid" : "35d7fb66bfbe8342",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wrapper']/div[1]/nav/div/ul/li[1]/a",
+      "time" : {
+        "start" : 1606435775240,
+        "stop" : 1606435802164,
+        "duration" : 26924
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "8c760217bd0badc6",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wrapper']/div[1]/nav/div/ul/li[1]/a",
+        "time" : {
+          "start" : 1606218256779,
+          "stop" : 1606218282439,
+          "duration" : 25660
+        }
+      }, {
+        "uid" : "689b6520b3f4f4c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605898671841,
+          "stop" : 1605898891584,
+          "duration" : 219743
+        }
+      }, {
+        "uid" : "fd6ef1316be17ba2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604538307643,
+          "stop" : 1604538524607,
+          "duration" : 216964
+        }
+      }, {
+        "uid" : "5c741c3295eb7721",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601946104989,
+          "stop" : 1601946331474,
+          "duration" : 226485
+        }
+      } ]
+    },
+    "tags" : [ "REPORTS.10" ]
+  },
+  "source" : "f9e8eb2d6d5cc7c3.json",
+  "parameterValues" : [ ]
+}
