@@ -1,0 +1,212 @@
+{
+  "uid" : "7c65c71863f5d737",
+  "name" : "CheckAccess_AdminGroups",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminGroups",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminGroups",
+  "time" : {
+    "start" : 1607344934173,
+    "stop" : 1607344972581,
+    "duration" : 38408
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1607344972565,
+      "stop" : 1607344972565,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1607344972569,
+      "stop" : 1607344972569,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_AdminGroups",
+      "time" : {
+        "start" : 1607344934175,
+        "stop" : 1607344972575,
+        "duration" : 38400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fec9fdc07471a4c9",
+        "name" : "Console Output",
+        "source" : "fec9fdc07471a4c9.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1607344972569,
+      "stop" : 1607344972569,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_AdminGroups"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.6"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83c8ce1c134ff51d",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1607009490608,
+        "stop" : 1607009517460,
+        "duration" : 26852
+      }
+    }, {
+      "uid" : "670e7fe2455942a3",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=netTimeout&u=https%3A//fat.ei.weblakes.com/BOEM/Account/LogOn&c=UTF-8&d=The%20server%20at%20fat.ei.weblakes.com%20is%20taking%20too%20long%20to%20respond.",
+      "time" : {
+        "start" : 1606969281197,
+        "stop" : 1606969310826,
+        "duration" : 29629
+      }
+    }, {
+      "uid" : "fa0066176ad68e02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606837890740,
+        "stop" : 1606837924838,
+        "duration" : 34098
+      }
+    }, {
+      "uid" : "b15619bca7a5fc2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606790291840,
+        "stop" : 1606790319557,
+        "duration" : 27717
+      }
+    }, {
+      "uid" : "93f996cab420ca19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606768070902,
+        "stop" : 1606768101325,
+        "duration" : 30423
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "42496df2ed14fa2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605810293638,
+          "stop" : 1605810323368,
+          "duration" : 29730
+        }
+      }, {
+        "uid" : "34d35d75bb4e56cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604350664360,
+          "stop" : 1604350700224,
+          "duration" : 35864
+        }
+      }, {
+        "uid" : "e8482ce5c339b043",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601477747207,
+          "stop" : 1601477790045,
+          "duration" : 42838
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.6" ]
+  },
+  "source" : "7c65c71863f5d737.json",
+  "parameterValues" : [ ]
+}

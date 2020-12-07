@@ -1,0 +1,203 @@
+{
+  "uid" : "4e6c0182919b1012",
+  "name" : "CheckAccess_Admin_AdminGroups_Create",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_AdminGroups_Create",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_AdminGroups_Create",
+  "time" : {
+    "start" : 1607010134014,
+    "stop" : 1607010180428,
+    "duration" : 46414
+  },
+  "description" : "Test with admin user to show access is permitted. Try to access the url: '/AdminGroups/Create'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Try to access the url: '/AdminGroups/Create'. Should fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1607010180427,
+      "stop" : 1607010180427,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1607010180427,
+      "stop" : 1607010180427,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Try to access the url: '/AdminGroups/Create'. Should fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_Admin_AdminGroups_Create",
+      "time" : {
+        "start" : 1607010134014,
+        "stop" : 1607010180428,
+        "duration" : 46414
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5942e20c1a4bf52e",
+        "name" : "Console Output",
+        "source" : "5942e20c1a4bf52e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1607010180427,
+      "stop" : 1607010180427,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_Admin_AdminGroups_Create"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.27"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc106340036baf72",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=netTimeout&u=https%3A//fat.ei.weblakes.com/BOEM/Account/LogOn&c=UTF-8&d=The%20server%20at%20fat.ei.weblakes.com%20is%20taking%20too%20long%20to%20respond.",
+      "time" : {
+        "start" : 1606969907815,
+        "stop" : 1606969937735,
+        "duration" : 29920
+      }
+    }, {
+      "uid" : "6dbb1443e03f0a5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606838638730,
+        "stop" : 1606838683504,
+        "duration" : 44774
+      }
+    }, {
+      "uid" : "76fe963a1a75d039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606790886178,
+        "stop" : 1606790923582,
+        "duration" : 37404
+      }
+    }, {
+      "uid" : "de67dacf16711286",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606768680089,
+        "stop" : 1606768717791,
+        "duration" : 37702
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9d7cba89561a27dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605804127192,
+          "stop" : 1605804163268,
+          "duration" : 36076
+        }
+      }, {
+        "uid" : "5af729d46b7a8c3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604351606620,
+          "stop" : 1604351655642,
+          "duration" : 49022
+        }
+      }, {
+        "uid" : "33c85ff1f3161285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601478633264,
+          "stop" : 1601478681099,
+          "duration" : 47835
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.27" ]
+  },
+  "source" : "4e6c0182919b1012.json",
+  "parameterValues" : [ ]
+}
