@@ -1,0 +1,188 @@
+{
+  "uid" : "58cc0ae0114abdc5",
+  "name" : "TransferResourcesToANewInventory",
+  "fullName" : "BOEM_Tests.Tests.InventoryCfg.TransferResourcesToANewInventory",
+  "historyId" : "BOEM_Tests.Tests.InventoryCfg.TransferResourcesToANewInventory",
+  "time" : {
+    "start" : 1609932320956,
+    "stop" : 1609932606463,
+    "duration" : 285507
+  },
+  "description" : "Try to transfer resources to a new inventory. Should fail if can't create a new inventory.\n",
+  "descriptionHtml" : "<p>Try to transfer resources to a new inventory. Should fail if can't create a new inventory.</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1609932606462,
+      "stop" : 1609932606462,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1609932606462,
+      "stop" : 1609932606462,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to transfer resources to a new inventory. Should fail if can't create a new inventory.\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TransferResourcesToANewInventory",
+      "time" : {
+        "start" : 1609932320956,
+        "stop" : 1609932606463,
+        "duration" : 285507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "237639b802d07ead",
+        "name" : "Console Output",
+        "source" : "237639b802d07ead.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1609932606462,
+      "stop" : 1609932606462,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "testMethod",
+    "value" : "TransferResourcesToANewInventory"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "tag",
+    "value" : "INVENTORYCFG.3"
+  }, {
+    "name" : "suite",
+    "value" : "InventoryCfg"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e8fb8c0a0d7fbbe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606926366568,
+          "stop" : 1606926811194,
+          "duration" : 444626
+        }
+      }, {
+        "uid" : "82085cdd21c2ae44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606188367304,
+          "stop" : 1606188607361,
+          "duration" : 240057
+        }
+      }, {
+        "uid" : "c9eec0d8fd106314",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606161859723,
+          "stop" : 1606162104902,
+          "duration" : 245179
+        }
+      }, {
+        "uid" : "bbb9eac8a66a5ac2",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=86.0.4240.183)",
+        "time" : {
+          "start" : 1604534930467,
+          "stop" : 1604535167708,
+          "duration" : 237241
+        }
+      }, {
+        "uid" : "303abfd7cdec0f",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1601939330357,
+          "stop" : 1601939721970,
+          "duration" : 391613
+        }
+      } ]
+    },
+    "tags" : [ "INVENTORYCFG.3" ]
+  },
+  "source" : "58cc0ae0114abdc5.json",
+  "parameterValues" : [ ]
+}

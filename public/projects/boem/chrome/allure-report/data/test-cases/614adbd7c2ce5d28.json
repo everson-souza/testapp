@@ -1,0 +1,197 @@
+{
+  "uid" : "614adbd7c2ce5d28",
+  "name" : "QAQCCOmmentsReport",
+  "fullName" : "BOEM_Tests.Tests.Reports.QAQCCOmmentsReport",
+  "historyId" : "BOEM_Tests.Tests.Reports.QAQCCOmmentsReport",
+  "time" : {
+    "start" : 1609942637992,
+    "stop" : 1609942829999,
+    "duration" : 192007
+  },
+  "description" : "Generate a report about 'QA/QC Comments' and verify the current pages\n",
+  "descriptionHtml" : "<p>Generate a report about 'QA/QC Comments' and verify the current pages</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.Reports.QAQCCOmmentsReport() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1506\r\n",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1609942829996,
+      "stop" : 1609942829996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1609942829996,
+      "stop" : 1609942829996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Generate a report about 'QA/QC Comments' and verify the current pages\n",
+    "status" : "failed",
+    "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.Reports.QAQCCOmmentsReport() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1506\r\n",
+    "steps" : [ {
+      "name" : "QAQCCOmmentsReport",
+      "time" : {
+        "start" : 1609942637992,
+        "stop" : 1609942829998,
+        "duration" : 192006
+      },
+      "status" : "failed",
+      "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.Reports.QAQCCOmmentsReport() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1506\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8ba6147aadd6520",
+        "name" : "Console Output",
+        "source" : "a8ba6147aadd6520.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1609942829996,
+      "stop" : 1609942829996,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "testMethod",
+    "value" : "QAQCCOmmentsReport"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "tag",
+    "value" : "REPORTS.32"
+  }, {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "e39bd0b9142730e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606862567849,
+          "stop" : 1606862815499,
+          "duration" : 247650
+        }
+      }, {
+        "uid" : "7ce0e92c3285665",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wrapper']/div[1]/nav/div/ul/li[1]/a",
+        "time" : {
+          "start" : 1606192837992,
+          "stop" : 1606192863004,
+          "duration" : 25012
+        }
+      }, {
+        "uid" : "989c058fbede0729",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605902337773,
+          "stop" : 1605902533231,
+          "duration" : 195458
+        }
+      }, {
+        "uid" : "9b9ff34426b7bf90",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604542481399,
+          "stop" : 1604542672753,
+          "duration" : 191354
+        }
+      }, {
+        "uid" : "3a4a256251b4df1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601950358498,
+          "stop" : 1601950555703,
+          "duration" : 197205
+        }
+      } ]
+    },
+    "tags" : [ "REPORTS.32" ]
+  },
+  "source" : "614adbd7c2ce5d28.json",
+  "parameterValues" : [ ]
+}
