@@ -1,0 +1,229 @@
+{
+  "uid" : "18edb9f41ef59249",
+  "name" : "CheckAccess_AdminAccessRights",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminAccessRights",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminAccessRights",
+  "time" : {
+    "start" : 1611889529882,
+    "stop" : 1611889567393,
+    "duration" : 37511
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1611889567392,
+      "stop" : 1611889567392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1611889567392,
+      "stop" : 1611889567392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_AdminAccessRights",
+      "time" : {
+        "start" : 1611889529882,
+        "stop" : 1611889567393,
+        "duration" : 37511
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0f6eab0f548c229",
+        "name" : "Console Output",
+        "source" : "f0f6eab0f548c229.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1611889567392,
+      "stop" : 1611889567392,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_AdminAccessRights"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.8"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4943941094d8954a",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[2]/div[2]/div/div/div/span[1]/a",
+      "time" : {
+        "start" : 1611846939784,
+        "stop" : 1611846959678,
+        "duration" : 19894
+      }
+    }, {
+      "uid" : "731f3a6c3416e186",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609782677418,
+        "stop" : 1609782708948,
+        "duration" : 31530
+      }
+    }, {
+      "uid" : "3c9df928dfb7cdbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605810323404,
+        "stop" : 1605810354570,
+        "duration" : 31166
+      }
+    }, {
+      "uid" : "8742a1b6e3171fac",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+      "time" : {
+        "start" : 1605803678704,
+        "stop" : 1605803701033,
+        "duration" : 22329
+      }
+    }, {
+      "uid" : "7f7bd7f3ed932d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604350739773,
+        "stop" : 1604350774279,
+        "duration" : 34506
+      }
+    }, {
+      "uid" : "71943ff000dcbc27",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+      "time" : {
+        "start" : 1604349426270,
+        "stop" : 1604349445666,
+        "duration" : 19396
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "a51ba80f8edcf463",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609782677418,
+          "stop" : 1609782708948,
+          "duration" : 31530
+        }
+      }, {
+        "uid" : "7731e95be79e3758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605810323404,
+          "stop" : 1605810354570,
+          "duration" : 31166
+        }
+      }, {
+        "uid" : "9a89aa14acc2d530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604350739773,
+          "stop" : 1604350774279,
+          "duration" : 34506
+        }
+      }, {
+        "uid" : "a3fdd45e3a10748",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601477832537,
+          "stop" : 1601477873615,
+          "duration" : 41078
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.8" ]
+  },
+  "source" : "18edb9f41ef59249.json",
+  "parameterValues" : [ ]
+}
