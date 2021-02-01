@@ -1,0 +1,215 @@
+{
+  "uid" : "db166b051d8bafb",
+  "name" : "VerifyMenuDashboardsAdmin",
+  "fullName" : "BOEM_Tests.Tests.AdminAccessRights.VerifyMenuDashboardsAdmin",
+  "historyId" : "BOEM_Tests.Tests.AdminAccessRights.VerifyMenuDashboardsAdmin",
+  "time" : {
+    "start" : 1611952040587,
+    "stop" : 1611952145408,
+    "duration" : 104821
+  },
+  "description" : "Verify if only Menu, Dashboards and Admin options are available. Should be fail if there are any more option\n",
+  "descriptionHtml" : "<p>Verify if only Menu, Dashboards and Admin options are available. Should be fail if there are any more option</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1611952145396,
+      "stop" : 1611952145396,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1611952145397,
+      "stop" : 1611952145397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify if only Menu, Dashboards and Admin options are available. Should be fail if there are any more option\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "VerifyMenuDashboardsAdmin",
+      "time" : {
+        "start" : 1611952040589,
+        "stop" : 1611952145402,
+        "duration" : 104813
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b74dc6cf64aacf0",
+        "name" : "Console Output",
+        "source" : "b74dc6cf64aacf0.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1611952145397,
+      "stop" : 1611952145397,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminAccessRights"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyMenuDashboardsAdmin"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminAccessRights"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTS.3"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRights"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93f5a53dd58004ab",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: accessRight0_57",
+      "time" : {
+        "start" : 1611951426574,
+        "stop" : 1611951520954,
+        "duration" : 94380
+      }
+    }, {
+      "uid" : "b50cd0dcdef76afe",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: accessRight0_57",
+      "time" : {
+        "start" : 1611895782714,
+        "stop" : 1611895875384,
+        "duration" : 92670
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "279688f142eff1e8",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: accessRight0_57",
+        "time" : {
+          "start" : 1609914774134,
+          "stop" : 1609914867580,
+          "duration" : 93446
+        }
+      }, {
+        "uid" : "1e301fa6129f738b",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1606841764117,
+          "stop" : 1606841880314,
+          "duration" : 116197
+        }
+      }, {
+        "uid" : "de7ed4fd237ec718",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606237649322,
+          "stop" : 1606237765772,
+          "duration" : 116450
+        }
+      }, {
+        "uid" : "6b8a4c0d591f0f7e",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1605881449893,
+          "stop" : 1605881565986,
+          "duration" : 116093
+        }
+      }, {
+        "uid" : "920d91f30fa74d85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604439451790,
+          "stop" : 1604439572334,
+          "duration" : 120544
+        }
+      }, {
+        "uid" : "978743ca89f50264",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601603262250,
+          "stop" : 1601603379328,
+          "duration" : 117078
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTS.3" ]
+  },
+  "source" : "db166b051d8bafb.json",
+  "parameterValues" : [ ]
+}
