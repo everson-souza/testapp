@@ -1,0 +1,254 @@
+{
+  "uid" : "c82417e155a07d9c",
+  "name" : "CheckAccess_AllActivityListCOSD",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD",
+  "time" : {
+    "start" : 1613576601339,
+    "stop" : 1613576636848,
+    "duration" : 35509
+  },
+  "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects the grid show no values\n",
+  "descriptionHtml" : "<p>Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects the grid show no values</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Expected: False\r\n  But was:  True\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 170\r\n",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1613576636839,
+      "stop" : 1613576636839,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1613576636839,
+      "stop" : 1613576636839,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects the grid show no values\n",
+    "status" : "failed",
+    "statusMessage" : "  Expected: False\r\n  But was:  True\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 170\r\n",
+    "steps" : [ {
+      "name" : "CheckAccess_AllActivityListCOSD",
+      "time" : {
+        "start" : 1613576601339,
+        "stop" : 1613576636845,
+        "duration" : 35506
+      },
+      "status" : "failed",
+      "statusMessage" : "  Expected: False\r\n  But was:  True\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 170\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e79e84657fbe598f",
+        "name" : "Console Output",
+        "source" : "e79e84657fbe598f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1613576636839,
+      "stop" : 1613576636839,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_AllActivityListCOSD"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.5"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "18e234bcc0454d71",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[2]/div/div[3]/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div[3]/div[3]/div/table/tbody/tr[2]/td[5]",
+      "time" : {
+        "start" : 1613576270720,
+        "stop" : 1613576327001,
+        "duration" : 56281
+      }
+    }, {
+      "uid" : "9f63fcb46ef0a2b7",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[2]/div/div[3]/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div[3]/div[3]/div/table/tbody/tr[2]/td[5]",
+      "time" : {
+        "start" : 1613490558473,
+        "stop" : 1613490597642,
+        "duration" : 39169
+      }
+    }, {
+      "uid" : "2cf1edf219599e1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611846849966,
+        "stop" : 1611846899070,
+        "duration" : 49104
+      }
+    }, {
+      "uid" : "299e862072817732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609782565073,
+        "stop" : 1609782610259,
+        "duration" : 45186
+      }
+    }, {
+      "uid" : "a461d0e957d526e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605803593395,
+        "stop" : 1605803633727,
+        "duration" : 40332
+      }
+    }, {
+      "uid" : "c89ef638862492b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604350622244,
+        "stop" : 1604350664283,
+        "duration" : 42039
+      }
+    }, {
+      "uid" : "b697ff4226337db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604349344632,
+        "stop" : 1604349390563,
+        "duration" : 45931
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "86719289fb311466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611846849966,
+          "stop" : 1611846899070,
+          "duration" : 49104
+        }
+      }, {
+        "uid" : "427c02a5c1d5c711",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609782565073,
+          "stop" : 1609782610259,
+          "duration" : 45186
+        }
+      }, {
+        "uid" : "edc48ce24b826ceb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605803593395,
+          "stop" : 1605803633727,
+          "duration" : 40332
+        }
+      }, {
+        "uid" : "87a0e8566ed58f8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604350622244,
+          "stop" : 1604350664283,
+          "duration" : 42039
+        }
+      }, {
+        "uid" : "7e9e163041ebf3a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601477696304,
+          "stop" : 1601477747149,
+          "duration" : 50845
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.5" ]
+  },
+  "source" : "c82417e155a07d9c.json",
+  "parameterValues" : [ ]
+}
