@@ -1,0 +1,174 @@
+{
+  "uid" : "c9fbd23c70ad4fbd",
+  "name" : "VerifyAccessRightTabSpeciationIsNotVisible",
+  "fullName" : "BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible",
+  "historyId" : "BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible",
+  "time" : {
+    "start" : 1613618599809,
+    "stop" : 1613618797869,
+    "duration" : 198060
+  },
+  "description" : "Verify Access Right - Tab Speciation not visible\n",
+  "descriptionHtml" : "<p>Verify Access Right - Tab Speciation not visible</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+  "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 753\r\n--StaleElementReferenceException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1613618797866,
+      "stop" : 1613618797866,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1613618797866,
+      "stop" : 1613618797866,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify Access Right - Tab Speciation not visible\n",
+    "status" : "failed",
+    "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+    "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 753\r\n--StaleElementReferenceException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()",
+    "steps" : [ {
+      "name" : "VerifyAccessRightTabSpeciationIsNotVisible",
+      "time" : {
+        "start" : 1613618599809,
+        "stop" : 1613618797868,
+        "duration" : 198059
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+      "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 753\r\n--StaleElementReferenceException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a765d41cc31b7cf",
+        "name" : "Console Output",
+        "source" : "2a765d41cc31b7cf.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1613618797866,
+      "stop" : 1613618797866,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyAccessRightTabSpeciationIsNotVisible"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "tag",
+    "value" : "EIQUESTIONNAIRE.LO.16"
+  }, {
+    "name" : "suite",
+    "value" : "EIQuestionnaire.LO"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4461ef2f15fad569",
+        "status" : "failed",
+        "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+        "time" : {
+          "start" : 1611904098215,
+          "stop" : 1611904309511,
+          "duration" : 211296
+        }
+      }, {
+        "uid" : "7a347e6367af8acb",
+        "status" : "failed",
+        "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+        "time" : {
+          "start" : 1609922226290,
+          "stop" : 1609922437123,
+          "duration" : 210833
+        }
+      } ]
+    },
+    "tags" : [ "EIQUESTIONNAIRE.LO.16" ]
+  },
+  "source" : "c9fbd23c70ad4fbd.json",
+  "parameterValues" : [ ]
+}

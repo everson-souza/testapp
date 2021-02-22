@@ -4,392 +4,648 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='gridFilter_PNTSITE']/ul/li[2]/div\"}\n  (Session info: chrome=88.0.4324.104)",
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_appVer",
       "children" : [ {
-        "name" : "AccessAndVerifyCancelEditButtons",
-        "uid" : "c5b068f89d713ed9",
-        "parentUid" : "6fcd11feebd03678e9f41d1881a637ca",
+        "name" : "CheckVersionInAccountActivity",
+        "uid" : "ffd12b3e4ad0825b",
+        "parentUid" : "75bb0376d7b6831196b6d8e1df1fae73",
         "status" : "failed",
         "time" : {
-          "start" : 1611894209080,
-          "stop" : 1611894307679,
-          "duration" : 98599
+          "start" : 1613608744174,
+          "stop" : 1613608799332,
+          "duration" : 55158
         },
         "flaky" : false,
-        "newFailed" : false,
+        "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "6fcd11feebd03678e9f41d1881a637ca"
+      "uid" : "75bb0376d7b6831196b6d8e1df1fae73"
     }, {
-      "name" : "System.Exception : Facility was not found: No Data Available",
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_activity",
       "children" : [ {
-        "name" : "AccessAndVerifyImportOption",
-        "uid" : "cfd89efe74dc3b55",
-        "parentUid" : "72fd3dac657ab32209327ba1c7a1e235",
+        "name" : "CheckTypeActivityInAccountActivity",
+        "uid" : "56362abf02466521",
+        "parentUid" : "2d88362c1ba3411558c708c23d8516c3",
         "status" : "failed",
         "time" : {
-          "start" : 1611894307681,
-          "stop" : 1611894381108,
-          "duration" : 73427
+          "start" : 1613608799334,
+          "stop" : 1613608853214,
+          "duration" : 53880
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2d88362c1ba3411558c708c23d8516c3"
+    }, {
+      "name" : "  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "AccessFeatureAdminUserViewLogsActivity",
+        "uid" : "82086fd0bb030566",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613608853217,
+          "stop" : 1613608894592,
+          "duration" : 41375
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "AccessAndVerifyClickableButtons",
-        "uid" : "77c2dbe40127b4b0",
-        "parentUid" : "72fd3dac657ab32209327ba1c7a1e235",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611894381110,
-          "stop" : 1611894465540,
-          "duration" : 84430
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "72fd3dac657ab32209327ba1c7a1e235"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //a[contains(text(), 'Edit')]",
-      "children" : [ {
-        "name" : "EditGroup_MissingFlaggedFields_Failed",
-        "uid" : "b1c3f3285189c8c3",
-        "parentUid" : "5ea568c0f9d0bfcbb38f1b2621067ee3",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611895953296,
-          "stop" : 1611895987082,
-          "duration" : 33786
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5ea568c0f9d0bfcbb38f1b2621067ee3"
-    }, {
-      "name" : "  Expected: True\r\n  But was:  False\r\n",
-      "children" : [ {
-        "name" : "CheckAccess_WizInviteUsers",
-        "uid" : "16a16e913647b8e6",
+        "name" : "AccessFeatureAdminUserEditLogsActivity",
+        "uid" : "fdc87f49ebd62f26",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611896575779,
-          "stop" : 1611896602001,
-          "duration" : 26222
+          "start" : 1613608894595,
+          "stop" : 1613608932572,
+          "duration" : 37977
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAdminUserEditLogsCcancelLogsActivity",
+        "uid" : "102a9ec392a04b9e",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613608932574,
+          "stop" : 1613608971584,
+          "duration" : 39010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAdminUserEditSaveLogsActivity",
+        "uid" : "1447ad740ede5dcf",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613608971586,
+          "stop" : 1613609012775,
+          "duration" : 41189
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAdminUserViewLogsActivityDetails",
+        "uid" : "d7fd6f2b5bcea58a",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609012777,
+          "stop" : 1613609047555,
+          "duration" : 34778
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAdminGroupsLogsActivity",
+        "uid" : "ebb99a785e5e2610",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609047557,
+          "stop" : 1613609085140,
+          "duration" : 37583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureViewGroupDetailsLogsActivity",
+        "uid" : "a93f1262f9b4d2e9",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609085142,
+          "stop" : 1613609122170,
+          "duration" : 37028
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureEditGroupSubmitLogsActivity",
+        "uid" : "aa36965f6166f99a",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609122173,
+          "stop" : 1613609162009,
+          "duration" : 39836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureEditGroupCancelLogsActivity",
+        "uid" : "d73cd52714bd7d54",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609162011,
+          "stop" : 1613609202246,
+          "duration" : 40235
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAccessRightsManagerLogsActivity",
+        "uid" : "c959ed36a7f9ef1f",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609202248,
+          "stop" : 1613609237252,
+          "duration" : 35004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAccessRightsManagerSelectGroupLogsActivity",
+        "uid" : "a1d4194daeb68102",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609237253,
+          "stop" : 1613609271254,
+          "duration" : 34001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureAccessRightsManagerEditRightsLogsActivity",
+        "uid" : "819f3484dcee991b",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609271255,
+          "stop" : 1613609327024,
+          "duration" : 55769
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureInventoryAccessRightsUpdateLogsActivity",
+        "uid" : "4cc6d4371603ed69",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609354244,
+          "stop" : 1613609410447,
+          "duration" : 56203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureGroupMembershipLogsActivity",
+        "uid" : "78364c313b57e2d8",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609410450,
+          "stop" : 1613609448021,
+          "duration" : 37571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureUserAccountActivityLogsActivity",
+        "uid" : "2843b303503fa38b",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609499146,
+          "stop" : 1613609536385,
+          "duration" : 37239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureChangeHistoryReportLogsActivity",
+        "uid" : "475f045c80dd84db",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609536387,
+          "stop" : 1613609573851,
+          "duration" : 37464
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureDiagnosticsLogsPrivilagedActivity",
+        "uid" : "6ee85b4ab7c7c89b",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609573853,
+          "stop" : 1613609611802,
+          "duration" : 37949
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureApplicationsLogsLogsPrivilegedActivity",
+        "uid" : "e76ffe939bdc43ab",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609611805,
+          "stop" : 1613609649677,
+          "duration" : 37872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureApplicationLogsTestLogLogsPrivilegedActivity",
+        "uid" : "d38dffdd9fc8cb0a",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609649679,
+          "stop" : 1613609688255,
+          "duration" : 38576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureApplicationsLogsSettingsLogsPrivilegedActivity",
+        "uid" : "41bb2e2d7120d1bf",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609688257,
+          "stop" : 1613609727874,
+          "duration" : 39617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureApplicationsLogsSettingsApplyLogsPrivilegedActivity",
+        "uid" : "e8fb93a4586b0570",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609727876,
+          "stop" : 1613609769445,
+          "duration" : 41569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureTradeSecretReportLogsActivity",
+        "uid" : "8b57123ec353db9b",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609769447,
+          "stop" : 1613609806895,
+          "duration" : 37448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureTradeSecretReportReportOnAllEntriesLogsActivity",
+        "uid" : "2985f74023b4beae",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609806896,
+          "stop" : 1613609851338,
+          "duration" : 44442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureTradeSecretReportReportOnUnapprovedEntriesLogsActivity",
+        "uid" : "bb48b5b907d32f11",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609851340,
+          "stop" : 1613609892849,
+          "duration" : 41509
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureTradeSecretReportReportOnApprovedEntriesLogsActivity",
+        "uid" : "fcbb877f3bda9277",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609892851,
+          "stop" : 1613609936436,
+          "duration" : 43585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckAccess_WizInviteUsers",
+        "uid" : "64ac48a303fd6b45",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613611150365,
+          "stop" : 1613611179839,
+          "duration" : 29474
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckAccess_WizSyncInventory",
-        "uid" : "33c2bf918d75e7b",
+        "uid" : "8ef2dfcb256b8945",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611896864590,
-          "stop" : 1611896892927,
-          "duration" : 28337
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckAccess_Admin_WizShadowUser",
-        "uid" : "1e8f1330e6814e03",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611897088353,
-          "stop" : 1611897123371,
-          "duration" : 35018
+          "start" : 1613611477403,
+          "stop" : 1613611509962,
+          "duration" : 32559
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckAdminAccess_ProjectMappingAdmin",
-        "uid" : "4e2f8f8c3fd4b2a9",
+        "uid" : "c758cb68e298aee7",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611897378370,
-          "stop" : 1611897411825,
-          "duration" : 33455
+          "start" : 1613612004293,
+          "stop" : 1613612041427,
+          "duration" : 37134
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "CheckAdminAccess_TradeSecretReports",
-        "uid" : "7b3456af81b012c2",
+        "name" : "CheckAdminAccess_JobQueueProjectMaps",
+        "uid" : "cc24e1758b65cd26",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611897547224,
-          "stop" : 1611897580814,
-          "duration" : 33590
+          "start" : 1613612041428,
+          "stop" : 1613612079413,
+          "duration" : 37985
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckAdminAccess_TradeSecretReports",
+        "uid" : "56ef6f6461004d23",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613612195416,
+          "stop" : 1613612232388,
+          "duration" : 36972
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckAdminAccess_WizSyncInventory",
-        "uid" : "799ad1e82ea37ece",
+        "uid" : "e8c39149352cf9bd",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611897580816,
-          "stop" : 1611897617258,
-          "duration" : 36442
+          "start" : 1613612232390,
+          "stop" : 1613612272515,
+          "duration" : 40125
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "InviteUser_NoUserGroup_Rejected",
-        "uid" : "edfad6e5453eb03",
+        "uid" : "2e9badb45352a83",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611898063238,
-          "stop" : 1611898110733,
-          "duration" : 47495
+          "start" : 1613612772208,
+          "stop" : 1613612822916,
+          "duration" : 50708
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompressExpandContentArea",
-        "uid" : "ba451ec113ce806b",
+        "uid" : "ac9af734b4d92607",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611901195520,
-          "stop" : 1611901228384,
-          "duration" : 32864
+          "start" : 1613616211852,
+          "stop" : 1613616245454,
+          "duration" : 33602
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "SelectDefault",
-        "uid" : "41a059dace2322be",
+        "uid" : "f9d777bb84399558",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611901273635,
-          "stop" : 1611901322539,
-          "duration" : 48904
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyCalcForPeriod",
-        "uid" : "b80791d7daff6ec",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611901438094,
-          "stop" : 1611901546381,
-          "duration" : 108287
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyAccessRightTabControlCanEdit",
-        "uid" : "eb6367302b6957d8",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611902643214,
-          "stop" : 1611902919270,
-          "duration" : 276056
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightFacilityWideZeroEmissionsIsVisible",
-        "uid" : "1ab8b3589a45a89f",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611911052973,
-          "stop" : 1611911253697,
-          "duration" : 200724
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightFacilityWideZeroEmissionsIsNotVisible",
-        "uid" : "4de558e09f62ced8",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611911253702,
-          "stop" : 1611911456973,
-          "duration" : 203271
+          "start" : 1613616291736,
+          "stop" : 1613616341414,
+          "duration" : 49678
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ImportCorruptedExcelFile",
-        "uid" : "1d7617e57b3ef01e",
+        "uid" : "cfdeb887f83ab4f8",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611913038140,
-          "stop" : 1611913122752,
-          "duration" : 84612
+          "start" : 1613626023569,
+          "stop" : 1613626107782,
+          "duration" : 84213
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "GRIDDEDEMISSIONS4",
-        "uid" : "d4502ce2e09d926c",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611914842220,
-          "stop" : 1611914923038,
-          "duration" : 80818
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "GRIDDEDEMISSIONS6",
-        "uid" : "8853401e60e9d880",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611915003977,
-          "stop" : 1611915084648,
-          "duration" : 80671
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "ScanAndVerifyClickableButtons",
-        "uid" : "642aae5743f1f037",
+        "uid" : "feb944d195c2db29",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611917682086,
-          "stop" : 1611917840606,
-          "duration" : 158520
+          "start" : 1613630305568,
+          "stop" : 1613630465535,
+          "duration" : 159967
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL3_InputDetails_NavSourceConfig_DetailedEditor_Create",
-        "uid" : "8af130fe0d52d96e",
+        "uid" : "3ad413d89f9a7471",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611927662095,
-          "stop" : 1611927704982,
-          "duration" : 42887
+          "start" : 1613649346854,
+          "stop" : 1613649390350,
+          "duration" : 43496
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "AccessURL5_InputDetails_NavReleasePointApportionment_DetailedEditor_Create",
-        "uid" : "3fe6bf8d854fd333",
+        "name" : "AccessURL4_Input_NavReleasePointApportionment_Pntsite",
+        "uid" : "b7984d9e769b04cd",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611927745767,
-          "stop" : 1611927788331,
-          "duration" : 42564
+          "start" : 1613649390351,
+          "stop" : 1613649432474,
+          "duration" : 42123
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessURL5_InputDetails_NavReleasePointApportionment_DetailedEditor_Create",
+        "uid" : "36df7c9cf4bf3280",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613649432476,
+          "stop" : 1613649473223,
+          "duration" : 40747
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL9_EISQuestionnaire_Details",
-        "uid" : "fb91c7569d4c373e",
+        "uid" : "15f0dfc9ed51bcbb",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611927914555,
-          "stop" : 1611927955495,
-          "duration" : 40940
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessURL10_ViewerMap",
-        "uid" : "a14af2b6d0cd3796",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611927955497,
-          "stop" : 1611927998494,
-          "duration" : 42997
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessURL18_AdminPasswordPolicy",
-        "uid" : "fd486b2a10d942ea",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611928293731,
-          "stop" : 1611928334820,
-          "duration" : 41089
+          "start" : 1613649599586,
+          "stop" : 1613649641866,
+          "duration" : 42280
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL22_AdminLogSetting",
-        "uid" : "2003fdb2404960e5",
+        "uid" : "13119ff83bdd841b",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611928500033,
-          "stop" : 1611928540699,
-          "duration" : 40666
+          "start" : 1613650181700,
+          "stop" : 1613650223442,
+          "duration" : 41742
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL23_AdminSettings",
-        "uid" : "8ecc07789ee44d4a",
+        "uid" : "f41407f4ba7c0315",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611928540701,
-          "stop" : 1611928582289,
-          "duration" : 41588
+          "start" : 1613650223444,
+          "stop" : 1613650264975,
+          "duration" : 41531
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "GRIDDEDEMISSIONS3",
-        "uid" : "455216e0de3a3279",
+        "name" : "AccessURL11_Input_NavReleasePointApportionment_Pntsite",
+        "uid" : "e661863f8b2417e",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1611956365074,
-          "stop" : 1611956446968,
-          "duration" : 81894
+          "start" : 1613651027841,
+          "stop" : 1613651117775,
+          "duration" : 89934
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckAccess_Admin_WizShadowUser",
+        "uid" : "698d0747bc0a5133",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613656145318,
+          "stop" : 1613656183195,
+          "duration" : 37877
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GlycolEmissionsImport",
+        "uid" : "a130e0e48e459f27",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613658293335,
+          "stop" : 1613658347648,
+          "duration" : 54313
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AmineEmissionsImport",
+        "uid" : "206d2d39b9c0910b",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613658347728,
+          "stop" : 1613658398294,
+          "duration" : 50566
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "DrillingRigDataImport",
+        "uid" : "28aa36cb3b7c07d",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613658522590,
+          "stop" : 1613658558253,
+          "duration" : 35663
         },
         "flaky" : true,
         "newFailed" : true,
@@ -397,33 +653,50 @@
       } ],
       "uid" : "c86ed87ee3c8ca31116e6fa9f6aa518a"
     }, {
-      "name" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: -0.003\n  (Session info: chrome=88.0.4324.104)",
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //button[contains(text(), 'Cancel')]",
       "children" : [ {
-        "name" : "CheckAdminAccess_AdminChangeLog",
-        "uid" : "b8fabed6ef677f62",
-        "parentUid" : "898f5b86d765741f7b9fd9fbb8f9dfc7",
+        "name" : "AccessFeatureInventoryAccessRightsLogsActivity",
+        "uid" : "99a3ec5f53bf0d3e",
+        "parentUid" : "224404bd2087195ac7a37f9fa088d733",
         "status" : "failed",
         "time" : {
-          "start" : 1611897271902,
-          "stop" : 1611897344771,
-          "duration" : 72869
+          "start" : 1613609327026,
+          "stop" : 1613609354242,
+          "duration" : 27216
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "898f5b86d765741f7b9fd9fbb8f9dfc7"
+      "uid" : "224404bd2087195ac7a37f9fa088d733"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//input[@value=''])[7]\"}\n  (Session info: chrome=88.0.4324.150)  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+      "children" : [ {
+        "name" : "AccessFeatureGroupMembershipUpdateLogsActivity",
+        "uid" : "c06ed5cad4ede99",
+        "parentUid" : "34b46f5fec7008198bdfcb1af2988d4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613609448023,
+          "stop" : 1613609499144,
+          "duration" : 51121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "34b46f5fec7008198bdfcb1af2988d4f"
     }, {
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
       "children" : [ {
         "name" : "SelectShadowUser_NotAvailableStatus_Failed",
-        "uid" : "2f00ba52ebf1dd8b",
+        "uid" : "1ed131c2d1b889fb",
         "parentUid" : "e757169133bb9438649409a94e4989e6",
         "status" : "failed",
         "time" : {
-          "start" : 1611897651468,
-          "stop" : 1611897675794,
-          "duration" : 24326
+          "start" : 1613612310342,
+          "stop" : 1613612338880,
+          "duration" : 28538
         },
         "flaky" : false,
         "newFailed" : false,
@@ -434,13 +707,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[2]/div/div[3]/div[1]/div/div/form/div[2]/div/div[2]/div/div/div/div/div/div/div[2]/div/div[4]/div[3]/div[3]/div/table/tbody/tr[2]",
       "children" : [ {
         "name" : "SelectShadowUser_AvailableStatus_UserChanged",
-        "uid" : "21fabd8b2eb4d449",
+        "uid" : "b8ec78af9f471caa",
         "parentUid" : "14b6629b63b1a811cbe69b1005d0c7d9",
         "status" : "failed",
         "time" : {
-          "start" : 1611897675799,
-          "stop" : 1611897699973,
-          "duration" : 24174
+          "start" : 1613612338882,
+          "stop" : 1613612366918,
+          "duration" : 28036
         },
         "flaky" : false,
         "newFailed" : false,
@@ -448,293 +721,154 @@
       } ],
       "uid" : "14b6629b63b1a811cbe69b1005d0c7d9"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#lkDialogFrame\"}\n  (Session info: chrome=88.0.4324.104)",
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
       "children" : [ {
-        "name" : "VerifySubmitNPLOGeneratesQAErrorForIncompleteLeaseOperation",
-        "uid" : "a574a56d852987b5",
-        "parentUid" : "a51110d6bf97bd2936bdd4e5cec709e0",
+        "name" : "VerifyNoDataFound",
+        "uid" : "f7d79f05bda8d315",
+        "parentUid" : "d3a88b6d065c525a3307e4d52aadc203",
         "status" : "failed",
         "time" : {
-          "start" : 1611898776389,
-          "stop" : 1611898824392,
-          "duration" : 48003
+          "start" : 1613613251497,
+          "stop" : 1613613334713,
+          "duration" : 83216
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyDefaultValues",
+        "uid" : "4855500a38ebaa50",
+        "parentUid" : "d3a88b6d065c525a3307e4d52aadc203",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613613334717,
+          "stop" : 1613613417987,
+          "duration" : 83270
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
-        "name" : "VerifySubmit",
-        "uid" : "4630cb9869fdfd2b",
-        "parentUid" : "a51110d6bf97bd2936bdd4e5cec709e0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611898824394,
-          "stop" : 1611898939123,
-          "duration" : 114729
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "d3a88b6d065c525a3307e4d52aadc203"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#lkDialogFrame\"}\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
         "name" : "VerifySubmitFromCorrectiveAction",
-        "uid" : "22e28cf386d6b48d",
-        "parentUid" : "a51110d6bf97bd2936bdd4e5cec709e0",
+        "uid" : "28b8f37c0cb8b6a",
+        "parentUid" : "c87934994e9aaca695036119e61ca865",
         "status" : "failed",
         "time" : {
-          "start" : 1611898939125,
-          "stop" : 1611899010035,
-          "duration" : 70910
+          "start" : 1613613739761,
+          "stop" : 1613613817311,
+          "duration" : 77550
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyUserMustSelectUserDuringSubmission",
-        "uid" : "71d4908539259277",
-        "parentUid" : "a51110d6bf97bd2936bdd4e5cec709e0",
+        "uid" : "c739c53c4bc3b4b4",
+        "parentUid" : "c87934994e9aaca695036119e61ca865",
         "status" : "failed",
         "time" : {
-          "start" : 1611899010038,
-          "stop" : 1611899055626,
-          "duration" : 45588
+          "start" : 1613613817314,
+          "stop" : 1613613867972,
+          "duration" : 50658
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyCommentsAndCertificationRequiredToSubmit",
-        "uid" : "7209951fcd37ed38",
-        "parentUid" : "a51110d6bf97bd2936bdd4e5cec709e0",
+        "uid" : "bd5ffb85b185c49d",
+        "parentUid" : "c87934994e9aaca695036119e61ca865",
         "status" : "failed",
         "time" : {
-          "start" : 1611899055628,
-          "stop" : 1611899100778,
-          "duration" : 45150
+          "start" : 1613613867974,
+          "stop" : 1613613916007,
+          "duration" : 48033
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ExportAllSources",
-        "uid" : "70db8f44f4a3a7d5",
-        "parentUid" : "a51110d6bf97bd2936bdd4e5cec709e0",
+        "uid" : "3933c734f448a629",
+        "parentUid" : "c87934994e9aaca695036119e61ca865",
         "status" : "failed",
         "time" : {
-          "start" : 1611907255235,
-          "stop" : 1611907354265,
-          "duration" : 99030
+          "start" : 1613621478027,
+          "stop" : 1613621578213,
+          "duration" : 100186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifySubmit",
+        "uid" : "dc8000669bd6714c",
+        "parentUid" : "c87934994e9aaca695036119e61ca865",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613655525697,
+          "stop" : 1613655648870,
+          "duration" : 123173
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a51110d6bf97bd2936bdd4e5cec709e0"
+      "uid" : "c87934994e9aaca695036119e61ca865"
     }, {
       "name" : "  Expected: False\r\n  But was:  True\r\n",
       "children" : [ {
-        "name" : "UpdateNotesBox",
-        "uid" : "26e9c8c33232d325",
+        "name" : "CompressContentArea",
+        "uid" : "208605013364cd25",
         "parentUid" : "06344b684aae083913b4429219012354",
         "status" : "failed",
         "time" : {
-          "start" : 1611899474906,
-          "stop" : 1611899550893,
-          "duration" : 75987
+          "start" : 1613616184553,
+          "stop" : 1613616211850,
+          "duration" : 27297
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "OPDAreaEnterSpecificPage",
-        "uid" : "9d6c96b7fdb47774",
+        "name" : "CheckAccess_AllActivityListCOSD",
+        "uid" : "d18472f57db82ba8",
         "parentUid" : "06344b684aae083913b4429219012354",
         "status" : "failed",
         "time" : {
-          "start" : 1611900994320,
-          "stop" : 1611901034906,
-          "duration" : 40586
+          "start" : 1613656446734,
+          "stop" : 1613656480747,
+          "duration" : 34013
         },
         "flaky" : false,
         "newFailed" : true,
         "parameters" : [ ]
       }, {
-        "name" : "CompressContentArea",
-        "uid" : "d68447953b3fbaf",
+        "name" : "CheckAccess_AllActivityMapleLeafs",
+        "uid" : "c6f93b949e8bc16c",
         "parentUid" : "06344b684aae083913b4429219012354",
         "status" : "failed",
         "time" : {
-          "start" : 1611901166870,
-          "stop" : 1611901195518,
-          "duration" : 28648
+          "start" : 1613656677378,
+          "stop" : 1613656719353,
+          "duration" : 41975
         },
-        "flaky" : false,
-        "newFailed" : false,
+        "flaky" : true,
+        "newFailed" : true,
         "parameters" : [ ]
       }, {
-        "name" : "VerifyAccessRightCalculatorTabUncheckedIsNotVisible",
-        "uid" : "24aec8611a321a21",
+        "name" : "UpdateNotesBox",
+        "uid" : "4da159b8cc519912",
         "parentUid" : "06344b684aae083913b4429219012354",
         "status" : "failed",
         "time" : {
-          "start" : 1611901711711,
-          "stop" : 1611901878249,
-          "duration" : 166538
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyAccessRightCalculatorTabEditCalculateButtonIsNotVisible",
-        "uid" : "92bf3da191a63642",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611902048475,
-          "stop" : 1611902220022,
-          "duration" : 171547
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyAccessRightTabControlNotVisible",
-        "uid" : "1cc5cf6a2787530c",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611902433206,
-          "stop" : 1611902643212,
-          "duration" : 210006
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyAccessRightTabDataRequestNotVisible",
-        "uid" : "9f463e10587876cb",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611903317826,
-          "stop" : 1611903504627,
-          "duration" : 186801
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyAccessRightTabSpeciationIsNotVisible",
-        "uid" : "4461ef2f15fad569",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611904098215,
-          "stop" : 1611904309511,
-          "duration" : 211296
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightControlsCalculatorIsNotVisible",
-        "uid" : "5663e2baa2a0a48d",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611908249685,
-          "stop" : 1611908409283,
-          "duration" : 159598
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightControlsCalculatorTabCalculationsIsNotVisible",
-        "uid" : "63882e1f5c7977f2",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611908572390,
-          "stop" : 1611908742156,
-          "duration" : 169766
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightControlsViewControlIsNotVisible",
-        "uid" : "469f4d634b169025",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611908920186,
-          "stop" : 1611909091605,
-          "duration" : 171419
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightControlsViewEditControlTabIsNotSelectable",
-        "uid" : "7afc5cb18bc6224e",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611909264644,
-          "stop" : 1611909441420,
-          "duration" : 176776
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightTabDataRequestViewControlIsNotVisible",
-        "uid" : "25c84a74b9ee40ff",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611909620897,
-          "stop" : 1611909802393,
-          "duration" : 181496
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightTabSpeciationViewIsNotVisible",
-        "uid" : "80f119990cd4be0d",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611910016294,
-          "stop" : 1611910230356,
-          "duration" : 214062
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightCalculationMethodEditControlIsNotVisible",
-        "uid" : "4d976d2a4f199ffc",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611910440259,
-          "stop" : 1611910639327,
-          "duration" : 199068
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessRightAcitivityEditControlIsNotVisible",
-        "uid" : "fac4f54a9f2bd111",
-        "parentUid" : "06344b684aae083913b4429219012354",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611910843873,
-          "stop" : 1611911052971,
-          "duration" : 209098
+          "start" : 1613776042883,
+          "stop" : 1613776128368,
+          "duration" : 85485
         },
         "flaky" : false,
         "newFailed" : false,
@@ -742,145 +876,694 @@
       } ],
       "uid" : "06344b684aae083913b4429219012354"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[3]/div[1]/div[9]/div/div[1]/div/a[2]",
+      "name" : "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)",
       "children" : [ {
-        "name" : "UpdateNotesBoxReflectedInChangeLog",
-        "uid" : "de57fe0bfa9bef24",
-        "parentUid" : "2aa6d625302729d5ea33e688e5871bb6",
+        "name" : "CheckEmptyRequiredFieldTriggersQAQarning",
+        "uid" : "d6f605a732f9642c",
+        "parentUid" : "114327696b2602fbf9d49f295812c0d6",
         "status" : "failed",
         "time" : {
-          "start" : 1611899550897,
-          "stop" : 1611899618145,
-          "duration" : 67248
+          "start" : 1613616341417,
+          "stop" : 1613616406319,
+          "duration" : 64902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SelectAndVerifyFacilities",
+        "uid" : "9e285b35b9467b78",
+        "parentUid" : "114327696b2602fbf9d49f295812c0d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613620103518,
+          "stop" : 1613620168835,
+          "duration" : 65317
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "QAQCButtonChecksAllMonths",
+        "uid" : "33e42f114c12ab56",
+        "parentUid" : "114327696b2602fbf9d49f295812c0d6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613620950287,
+          "stop" : 1613621014999,
+          "duration" : 64712
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "2aa6d625302729d5ea33e688e5871bb6"
+      "uid" : "114327696b2602fbf9d49f295812c0d6"
     }, {
-      "name" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=88.0.4324.104)",
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#btnRunBEC\"}\n  (Session info: chrome=88.0.4324.150)",
       "children" : [ {
-        "name" : "CheckEmptyRequiredFieldTriggersQAQarning",
-        "uid" : "5d90d0cc5d385abd",
-        "parentUid" : "7e6a38cad32010952dcc5ebafdf9c3ed",
+        "name" : "VerifyCalcForPeriod",
+        "uid" : "cbac25cf875aa0ec",
+        "parentUid" : "61878038ebc8014dfe164de788ed2052",
         "status" : "failed",
         "time" : {
-          "start" : 1611901322542,
-          "stop" : 1611901438091,
-          "duration" : 115549
+          "start" : 1613616406320,
+          "stop" : 1613616518860,
+          "duration" : 112540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyResultGridShowsOnlyPeriodsCoveredWhenCalculatingEmissions",
+        "uid" : "e0fe8cc0618c85a9",
+        "parentUid" : "61878038ebc8014dfe164de788ed2052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613619582522,
+          "stop" : 1613619722606,
+          "duration" : 140084
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyResultGridShowsOnlyPeriodsCoveredByMoveOnMoveOffDateForMiddleOfYear",
+        "uid" : "49762ea36e88d345",
+        "parentUid" : "61878038ebc8014dfe164de788ed2052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613619722608,
+          "stop" : 1613619817792,
+          "duration" : 95184
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyResultGridShowsOnlyPeriodsCoveredByMoveOnMoveOffDateForStartOfYear",
+        "uid" : "42ccdf2807cb7139",
+        "parentUid" : "61878038ebc8014dfe164de788ed2052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613619817795,
+          "stop" : 1613619912553,
+          "duration" : 94758
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyResultGridShowsOnlyPeriodsCoveredByMoveOnMoveOffDateForFullYear",
+        "uid" : "f5f185530a0f3779",
+        "parentUid" : "61878038ebc8014dfe164de788ed2052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613619912555,
+          "stop" : 1613620008241,
+          "duration" : 95686
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyResultGridShowsOnlyPeriodsCoveredByMoveOnMoveOffDateForAllYear",
+        "uid" : "a202a6d8c36243d7",
+        "parentUid" : "61878038ebc8014dfe164de788ed2052",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613620008244,
+          "stop" : 1613620103514,
+          "duration" : 95270
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61878038ebc8014dfe164de788ed2052"
+    }, {
+      "name" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
+        "name" : "VerifyAccessRightCalculatorTabVisible",
+        "uid" : "80fa190f4825d214",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613616518863,
+          "stop" : 1613616671126,
+          "duration" : 152263
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightCalculatorTabEditCalculateButtonIsVisible",
+        "uid" : "2b42ecaf00ee8924",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613616824448,
+          "stop" : 1613616981396,
+          "duration" : 156948
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabControlVisible",
+        "uid" : "6734be79829c2fcc",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613617139580,
+          "stop" : 1613617336178,
+          "duration" : 196598
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabDataRequestVisible",
+        "uid" : "f09784d475a967fc",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613617771484,
+          "stop" : 1613617870059,
+          "duration" : 98575
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabDataRequestNotVisible",
+        "uid" : "75d43c74e7367c1e",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613617870062,
+          "stop" : 1613618042811,
+          "duration" : 172749
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyAccessRightTabDataRequestCanEdit",
-        "uid" : "1b74d29a1bd2d5a4",
-        "parentUid" : "7e6a38cad32010952dcc5ebafdf9c3ed",
+        "uid" : "1efb4f8ae683ca11",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
         "status" : "failed",
         "time" : {
-          "start" : 1611903504633,
-          "stop" : 1611903695277,
-          "duration" : 190644
+          "start" : 1613618042813,
+          "stop" : 1613618221883,
+          "duration" : 179070
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyAccessRightTabDataRequestIsNotEditable",
-        "uid" : "4e3b99c4d7a85e08",
-        "parentUid" : "7e6a38cad32010952dcc5ebafdf9c3ed",
+        "uid" : "17cd85388311b7a4",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
         "status" : "failed",
         "time" : {
-          "start" : 1611903695281,
-          "stop" : 1611903887116,
-          "duration" : 191835
+          "start" : 1613618221887,
+          "stop" : 1613618400905,
+          "duration" : 179018
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "VerifyAccessRightTabSpeciationIsEditable",
-        "uid" : "92b975ccc95e45a7",
-        "parentUid" : "7e6a38cad32010952dcc5ebafdf9c3ed",
+        "name" : "VerifyAccessRightTabSpeciationIsVisible",
+        "uid" : "f3f34e96ae7bc538",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
         "status" : "failed",
         "time" : {
-          "start" : 1611904309515,
-          "stop" : 1611904520762,
-          "duration" : 211247
+          "start" : 1613618400908,
+          "stop" : 1613618599806,
+          "duration" : 198898
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabSpeciationIsEditable",
+        "uid" : "9c43595cf426ce4a",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613618797871,
+          "stop" : 1613618996096,
+          "duration" : 198225
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyAccessRightTabSpeciationIsNotEditable",
-        "uid" : "56fc7f23dc1ce5dd",
-        "parentUid" : "7e6a38cad32010952dcc5ebafdf9c3ed",
+        "uid" : "cbea4556e89d3b2f",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
         "status" : "failed",
         "time" : {
-          "start" : 1611904520764,
-          "stop" : 1611904731502,
-          "duration" : 210738
+          "start" : 1613618996099,
+          "stop" : 1613619194488,
+          "duration" : 198389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyCalcMethodControlsVisibleWhenCalcMethodAccessRightSetToFalse",
+        "uid" : "7ff6c9a9cac3cfc",
+        "parentUid" : "2ac8ab9e75cef04267e45d29df99c301",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613619388320,
+          "stop" : 1613619582520,
+          "duration" : 194200
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2ac8ab9e75cef04267e45d29df99c301"
+    }, {
+      "name" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+      "children" : [ {
+        "name" : "VerifyAccessRightCalculatorTabUncheckedIsNotVisible",
+        "uid" : "2ff5f0bca98e159e",
+        "parentUid" : "57ddf9d6d6e140eacfadd00ab07817b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613616671128,
+          "stop" : 1613616824446,
+          "duration" : 153318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightCalculatorTabEditCalculateButtonIsNotVisible",
+        "uid" : "9dcbe01196cb6934",
+        "parentUid" : "57ddf9d6d6e140eacfadd00ab07817b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613616981398,
+          "stop" : 1613617139578,
+          "duration" : 158180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabControlNotVisible",
+        "uid" : "4985905ba2260771",
+        "parentUid" : "57ddf9d6d6e140eacfadd00ab07817b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613617336180,
+          "stop" : 1613617534402,
+          "duration" : 198222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabSpeciationIsNotVisible",
+        "uid" : "c9fbd23c70ad4fbd",
+        "parentUid" : "57ddf9d6d6e140eacfadd00ab07817b7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613618599809,
+          "stop" : 1613618797869,
+          "duration" : 198060
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7e6a38cad32010952dcc5ebafdf9c3ed"
+      "uid" : "57ddf9d6d6e140eacfadd00ab07817b7"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Ah\"}\n  (Session info: chrome=88.0.4324.104)",
+      "name" : "System.Exception : Could not find Inventory named 2017 - QA - single facility - Cantium - FF",
       "children" : [ {
-        "name" : "VerifyFirstRowQAQCDataPopUp",
-        "uid" : "5acc08ace6cad481",
-        "parentUid" : "891554ad9b644a026f66a79ad996056f",
+        "name" : "VerifyAccessRightTabControlCanEdit",
+        "uid" : "455b53fd0b6d8749",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
         "status" : "failed",
         "time" : {
-          "start" : 1611906140210,
-          "stop" : 1611906274452,
-          "duration" : 134242
+          "start" : 1613617534404,
+          "stop" : 1613617653458,
+          "duration" : 119054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifyAccessRightTabControlIsNotEditable",
+        "uid" : "da77ea3b16fdb3da",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613617653460,
+          "stop" : 1613617771482,
+          "duration" : 118022
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsCalculatorIsVisible",
+        "uid" : "2947505ff013a93f",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622314233,
+          "stop" : 1613622433760,
+          "duration" : 119527
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsCalculatorIsNotVisible",
+        "uid" : "4cf7ec7b60eb4016",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622433762,
+          "stop" : 1613622551765,
+          "duration" : 118003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsCalculatorTabCalculationsIsVisible",
+        "uid" : "605054a432e44e22",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622551767,
+          "stop" : 1613622669363,
+          "duration" : 117596
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsCalculatorTabCalculationsIsNotVisible",
+        "uid" : "599a968aa9fb32dd",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622669365,
+          "stop" : 1613622787916,
+          "duration" : 118551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsViewControlIsVisible",
+        "uid" : "e468e42011f3052a",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622787918,
+          "stop" : 1613622906583,
+          "duration" : 118665
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsViewControlIsNotVisible",
+        "uid" : "5fc75113271f8903",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622906586,
+          "stop" : 1613623025192,
+          "duration" : 118606
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsViewEditControlTabIsSelectable",
+        "uid" : "1e275eb325c2b2fa",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623025194,
+          "stop" : 1613623143213,
+          "duration" : 118019
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightControlsViewEditControlTabIsNotSelectable",
+        "uid" : "eb651fa2e6642bbf",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623143215,
+          "stop" : 1613623261604,
+          "duration" : 118389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightTabDataRequestViewControlIsVisible",
+        "uid" : "48e009b643ec3c39",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623261607,
+          "stop" : 1613623379755,
+          "duration" : 118148
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightTabDataRequestViewControlIsNotVisible",
+        "uid" : "9e9f01b226507fe0",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623379757,
+          "stop" : 1613623497481,
+          "duration" : 117724
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightTabSpeciationViewIsVisible",
+        "uid" : "7f722a6b6fe2e431",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623497482,
+          "stop" : 1613623616125,
+          "duration" : 118643
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightTabSpeciationViewIsNotVisible",
+        "uid" : "5b674ff4562d476e",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623616127,
+          "stop" : 1613623734504,
+          "duration" : 118377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightCalculationMethodEditControlIsVisible",
+        "uid" : "14715feb9033383f",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623734506,
+          "stop" : 1613623853122,
+          "duration" : 118616
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightCalculationMethodEditControlIsNotVisible",
+        "uid" : "1b2b02a826759b29",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623853125,
+          "stop" : 1613623970961,
+          "duration" : 117836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightAcitivityEditControlIsVisible",
+        "uid" : "c8cdb5d8dcf447ab",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613623970962,
+          "stop" : 1613624089428,
+          "duration" : 118466
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightAcitivityEditControlIsNotVisible",
+        "uid" : "803ab26314fdc141",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613624089430,
+          "stop" : 1613624207989,
+          "duration" : 118559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightFacilityWideZeroEmissionsIsVisible",
+        "uid" : "346218f4bc6c7846",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613624207991,
+          "stop" : 1613624325817,
+          "duration" : 117826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessRightFacilityWideZeroEmissionsIsNotVisible",
+        "uid" : "5bc29f10a4df9a72",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613624325821,
+          "stop" : 1613624448622,
+          "duration" : 122801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifySubmitFacilityGeneratesQAErrorForIncompleteFacility",
+        "uid" : "4c73b9a6ec1d4340",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613655279150,
+          "stop" : 1613655379020,
+          "duration" : 99870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "VerifySubmitNPLOGeneratesQAErrorForIncompleteLeaseOperation",
+        "uid" : "19e0edc8a457ab26",
+        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613655379113,
+          "stop" : 1613655476926,
+          "duration" : 97813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c709d1a5e7f4faf1747e4a2536f56c52"
+    }, {
+      "name" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.150)  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+      "children" : [ {
+        "name" : "VerifyCalcMethodControlsVisibleWhenCalcMethodAccessRightSetToTrue",
+        "uid" : "b63bf78a44933770",
+        "parentUid" : "f3073e11f6e05d197201a1042cc39063",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613619194490,
+          "stop" : 1613619388318,
+          "duration" : 193828
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3073e11f6e05d197201a1042cc39063"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Ah\"}\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
+        "name" : "VerifyFirstRowQAQCDataPopUp",
+        "uid" : "2dd85cc48c79a7dc",
+        "parentUid" : "d64894e07f7166a5c552b0753943d5a5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613620388468,
+          "stop" : 1613620524220,
+          "duration" : 135752
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyPollutantEmission",
-        "uid" : "fa237ec44d3808aa",
-        "parentUid" : "891554ad9b644a026f66a79ad996056f",
+        "uid" : "d479324a0b13207c",
+        "parentUid" : "d64894e07f7166a5c552b0753943d5a5",
         "status" : "failed",
         "time" : {
-          "start" : 1611906274455,
-          "stop" : 1611906409183,
-          "duration" : 134728
+          "start" : 1613620524224,
+          "stop" : 1613620659090,
+          "duration" : 134866
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "891554ad9b644a026f66a79ad996056f"
+      "uid" : "d64894e07f7166a5c552b0753943d5a5"
     }, {
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: SelectEQTN",
       "children" : [ {
         "name" : "VerifyCalcWithSameRequest",
-        "uid" : "f475716040793bb0",
+        "uid" : "b43bd8049da093de",
         "parentUid" : "e90e5086e2d335fe37f4221ae9c0465f",
         "status" : "failed",
         "time" : {
-          "start" : 1611906409185,
-          "stop" : 1611906561301,
-          "duration" : 152116
+          "start" : 1613620659092,
+          "stop" : 1613620809989,
+          "duration" : 150897
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyCalcWithNewRequest",
-        "uid" : "9063f0bfd2722c60",
+        "uid" : "e109c1b33ee0691d",
         "parentUid" : "e90e5086e2d335fe37f4221ae9c0465f",
         "status" : "failed",
         "time" : {
-          "start" : 1611906561305,
-          "stop" : 1611906701072,
-          "duration" : 139767
+          "start" : 1613620809991,
+          "stop" : 1613620950284,
+          "duration" : 140293
         },
         "flaky" : true,
         "newFailed" : false,
@@ -888,55 +1571,72 @@
       } ],
       "uid" : "e90e5086e2d335fe37f4221ae9c0465f"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: D",
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#questionnaire\\-iframe\\-modal\"}\n  (Session info: chrome=88.0.4324.150)",
       "children" : [ {
-        "name" : "QAQCButtonChecksAllMonths",
-        "uid" : "b39460de2461bacc",
-        "parentUid" : "32f667600c8bdf53222733dcbb88b8c4",
+        "name" : "VerifyZeroAllMonthsZeroQAQCerrors",
+        "uid" : "94151ae81f0dccd",
+        "parentUid" : "bc9a35cdcfb9c0624f73627d06457cfe",
         "status" : "failed",
         "time" : {
-          "start" : 1611906701075,
-          "stop" : 1611906839602,
-          "duration" : 138527
+          "start" : 1613621015001,
+          "stop" : 1613621164365,
+          "duration" : 149364
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+        "name" : "CalculateEmissionsWithValuesToCalcError",
+        "uid" : "92791df819b823dd",
+        "parentUid" : "bc9a35cdcfb9c0624f73627d06457cfe",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613622048713,
+          "stop" : 1613622138578,
+          "duration" : 89865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc9a35cdcfb9c0624f73627d06457cfe"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: D",
+      "children" : [ {
         "name" : "ComputeEmissionsJanuaryAndCheckValues",
-        "uid" : "1519cf64b3916239",
+        "uid" : "5d615018018c7ff7",
         "parentUid" : "32f667600c8bdf53222733dcbb88b8c4",
         "status" : "failed",
         "time" : {
-          "start" : 1611906943479,
-          "stop" : 1611907046968,
-          "duration" : 103489
+          "start" : 1613621164368,
+          "stop" : 1613621268429,
+          "duration" : 104061
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ComputeEmissions15DaysAndCheckValues",
-        "uid" : "6adf24ae9520b7ee",
+        "uid" : "104b33aa0a2b4d80",
         "parentUid" : "32f667600c8bdf53222733dcbb88b8c4",
         "status" : "failed",
         "time" : {
-          "start" : 1611907046971,
-          "stop" : 1611907151046,
-          "duration" : 104075
+          "start" : 1613621268431,
+          "stop" : 1613621373059,
+          "duration" : 104628
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ComputeEmissionsAllMonthsAndCheckValues",
-        "uid" : "cac2c902afa0e05e",
+        "uid" : "6f3175ed991757f5",
         "parentUid" : "32f667600c8bdf53222733dcbb88b8c4",
         "status" : "failed",
         "time" : {
-          "start" : 1611907151048,
-          "stop" : 1611907255232,
-          "duration" : 104184
+          "start" : 1613621373061,
+          "stop" : 1613621478025,
+          "duration" : 104964
         },
         "flaky" : false,
         "newFailed" : false,
@@ -944,46 +1644,16 @@
       } ],
       "uid" : "32f667600c8bdf53222733dcbb88b8c4"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#questionnaire\\-iframe\\-modal\"}\n  (Session info: chrome=88.0.4324.104)",
-      "children" : [ {
-        "name" : "VerifyZeroAllMonthsZeroQAQCerrors",
-        "uid" : "80dd063b63ad16a4",
-        "parentUid" : "c1b313975fe68db80fc5db323907c16e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611906839606,
-          "stop" : 1611906943476,
-          "duration" : 103870
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "CalculateEmissionsWithValuesToCalcError",
-        "uid" : "6de63a2a442de1e1",
-        "parentUid" : "c1b313975fe68db80fc5db323907c16e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611907826131,
-          "stop" : 1611907915504,
-          "duration" : 89373
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c1b313975fe68db80fc5db323907c16e"
-    }, {
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: f",
       "children" : [ {
         "name" : "CalculateEmissionsWithGoodInputs",
-        "uid" : "f64807caeb266ad",
+        "uid" : "d69bbb8cc5089b83",
         "parentUid" : "f2e35470894250e1d07a0deadd89606c",
         "status" : "failed",
         "time" : {
-          "start" : 1611907736716,
-          "stop" : 1611907826127,
-          "duration" : 89411
+          "start" : 1613621960686,
+          "stop" : 1613622048711,
+          "duration" : 88025
         },
         "flaky" : false,
         "newFailed" : false,
@@ -994,26 +1664,26 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: throughput",
       "children" : [ {
         "name" : "VerifyForPollutant",
-        "uid" : "ff1553a9d5c37a61",
+        "uid" : "8567cb42e022a67c",
         "parentUid" : "e9677170b24ea68ee64fa7bc01137d6e",
         "status" : "failed",
         "time" : {
-          "start" : 1611907915506,
-          "stop" : 1611908002343,
-          "duration" : 86837
+          "start" : 1613622138581,
+          "stop" : 1613622226224,
+          "duration" : 87643
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyForPollutantMethane",
-        "uid" : "7fc451b3cbe81718",
+        "uid" : "2116f9d4679fb0f2",
         "parentUid" : "e9677170b24ea68ee64fa7bc01137d6e",
         "status" : "failed",
         "time" : {
-          "start" : 1611908002346,
-          "stop" : 1611908090999,
-          "duration" : 88653
+          "start" : 1613622226226,
+          "stop" : 1613622314231,
+          "duration" : 88005
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1024,13 +1694,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wizard-step-content']/div/div[2]/div/div[1]/div/div[1]/label/div/ins",
       "children" : [ {
         "name" : "ExportBlankTemplate",
-        "uid" : "ec483a7bd45e8659",
+        "uid" : "73430c6dc5dda28f",
         "parentUid" : "b0026885da81a6621c57c8787ab1b6fb",
         "status" : "failed",
         "time" : {
-          "start" : 1611912736011,
-          "stop" : 1611912790110,
-          "duration" : 54099
+          "start" : 1613625719089,
+          "stop" : 1613625774324,
+          "duration" : 55235
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1041,13 +1711,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: ExportAll",
       "children" : [ {
         "name" : "ExportSelectedFacility_All",
-        "uid" : "fc08145c8329a7ca",
+        "uid" : "6a9eb8acbf668ddb",
         "parentUid" : "7bd322cc864ccfc93c249cf8dff4c7b3",
         "status" : "failed",
         "time" : {
-          "start" : 1611912790114,
-          "stop" : 1611912886417,
-          "duration" : 96303
+          "start" : 1613625774328,
+          "stop" : 1613625871228,
+          "duration" : 96900
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1058,13 +1728,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: ExportRelease",
       "children" : [ {
         "name" : "ExportSelectedFacility_ReleasePointsOnly",
-        "uid" : "e2fb1a6177b2b12f",
+        "uid" : "821740af04827455",
         "parentUid" : "b75e1159a0e6a57c598edf1bb2eabf53",
         "status" : "failed",
         "time" : {
-          "start" : 1611912886420,
-          "stop" : 1611912982556,
-          "duration" : 96136
+          "start" : 1613625871230,
+          "stop" : 1613625968016,
+          "duration" : 96786
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1075,13 +1745,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UnSelectAllSection",
       "children" : [ {
         "name" : "ImportEmptyExcelFile",
-        "uid" : "d4f31d921c25aaae",
+        "uid" : "6306305fd0729130",
         "parentUid" : "f7dab372307688f490293109a100644b",
         "status" : "failed",
         "time" : {
-          "start" : 1611913122754,
-          "stop" : 1611913193839,
-          "duration" : 71085
+          "start" : 1613626107784,
+          "stop" : 1613626178772,
+          "duration" : 70988
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1089,33 +1759,16 @@
       } ],
       "uid" : "f7dab372307688f490293109a100644b"
     }, {
-      "name" : "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.104)",
-      "children" : [ {
-        "name" : "GlycolEmissionsImport",
-        "uid" : "d6d1232f517d1bc9",
-        "parentUid" : "0e411c894a9f644b616f8eec6dced00b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611917027264,
-          "stop" : 1611917091949,
-          "duration" : 64685
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0e411c894a9f644b616f8eec6dced00b"
-    }, {
       "name" : "System.NotImplementedException : Email being sent needs to verified manually",
       "children" : [ {
         "name" : "Forgot_Password_To_Valid_Account_Email_Results_In_Email_To_End_User_Email",
-        "uid" : "e2e5428e28e13759",
+        "uid" : "dabc97d821ccf39",
         "parentUid" : "0ebd22cd458d97eb4728ffa717175d77",
         "status" : "failed",
         "time" : {
-          "start" : 1611918411979,
-          "stop" : 1611918418327,
-          "duration" : 6348
+          "start" : 1613631047206,
+          "stop" : 1613631053638,
+          "duration" : 6432
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1123,99 +1776,163 @@
       } ],
       "uid" : "0ebd22cd458d97eb4728ffa717175d77"
     }, {
+      "name" : "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
+        "name" : "TooManyFailedAttempts",
+        "uid" : "41fff299e7770575",
+        "parentUid" : "e88aec901bddb850b673983a4f499193",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613632145503,
+          "stop" : 1613632194852,
+          "duration" : 49349
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "TooManyFailedAttemptsOnFirstTry",
+        "uid" : "2c8bef61b8be3b4e",
+        "parentUid" : "e88aec901bddb850b673983a4f499193",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613632194854,
+          "stop" : 1613632244577,
+          "duration" : 49723
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e88aec901bddb850b673983a4f499193"
+    }, {
+      "name" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: -0.011\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
+        "name" : "AccessURL21_AdminChangeLog",
+        "uid" : "ae01f0a9be119fd7",
+        "parentUid" : "b4e6dc5cb81cb02c5e7101327443ea6d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613651442648,
+          "stop" : 1613651514045,
+          "duration" : 71397
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4e6dc5cb81cb02c5e7101327443ea6d"
+    }, {
+      "name" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 50.000\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
+        "name" : "VerifyNoDataAvailable",
+        "uid" : "244aa0bcb2d5f163",
+        "parentUid" : "5de0e9fcdb285140070166e83f677378",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613655705216,
+          "stop" : 1613655788536,
+          "duration" : 83320
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5de0e9fcdb285140070166e83f677378"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+      "children" : [ {
+        "name" : "CheckUser_AccountActivity",
+        "uid" : "d09799b96f629bbf",
+        "parentUid" : "0f9e8a2559760ba65c4083f291c7a8a1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613656743686,
+          "stop" : 1613656813977,
+          "duration" : 70291
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f9e8a2559760ba65c4083f291c7a8a1"
+    }, {
+      "name" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 44.846\n  (Session info: chrome=88.0.4324.150)",
+      "children" : [ {
+        "name" : "EditGroup_MissingFlaggedFields_Failed",
+        "uid" : "db91fbe0d2c64f92",
+        "parentUid" : "77a510a2bf895b76031c4a88e38cdfd8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613657173060,
+          "stop" : 1613657233514,
+          "duration" : 60454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77a510a2bf895b76031c4a88e38cdfd8"
+    }, {
+      "name" : "System.Exception : Facility was not found: No Data Available",
+      "children" : [ {
+        "name" : "AccessAndVerifyCancelEditButtons",
+        "uid" : "1e0e9f155d7e83d7",
+        "parentUid" : "72fd3dac657ab32209327ba1c7a1e235",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613658558256,
+          "stop" : 1613658647275,
+          "duration" : 89019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessAndVerifyImportOption",
+        "uid" : "3dd2b9a9682136a4",
+        "parentUid" : "72fd3dac657ab32209327ba1c7a1e235",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613658647278,
+          "stop" : 1613658722322,
+          "duration" : 75044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessAndVerifyClickableButtons",
+        "uid" : "2c6dfd37ea051f3b",
+        "parentUid" : "72fd3dac657ab32209327ba1c7a1e235",
+        "status" : "failed",
+        "time" : {
+          "start" : 1613658722325,
+          "stop" : 1613658848197,
+          "duration" : 125872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "72fd3dac657ab32209327ba1c7a1e235"
+    }, {
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: rpt_FacilityZeroEmissions",
       "children" : [ {
         "name" : "ZeroFacilityEmissionsReport",
-        "uid" : "6dbd21ae73348cdf",
+        "uid" : "6c565c729554f850",
         "parentUid" : "7bf34f91fc2ac3393485463de657dd77",
         "status" : "failed",
         "time" : {
-          "start" : 1611923565428,
-          "stop" : 1611923609680,
-          "duration" : 44252
+          "start" : 1613676546048,
+          "stop" : 1613676594479,
+          "duration" : 48431
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "7bf34f91fc2ac3393485463de657dd77"
-    }, {
-      "name" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 50.000\n  (Session info: chrome=88.0.4324.104)",
-      "children" : [ {
-        "name" : "VerifyNoDataFound",
-        "uid" : "2905dc353215f29b",
-        "parentUid" : "c137ea33f17d1c202190d41ac5b699e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611955203118,
-          "stop" : 1611955284935,
-          "duration" : 81817
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyDefaultValues",
-        "uid" : "a53389c7c2145b97",
-        "parentUid" : "c137ea33f17d1c202190d41ac5b699e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611955284941,
-          "stop" : 1611955366282,
-          "duration" : 81341
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyNoDataAvailable",
-        "uid" : "a0228226bd29b040",
-        "parentUid" : "c137ea33f17d1c202190d41ac5b699e7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611955401768,
-          "stop" : 1611955504452,
-          "duration" : 102684
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c137ea33f17d1c202190d41ac5b699e7"
-    }, {
-      "name" : "System.Exception : Could not find Inventory named 2017 - QA - single facility - Cantium - FF",
-      "children" : [ {
-        "name" : "VerifySubmitFacilityGeneratesQAErrorForIncompleteFacility",
-        "uid" : "ffaa3250e863bf8",
-        "parentUid" : "c709d1a5e7f4faf1747e4a2536f56c52",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611955570756,
-          "stop" : 1611956017635,
-          "duration" : 446879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c709d1a5e7f4faf1747e4a2536f56c52"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wizard-step-content']/div/div[2]/div/div[4]/div[1]/label/div/ins",
-      "children" : [ {
-        "name" : "VerifyCopyOfWholeInventory",
-        "uid" : "5146c8ded4618e55",
-        "parentUid" : "5c4210d2b823cb08910d22c38e11bfe8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1612183307003,
-          "stop" : 1612183375572,
-          "duration" : 68569
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5c4210d2b823cb08910d22c38e11bfe8"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

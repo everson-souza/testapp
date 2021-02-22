@@ -1,0 +1,214 @@
+{
+  "uid" : "4855500a38ebaa50",
+  "name" : "VerifyDefaultValues",
+  "fullName" : "BOEM_Tests.Tests.ChangeHistory.VerifyDefaultValues",
+  "historyId" : "BOEM_Tests.Tests.ChangeHistory.VerifyDefaultValues",
+  "time" : {
+    "start" : 1613613334717,
+    "stop" : 1613613417987,
+    "duration" : 83270
+  },
+  "description" : "Select '2000 - 2000 Complete Inventory', 'Last 7 Days' then click Default button and Verify if the defaul values of user, date and inventories\n",
+  "descriptionHtml" : "<p>Select '2000 - 2000 Complete Inventory', 'Last 7 Days' then click Default button and Verify if the defaul values of user, date and inventories</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+  "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyDefaultValues() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 169",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1613613417985,
+      "stop" : 1613613417985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1613613417985,
+      "stop" : 1613613417985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Select '2000 - 2000 Complete Inventory', 'Last 7 Days' then click Default button and Verify if the defaul values of user, date and inventories\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+    "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyDefaultValues() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 169",
+    "steps" : [ {
+      "name" : "VerifyDefaultValues",
+      "time" : {
+        "start" : 1613613334717,
+        "stop" : 1613613417986,
+        "duration" : 83269
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+      "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyDefaultValues() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 169",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d44d2dc759d23a7f",
+        "name" : "Console Output",
+        "source" : "d44d2dc759d23a7f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1613613417985,
+      "stop" : 1613613417985,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyDefaultValues"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "tag",
+    "value" : "CHANGEHISTORY.3"
+  }, {
+    "name" : "suite",
+    "value" : "ChangeHistory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "a53389c7c2145b97",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 50.000\n  (Session info: chrome=88.0.4324.104)",
+        "time" : {
+          "start" : 1611955284941,
+          "stop" : 1611955366282,
+          "duration" : 81341
+        }
+      }, {
+        "uid" : "e3ac28ce936569ae",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: 50.000\n  (Session info: chrome=87.0.4280.88)",
+        "time" : {
+          "start" : 1609917530773,
+          "stop" : 1609917611155,
+          "duration" : 80382
+        }
+      }, {
+        "uid" : "ed50deaaef692e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606843310166,
+          "stop" : 1606843384398,
+          "duration" : 74232
+        }
+      }, {
+        "uid" : "3b4e6137ffad075f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606232245744,
+          "stop" : 1606232318951,
+          "duration" : 73207
+        }
+      }, {
+        "uid" : "fc5708d6ddf1bd58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605884451954,
+          "stop" : 1605884530677,
+          "duration" : 78723
+        }
+      }, {
+        "uid" : "9368c9f23fd27554",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604445396822,
+          "stop" : 1604445466475,
+          "duration" : 69653
+        }
+      }, {
+        "uid" : "2db6500e0a661a08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601907845856,
+          "stop" : 1601907936539,
+          "duration" : 90683
+        }
+      } ]
+    },
+    "tags" : [ "CHANGEHISTORY.3" ]
+  },
+  "source" : "4855500a38ebaa50.json",
+  "parameterValues" : [ ]
+}
