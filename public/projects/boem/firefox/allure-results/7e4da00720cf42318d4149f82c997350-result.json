@@ -1,0 +1,80 @@
+{
+  "uuid": "2cded427-f681-4391-8afb-efc188145ae9-tr-0-1007",
+  "historyId": "BOEM_Tests.Tests.AdminAccessRights.VerifyMenuDashboardsAdmin",
+  "fullName": "BOEM_Tests.Tests.AdminAccessRights.VerifyMenuDashboardsAdmin",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I9CRH2D"
+    },
+    {
+      "name": "testClass",
+      "value": "BOEM_Tests.Tests.AdminAccessRights"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyMenuDashboardsAdmin"
+    },
+    {
+      "name": "package",
+      "value": "BOEM_Tests.Tests.AdminAccessRights"
+    },
+    {
+      "name": "tag",
+      "value": "ACCESSRIGHTS.3"
+    },
+    {
+      "name": "suite",
+      "value": "AccessRights"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "VerifyMenuDashboardsAdmin",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: accessRight0_57",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_Selected()\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.RestoreAllMenuItems() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 305\r\n   at BOEM_Tests.Tests.AdminAccessRights.VerifyMenuDashboardsAdmin() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 158"
+  },
+  "stage": "finished",
+  "description": "Verify if only Menu, Dashboards and Admin options are available. Should be fail if there are any more option\n",
+  "steps": [
+    {
+      "name": "VerifyMenuDashboardsAdmin",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: accessRight0_57",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_Selected()\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.RestoreAllMenuItems() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 305\r\n   at BOEM_Tests.Tests.AdminAccessRights.VerifyMenuDashboardsAdmin() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 158"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7dc6a9f748974eb7ab5a8f71f84a260b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611846202497,
+      "stop": 1611846304256
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1611846202497,
+  "stop": 1611846304257
+}

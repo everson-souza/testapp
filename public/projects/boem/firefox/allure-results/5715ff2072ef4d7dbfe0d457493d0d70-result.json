@@ -1,0 +1,80 @@
+{
+  "uuid": "a00ca65c-e210-47ec-a0c6-7972e91766d7-tr-0-1375",
+  "historyId": "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminAccessRights",
+  "fullName": "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminAccessRights",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I9CRH2D"
+    },
+    {
+      "name": "testClass",
+      "value": "BOEM_Tests.Tests.AdminSecurity"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckAccess_AdminAccessRights"
+    },
+    {
+      "name": "package",
+      "value": "BOEM_Tests.Tests.AdminSecurity"
+    },
+    {
+      "name": "tag",
+      "value": "ADMINSECURITY.8"
+    },
+    {
+      "name": "suite",
+      "value": "AdminSecurity"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "CheckAccess_AdminAccessRights",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[2]/div[2]/div/div/div/span[1]/a",
+    "trace": "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminAccessRights() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 242"
+  },
+  "stage": "finished",
+  "description": "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "steps": [
+    {
+      "name": "CheckAccess_AdminAccessRights",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[2]/div[2]/div/div/div/span[1]/a",
+        "trace": "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminAccessRights() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 242"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "f12f39cc1d1d4f1fb4a12daf8cf8bdb0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1611846939784,
+      "stop": 1611846959677
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1611846939784,
+  "stop": 1611846959678
+}

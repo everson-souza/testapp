@@ -1,0 +1,80 @@
+{
+  "uuid": "3dc21532-8791-4eaf-a895-572789d73be0-tr-0-1026",
+  "historyId": "BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel",
+  "fullName": "BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I9CRH2D"
+    },
+    {
+      "name": "testClass",
+      "value": "BOEM_Tests.Tests.AdminAccessRights"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckFacilityListAccessLevel"
+    },
+    {
+      "name": "package",
+      "value": "BOEM_Tests.Tests.AdminAccessRights"
+    },
+    {
+      "name": "tag",
+      "value": "ACCESSRIGHTS.2"
+    },
+    {
+      "name": "suite",
+      "value": "AccessRights"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "CheckFacilityListAccessLevel",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : Web element reference not seen before: {\"element-6066-11e4-a52e-4f735466cecf\":\"7cf9b262-1b5f-4c23-8085-977485ed967c\"}",
+    "trace": "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 126\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()"
+  },
+  "stage": "finished",
+  "description": "Verify if 'Facility List' admin access right has 'Platform' and 'User-Defined Reports' access on 'All Reports View' page.\n",
+  "steps": [
+    {
+      "name": "CheckFacilityListAccessLevel",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : Web element reference not seen before: {\"element-6066-11e4-a52e-4f735466cecf\":\"7cf9b262-1b5f-4c23-8085-977485ed967c\"}",
+        "trace": "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 126\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "15d7a69922fa4d02bdb51463342e77a6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1613563891906,
+      "stop": 1613564076388
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1613563891906,
+  "stop": 1613564076392
+}

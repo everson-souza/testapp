@@ -1,0 +1,80 @@
+{
+  "uuid": "9355e07b-7367-47f8-afc4-9484b4746f52-tr-0-1151",
+  "historyId": "BOEM_Tests.Tests.EISQuestionnaire.VerifyZeroAllMonthsZeroQAQCerrors",
+  "fullName": "BOEM_Tests.Tests.EISQuestionnaire.VerifyZeroAllMonthsZeroQAQCerrors",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-I9CRH2D"
+    },
+    {
+      "name": "testClass",
+      "value": "BOEM_Tests.Tests.EISQuestionnaire"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyZeroAllMonthsZeroQAQCerrors"
+    },
+    {
+      "name": "package",
+      "value": "BOEM_Tests.Tests.EISQuestionnaire"
+    },
+    {
+      "name": "tag",
+      "value": "EISQUESTIONNAIRE.8"
+    },
+    {
+      "name": "suite",
+      "value": "EISQuestionnaire"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "VerifyZeroAllMonthsZeroQAQCerrors",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.StaleElementReferenceException : The element reference of <iframe id=\"questionnaire-iframe-modal\" src=\"/BOEM/EIPointEntityEditorWithPeriods/Edit/4596?aTheme=&aThemeId=29&aClientCallback=questionnaireEditorCallback&aDirectEditModal=false&aHideEditButton=false&aNavView=NavEmissionsManager&anAllowFormSubmit=true\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed",
+    "trace": "   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   em OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(IWebElement frameElement)\r\n   em BOEM_Tests.Setup.ActionUtilities.SwitchToFrame(IWebDriver driver, IWebElement frame) na C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Setup\\Utilities.cs:linha 43\r\n   em BOEM_Tests.PageObjects.EmissionsPlatformSourcesPage.ClickOnZeroEmissionsOption() na C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Emissions\\EmisionsPlatformSourcesPage.cs:linha 551\r\n   em BOEM_Tests.Tests.EISQuestionnaire.VerifyZeroAllMonthsZeroQAQCerrors() na C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EISQuestionnaire.cs:linha 407"
+  },
+  "stage": "finished",
+  "description": "\nSetup SetUp method failed\nVerify Zero all months results in 0 QA/QC errors\n",
+  "steps": [
+    {
+      "name": "VerifyZeroAllMonthsZeroQAQCerrors skipped because of PrepareResultsDir failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.StaleElementReferenceException : The element reference of <iframe id=\"questionnaire-iframe-modal\" src=\"/BOEM/EIPointEntityEditorWithPeriods/Edit/4596?aTheme=&aThemeId=29&aClientCallback=questionnaireEditorCallback&aDirectEditModal=false&aHideEditButton=false&aNavView=NavEmissionsManager&anAllowFormSubmit=true\"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed",
+        "trace": "   em OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   em OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   em OpenQA.Selenium.Remote.RemoteTargetLocator.Frame(IWebElement frameElement)\r\n   em BOEM_Tests.Setup.ActionUtilities.SwitchToFrame(IWebDriver driver, IWebElement frame) na C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Setup\\Utilities.cs:linha 43\r\n   em BOEM_Tests.PageObjects.EmissionsPlatformSourcesPage.ClickOnZeroEmissionsOption() na C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Emissions\\EmisionsPlatformSourcesPage.cs:linha 551\r\n   em BOEM_Tests.Tests.EISQuestionnaire.VerifyZeroAllMonthsZeroQAQCerrors() na C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EISQuestionnaire.cs:linha 407"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c887675778664c368802efe3b504c872-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1605277663297,
+      "stop": 1605277774920
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1605277663294,
+  "stop": 1605277774936
+}
