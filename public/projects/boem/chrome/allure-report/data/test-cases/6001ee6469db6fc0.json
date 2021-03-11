@@ -1,0 +1,230 @@
+{
+  "uid" : "6001ee6469db6fc0",
+  "name" : "GlycolEmissionsImport",
+  "fullName" : "BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport",
+  "historyId" : "BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport",
+  "time" : {
+    "start" : 1615433045440,
+    "stop" : 1615433165746,
+    "duration" : 120306
+  },
+  "description" : "Ensure Inventory is Locked. Verify if Glycol Emissions Import page can not be accessed.\n",
+  "descriptionHtml" : "<p>Ensure Inventory is Locked. Verify if Glycol Emissions Import page can not be accessed.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LockedInventory.cs:line 91\r\n",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615433165722,
+      "stop" : 1615433165722,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1615433165723,
+      "stop" : 1615433165723,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure Inventory is Locked. Verify if Glycol Emissions Import page can not be accessed.\n",
+    "status" : "failed",
+    "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LockedInventory.cs:line 91\r\n",
+    "steps" : [ {
+      "name" : "GlycolEmissionsImport",
+      "time" : {
+        "start" : 1615433045442,
+        "stop" : 1615433165736,
+        "duration" : 120294
+      },
+      "status" : "failed",
+      "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.LockedInventory.GlycolEmissionsImport() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LockedInventory.cs:line 91\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e022edda4c0e938",
+        "name" : "Console Output",
+        "source" : "e022edda4c0e938.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615433165723,
+      "stop" : 1615433165723,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "testMethod",
+    "value" : "GlycolEmissionsImport"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "tag",
+    "value" : "LOCKEDINVENTORY.1"
+  }, {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "ae2059883c0227f",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.190)",
+        "time" : {
+          "start" : 1614750858017,
+          "stop" : 1614750921126,
+          "duration" : 63109
+        }
+      }, {
+        "uid" : "4262c88397a24f5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613652408626,
+          "stop" : 1613652507163,
+          "duration" : 98537
+        }
+      }, {
+        "uid" : "d6d1232f517d1bc9",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.StaleElementReferenceException : stale element reference: element is not attached to the page document\n  (Session info: chrome=88.0.4324.104)",
+        "time" : {
+          "start" : 1611917027264,
+          "stop" : 1611917091949,
+          "duration" : 64685
+        }
+      }, {
+        "uid" : "805487b7151ae618",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609933407070,
+          "stop" : 1609933509912,
+          "duration" : 102842
+        }
+      }, {
+        "uid" : "941103288fc29a4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606924058298,
+          "stop" : 1606924238801,
+          "duration" : 180503
+        }
+      }, {
+        "uid" : "254f202aad8d73e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606218739145,
+          "stop" : 1606218830985,
+          "duration" : 91840
+        }
+      }, {
+        "uid" : "1f3ef29b14a887a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605893621203,
+          "stop" : 1605893723834,
+          "duration" : 102631
+        }
+      }, {
+        "uid" : "6b84158492790528",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604535425522,
+          "stop" : 1604535520921,
+          "duration" : 95399
+        }
+      }, {
+        "uid" : "1d32ceb250b89ba8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601940319213,
+          "stop" : 1601940474052,
+          "duration" : 154839
+        }
+      } ]
+    },
+    "tags" : [ "LOCKEDINVENTORY.1" ]
+  },
+  "source" : "6001ee6469db6fc0.json",
+  "parameterValues" : [ ]
+}
