@@ -1,0 +1,139 @@
+{
+  "uid" : "87fa24774084d768",
+  "name" : "VerifyAccessRightTabSpeciationIsNotVisible",
+  "fullName" : "BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible",
+  "historyId" : "BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible",
+  "time" : {
+    "start" : 1613536960382,
+    "stop" : 1613537162093,
+    "duration" : 201711
+  },
+  "description" : "Verify Access Right - Tab Speciation not visible\n",
+  "descriptionHtml" : "<p>Verify Access Right - Tab Speciation not visible</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : Web element reference not seen before: {\"element-6066-11e4-a52e-4f735466cecf\":\"512a2cdb-7d32-4565-8dfe-c92a1b068ebc\"}  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+  "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 753\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1613537162086,
+      "stop" : 1613537162086,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1613537162086,
+      "stop" : 1613537162086,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Access Right - Tab Speciation not visible\n",
+    "status" : "failed",
+    "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : Web element reference not seen before: {\"element-6066-11e4-a52e-4f735466cecf\":\"512a2cdb-7d32-4565-8dfe-c92a1b068ebc\"}  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+    "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 753\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()",
+    "steps" : [ {
+      "name" : "VerifyAccessRightTabSpeciationIsNotVisible",
+      "time" : {
+        "start" : 1613536960382,
+        "stop" : 1613537162091,
+        "duration" : 201709
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.NoSuchElementException : Web element reference not seen before: {\"element-6066-11e4-a52e-4f735466cecf\":\"512a2cdb-7d32-4565-8dfe-c92a1b068ebc\"}  1)   Expected: False\r\n  But was:  True\r\n\r\n",
+      "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_TagName()\r\n   at OpenQA.Selenium.Support.UI.SelectElement..ctor(IWebElement element)\r\n   at BOEM_Tests.PageObjects.AdminAccessRightsPage.FilterObjectTypeByValue(String value) in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminAccessRights\\AdminAccessRightsPage.cs:line 116\r\n   at BOEM_Tests.Tests.EIQuestionnaireLO.VerifyAccessRightTabSpeciationIsNotVisible() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 753\r\n--NoSuchElementException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.get_TagName()",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80c4c7db30b8e239",
+        "name" : "Console Output",
+        "source" : "80c4c7db30b8e239.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1613537162086,
+      "stop" : 1613537162086,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyAccessRightTabSpeciationIsNotVisible"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "tag",
+    "value" : "EIQUESTIONNAIRE.LO.16"
+  }, {
+    "name" : "suite",
+    "value" : "EIQuestionnaire.LO"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "EIQUESTIONNAIRE.LO.16" ]
+  },
+  "source" : "87fa24774084d768.json",
+  "parameterValues" : [ ]
+}
