@@ -165,13 +165,13 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '00:58am 03/11/2021',
+                        time: '03:43pm 03/11/2021',
                         color: 'light-blue lighten-1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '12:54am 03/11/2021',
+                        time: '12:11am 03/12/2021',
                         color: 'orange',
                         },
                         {
