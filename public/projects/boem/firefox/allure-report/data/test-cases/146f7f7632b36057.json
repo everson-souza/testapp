@@ -1,0 +1,341 @@
+{
+  "uid" : "146f7f7632b36057",
+  "name" : "CheckAccess_AllActivityMapleLeafs",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityMapleLeafs",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityMapleLeafs",
+  "time" : {
+    "start" : 1615652816944,
+    "stop" : 1615652876285,
+    "duration" : 59341
+  },
+  "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects the grid show no values\n",
+  "descriptionHtml" : "<p>Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects the grid show no values</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityMapleLeafs() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 148",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615652876284,
+      "stop" : 1615652876284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1615652876284,
+      "stop" : 1615652876284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects the grid show no values\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityMapleLeafs() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 148",
+    "steps" : [ {
+      "name" : "CheckAccess_AllActivityMapleLeafs",
+      "time" : {
+        "start" : 1615652816944,
+        "stop" : 1615652876284,
+        "duration" : 59340
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityMapleLeafs() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 148",
+      "steps" : [ {
+        "name" : "Taking Screen shot",
+        "time" : {
+          "start" : 1615652875520,
+          "stop" : 1615652875580,
+          "duration" : 60
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "2170ef0aadf15245",
+        "name" : "Console Output",
+        "source" : "2170ef0aadf15245.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615652876284,
+      "stop" : 1615652876284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_AllActivityMapleLeafs"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.4"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb34aa34bdf76f63",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+      "time" : {
+        "start" : 1615319367594,
+        "stop" : 1615319450252,
+        "duration" : 82658
+      }
+    }, {
+      "uid" : "6f09347a62f4835e",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+      "time" : {
+        "start" : 1615316603585,
+        "stop" : 1615316666225,
+        "duration" : 62640
+      }
+    }, {
+      "uid" : "f00794c7fea05946",
+      "status" : "failed",
+      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+      "time" : {
+        "start" : 1613576563194,
+        "stop" : 1613576601170,
+        "duration" : 37976
+      }
+    }, {
+      "uid" : "3292bbdefabc85f",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[2]/div/div[3]/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div[3]/div[3]/div/table/tbody/tr[2]/td[5]",
+      "time" : {
+        "start" : 1613490518861,
+        "stop" : 1613490558436,
+        "duration" : 39575
+      }
+    }, {
+      "uid" : "c78d3c08316ef367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611846801042,
+        "stop" : 1611846849945,
+        "duration" : 48903
+      }
+    }, {
+      "uid" : "dfe84497145d8c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609782520736,
+        "stop" : 1609782565040,
+        "duration" : 44304
+      }
+    }, {
+      "uid" : "92e8221844ef1d5c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605803551941,
+        "stop" : 1605803593381,
+        "duration" : 41440
+      }
+    }, {
+      "uid" : "ab790358f9a1193c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604350576945,
+        "stop" : 1604350622101,
+        "duration" : 45156
+      }
+    }, {
+      "uid" : "3ce5c91571bdf532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604349300985,
+        "stop" : 1604349344587,
+        "duration" : 43602
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "5ba9756f893d11e",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1615319367594,
+          "stop" : 1615319450252,
+          "duration" : 82658
+        }
+      }, {
+        "uid" : "76f579383b17c748",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1615436824935,
+          "stop" : 1615436883434,
+          "duration" : 58499
+        }
+      }, {
+        "uid" : "8bed6bf25b7ce2cd",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1615319367594,
+          "stop" : 1615319450252,
+          "duration" : 82658
+        }
+      }, {
+        "uid" : "b7e9baae83eea3",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1615216138173,
+          "stop" : 1615216171882,
+          "duration" : 33709
+        }
+      }, {
+        "uid" : "d39dd6c89e98c76d",
+        "status" : "failed",
+        "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+        "time" : {
+          "start" : 1614799228207,
+          "stop" : 1614799259658,
+          "duration" : 31451
+        }
+      }, {
+        "uid" : "46bcc62dbd146cde",
+        "status" : "failed",
+        "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+        "time" : {
+          "start" : 1613576563194,
+          "stop" : 1613576601170,
+          "duration" : 37976
+        }
+      }, {
+        "uid" : "256ae9a986cab35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611846801042,
+          "stop" : 1611846849945,
+          "duration" : 48903
+        }
+      }, {
+        "uid" : "f6b20a71fdebba2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609782520736,
+          "stop" : 1609782565040,
+          "duration" : 44304
+        }
+      }, {
+        "uid" : "6dd55533b360113e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605803551941,
+          "stop" : 1605803593381,
+          "duration" : 41440
+        }
+      }, {
+        "uid" : "85889fb410977ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604350576945,
+          "stop" : 1604350622101,
+          "duration" : 45156
+        }
+      }, {
+        "uid" : "19631ac36446481a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601477644880,
+          "stop" : 1601477696248,
+          "duration" : 51368
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.4" ]
+  },
+  "source" : "146f7f7632b36057.json",
+  "parameterValues" : [ ]
+}

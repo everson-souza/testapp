@@ -1,0 +1,354 @@
+{
+  "uid" : "2b938d510d2fabed",
+  "name" : "CheckAccess_AdminPasswordPolicy",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminPasswordPolicy",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AdminPasswordPolicy",
+  "time" : {
+    "start" : 1615653330032,
+    "stop" : 1615653379663,
+    "duration" : 49631
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615653379663,
+      "stop" : 1615653379663,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1615653379663,
+      "stop" : 1615653379663,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_AdminPasswordPolicy",
+      "time" : {
+        "start" : 1615653330032,
+        "stop" : 1615653379663,
+        "duration" : 49631
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Login in using the Not Admin user",
+        "time" : {
+          "start" : 1615653334229,
+          "stop" : 1615653371268,
+          "duration" : 37039
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check and select correct project",
+        "time" : {
+          "start" : 1615653371270,
+          "stop" : 1615653373294,
+          "duration" : 2024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screen shot",
+        "time" : {
+          "start" : 1615653378894,
+          "stop" : 1615653378958,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "1018ddae01b01ed0",
+        "name" : "Console Output",
+        "source" : "1018ddae01b01ed0.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615653379663,
+      "stop" : 1615653379663,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_AdminPasswordPolicy"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.15"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5d290ecca4084c01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615317228539,
+        "stop" : 1615317278873,
+        "duration" : 50334
+      }
+    }, {
+      "uid" : "dacfa714b858a2f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613490936211,
+        "stop" : 1613490968240,
+        "duration" : 32029
+      }
+    }, {
+      "uid" : "46d0f95b318b2aaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611889783833,
+        "stop" : 1611889818553,
+        "duration" : 34720
+      }
+    }, {
+      "uid" : "8012efba47826008",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[2]/div[2]/div/div/div/span[1]/a",
+      "time" : {
+        "start" : 1611847081972,
+        "stop" : 1611847102998,
+        "duration" : 21026
+      }
+    }, {
+      "uid" : "6f7dc21d5cfd0a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609782910565,
+        "stop" : 1609782941607,
+        "duration" : 31042
+      }
+    }, {
+      "uid" : "3268f01ae3ac4f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605810532460,
+        "stop" : 1605810562112,
+        "duration" : 29652
+      }
+    }, {
+      "uid" : "6d833e1374eacd29",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+      "time" : {
+        "start" : 1605803845610,
+        "stop" : 1605803867605,
+        "duration" : 21995
+      }
+    }, {
+      "uid" : "57d53e03477f9eaa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604351048765,
+        "stop" : 1604351105932,
+        "duration" : 57167
+      }
+    }, {
+      "uid" : "6f143ad5f3da2c42",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+      "time" : {
+        "start" : 1604349555371,
+        "stop" : 1604349574267,
+        "duration" : 18896
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "ecfbb5e98cef1d79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615317228539,
+          "stop" : 1615317278873,
+          "duration" : 50334
+        }
+      }, {
+        "uid" : "e7c486068823e079",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615437396750,
+          "stop" : 1615437433189,
+          "duration" : 36439
+        }
+      }, {
+        "uid" : "3d38abb0b51c03d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615317228539,
+          "stop" : 1615317278873,
+          "duration" : 50334
+        }
+      }, {
+        "uid" : "e45f42fb1485e327",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615216466201,
+          "stop" : 1615216497471,
+          "duration" : 31270
+        }
+      }, {
+        "uid" : "17b262a70688c509",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614799511296,
+          "stop" : 1614799529895,
+          "duration" : 18599
+        }
+      }, {
+        "uid" : "b88e6f5d3734c17e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613490936211,
+          "stop" : 1613490968240,
+          "duration" : 32029
+        }
+      }, {
+        "uid" : "d896673c2ccf3f34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611889783833,
+          "stop" : 1611889818553,
+          "duration" : 34720
+        }
+      }, {
+        "uid" : "756d484cf0fb076e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609782910565,
+          "stop" : 1609782941607,
+          "duration" : 31042
+        }
+      }, {
+        "uid" : "19c04675bbb4f33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605810532460,
+          "stop" : 1605810562112,
+          "duration" : 29652
+        }
+      }, {
+        "uid" : "498300ca7b81de91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604351048765,
+          "stop" : 1604351105932,
+          "duration" : 57167
+        }
+      }, {
+        "uid" : "cfe19d9d5130099e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601478127521,
+          "stop" : 1601478170869,
+          "duration" : 43348
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.15" ]
+  },
+  "source" : "2b938d510d2fabed.json",
+  "parameterValues" : [ ]
+}

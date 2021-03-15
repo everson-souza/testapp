@@ -1,0 +1,399 @@
+{
+  "uid" : "b3d8a54ef2c0c21a",
+  "name" : "CheckAccess_WizInviteUsers",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizInviteUsers",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizInviteUsers",
+  "time" : {
+    "start" : 1615653240735,
+    "stop" : 1615653273781,
+    "duration" : 33046
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizInviteUsers() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 362\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615653273781,
+      "stop" : 1615653273781,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1615653273781,
+      "stop" : 1615653273781,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "failed",
+    "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizInviteUsers() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 362\r\n",
+    "steps" : [ {
+      "name" : "CheckAccess_WizInviteUsers",
+      "time" : {
+        "start" : 1615653240735,
+        "stop" : 1615653273781,
+        "duration" : 33046
+      },
+      "status" : "failed",
+      "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizInviteUsers() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 362\r\n",
+      "steps" : [ {
+        "name" : "Login in using the Not Admin user",
+        "time" : {
+          "start" : 1615653244899,
+          "stop" : 1615653265332,
+          "duration" : 20433
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check and select correct project",
+        "time" : {
+          "start" : 1615653265334,
+          "stop" : 1615653267361,
+          "duration" : 2027
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screen shot",
+        "time" : {
+          "start" : 1615653272877,
+          "stop" : 1615653272943,
+          "duration" : 66
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d10251f0ef3dd5bc",
+        "name" : "Console Output",
+        "source" : "d10251f0ef3dd5bc.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615653273781,
+      "stop" : 1615653273781,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_WizInviteUsers"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.13"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aa387e809b1d9ede",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1615317118329,
+        "stop" : 1615317174562,
+        "duration" : 56233
+      }
+    }, {
+      "uid" : "fb5d1a2b6ab38aa3",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1613576865810,
+        "stop" : 1613577011535,
+        "duration" : 145725
+      }
+    }, {
+      "uid" : "e4f9b53af7c89156",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1613490853793,
+        "stop" : 1613490890860,
+        "duration" : 37067
+      }
+    }, {
+      "uid" : "6cefc0b7003b84fc",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1611889710185,
+        "stop" : 1611889748757,
+        "duration" : 38572
+      }
+    }, {
+      "uid" : "b9cc9c83892fb8c9",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[2]/div[2]/div/div/div/span[1]/a",
+      "time" : {
+        "start" : 1611847040836,
+        "stop" : 1611847061032,
+        "duration" : 20196
+      }
+    }, {
+      "uid" : "b6a2fbd534f21597",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1609785448954,
+        "stop" : 1609785484395,
+        "duration" : 35441
+      }
+    }, {
+      "uid" : "f729c180230668b",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1609782845755,
+        "stop" : 1609782877468,
+        "duration" : 31713
+      }
+    }, {
+      "uid" : "d7c061a63ccced52",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1605810472086,
+        "stop" : 1605810503379,
+        "duration" : 31293
+      }
+    }, {
+      "uid" : "39784de21e145f14",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+      "time" : {
+        "start" : 1605803801575,
+        "stop" : 1605803823776,
+        "duration" : 22201
+      }
+    }, {
+      "uid" : "2cc9f108a2f0c429",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1604350958199,
+        "stop" : 1604350998855,
+        "duration" : 40656
+      }
+    }, {
+      "uid" : "a22944e5dfd06916",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+      "time" : {
+        "start" : 1604349519453,
+        "stop" : 1604349537099,
+        "duration" : 17646
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 12,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "182ec2805d60ab83",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615317118329,
+          "stop" : 1615317174562,
+          "duration" : 56233
+        }
+      }, {
+        "uid" : "10b5f6b3a8e9aaa3",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615437299197,
+          "stop" : 1615437340274,
+          "duration" : 41077
+        }
+      }, {
+        "uid" : "a8ffce0500801570",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615317118329,
+          "stop" : 1615317174562,
+          "duration" : 56233
+        }
+      }, {
+        "uid" : "8531d005a30ca455",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615216403122,
+          "stop" : 1615216434953,
+          "duration" : 31831
+        }
+      }, {
+        "uid" : "6bd49114ad9a9b5a",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1614799471870,
+          "stop" : 1614799491776,
+          "duration" : 19906
+        }
+      }, {
+        "uid" : "1e8f2282f5b0ee16",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1613576865810,
+          "stop" : 1613577011535,
+          "duration" : 145725
+        }
+      }, {
+        "uid" : "4a461a1fa07a7494",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1611889710185,
+          "stop" : 1611889748757,
+          "duration" : 38572
+        }
+      }, {
+        "uid" : "9e674a3760fa52bd",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1609785448954,
+          "stop" : 1609785484395,
+          "duration" : 35441
+        }
+      }, {
+        "uid" : "f18a1819bafd3b2a",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1605810472086,
+          "stop" : 1605810503379,
+          "duration" : 31293
+        }
+      }, {
+        "uid" : "1c82ef27be48f5fd",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1604350958199,
+          "stop" : 1604350998855,
+          "duration" : 40656
+        }
+      }, {
+        "uid" : "b95a141fb536185e",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1601478038151,
+          "stop" : 1601478080104,
+          "duration" : 41953
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.13" ]
+  },
+  "source" : "b3d8a54ef2c0c21a.json",
+  "parameterValues" : [ ]
+}
