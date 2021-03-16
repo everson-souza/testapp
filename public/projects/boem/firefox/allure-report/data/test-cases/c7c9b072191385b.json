@@ -1,0 +1,376 @@
+{
+  "uid" : "c7c9b072191385b",
+  "name" : "DeleteEmissionsPeriodInPlatformEmissions",
+  "fullName" : "BOEM_Tests.Tests.LockedInventory.DeleteEmissionsPeriodInPlatformEmissions",
+  "historyId" : "BOEM_Tests.Tests.LockedInventory.DeleteEmissionsPeriodInPlatformEmissions",
+  "time" : {
+    "start" : 1615882905908,
+    "stop" : 1615882948452,
+    "duration" : 42544
+  },
+  "description" : "Ensure access denied to delete Emissions Period in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to delete Emissions Period in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615882948452,
+      "stop" : 1615882948452,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1615882948452,
+      "stop" : 1615882948452,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to delete Emissions Period in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "DeleteEmissionsPeriodInPlatformEmissions",
+      "time" : {
+        "start" : 1615882905908,
+        "stop" : 1615882948452,
+        "duration" : 42544
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1615882910121,
+          "stop" : 1615882939362,
+          "duration" : 29241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check inventory 2014 - 2014 Complete Inventory",
+        "time" : {
+          "start" : 1615882939362,
+          "stop" : 1615882942395,
+          "duration" : 3033
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissperiod/Delete/262939",
+        "time" : {
+          "start" : 1615882942395,
+          "stop" : 1615882947616,
+          "duration" : 5221
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1615882947622,
+          "stop" : 1615882947711,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9f01bd384cd81c48",
+          "name" : "Attachment Title",
+          "source" : "9f01bd384cd81c48.png",
+          "type" : "image/png",
+          "size" : 51967
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "ef0be094a1d9bf31",
+        "name" : "Console Output",
+        "source" : "ef0be094a1d9bf31.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615882948452,
+      "stop" : 1615882948452,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "testMethod",
+    "value" : "DeleteEmissionsPeriodInPlatformEmissions"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "tag",
+    "value" : "LOCKEDINVENTORY.21"
+  }, {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "93ca0b2d076a4603",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615680014381,
+        "stop" : 1615680070875,
+        "duration" : 56494
+      }
+    }, {
+      "uid" : "2cba48d967813605",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615549199153,
+        "stop" : 1615549241676,
+        "duration" : 42523
+      }
+    }, {
+      "uid" : "c00e21f647015742",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=dnsNotFound&u=https%3A//fat.ei.weblakes.com/BOEM/Account/LogOn&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20fat.ei.weblakes.com.",
+      "time" : {
+        "start" : 1615384670295,
+        "stop" : 1615384677868,
+        "duration" : 7573
+      }
+    }, {
+      "uid" : "e86104d7cb60bce2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613514905294,
+        "stop" : 1613514941397,
+        "duration" : 36103
+      }
+    }, {
+      "uid" : "75593510b8d309c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611870373895,
+        "stop" : 1611870404514,
+        "duration" : 30619
+      }
+    }, {
+      "uid" : "2cd53304ef2743fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609810536435,
+        "stop" : 1609810572603,
+        "duration" : 36168
+      }
+    }, {
+      "uid" : "7bef2e24a0fa78c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605835451405,
+        "stop" : 1605835484567,
+        "duration" : 33162
+      }
+    }, {
+      "uid" : "20eff080bd849080",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604520372285,
+        "stop" : 1604520405580,
+        "duration" : 33295
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "d75befdd49546208",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615680014381,
+          "stop" : 1615680070875,
+          "duration" : 56494
+        }
+      }, {
+        "uid" : "efce474122a51d61",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=dnsNotFound&u=https%3A//fat.ei.weblakes.com/BOEM/Account/LogOn&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20fat.ei.weblakes.com.",
+        "time" : {
+          "start" : 1615384670295,
+          "stop" : 1615384677868,
+          "duration" : 7573
+        }
+      }, {
+        "uid" : "46831414588a7712",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615464875512,
+          "stop" : 1615464979203,
+          "duration" : 103691
+        }
+      }, {
+        "uid" : "808e05ad479c3a13",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=dnsNotFound&u=https%3A//fat.ei.weblakes.com/BOEM/Account/LogOn&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20fat.ei.weblakes.com.",
+        "time" : {
+          "start" : 1615384670295,
+          "stop" : 1615384677868,
+          "duration" : 7573
+        }
+      }, {
+        "uid" : "2a30394325b4b645",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //div[@id='page-wrapper']/div[1]/div/ul/li[2]/a/span",
+        "time" : {
+          "start" : 1615234718043,
+          "stop" : 1615234748078,
+          "duration" : 30035
+        }
+      }, {
+        "uid" : "7711f21d2a8d1f2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614815211507,
+          "stop" : 1614815229383,
+          "duration" : 17876
+        }
+      }, {
+        "uid" : "345ba0cbc7317c37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613514905294,
+          "stop" : 1613514941397,
+          "duration" : 36103
+        }
+      }, {
+        "uid" : "e55f4d48095c7489",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611870373895,
+          "stop" : 1611870404514,
+          "duration" : 30619
+        }
+      }, {
+        "uid" : "af0aa46bd8b0e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609810536435,
+          "stop" : 1609810572603,
+          "duration" : 36168
+        }
+      }, {
+        "uid" : "e106b9c19db1d55f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605835451405,
+          "stop" : 1605835484567,
+          "duration" : 33162
+        }
+      }, {
+        "uid" : "c66aef8c4f036825",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604520372285,
+          "stop" : 1604520405580,
+          "duration" : 33295
+        }
+      }, {
+        "uid" : "d7ed578608b04f61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601611588347,
+          "stop" : 1601611632268,
+          "duration" : 43921
+        }
+      } ]
+    },
+    "tags" : [ "LOCKEDINVENTORY.21" ]
+  },
+  "source" : "c7c9b072191385b.json",
+  "parameterValues" : [ ]
+}

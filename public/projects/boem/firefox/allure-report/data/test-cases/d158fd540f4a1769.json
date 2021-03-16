@@ -1,0 +1,404 @@
+{
+  "uid" : "d158fd540f4a1769",
+  "name" : "DeleteEmissionsProcessInPlatformEmissions",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.DeleteEmissionsProcessInPlatformEmissions",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.DeleteEmissionsProcessInPlatformEmissions",
+  "time" : {
+    "start" : 1615850669861,
+    "stop" : 1615850719829,
+    "duration" : 49968
+  },
+  "description" : "Ensure access denied to delete Emission Process in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to delete Emission Process in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615850719829,
+      "stop" : 1615850719829,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1615850719829,
+      "stop" : 1615850719829,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to delete Emission Process in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "DeleteEmissionsProcessInPlatformEmissions",
+      "time" : {
+        "start" : 1615850669861,
+        "stop" : 1615850719829,
+        "duration" : 49968
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1615850673579,
+          "stop" : 1615850705522,
+          "duration" : 31943
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1615850705522,
+          "stop" : 1615850710792,
+          "duration" : 5270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1615850710793,
+          "stop" : 1615850713821,
+          "duration" : 3028
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissprocess/Delete/24528",
+        "time" : {
+          "start" : 1615850713821,
+          "stop" : 1615850719017,
+          "duration" : 5196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1615850719017,
+          "stop" : 1615850719111,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "97f9656637b4edf2",
+          "name" : "Attachment Title",
+          "source" : "97f9656637b4edf2.png",
+          "type" : "image/png",
+          "size" : 53365
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "7d92b6ddae334ea4",
+        "name" : "Console Output",
+        "source" : "7d92b6ddae334ea4.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615850719829,
+      "stop" : 1615850719829,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "DeleteEmissionsProcessInPlatformEmissions"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.19"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55d7a350b4e64f80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615648283146,
+        "stop" : 1615648316162,
+        "duration" : 33016
+      }
+    }, {
+      "uid" : "ce315967b49d823b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615517111915,
+        "stop" : 1615517172227,
+        "duration" : 60312
+      }
+    }, {
+      "uid" : "78b166a09b54ebc5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615354265102,
+        "stop" : 1615354326712,
+        "duration" : 61610
+      }
+    }, {
+      "uid" : "fe5899fa00af9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614700854462,
+        "stop" : 1614700891277,
+        "duration" : 36815
+      }
+    }, {
+      "uid" : "c47dc152e97faea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613488042927,
+        "stop" : 1613488081827,
+        "duration" : 38900
+      }
+    }, {
+      "uid" : "316c8905505468bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611845104661,
+        "stop" : 1611845144352,
+        "duration" : 39691
+      }
+    }, {
+      "uid" : "b18025d6943b108c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609774380531,
+        "stop" : 1609774420280,
+        "duration" : 39749
+      }
+    }, {
+      "uid" : "62f041c962102ba8",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[2]/div[3]/div[2]/div[2]/div[2]/div/div/div/span[1]/a",
+      "time" : {
+        "start" : 1609773052585,
+        "stop" : 1609773070949,
+        "duration" : 18364
+      }
+    }, {
+      "uid" : "6da7e61f5b68ddf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605801878387,
+        "stop" : 1605801922199,
+        "duration" : 43812
+      }
+    }, {
+      "uid" : "7d5941bc213fd74e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604343143418,
+        "stop" : 1604343184336,
+        "duration" : 40918
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "2ce30db45133c5cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615648283146,
+          "stop" : 1615648316162,
+          "duration" : 33016
+        }
+      }, {
+        "uid" : "be8da1a3d891593a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615354265102,
+          "stop" : 1615354326712,
+          "duration" : 61610
+        }
+      }, {
+        "uid" : "979c7fc9528c75e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615431903631,
+          "stop" : 1615431943856,
+          "duration" : 40225
+        }
+      }, {
+        "uid" : "d577690acf38a01e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615354265102,
+          "stop" : 1615354326712,
+          "duration" : 61610
+        }
+      }, {
+        "uid" : "91ffa02700df5cc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615213865210,
+          "stop" : 1615213885885,
+          "duration" : 20675
+        }
+      }, {
+        "uid" : "8ad4e44e085e5512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614796805615,
+          "stop" : 1614796824608,
+          "duration" : 18993
+        }
+      }, {
+        "uid" : "38bdf5ee30a4daa2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613488042927,
+          "stop" : 1613488081827,
+          "duration" : 38900
+        }
+      }, {
+        "uid" : "4ae636bf906bfa8c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611845104661,
+          "stop" : 1611845144352,
+          "duration" : 39691
+        }
+      }, {
+        "uid" : "6875df3638a8f82b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609774380531,
+          "stop" : 1609774420280,
+          "duration" : 39749
+        }
+      }, {
+        "uid" : "465a93a5f2a085fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605801878387,
+          "stop" : 1605801922199,
+          "duration" : 43812
+        }
+      }, {
+        "uid" : "e85ba68a60bff776",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604343143418,
+          "stop" : 1604343184336,
+          "duration" : 40918
+        }
+      }, {
+        "uid" : "74c66734352d7ba6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601484769943,
+          "stop" : 1601484813219,
+          "duration" : 43276
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.19" ]
+  },
+  "source" : "d158fd540f4a1769.json",
+  "parameterValues" : [ ]
+}
