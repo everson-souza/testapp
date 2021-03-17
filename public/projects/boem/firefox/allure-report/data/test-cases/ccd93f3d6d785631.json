@@ -1,0 +1,190 @@
+{
+  "uid" : "ccd93f3d6d785631",
+  "name" : "VerifyNoDataFound",
+  "fullName" : "BOEM_Tests.Tests.ChangeHistory.VerifyNoDataFound",
+  "historyId" : "BOEM_Tests.Tests.ChangeHistory.VerifyNoDataFound",
+  "time" : {
+    "start" : 1615858715916,
+    "stop" : 1615858806618,
+    "duration" : 90702
+  },
+  "description" : "Select '2000 - 2000 Complete Inventory', 'Last Month' and Verify if table does not say 'no data found'\n",
+  "descriptionHtml" : "<p>Select '2000 - 2000 Complete Inventory', 'Last Month' and Verify if table does not say 'no data found'</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+  "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyNoDataFound() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 127",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615858806618,
+      "stop" : 1615858806618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1615858806618,
+      "stop" : 1615858806618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Select '2000 - 2000 Complete Inventory', 'Last Month' and Verify if table does not say 'no data found'\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+    "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyNoDataFound() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 127",
+    "steps" : [ {
+      "name" : "VerifyNoDataFound",
+      "time" : {
+        "start" : 1615858715916,
+        "stop" : 1615858806618,
+        "duration" : 90702
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+      "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyNoDataFound() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 127",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1615858720104,
+          "stop" : 1615858749279,
+          "duration" : 29175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1615858749279,
+          "stop" : 1615858752303,
+          "duration" : 3024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1615858805815,
+          "stop" : 1615858805878,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "eeacbe38b6631556",
+          "name" : "Attachment Title",
+          "source" : "eeacbe38b6631556.png",
+          "type" : "image/png",
+          "size" : 47333
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "712d630eba966ae3",
+        "name" : "Console Output",
+        "source" : "712d630eba966ae3.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615858806618,
+      "stop" : 1615858806618,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyNoDataFound"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "tag",
+    "value" : "CHANGEHISTORY.2"
+  }, {
+    "name" : "suite",
+    "value" : "ChangeHistory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "CHANGEHISTORY.2" ]
+  },
+  "source" : "ccd93f3d6d785631.json",
+  "parameterValues" : [ ]
+}

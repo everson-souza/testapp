@@ -171,7 +171,7 @@
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '07:59am 03/16/2021',
+                        time: '10:42am 03/17/2021',
                         color: 'orange',
                         },
                         {

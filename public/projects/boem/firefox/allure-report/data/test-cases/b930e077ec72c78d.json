@@ -1,0 +1,199 @@
+{
+  "uid" : "b930e077ec72c78d",
+  "name" : "DeleteEmissionsUnitsInPlatformEmissions",
+  "fullName" : "BOEM_Tests.Tests.LockedInventory.DeleteEmissionsUnitsInPlatformEmissions",
+  "historyId" : "BOEM_Tests.Tests.LockedInventory.DeleteEmissionsUnitsInPlatformEmissions",
+  "time" : {
+    "start" : 1615882733817,
+    "stop" : 1615882791211,
+    "duration" : 57394
+  },
+  "description" : "Ensure access denied to delete Emissions Units in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to delete Emissions Units in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1615882791210,
+      "stop" : 1615882791210,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1615882791210,
+      "stop" : 1615882791210,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to delete Emissions Units in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "DeleteEmissionsUnitsInPlatformEmissions",
+      "time" : {
+        "start" : 1615882733817,
+        "stop" : 1615882791210,
+        "duration" : 57393
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1615882738022,
+          "stop" : 1615882781959,
+          "duration" : 43937
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2014 - 2014 Complete Inventory",
+        "time" : {
+          "start" : 1615882781959,
+          "stop" : 1615882784987,
+          "duration" : 3028
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissunit/Delete/13295",
+        "time" : {
+          "start" : 1615882784987,
+          "stop" : 1615882790273,
+          "duration" : 5286
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1615882790281,
+          "stop" : 1615882790350,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "adc3d498e3bd7783",
+          "name" : "Attachment Title",
+          "source" : "adc3d498e3bd7783.png",
+          "type" : "image/png",
+          "size" : 51907
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ad106bf9bf4c8634",
+        "name" : "Console Output",
+        "source" : "ad106bf9bf4c8634.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1615882791210,
+      "stop" : 1615882791210,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "testMethod",
+    "value" : "DeleteEmissionsUnitsInPlatformEmissions"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "tag",
+    "value" : "LOCKEDINVENTORY.18"
+  }, {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "LOCKEDINVENTORY.18" ]
+  },
+  "source" : "b930e077ec72c78d.json",
+  "parameterValues" : [ ]
+}
