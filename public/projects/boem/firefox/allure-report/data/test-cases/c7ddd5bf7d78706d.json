@@ -1,0 +1,341 @@
+{
+  "uid" : "c7ddd5bf7d78706d",
+  "name" : "DeleteGroup_GroupWithMembers_Failed",
+  "fullName" : "BOEM_Tests.Tests.AdminGroups.DeleteGroup_GroupWithMembers_Failed",
+  "historyId" : "BOEM_Tests.Tests.AdminGroups.DeleteGroup_GroupWithMembers_Failed",
+  "time" : {
+    "start" : 1616025989919,
+    "stop" : 1616026056586,
+    "duration" : 66667
+  },
+  "description" : "Admin/Groups/delete Verify that you cannot delete the administators group because it has members\n",
+  "descriptionHtml" : "<p>Admin/Groups/delete Verify that you cannot delete the administators group because it has members</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616026056586,
+      "stop" : 1616026056586,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1616026056586,
+      "stop" : 1616026056586,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Admin/Groups/delete Verify that you cannot delete the administators group because it has members\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "DeleteGroup_GroupWithMembers_Failed",
+      "time" : {
+        "start" : 1616025989919,
+        "stop" : 1616026056586,
+        "duration" : 66667
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1616025994107,
+          "stop" : 1616026040012,
+          "duration" : 45905
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Open admin group page",
+        "time" : {
+          "start" : 1616026040012,
+          "stop" : 1616026040497,
+          "duration" : 485
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Set search input to Administrators",
+        "time" : {
+          "start" : 1616026040497,
+          "stop" : 1616026050804,
+          "duration" : 10307
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if delete button is clickable",
+        "time" : {
+          "start" : 1616026050804,
+          "stop" : 1616026055817,
+          "duration" : 5013
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616026055817,
+          "stop" : 1616026055871,
+          "duration" : 54
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6a49c718cf963b24",
+          "name" : "Attachment Title",
+          "source" : "6a49c718cf963b24.png",
+          "type" : "image/png",
+          "size" : 48486
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e823420ada5fc183",
+        "name" : "Console Output",
+        "source" : "e823420ada5fc183.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616026056586,
+      "stop" : 1616026056586,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminGroups"
+  }, {
+    "name" : "testMethod",
+    "value" : "DeleteGroup_GroupWithMembers_Failed"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminGroups"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINGROUPS.8"
+  }, {
+    "name" : "suite",
+    "value" : "AdminGroups"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "57e11833aa7b596b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615946416240,
+          "stop" : 1615946467739,
+          "duration" : 51499
+        }
+      }, {
+        "uid" : "a47062cb30b948af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615855102461,
+          "stop" : 1615855166585,
+          "duration" : 64124
+        }
+      }, {
+        "uid" : "e52432a0ac4f675b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615652632982,
+          "stop" : 1615652697859,
+          "duration" : 64877
+        }
+      }, {
+        "uid" : "8bd6a1e50e1546f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615311836464,
+          "stop" : 1615311901207,
+          "duration" : 64743
+        }
+      }, {
+        "uid" : "326ac5b85248dd37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615436644008,
+          "stop" : 1615436707954,
+          "duration" : 63946
+        }
+      }, {
+        "uid" : "b272af4a53c3005e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615311836464,
+          "stop" : 1615311901207,
+          "duration" : 64743
+        }
+      }, {
+        "uid" : "43294ab48ce61687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615216018656,
+          "stop" : 1615216043366,
+          "duration" : 24710
+        }
+      }, {
+        "uid" : "668c56a371fdc698",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614799091557,
+          "stop" : 1614799125187,
+          "duration" : 33630
+        }
+      }, {
+        "uid" : "cac349d4c936c976",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613490315918,
+          "stop" : 1613490360901,
+          "duration" : 44983
+        }
+      }, {
+        "uid" : "3b8ca80a3977c672",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611934901753,
+          "stop" : 1611934945216,
+          "duration" : 43463
+        }
+      }, {
+        "uid" : "4a88c78895900ab1",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectGroups']/tbody/tr[2]/td[6]/a[3]",
+        "time" : {
+          "start" : 1609787990349,
+          "stop" : 1609788045881,
+          "duration" : 55532
+        }
+      }, {
+        "uid" : "6b36eb6854eac181",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectGroups']/tbody/tr[2]/td[6]/a[3]",
+        "time" : {
+          "start" : 1605892526499,
+          "stop" : 1605892589616,
+          "duration" : 63117
+        }
+      }, {
+        "uid" : "c8afcf6efa2080e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604349093504,
+          "stop" : 1604349149969,
+          "duration" : 56465
+        }
+      }, {
+        "uid" : "95c1f713acda3300",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601481377032,
+          "stop" : 1601481443298,
+          "duration" : 66266
+        }
+      } ]
+    },
+    "tags" : [ "ADMINGROUPS.8" ]
+  },
+  "source" : "c7ddd5bf7d78706d.json",
+  "parameterValues" : [ ]
+}
