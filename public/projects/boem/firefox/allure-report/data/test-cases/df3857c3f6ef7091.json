@@ -1,0 +1,411 @@
+{
+  "uid" : "df3857c3f6ef7091",
+  "name" : "CheckAccess_Admin_WizShadowUser",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_WizShadowUser",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_WizShadowUser",
+  "time" : {
+    "start" : 1616211354416,
+    "stop" : 1616211408153,
+    "duration" : 53737
+  },
+  "description" : "Test with admin user to show access is permitted. Try to access the url: '/WizShadowUser'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Try to access the url: '/WizShadowUser'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_WizShadowUser() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 810\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616211408153,
+      "stop" : 1616211408153,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1616211408153,
+      "stop" : 1616211408153,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Try to access the url: '/WizShadowUser'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_WizShadowUser() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 810\r\n",
+    "steps" : [ {
+      "name" : "CheckAccess_Admin_WizShadowUser",
+      "time" : {
+        "start" : 1616211354416,
+        "stop" : 1616211408153,
+        "duration" : 53737
+      },
+      "status" : "failed",
+      "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_Admin_WizShadowUser() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 810\r\n",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1616211358636,
+          "stop" : 1616211391155,
+          "duration" : 32519
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /WizShadowUser",
+        "time" : {
+          "start" : 1616211391155,
+          "stop" : 1616211397218,
+          "duration" : 6063
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1616211397218,
+          "stop" : 1616211397240,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1616211397240,
+          "stop" : 1616211407267,
+          "duration" : 10027
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1616211407245,
+            "stop" : 1616211407261,
+            "duration" : 16
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Check access denied displayed",
+          "time" : {
+            "start" : 1616211407261,
+            "stop" : 1616211407261,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616211407267,
+          "stop" : 1616211407330,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7d494353ac8c3dcd",
+          "name" : "Attachment Title",
+          "source" : "7d494353ac8c3dcd.png",
+          "type" : "image/png",
+          "size" : 94945
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "e1b89aeff21cb9ee",
+        "name" : "Console Output",
+        "source" : "e1b89aeff21cb9ee.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616211408153,
+      "stop" : 1616211408153,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_Admin_WizShadowUser"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.31"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 17,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "37e0d76e5c3906d2",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616118810349,
+          "stop" : 1616118877142,
+          "duration" : 66793
+        }
+      }, {
+        "uid" : "7f3d5450c2e29159",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616027620613,
+          "stop" : 1616027687124,
+          "duration" : 66511
+        }
+      }, {
+        "uid" : "a36c0cd20db6ff09",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615947991469,
+          "stop" : 1615948056843,
+          "duration" : 65374
+        }
+      }, {
+        "uid" : "5b8be2f1d2ebae24",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615856728031,
+          "stop" : 1615856766813,
+          "duration" : 38782
+        }
+      }, {
+        "uid" : "32e5b6b8776c39fd",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615654143157,
+          "stop" : 1615654183365,
+          "duration" : 40208
+        }
+      }, {
+        "uid" : "2482fa3bc0efb5a3",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615320679864,
+          "stop" : 1615320914874,
+          "duration" : 235010
+        }
+      }, {
+        "uid" : "2088a93cf4c01985",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615438151523,
+          "stop" : 1615438209830,
+          "duration" : 58307
+        }
+      }, {
+        "uid" : "eb035c4b92925820",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615320679864,
+          "stop" : 1615320914874,
+          "duration" : 235010
+        }
+      }, {
+        "uid" : "82f851a1497115e5",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615217013820,
+          "stop" : 1615217054223,
+          "duration" : 40403
+        }
+      }, {
+        "uid" : "5978355d9c7182c9",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1614799849021,
+          "stop" : 1614799874263,
+          "duration" : 25242
+        }
+      }, {
+        "uid" : "1090068ff5872d3d",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1613576157301,
+          "stop" : 1613576230523,
+          "duration" : 73222
+        }
+      }, {
+        "uid" : "8680bad5b5490681",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1611890125511,
+          "stop" : 1611890165713,
+          "duration" : 40202
+        }
+      }, {
+        "uid" : "50367756945d9dd8",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1609785535812,
+          "stop" : 1609785581723,
+          "duration" : 45911
+        }
+      }, {
+        "uid" : "5c26a44adeca2a75",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1605811041871,
+          "stop" : 1605811082806,
+          "duration" : 40935
+        }
+      }, {
+        "uid" : "bb64242914bfa698",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1604351790473,
+          "stop" : 1604351832664,
+          "duration" : 42191
+        }
+      }, {
+        "uid" : "6bc06315ec93a84f",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1601478828819,
+          "stop" : 1601478877226,
+          "duration" : 48407
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.31" ]
+  },
+  "source" : "df3857c3f6ef7091.json",
+  "parameterValues" : [ ]
+}
