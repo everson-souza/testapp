@@ -1,24 +1,17 @@
 # testapp
 
-## Project setup
-```
-npm install
-```
+#### testapp was built to provide and facilitate access to Allure Reports generated on automated tests. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### About
+Proffy is a platform to connect teachers and students. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Status
 
-### Lints and fixes files
-```
-npm run lint
-```
+The application is functional and [deployed](https://testapp-two.vercel.app/).
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Technologies
+
+The following tools were used to build this project:
+
+- [VueJS](https://vuejs.org/)
+- [Vuetify](https://vuetifyjs.com/)
