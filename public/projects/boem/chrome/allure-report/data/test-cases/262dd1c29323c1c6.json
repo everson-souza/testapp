@@ -1,0 +1,177 @@
+{
+  "uid" : "262dd1c29323c1c6",
+  "name" : "BadInputOnRequiredNumeric",
+  "fullName" : "BOEM_Tests.Tests.DataEntry.BadInputOnRequiredNumeric",
+  "historyId" : "BOEM_Tests.Tests.DataEntry.BadInputOnRequiredNumeric",
+  "time" : {
+    "start" : 1616554327810,
+    "stop" : 1616554330765,
+    "duration" : 2955
+  },
+  "description" : "Bad Input on Required Numeric\n",
+  "descriptionHtml" : "<p>Bad Input on Required Numeric</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+  "statusTrace" : "   at BOEM_Tests.Tests.DataEntry.BadInputOnRequiredNumeric() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DataEntry.cs:line 117",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616554330764,
+      "stop" : 1616554330764,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1616554330764,
+      "stop" : 1616554330764,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Bad Input on Required Numeric\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+    "statusTrace" : "   at BOEM_Tests.Tests.DataEntry.BadInputOnRequiredNumeric() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DataEntry.cs:line 117",
+    "steps" : [ {
+      "name" : "BadInputOnRequiredNumeric",
+      "time" : {
+        "start" : 1616554327810,
+        "stop" : 1616554330765,
+        "duration" : 2955
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+      "statusTrace" : "   at BOEM_Tests.Tests.DataEntry.BadInputOnRequiredNumeric() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DataEntry.cs:line 117",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1616554329587,
+          "stop" : 1616554330236,
+          "duration" : 649
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.Id: UserName",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.LoginPage.PopulateUserName(String userName) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 69\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_Login_100665461_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 102\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_Login_100665461_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616554330237,
+          "stop" : 1616554330588,
+          "duration" : 351
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "344cb3d57c4e802e",
+          "name" : "Attachment Title",
+          "source" : "344cb3d57c4e802e.png",
+          "type" : "image/png",
+          "size" : 9297
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "3184c1395884a30f",
+        "name" : "Console Output",
+        "source" : "3184c1395884a30f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616554330764,
+      "stop" : 1616554330764,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.DataEntry"
+  }, {
+    "name" : "testMethod",
+    "value" : "BadInputOnRequiredNumeric"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.DataEntry"
+  }, {
+    "name" : "tag",
+    "value" : "DATAENTRY.2"
+  }, {
+    "name" : "suite",
+    "value" : "DataEntry"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "DATAENTRY.2" ]
+  },
+  "source" : "262dd1c29323c1c6.json",
+  "parameterValues" : [ ]
+}

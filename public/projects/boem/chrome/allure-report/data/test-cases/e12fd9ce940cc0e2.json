@@ -1,0 +1,354 @@
+{
+  "uid" : "e12fd9ce940cc0e2",
+  "name" : "CheckAdminAccess_JobQueueSyncInventory",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueSyncInventory",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueSyncInventory",
+  "time" : {
+    "start" : 1616597345910,
+    "stop" : 1616597405978,
+    "duration" : 60068
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueSyncInventory' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueSyncInventory' URL. It expects normal page load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616597405976,
+      "stop" : 1616597405976,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1616597405976,
+      "stop" : 1616597405976,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueSyncInventory' URL. It expects normal page load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAdminAccess_JobQueueSyncInventory",
+      "time" : {
+        "start" : 1616597345910,
+        "stop" : 1616597405977,
+        "duration" : 60067
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1616597349182,
+          "stop" : 1616597387113,
+          "duration" : 37931
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Access relative URL /JobQueueSyncInventory",
+        "time" : {
+          "start" : 1616597387113,
+          "stop" : 1616597394309,
+          "duration" : 7196
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1616597394309,
+          "stop" : 1616597394407,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1616597394407,
+          "stop" : 1616597404605,
+          "duration" : 10198
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1616597404416,
+            "stop" : 1616597404517,
+            "duration" : 101
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Check access denied displayed",
+          "time" : {
+            "start" : 1616597404517,
+            "stop" : 1616597404551,
+            "duration" : 34
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 2
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616597404605,
+          "stop" : 1616597405061,
+          "duration" : 456
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "93cbf3c231e859b7",
+          "name" : "Attachment Title",
+          "source" : "93cbf3c231e859b7.png",
+          "type" : "image/png",
+          "size" : 75874
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "dd919f5275170687",
+        "name" : "Console Output",
+        "source" : "dd919f5275170687.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 7
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616597405976,
+      "stop" : 1616597405976,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAdminAccess_JobQueueSyncInventory"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.45"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8d16aee3a6358f8d",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+      "time" : {
+        "start" : 1616554201037,
+        "stop" : 1616554205220,
+        "duration" : 4183
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "f2e6dce305b0a6cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616045021967,
+          "stop" : 1616045094896,
+          "duration" : 72929
+        }
+      }, {
+        "uid" : "3e415d4cd132fd28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615429232916,
+          "stop" : 1615429281263,
+          "duration" : 48347
+        }
+      }, {
+        "uid" : "8dfbf99d95b4313a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614733546879,
+          "stop" : 1614733579160,
+          "duration" : 32281
+        }
+      }, {
+        "uid" : "d8ffd3f3e9e11015",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613612272517,
+          "stop" : 1613612310340,
+          "duration" : 37823
+        }
+      }, {
+        "uid" : "32c074aee069be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611897617260,
+          "stop" : 1611897651465,
+          "duration" : 34205
+        }
+      }, {
+        "uid" : "38bc5a1d388f845a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609916552802,
+          "stop" : 1609916586192,
+          "duration" : 33390
+        }
+      }, {
+        "uid" : "a8723daab97653c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606838839471,
+          "stop" : 1606838874936,
+          "duration" : 35465
+        }
+      }, {
+        "uid" : "80768b6c4fee5512",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606235418101,
+          "stop" : 1606235452886,
+          "duration" : 34785
+        }
+      }, {
+        "uid" : "3d9761d27974893e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605883376359,
+          "stop" : 1605883410540,
+          "duration" : 34181
+        }
+      }, {
+        "uid" : "ff0e4b7830c3dec4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604442282158,
+          "stop" : 1604442317713,
+          "duration" : 35555
+        }
+      }, {
+        "uid" : "e0681e7bce609f80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1601654243962,
+          "stop" : 1601654277768,
+          "duration" : 33806
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.45" ]
+  },
+  "source" : "e12fd9ce940cc0e2.json",
+  "parameterValues" : [ ]
+}

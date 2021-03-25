@@ -1,0 +1,177 @@
+{
+  "uid" : "89c0fa2059f701bc",
+  "name" : "ChangeUTMsAndCheckLatLongValues",
+  "fullName" : "BOEM_Tests.Tests.DataEntry.ChangeUTMsAndCheckLatLongValues",
+  "historyId" : "BOEM_Tests.Tests.DataEntry.ChangeUTMsAndCheckLatLongValues",
+  "time" : {
+    "start" : 1616554393001,
+    "stop" : 1616554396767,
+    "duration" : 3766
+  },
+  "description" : "Change UTMs values and check the latitude/longitude values.\n",
+  "descriptionHtml" : "<p>Change UTMs values and check the latitude/longitude values.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+  "statusTrace" : "   at BOEM_Tests.Tests.DataEntry.ChangeUTMsAndCheckLatLongValues() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DataEntry.cs:line 229",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616554396766,
+      "stop" : 1616554396766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1616554396766,
+      "stop" : 1616554396766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Change UTMs values and check the latitude/longitude values.\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+    "statusTrace" : "   at BOEM_Tests.Tests.DataEntry.ChangeUTMsAndCheckLatLongValues() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DataEntry.cs:line 229",
+    "steps" : [ {
+      "name" : "ChangeUTMsAndCheckLatLongValues",
+      "time" : {
+        "start" : 1616554393001,
+        "stop" : 1616554396767,
+        "duration" : 3766
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+      "statusTrace" : "   at BOEM_Tests.Tests.DataEntry.ChangeUTMsAndCheckLatLongValues() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DataEntry.cs:line 229",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1616554394820,
+          "stop" : 1616554396149,
+          "duration" : 1329
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.Id: UserName",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.LoginPage.PopulateUserName(String userName) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 69\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_Login_100665461_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 102\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_Login_100665461_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616554396150,
+          "stop" : 1616554396591,
+          "duration" : 441
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "26a3cc5dbe564d98",
+          "name" : "Attachment Title",
+          "source" : "26a3cc5dbe564d98.png",
+          "type" : "image/png",
+          "size" : 25452
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "f16eec7d817d152c",
+        "name" : "Console Output",
+        "source" : "f16eec7d817d152c.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616554396766,
+      "stop" : 1616554396766,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.DataEntry"
+  }, {
+    "name" : "testMethod",
+    "value" : "ChangeUTMsAndCheckLatLongValues"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.DataEntry"
+  }, {
+    "name" : "tag",
+    "value" : "DATAENTRY.5"
+  }, {
+    "name" : "suite",
+    "value" : "DataEntry"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "DATAENTRY.5" ]
+  },
+  "source" : "89c0fa2059f701bc.json",
+  "parameterValues" : [ ]
+}

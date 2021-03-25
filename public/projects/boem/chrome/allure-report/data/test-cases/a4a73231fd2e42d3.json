@@ -1,0 +1,177 @@
+{
+  "uid" : "a4a73231fd2e42d3",
+  "name" : "SelectShadowUser_AvailableStatus_UserChanged",
+  "fullName" : "BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_AvailableStatus_UserChanged",
+  "historyId" : "BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_AvailableStatus_UserChanged",
+  "time" : {
+    "start" : 1616554208856,
+    "stop" : 1616554212607,
+    "duration" : 3751
+  },
+  "description" : "Show User, Able to Select Account with status <Available> and shadow user\n",
+  "descriptionHtml" : "<p>Show User, Able to Select Account with status <Available> and shadow user</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_AvailableStatus_UserChanged() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 97",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616554212605,
+      "stop" : 1616554212605,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1616554212605,
+      "stop" : 1616554212605,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Show User, Able to Select Account with status <Available> and shadow user\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_AvailableStatus_UserChanged() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 97",
+    "steps" : [ {
+      "name" : "SelectShadowUser_AvailableStatus_UserChanged",
+      "time" : {
+        "start" : 1616554208856,
+        "stop" : 1616554212606,
+        "duration" : 3750
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: UserName",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_AvailableStatus_UserChanged() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 97",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1616554210637,
+          "stop" : 1616554211945,
+          "duration" : 1308
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.Id: UserName",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.LoginPage.PopulateUserName(String userName) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 69\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_LoginAdmin_100665463_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 121\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_LoginAdmin_100665463_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616554211946,
+          "stop" : 1616554212422,
+          "duration" : 476
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "46c0b8bb4eaa950d",
+          "name" : "Attachment Title",
+          "source" : "46c0b8bb4eaa950d.png",
+          "type" : "image/png",
+          "size" : 25454
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "dab1eba99209a311",
+        "name" : "Console Output",
+        "source" : "dab1eba99209a311.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616554212605,
+      "stop" : 1616554212605,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminShadowUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "SelectShadowUser_AvailableStatus_UserChanged"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminShadowUser"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSHADOWUSER.2"
+  }, {
+    "name" : "suite",
+    "value" : "AdminShadowUser"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ADMINSHADOWUSER.2" ]
+  },
+  "source" : "a4a73231fd2e42d3.json",
+  "parameterValues" : [ ]
+}
