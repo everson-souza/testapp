@@ -1,0 +1,399 @@
+{
+  "uid" : "fb6ddaf6fb55da25",
+  "name" : "TooManyFailedAttemptsOnFirstTry",
+  "fullName" : "BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "historyId" : "BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "time" : {
+    "start" : 1616749089812,
+    "stop" : 1616749131553,
+    "duration" : 41741
+  },
+  "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+  "descriptionHtml" : "<p>Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 412",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616749131552,
+      "stop" : 1616749131552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1616749131552,
+      "stop" : 1616749131552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+    "status" : "failed",
+    "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 412",
+    "steps" : [ {
+      "name" : "TooManyFailedAttemptsOnFirstTry",
+      "time" : {
+        "start" : 1616749089812,
+        "stop" : 1616749131553,
+        "duration" : 41741
+      },
+      "status" : "failed",
+      "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 412",
+      "steps" : [ {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1616749094707,
+          "stop" : 1616749130684,
+          "duration" : 35977
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1616749094707,
+            "stop" : 1616749112281,
+            "duration" : 17574
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1616749112281,
+            "stop" : 1616749112383,
+            "duration" : 102
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1616749112383,
+            "stop" : 1616749112436,
+            "duration" : 53
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1616749112436,
+            "stop" : 1616749120682,
+            "duration" : 8246
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616749130686,
+          "stop" : 1616749130759,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "95a0bdf47bc69830",
+          "name" : "Attachment Title",
+          "source" : "95a0bdf47bc69830.png",
+          "type" : "image/png",
+          "size" : 82494
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "50f72abad2234e0f",
+        "name" : "Console Output",
+        "source" : "50f72abad2234e0f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616749131552,
+      "stop" : 1616749131552,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "TooManyFailedAttemptsOnFirstTry"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.14",
+    "url" : "https://jira.com/browse/LOGON.14",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "4b1ee69427ff0c2a",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616485687155,
+          "stop" : 1616485726643,
+          "duration" : 39488
+        }
+      }, {
+        "uid" : "7a496a9dde7c0753",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616239844544,
+          "stop" : 1616239869359,
+          "duration" : 24815
+        }
+      }, {
+        "uid" : "36e2d93f3a08c773",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616147452494,
+          "stop" : 1616147491881,
+          "duration" : 39387
+        }
+      }, {
+        "uid" : "4cd82abd9d6a5c96",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616055809322,
+          "stop" : 1616055833942,
+          "duration" : 24620
+        }
+      }, {
+        "uid" : "28693f00498eaf1b",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615976984462,
+          "stop" : 1615977022579,
+          "duration" : 38117
+        }
+      }, {
+        "uid" : "a20c8a9f8a4a47d1",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615884696371,
+          "stop" : 1615884735746,
+          "duration" : 39375
+        }
+      }, {
+        "uid" : "4ed636f4df72edd6",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615681898614,
+          "stop" : 1615681938225,
+          "duration" : 39611
+        }
+      }, {
+        "uid" : "9037477c660f081",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615396497356,
+          "stop" : 1615396559869,
+          "duration" : 62513
+        }
+      }, {
+        "uid" : "e2ec476eb08a0a4b",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615466699967,
+          "stop" : 1615466737235,
+          "duration" : 37268
+        }
+      }, {
+        "uid" : "448485cc820d98e3",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615396497356,
+          "stop" : 1615396559869,
+          "duration" : 62513
+        }
+      }, {
+        "uid" : "82eb642f9e1deae1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615236269772,
+          "stop" : 1615236292660,
+          "duration" : 22888
+        }
+      }, {
+        "uid" : "bd089b6de5ebf57c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614816514195,
+          "stop" : 1614816522218,
+          "duration" : 8023
+        }
+      }, {
+        "uid" : "9d210cb2f5b185fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613516420707,
+          "stop" : 1613516438277,
+          "duration" : 17570
+        }
+      }, {
+        "uid" : "fd385cbfc33b834b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611871877148,
+          "stop" : 1611871894588,
+          "duration" : 17440
+        }
+      }, {
+        "uid" : "c7664e36e132ffe2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609853186026,
+          "stop" : 1609853201505,
+          "duration" : 15479
+        }
+      }, {
+        "uid" : "73ebb963ff43f6fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605836919918,
+          "stop" : 1605836936115,
+          "duration" : 16197
+        }
+      }, {
+        "uid" : "c9e2e0a9ef2e16ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604589151551,
+          "stop" : 1604589168608,
+          "duration" : 17057
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fb6ddaf6fb55da25.json",
+  "parameterValues" : [ ]
+}
