@@ -1,0 +1,468 @@
+{
+  "uid" : "cd06690ca802c061",
+  "name" : "CheckAccess_WizSyncInventory",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizSyncInventory",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizSyncInventory",
+  "time" : {
+    "start" : 1616819307747,
+    "stop" : 1616819367287,
+    "duration" : 59540
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizSyncInventory() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 714\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616819367287,
+      "stop" : 1616819367287,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1616819367287,
+      "stop" : 1616819367287,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "failed",
+    "statusMessage" : "  Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizSyncInventory() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 714\r\n",
+    "steps" : [ {
+      "name" : "CheckAccess_WizSyncInventory",
+      "time" : {
+        "start" : 1616819307747,
+        "stop" : 1616819367287,
+        "duration" : 59540
+      },
+      "status" : "failed",
+      "statusMessage" : "  Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizSyncInventory() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 714\r\n",
+      "steps" : [ {
+        "name" : "Log in using QA Not Admin user",
+        "time" : {
+          "start" : 1616819311917,
+          "stop" : 1616819356239,
+          "duration" : 44322
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1616819311917,
+            "stop" : 1616819339621,
+            "duration" : 27704
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set username to qa_boemNotAdmin@weblakes.com",
+          "time" : {
+            "start" : 1616819339621,
+            "stop" : 1616819339665,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set password to GQ7aKj7r*M9gy5",
+          "time" : {
+            "start" : 1616819339665,
+            "stop" : 1616819339689,
+            "duration" : 24
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1616819339689,
+            "stop" : 1616819346226,
+            "duration" : 6537
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 4
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1616819356240,
+          "stop" : 1616819358269,
+          "duration" : 2029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Access relative URL /WizSyncInventory",
+        "time" : {
+          "start" : 1616819358269,
+          "stop" : 1616819366485,
+          "duration" : 8216
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1616819366485,
+          "stop" : 1616819366502,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1616819366514,
+          "stop" : 1616819366578,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9e3a14b5320b79ae",
+          "name" : "Attachment Title",
+          "source" : "9e3a14b5320b79ae.png",
+          "type" : "image/png",
+          "size" : 43894
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "78d66edf3bae4dd1",
+        "name" : "Console Output",
+        "source" : "78d66edf3bae4dd1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 9
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1616819367287,
+      "stop" : 1616819367287,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_WizSyncInventory"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.24"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 20,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "f4c8d3ae85702a0a",
+        "status" : "failed",
+        "statusDetails" : "  Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616720555614,
+          "stop" : 1616720614176,
+          "duration" : 58562
+        }
+      }, {
+        "uid" : "5b0ddb79138553d7",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616456654912,
+          "stop" : 1616456702834,
+          "duration" : 47922
+        }
+      }, {
+        "uid" : "e59eef5506c9b1ae",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616211019082,
+          "stop" : 1616211080065,
+          "duration" : 60983
+        }
+      }, {
+        "uid" : "79b57da3d0d993e9",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616118483569,
+          "stop" : 1616118515414,
+          "duration" : 31845
+        }
+      }, {
+        "uid" : "6dc38c1e757ff952",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616027228258,
+          "stop" : 1616027289746,
+          "duration" : 61488
+        }
+      }, {
+        "uid" : "bb37ea7c335b0ff1",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615947616614,
+          "stop" : 1615947663660,
+          "duration" : 47046
+        }
+      }, {
+        "uid" : "d001c8b3e10bedc7",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615856327268,
+          "stop" : 1615856386627,
+          "duration" : 59359
+        }
+      }, {
+        "uid" : "e6153411e41bda03",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615653769960,
+          "stop" : 1615653814273,
+          "duration" : 44313
+        }
+      }, {
+        "uid" : "fc807577ab883181",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615320976067,
+          "stop" : 1615321042298,
+          "duration" : 66231
+        }
+      }, {
+        "uid" : "52c085e11a7b1ee",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615437819029,
+          "stop" : 1615437848037,
+          "duration" : 29008
+        }
+      }, {
+        "uid" : "1ef6ef17fbd2bcbd",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615320976067,
+          "stop" : 1615321042298,
+          "duration" : 66231
+        }
+      }, {
+        "uid" : "5e9ea7bef94a1991",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615216736125,
+          "stop" : 1615216772902,
+          "duration" : 36777
+        }
+      }, {
+        "uid" : "50e2e71355331089",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1614799684999,
+          "stop" : 1614799707101,
+          "duration" : 22102
+        }
+      }, {
+        "uid" : "2965fa8b64822c45",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1613577011562,
+          "stop" : 1613577104582,
+          "duration" : 93020
+        }
+      }, {
+        "uid" : "e04aa5d7b543c624",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1611890052070,
+          "stop" : 1611890091162,
+          "duration" : 39092
+        }
+      }, {
+        "uid" : "4764b803e8488249",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1609785484432,
+          "stop" : 1609785535788,
+          "duration" : 51356
+        }
+      }, {
+        "uid" : "6ec4dd3b49852566",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1605810797467,
+          "stop" : 1605810828966,
+          "duration" : 31499
+        }
+      }, {
+        "uid" : "2cd173f1f5c3daf4",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1604351469853,
+          "stop" : 1604351515988,
+          "duration" : 46135
+        }
+      }, {
+        "uid" : "89603baab9e7bfbb",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='1']/td[3]/a",
+        "time" : {
+          "start" : 1601478503966,
+          "stop" : 1601478538306,
+          "duration" : 34340
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.24" ]
+  },
+  "source" : "cd06690ca802c061.json",
+  "parameterValues" : [ ]
+}
