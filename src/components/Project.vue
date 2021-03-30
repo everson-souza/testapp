@@ -195,8 +195,7 @@
                         {
                         from: 'Firefox',
                         color: 'orange',
-                        type: '1',                        
-                        disabled: true,
+                        type: '1',                                                
                         dialog: false,
                         },                                                               
                     ],
@@ -212,13 +211,13 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '00:55am 10/28/2020',
+                        time: '00:55am 10/26/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
                         from: 'Firefox',
                         icon:'fab fa-firefox-browser',
-                        time: '',
+                        time: '05:23pm 03/30/2020',
                         color: 'orange',
                         },
                         {

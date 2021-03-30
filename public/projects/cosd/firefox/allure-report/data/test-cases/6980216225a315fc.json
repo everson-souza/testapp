@@ -1,0 +1,145 @@
+{
+  "uid" : "6980216225a315fc",
+  "name" : "TooManyFailedAttemptsOnFirstTry",
+  "fullName" : "COSD_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "historyId" : "COSD_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "time" : {
+    "start" : 1617135555038,
+    "stop" : 1617135570807,
+    "duration" : 15769
+  },
+  "description" : "Try to access COSD with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+  "descriptionHtml" : "<p>Try to access COSD with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617135570805,
+      "stop" : 1617135570805,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1617135570805,
+      "stop" : 1617135570805,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access COSD with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TooManyFailedAttemptsOnFirstTry",
+      "time" : {
+        "start" : 1617135555038,
+        "stop" : 1617135570807,
+        "duration" : 15769
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "702b888a043daca6",
+        "name" : "Console Output",
+        "source" : "702b888a043daca6.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1617135570805,
+      "stop" : 1617135570805,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "COSD_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "TooManyFailedAttemptsOnFirstTry"
+  }, {
+    "name" : "package",
+    "value" : "COSD_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.14",
+    "url" : "https://jira.com/browse/LOGON.14",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6c2d57f74ec8ef0d",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverException : Reached error page: about:neterror?e=dnsNotFound&u=https%3A//fat.ei.weblakes.com/COSD/Account/LogOn&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20fat.ei.weblakes.com.",
+      "time" : {
+        "start" : 1617115228731,
+        "stop" : 1617115238544,
+        "duration" : 9813
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6980216225a315fc.json",
+  "parameterValues" : [ ]
+}
