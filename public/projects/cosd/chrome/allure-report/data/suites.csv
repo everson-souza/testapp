@@ -1,173 +1,271 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Oct 28 00:39:30 BRT 2020","Wed Oct 28 00:42:35 BRT 2020","184601","","LogOn","","COSD_Tests.Tests.LogOn","TooManyFailedAttempts","TooManyFailedAttempts","Try to access COSD with a wrong login/password. Expected to redirect to page 'too many failed attempts'
+"passed","Fri Mar 26 00:00:53 BRT 2021","Fri Mar 26 00:02:05 BRT 2021","72530","","HHRP.Management","","COSD_Tests.Tests.HHRPManagement","FilterRunColumnYes","FilterRunColumnYes","Filter run column with 'Yes' yields 4 entires
 "
-"passed","Tue Oct 27 23:52:02 BRT 2020","Tue Oct 27 23:52:42 BRT 2020","40575","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_WizInviteUsers","CheckAdminAccess_WizInviteUsers","Test with admin user to show access is permitted. Try to access the url: '/WizInviteUsers'. Should fail if page doesn't load
+"passed","Thu Mar 25 23:28:03 BRT 2021","Thu Mar 25 23:28:54 BRT 2021","51009","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","DateExpiredRejected","DateExpiredRejected","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com, expiry date in the past is rejected
 "
-"passed","Tue Oct 27 23:43:35 BRT 2020","Tue Oct 27 23:43:55 BRT 2020","20207","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminPasswordPolicy","CheckNotAdminAccess_AdminPasswordPolicy","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:13:36 BRT 2021","Thu Mar 25 23:14:14 BRT 2021","37429","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_WizInviteUsers","CheckAdminAccess_WizInviteUsers","Test with admin user to show access is permitted. Try to access the url: '/WizInviteUsers'. Should fail if page doesn't load
 "
-"passed","Tue Oct 27 23:39:08 BRT 2020","Tue Oct 27 23:39:29 BRT 2020","20425","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminUsers","CheckNotAdminAccess_AdminUsers","An user (without permissions) sign in and try to access an admin URL. It expects a denied message
+"failed","Thu Mar 25 23:53:48 BRT 2021","Thu Mar 25 23:55:05 BRT 2021","77205","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceRowWithDistanceInFirstBoxOnlyPasses","HHRPDistanceRowWithDistanceInFirstBoxOnlyPasses","hhrp distance, row with distance in first box only passes
 "
-"passed","Wed Oct 28 00:06:54 BRT 2020","Wed Oct 28 00:07:42 BRT 2020","48352","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","ValidEmailAccepted","ValidEmailAccepted","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com is accepted
+"passed","Thu Mar 25 23:16:07 BRT 2021","Thu Mar 25 23:16:34 BRT 2021","26821","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_ProjectMappingAdmin","CheckAdminAccess_ProjectMappingAdmin","Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load
 "
-"passed","Tue Oct 27 23:40:51 BRT 2020","Tue Oct 27 23:41:12 BRT 2020","20566","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminGroupsCreate","CheckNotAdminAccess_AdminGroupsCreate","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:09:09 BRT 2021","Thu Mar 25 23:09:26 BRT 2021","17174","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_Diagnostics","CheckNotAdminAccess_Diagnostics","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:41:53 BRT 2020","Tue Oct 27 23:42:13 BRT 2020","20061","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_GroupMembership","CheckNotAdminAccess_GroupMembership","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Fri Mar 26 00:06:32 BRT 2021","Fri Mar 26 00:09:55 BRT 2021","202698","","HHRP.Refine","","COSD_Tests.Tests.HHRPRefine","RefinementRunWithAllExcludedRuns","RefinementRunWithAllExcludedRuns","Refinement run with all excluded runs
 "
-"passed","Tue Oct 27 23:55:50 BRT 2020","Tue Oct 27 23:56:22 BRT 2020","32410","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminRefTables","CheckAdminAccess_AdminRefTables","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminRefTables' URL. It expects normal page load
+"passed","Fri Mar 26 00:14:36 BRT 2021","Fri Mar 26 00:15:40 BRT 2021","63864","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","VerifyFilterAndReset","VerifyFilterAndReset","Verify Filter and Reset
 "
-"failed","Tue Oct 27 23:42:54 BRT 2020","Tue Oct 27 23:43:15 BRT 2020","20642","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_WizInviteUsers","CheckNotAdminAccess_WizInviteUsers","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"failed","Thu Mar 25 23:04:11 BRT 2021","Thu Mar 25 23:04:33 BRT 2021","21622","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AllActivityListCOSD","CheckAdminAccess_AllActivityListCOSD","Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects Application Key Column does not match 'COSD'
 "
-"passed","Wed Oct 28 00:00:05 BRT 2020","Wed Oct 28 00:01:12 BRT 2020","66285","","AdminShadowUser","","COSD_Tests.Tests.AdminShadowUser","SelectUserStatusAvailable","SelectUserStatusAvailable","Show User, Able to Select Account with status <Available> and shadow user
+"passed","Thu Mar 25 23:05:25 BRT 2021","Thu Mar 25 23:05:42 BRT 2021","16713","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_GroupInventoryAccessRight","CheckNotAdminAccess_GroupInventoryAccessRight","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:48:47 BRT 2020","Tue Oct 27 23:49:22 BRT 2020","35071","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminGroups_Create","CheckAdminAccess_AdminGroups_Create","Test with admin user to show access is permitted. Try to access the url: '/AdminGroups/Create'. Should fail if page doesn't load
+"passed","Thu Mar 25 23:25:45 BRT 2021","Thu Mar 25 23:26:30 BRT 2021","45366","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","RegisteredUsersResendInvitationYes","RegisteredUsersResendInvitationYes","User Invite, Show Claimed; Resend.  [Yes, Resend] resent invitation
 "
-"passed","Wed Oct 28 00:19:36 BRT 2020","Wed Oct 28 00:20:50 BRT 2020","74059","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestWithName","AddDataRequestWithName","Add Data Requests with 4 letter name and 4 letter description. Should fail if can't add.
+"failed","Fri Mar 26 00:53:36 BRT 2021","Fri Mar 26 00:54:09 BRT 2021","33264","","WFTrack.Tickets","","COSD_Tests.Tests.WFTrackTickets","ResolveAllTicketsTicketsAssignedToMeHasNoDataAvailable","ResolveAllTicketsTicketsAssignedToMeHasNoDataAvailable","Resolve all tickets, 'tickets assigned to me' has no data available
 "
-"passed","Tue Oct 27 23:42:13 BRT 2020","Tue Oct 27 23:42:33 BRT 2020","20219","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_WizShadowUser","CheckNotAdminAccess_WizShadowUser","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"failed","Thu Mar 25 23:35:02 BRT 2021","Thu Mar 25 23:35:59 BRT 2021","56431","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableBoolean","AddControlVariableBoolean","Add Control Variable with BOOLEAN value. Should fail if can't save it
 "
-"passed","Wed Oct 28 00:32:18 BRT 2020","Wed Oct 28 00:32:33 BRT 2020","15289","","LogOn","","COSD_Tests.Tests.LogOn","Forgot_Password_To_Email_That_Is_Not_A_Valid_Account_Does_Not_Reveal_Valid_Or_Invalid_Account","Forgot_Password_To_Email_That_Is_Not_A_Valid_Account_Does_Not_Reveal_Valid_Or_Invalid_Account","Forgot Password to email that is not a valid account does not reveal valid or invalid account
+"failed","Thu Mar 25 23:56:26 BRT 2021","Thu Mar 25 23:57:49 BRT 2021","83516","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceNonsenseInputAAACreatesClearBox","HHRPDistanceNonsenseInputAAACreatesClearBox","hhrp distance, nonsense input AAA creates clear box
 "
-"passed","Wed Oct 28 00:04:20 BRT 2020","Wed Oct 28 00:05:17 BRT 2020","57442","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","RegisteredUsersResendInvitationNo","RegisteredUsersResendInvitationNo","User Invite, Show Claimed; Resend.  [No, Cancel] does not resend invitation
+"passed","Thu Mar 25 23:21:02 BRT 2021","Thu Mar 25 23:22:03 BRT 2021","60774","","AdminShadowUser","","COSD_Tests.Tests.AdminShadowUser","SelectUserStatusAvailable","SelectUserStatusAvailable","Show User, Able to Select Account with status <Available> and shadow user
 "
-"passed","Wed Oct 28 00:08:37 BRT 2020","Wed Oct 28 00:09:26 BRT 2020","48335","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","NoUserGroupRejected","NoUserGroupRejected","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com does not proceed without User Group
+"passed","Fri Mar 26 00:02:05 BRT 2021","Fri Mar 26 00:03:22 BRT 2021","76957","","HHRP.Refine","","COSD_Tests.Tests.HHRPRefine","RefinementRunWithoutExclusionRuns","RefinementRunWithoutExclusionRuns","Refinement run without exclusion runs
 "
-"passed","Wed Oct 28 00:32:40 BRT 2020","Wed Oct 28 00:33:01 BRT 2020","21051","","LogOn","","COSD_Tests.Tests.LogOn","LoginWithLowerCaseUsername","LoginWithLowerCaseUsername","Login with all lower case account name is accepted eg (qa_cosd@weblakes.com)
+"passed","Thu Mar 25 23:05:42 BRT 2021","Thu Mar 25 23:05:59 BRT 2021","17131","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_GroupMembership","CheckNotAdminAccess_GroupMembership","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:51:28 BRT 2020","Tue Oct 27 23:52:02 BRT 2020","33700","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_ReviewInvitations","CheckAdminAccess_ReviewInvitations","Test with admin user to show access is permitted. Try to access the url: '/ReviewInvitations'. Should fail if page doesn't load
+"passed","Fri Mar 26 00:21:22 BRT 2021","Fri Mar 26 00:21:30 BRT 2021","8331","","LogOn","","COSD_Tests.Tests.LogOn","SignWithValidUsernameNoPasswordIsRejected","SignWithValidUsernameNoPasswordIsRejected","Sign with valid username, no password is rejected
 "
-"passed","Wed Oct 28 00:02:47 BRT 2020","Wed Oct 28 00:03:30 BRT 2020","43007","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","PendingInvitationsResendInvitationNo","PendingInvitationsResendInvitationNo","User Invite, Show Unclaimed; Resend.  [No, Cancel] does not resend invitation
+"failed","Thu Mar 25 23:50:07 BRT 2021","Thu Mar 25 23:51:15 BRT 2021","68294","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPWithDistancesDefinedAndDefaultsFinishes","HHRPWithDistancesDefinedAndDefaultsFinishes","HHRP With Distances defined, and defaults finishes
 "
-"passed","Wed Oct 28 00:33:01 BRT 2020","Wed Oct 28 00:33:22 BRT 2020","21418","","LogOn","","COSD_Tests.Tests.LogOn","LoginWithUpperCaseUsername","LoginWithUpperCaseUsername","Login with all upper case account name is accepted  eg (QA_COSD@WEBLAKES.COM)
+"passed","Thu Mar 25 23:17:03 BRT 2021","Thu Mar 25 23:17:33 BRT 2021","29883","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminRefTables","CheckAdminAccess_AdminRefTables","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminRefTables' URL. It expects normal page load
 "
-"failed","Wed Oct 28 00:32:33 BRT 2020","Wed Oct 28 00:32:40 BRT 2020","6849","","LogOn","","COSD_Tests.Tests.LogOn","ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail","ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail","Forgot Password to valid account email results in email to end user email
+"passed","Fri Mar 26 00:15:40 BRT 2021","Fri Mar 26 00:16:42 BRT 2021","61981","","HHRP.Run","","COSD_Tests.Tests.HHRPRun","QueuePrioritizationRunAllFacilities","QueuePrioritizationRunAllFacilities","Queue prioritization Run -= All Facilities
 "
-"passed","Tue Oct 27 23:58:27 BRT 2020","Tue Oct 27 23:58:59 BRT 2020","31689","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_JobQueueSyncInventory","CheckAdminAccess_JobQueueSyncInventory","Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueSyncInventory' URL. It expects normal page load
+"passed","Fri Mar 26 00:23:24 BRT 2021","Fri Mar 26 00:40:23 BRT 2021","1018495","","LogOn","","COSD_Tests.Tests.LogOn","WaitToBeRedirected","WaitToBeRedirected","Check if session expires after 16 minutes
 "
-"passed","Tue Oct 27 23:50:24 BRT 2020","Tue Oct 27 23:50:58 BRT 2020","34111","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_GroupMembership","CheckAdminAccess_GroupMembership","Test with admin user to show access is permitted. Try to access the url: '/GroupMembership'. Should fail if page doesn't load
+"passed","Fri Mar 26 00:22:39 BRT 2021","Fri Mar 26 00:22:49 BRT 2021","10254","","LogOn","","COSD_Tests.Tests.LogOn","Forgot_Password_To_Email_That_Is_Not_A_Valid_Account_Does_Not_Reveal_Valid_Or_Invalid_Account","Forgot_Password_To_Email_That_Is_Not_A_Valid_Account_Does_Not_Reveal_Valid_Or_Invalid_Account","Forgot Password to email that is not a valid account does not reveal valid or invalid account
 "
-"failed","Tue Oct 27 23:50:58 BRT 2020","Tue Oct 27 23:51:28 BRT 2020","30419","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_WizShadowUser","CheckAdminAccess_WizShadowUser","Test with admin user to show access is permitted. Try to access the url: '/WizShadowUser'. Should fail if page doesn't load
+"passed","Thu Mar 25 23:07:25 BRT 2021","Thu Mar 25 23:07:42 BRT 2021","16680","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminChangeLog","CheckNotAdminAccess_AdminChangeLog","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"failed","Tue Oct 27 23:47:19 BRT 2020","Tue Oct 27 23:47:44 BRT 2020","24593","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_WizSyncInventory","CheckNotAdminAccess_WizSyncInventory","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"failed","Thu Mar 25 23:40:19 BRT 2021","Thu Mar 25 23:42:07 BRT 2021","107856","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableFloat","AddDataRequestVariableFloat","Add a Data Request Variable with FLOAT value. Should fail if can't save it
 "
-"failed","Wed Oct 28 00:10:24 BRT 2020","Wed Oct 28 00:11:46 BRT 2020","81508","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlRequestWithoutName","AddControlRequestWithoutName","Add Control Requests without name. Should fail if can add.
+"passed","Fri Mar 26 00:09:55 BRT 2021","Fri Mar 26 00:10:39 BRT 2021","44455","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","FacilityLevelScore","FacilityLevelScore","Facility Level Score
 "
-"passed","Tue Oct 27 23:57:56 BRT 2020","Tue Oct 27 23:58:27 BRT 2020","31145","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_WizSyncInventory","CheckAdminAccess_WizSyncInventory","Test with admin user to show access is permitted. Admin user sign in and try to access '/WizSyncInventory' URL. It expects normal page load
+"passed","Thu Mar 25 23:08:34 BRT 2021","Thu Mar 25 23:08:52 BRT 2021","18056","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminRefTables","CheckNotAdminAccess_AdminRefTables","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"failed","Wed Oct 28 00:38:50 BRT 2020","Wed Oct 28 00:39:12 BRT 2020","22854","","LogOn","","COSD_Tests.Tests.LogOn","WaitToBeRedirected","WaitToBeRedirected","Check if session expires after 16 minutes
+"failed","Thu Mar 25 23:42:07 BRT 2021","Thu Mar 25 23:43:55 BRT 2021","108479","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableText","AddDataRequestVariableText","Add a Data Request Variable with TEXT value. Should fail if can't save it
 "
-"passed","Tue Oct 27 23:44:23 BRT 2020","Tue Oct 27 23:44:51 BRT 2020","27798","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminUserDefinedReports","CheckNotAdminAccess_AdminUserDefinedReports","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Fri Mar 26 00:23:06 BRT 2021","Fri Mar 26 00:23:24 BRT 2021","17916","","LogOn","","COSD_Tests.Tests.LogOn","LoginWithUpperCaseUsername","LoginWithUpperCaseUsername","Login with all upper case account name is accepted  eg (QA_COSD@WEBLAKES.COM)
 "
-"passed","Tue Oct 27 23:49:22 BRT 2020","Tue Oct 27 23:49:52 BRT 2020","30228","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminAccessRights","CheckAdminAccess_AdminAccessRights","Test with admin user to show access is permitted. Try to access the url: '/AdminAccessRights'. Should fail if page doesn't load
+"passed","Thu Mar 25 23:24:08 BRT 2021","Thu Mar 25 23:24:52 BRT 2021","44118","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","PendingInvitationsResendInvitationYes","PendingInvitationsResendInvitationYes","User Invite, Show Unclaimed; Resend.  [Yes, Resend] resent invitation
 "
-"passed","Tue Oct 27 23:40:31 BRT 2020","Tue Oct 27 23:40:51 BRT 2020","20327","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminGroups","CheckNotAdminAccess_AdminGroups","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:19:51 BRT 2021","Thu Mar 25 23:21:02 BRT 2021","70959","","AdminShadowUser","","COSD_Tests.Tests.AdminShadowUser","SelectUserStatusNotAvailable","SelectUserStatusNotAvailable","Show User, Unable to Select Account with status <Not Available>
 "
-"passed","Wed Oct 28 00:06:06 BRT 2020","Wed Oct 28 00:06:54 BRT 2020","48239","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","InvalidEmailRejected","InvalidEmailRejected","User Invite, [Invites Users], Invitation to user foo is rejected
+"passed","Fri Mar 26 00:18:01 BRT 2021","Fri Mar 26 00:19:03 BRT 2021","62034","","HHRP.Run","","COSD_Tests.Tests.HHRPRun","VerifyPriortizationRunChangeToxictyTable","VerifyPriortizationRunChangeToxictyTable","Verify prioritization run, change toxicty table table
 "
-"passed","Tue Oct 27 23:49:52 BRT 2020","Tue Oct 27 23:50:24 BRT 2020","31760","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_GroupInventoryAccessRight","CheckAdminAccess_GroupInventoryAccessRight","Test with admin user to show access is permitted. Try to access the url: '/GroupInventoryAccessRight'. Should fail if page doesn't load
+"failed","Thu Mar 25 23:51:15 BRT 2021","Thu Mar 25 23:52:30 BRT 2021","74465","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceRemoveLinkClearsRowOfData","HHRPDistanceRemoveLinkClearsRowOfData","HHRP distance, remove link clears row of data
 "
-"passed","Wed Oct 28 00:31:05 BRT 2020","Wed Oct 28 00:31:24 BRT 2020","18628","","LogOn","","COSD_Tests.Tests.LogOn","LogOnValidUsernameValidPasswordIsAccepted","LogOnValidUsernameValidPasswordIsAccepted","Log On valid user name, valid password is accepted
+"passed","Fri Mar 26 00:22:52 BRT 2021","Fri Mar 26 00:23:06 BRT 2021","14896","","LogOn","","COSD_Tests.Tests.LogOn","LoginWithLowerCaseUsername","LoginWithLowerCaseUsername","Login with all lower case account name is accepted eg (qa_cosd@weblakes.com)
 "
-"passed","Tue Oct 27 23:47:44 BRT 2020","Tue Oct 27 23:48:09 BRT 2020","25418","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_JobQueueSyncInventory","CheckNotAdminAccess_JobQueueSyncInventory","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:03:30 BRT 2021","Thu Mar 25 23:03:48 BRT 2021","17855","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminUsers","CheckNotAdminAccess_AdminUsers","An user (without permissions) sign in and try to access an admin URL. It expects a denied message
 "
-"passed","Wed Oct 28 00:02:01 BRT 2020","Wed Oct 28 00:02:47 BRT 2020","46076","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","PendingInvitationsDisplayed","PendingInvitationsDisplayed","User Unvite, show Claimed - updates grid to show invted users claiming invitation
+"passed","Thu Mar 25 23:07:59 BRT 2021","Thu Mar 25 23:08:18 BRT 2021","18521","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_ProjectMappingAdmin","CheckNotAdminAccess_ProjectMappingAdmin","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:43:15 BRT 2020","Tue Oct 27 23:43:35 BRT 2020","20238","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_JobQueueInviteUsers","CheckNotAdminAccess_JobQueueInviteUsers","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Fri Mar 26 00:12:10 BRT 2021","Fri Mar 26 00:12:56 BRT 2021","46238","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","DeviceLevelScore","DeviceLevelScore","Device Level Score
 "
-"passed","Wed Oct 28 00:24:37 BRT 2020","Wed Oct 28 00:26:30 BRT 2020","113384","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableText","AddDataRequestVariableText","Add a Data Request Variable with TEXT value. Should fail if can't save it
+"passed","Thu Mar 25 23:10:45 BRT 2021","Thu Mar 25 23:11:12 BRT 2021","26670","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminGroups_Create","CheckAdminAccess_AdminGroups_Create","Test with admin user to show access is permitted. Try to access the url: '/AdminGroups/Create'. Should fail if page doesn't load
 "
-"passed","Wed Oct 28 00:13:10 BRT 2020","Wed Oct 28 00:14:15 BRT 2020","65693","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableInt","AddControlVariableInt","Add a Control Variable with INT value. Should fail if can't save it
+"passed","Thu Mar 25 23:59:12 BRT 2021","Thu Mar 25 23:59:46 BRT 2021","34008","","HHRP.Management","","COSD_Tests.Tests.HHRPManagement","CountHeaderItems","CountHeaderItems","verify counts of header items on dashboard
 "
-"passed","Tue Oct 27 23:41:12 BRT 2020","Tue Oct 27 23:41:33 BRT 2020","20873","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminAccessRights","CheckNotAdminAccess_AdminAccessRights","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:59:46 BRT 2021","Fri Mar 26 00:00:53 BRT 2021","66277","","HHRP.Management","","COSD_Tests.Tests.HHRPManagement","FilterRunColumn","FilterRunColumn","Filter Run column with 'No' yields 1 entry
 "
-"passed","Tue Oct 27 23:53:48 BRT 2020","Tue Oct 27 23:54:18 BRT 2020","30918","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminChangeLog","CheckAdminAccess_AdminChangeLog","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load
+"passed","Fri Mar 26 00:21:30 BRT 2021","Fri Mar 26 00:21:38 BRT 2021","8431","","LogOn","","COSD_Tests.Tests.LogOn","LogOnWithNoUserNameValidPasswordIsRejected","LogOnWithNoUserNameValidPasswordIsRejected","Log On with no user name, valid password is rejected
 "
-"passed","Wed Oct 28 00:22:43 BRT 2020","Wed Oct 28 00:24:37 BRT 2020","113233","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableFloat","AddDataRequestVariableFloat","Add a Data Request Variable with FLOAT value. Should fail if can't save it
+"passed","Thu Mar 25 23:04:33 BRT 2021","Thu Mar 25 23:04:50 BRT 2021","17281","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminGroups","CheckNotAdminAccess_AdminGroups","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:38:47 BRT 2020","Tue Oct 27 23:39:08 BRT 2020","21473","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminUsersCreate","CheckNotAdminAccess_AdminUsersCreate","A user (without permissions) sign in and access /AdminUsers/Create URL. It expects a denied message
+"failed","Fri Mar 26 00:44:18 BRT 2021","Fri Mar 26 00:44:58 BRT 2021","39904","","WFTrack.Calendar","","COSD_Tests.Tests.WFTrackCalendar","VerifyUpdateShowTicketsProperDayWeekView","VerifyUpdateShowTicketsProperDayWeekView","Verify Update to Ticket Shows ticket on proper day of Week view
 "
-"passed","Wed Oct 28 00:26:30 BRT 2020","Wed Oct 28 00:28:23 BRT 2020","112528","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableBoolean","AddDataRequestVariableBoolean","Add a Data Request Variable with BOOLEAN value. Should fail if can't save it
+"passed","Fri Mar 26 00:43:28 BRT 2021","Fri Mar 26 00:43:38 BRT 2021","9319","","LogOn","","COSD_Tests.Tests.LogOn","TooManyFailedAttemptsOnFirstTry","TooManyFailedAttemptsOnFirstTry","Try to access COSD with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try
 "
-"passed","Tue Oct 27 23:56:22 BRT 2020","Tue Oct 27 23:56:55 BRT 2020","32541","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminThemeDefaults","CheckAdminAccess_AdminThemeDefaults","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminThemeDefaults' URL. It expects normal page load
+"passed","Fri Mar 26 00:12:56 BRT 2021","Fri Mar 26 00:13:41 BRT 2021","44872","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","MaterialLevelScore","MaterialLevelScore","Material Level Score
 "
-"passed","Tue Oct 27 23:37:46 BRT 2020","Tue Oct 27 23:38:47 BRT 2020","61075","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminUser_AccountActivity","CheckAdminUser_AccountActivity","Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values
+"failed","Thu Mar 25 23:43:55 BRT 2021","Thu Mar 25 23:45:41 BRT 2021","105651","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableBoolean","AddDataRequestVariableBoolean","Add a Data Request Variable with BOOLEAN value. Should fail if can't save it
 "
-"passed","Tue Oct 27 23:46:10 BRT 2020","Tue Oct 27 23:46:33 BRT 2020","23432","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminThemeDefaults","CheckNotAdminAccess_AdminThemeDefaults","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Fri Mar 26 00:21:07 BRT 2021","Fri Mar 26 00:21:13 BRT 2021","6354","","LogOn","","COSD_Tests.Tests.LogOn","LogOnPageLoads","LogOnPageLoads","Log On Page Loads : https://fat.ei.weblakes.com/cosd
 "
-"passed","Wed Oct 28 00:30:15 BRT 2020","Wed Oct 28 00:30:26 BRT 2020","11505","","LogOn","","COSD_Tests.Tests.LogOn","LogOnPageLoads","LogOnPageLoads","Log On Page Loads : https://fat.ei.weblakes.com/cosd
+"passed","Thu Mar 25 23:49:02 BRT 2021","Thu Mar 25 23:50:07 BRT 2021","64881","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceNextWithoutDistanceDefinedGivesError","HHRPDistanceNextWithoutDistanceDefinedGivesError","HHRP Distance, next without distance defined gives error
 "
-"passed","Wed Oct 28 00:31:24 BRT 2020","Wed Oct 28 00:32:07 BRT 2020","43667","","LogOn","","COSD_Tests.Tests.LogOn","LogOnWithValidUsernamePasswordLogOffReturnsToLogonPage","LogOnWithValidUsernamePasswordLogOffReturnsToLogonPage","Log On with Valid Username/Passowrd, Log Off, returns to Logon Page
+"failed","Thu Mar 25 23:02:25 BRT 2021","Thu Mar 25 23:03:11 BRT 2021","45698","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminUser_AccountActivity","CheckAdminUser_AccountActivity","Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values
 "
-"failed","Tue Oct 27 23:57:26 BRT 2020","Tue Oct 27 23:57:56 BRT 2020","30097","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_TradeSecretReports","CheckAdminAccess_TradeSecretReports","Test with admin user to show access is permitted. Admin user sign in and try to access '/TradeSecretReports' URL. It expects normal page load
+"passed","Thu Mar 25 23:11:39 BRT 2021","Thu Mar 25 23:12:07 BRT 2021","28142","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_GroupInventoryAccessRight","CheckAdminAccess_GroupInventoryAccessRight","Test with admin user to show access is permitted. Try to access the url: '/GroupInventoryAccessRight'. Should fail if page doesn't load
 "
-"passed","Tue Oct 27 23:39:29 BRT 2020","Tue Oct 27 23:39:58 BRT 2020","29501","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AllActivityMapleLeafs","CheckAdminAccess_AllActivityMapleLeafs","Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects Application Key Column does not match 'MapleLeafs'
+"passed","Thu Mar 25 23:15:41 BRT 2021","Thu Mar 25 23:16:07 BRT 2021","26947","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminUserDefinedReports","CheckAdminAccess_AdminUserDefinedReports","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminUserDefinedReports' URL. It expects normal page load
 "
-"passed","Tue Oct 27 23:56:55 BRT 2020","Tue Oct 27 23:57:26 BRT 2020","31064","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_Diagnostics","CheckAdminAccess_Diagnostics","Test with admin user to show access is permitted. Admin user sign in and try to access '/Diagnostics' URL. It expects normal page load
+"passed","Fri Mar 26 00:19:03 BRT 2021","Fri Mar 26 00:19:49 BRT 2021","45636","","HHRP.Run","","COSD_Tests.Tests.HHRPRun","PrioritizationRunSelectFacilityStep","PrioritizationRunSelectFacilityStep","Prioritization run, select facility step, specific facility - must select a facility to proceed
 "
-"passed","Tue Oct 27 23:46:56 BRT 2020","Tue Oct 27 23:47:19 BRT 2020","23209","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_TradeSecretReport","CheckNotAdminAccess_TradeSecretReport","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:10:01 BRT 2021","Thu Mar 25 23:10:18 BRT 2021","17006","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_JobQueueSyncInventory","CheckNotAdminAccess_JobQueueSyncInventory","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Wed Oct 28 00:42:42 BRT 2020","Wed Oct 28 00:42:56 BRT 2020","14130","","LogOn","","COSD_Tests.Tests.LogOn","TooManyFailedAttemptsOnFirstTry","TooManyFailedAttemptsOnFirstTry","Try to access COSD with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try
+"passed","Fri Mar 26 00:20:28 BRT 2021","Fri Mar 26 00:21:07 BRT 2021","38944","","HHRP.Run","","COSD_Tests.Tests.HHRPRun","PrioritizationRunBadInputNumbersForDistanceInputsGivesError","PrioritizationRunBadInputNumbersForDistanceInputsGivesError","Prioritization run, bad input numbers for distance inputs gives error message
 "
-"passed","Wed Oct 28 00:28:23 BRT 2020","Wed Oct 28 00:30:15 BRT 2020","112418","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableDisplay","AddDataRequestVariableDisplay","Add a Data Request Variable with DISPLAY value. Should fail if can't save it
+"failed","Thu Mar 25 23:35:59 BRT 2021","Thu Mar 25 23:36:58 BRT 2021","59478","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableDisplay","AddControlVariableDisplay","Add Control Variable with DISPLAY value. Should fail if can't save it
 "
-"passed","Tue Oct 27 23:58:59 BRT 2020","Wed Oct 28 00:00:05 BRT 2020","66936","","AdminShadowUser","","COSD_Tests.Tests.AdminShadowUser","SelectUserStatusNotAvailable","SelectUserStatusNotAvailable","Show User, Unable to Select Account with status <Not Available>
+"passed","Fri Mar 26 00:21:13 BRT 2021","Fri Mar 26 00:21:22 BRT 2021","8550","","LogOn","","COSD_Tests.Tests.LogOn","LogOnWithNoCredentialsIsRejected","LogOnWithNoCredentialsIsRejected","Log On with no credentials is rejected
 "
-"passed","Wed Oct 28 00:30:52 BRT 2020","Wed Oct 28 00:31:05 BRT 2020","12951","","LogOn","","COSD_Tests.Tests.LogOn","LogOnWithNoUserNameValidPasswordIsRejected","LogOnWithNoUserNameValidPasswordIsRejected","Log On with no user name, valid password is rejected
+"passed","Thu Mar 25 23:13:06 BRT 2021","Thu Mar 25 23:13:36 BRT 2021","30490","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_ReviewInvitations","CheckAdminAccess_ReviewInvitations","Test with admin user to show access is permitted. Try to access the url: '/ReviewInvitations'. Should fail if page doesn't load
 "
-"passed","Tue Oct 27 23:45:15 BRT 2020","Tue Oct 27 23:45:44 BRT 2020","28853","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_JobQueueProjectMaps","CheckNotAdminAccess_JobQueueProjectMaps","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"failed","Thu Mar 25 23:12:35 BRT 2021","Thu Mar 25 23:13:06 BRT 2021","30805","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_WizShadowUser","CheckAdminAccess_WizShadowUser","Test with admin user to show access is permitted. Try to access the url: '/WizShadowUser'. Should fail if page doesn't load
 "
-"passed","Tue Oct 27 23:55:19 BRT 2020","Tue Oct 27 23:55:50 BRT 2020","30584","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_JobQueueProjectMaps","CheckAdminAccess_JobQueueProjectMaps","Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load
+"failed","Thu Mar 25 23:33:09 BRT 2021","Thu Mar 25 23:34:05 BRT 2021","56512","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableFloat","AddControlVariableFloat","Add Control Variable with FLOAT value. Should fail if can't save it
 "
-"passed","Wed Oct 28 00:30:26 BRT 2020","Wed Oct 28 00:30:39 BRT 2020","12520","","LogOn","","COSD_Tests.Tests.LogOn","LogOnWithNoCredentialsIsRejected","LogOnWithNoCredentialsIsRejected","Log On with no credentials is rejected
+"failed","Fri Mar 26 00:03:22 BRT 2021","Fri Mar 26 00:04:45 BRT 2021","82516","","HHRP.Refine","","COSD_Tests.Tests.HHRPRefine","RefinementRunWithSingleRefinementRuns","RefinementRunWithSingleRefinementRuns","Refinement run with single refinement runs
 "
-"passed","Wed Oct 28 00:14:15 BRT 2020","Wed Oct 28 00:15:18 BRT 2020","62774","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableFloat","AddControlVariableFloat","Add Control Variable with FLOAT value. Should fail if can't save it
+"failed","Thu Mar 25 23:32:12 BRT 2021","Thu Mar 25 23:33:09 BRT 2021","57186","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableInt","AddControlVariableInt","Add a Control Variable with INT value. Should fail if can't save it
 "
-"passed","Wed Oct 28 00:05:17 BRT 2020","Wed Oct 28 00:06:06 BRT 2020","48249","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","RegisteredUsersResendInvitationYes","RegisteredUsersResendInvitationYes","User Invite, Show Claimed; Resend.  [Yes, Resend] resent invitation
+"passed","Thu Mar 25 23:08:18 BRT 2021","Thu Mar 25 23:08:34 BRT 2021","16378","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_JobQueueProjectMaps","CheckNotAdminAccess_JobQueueProjectMaps","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Wed Oct 28 00:03:30 BRT 2020","Wed Oct 28 00:04:20 BRT 2020","49584","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","PendingInvitationsResendInvitationYes","PendingInvitationsResendInvitationYes","User Invite, Show Unclaimed; Resend.  [Yes, Resend] resent invitation
+"failed","Fri Mar 26 00:44:58 BRT 2021","Fri Mar 26 00:45:39 BRT 2021","41879","","WFTrack.Calendar","","COSD_Tests.Tests.WFTrackCalendar","VerifyUpdateShowTicketsProperDayTodayView","VerifyUpdateShowTicketsProperDayTodayView","Verify Update to Ticket Shows ticket on proper day of Today view
 "
-"passed","Wed Oct 28 00:15:18 BRT 2020","Wed Oct 28 00:16:21 BRT 2020","63412","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableText","AddControlVariableText","Add Control Variable with TEXT value. Should fail if can't save it
+"passed","Thu Mar 25 23:26:30 BRT 2021","Thu Mar 25 23:27:18 BRT 2021","47359","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","InvalidEmailRejected","InvalidEmailRejected","User Invite, [Invites Users], Invitation to user foo is rejected
 "
-"passed","Tue Oct 27 23:44:51 BRT 2020","Tue Oct 27 23:45:15 BRT 2020","23959","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_ProjectMappingAdmin","CheckNotAdminAccess_ProjectMappingAdmin","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Fri Mar 26 00:10:39 BRT 2021","Fri Mar 26 00:11:24 BRT 2021","45423","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","SiteLevelScore","SiteLevelScore","Site Level Score
 "
-"failed","Tue Oct 27 23:39:58 BRT 2020","Tue Oct 27 23:40:31 BRT 2020","32435","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AllActivityListCOSD","CheckAdminAccess_AllActivityListCOSD","Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects Application Key Column does not match 'COSD'
+"passed","Thu Mar 25 23:07:08 BRT 2021","Thu Mar 25 23:07:25 BRT 2021","16668","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminPasswordPolicy","CheckNotAdminAccess_AdminPasswordPolicy","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"failed","Wed Oct 28 00:18:30 BRT 2020","Wed Oct 28 00:19:36 BRT 2020","65790","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestWithoutName","AddDataRequestWithoutName","Add Data Requests without name. Should fail if can add.
+"passed","Thu Mar 25 23:03:11 BRT 2021","Thu Mar 25 23:03:30 BRT 2021","19016","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminUsersCreate","CheckNotAdminAccess_AdminUsersCreate","A user (without permissions) sign in and access /AdminUsers/Create URL. It expects a denied message
 "
-"passed","Tue Oct 27 23:48:09 BRT 2020","Tue Oct 27 23:48:47 BRT 2020","37234","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminGroups","CheckAdminAccess_AdminGroups","Test with admin user to show access is permitted. Try to access the url: '/AdminGroups'. Should fail if page doesn't load
+"passed","Thu Mar 25 23:29:41 BRT 2021","Thu Mar 25 23:30:41 BRT 2021","60455","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","ValidInfoAccepted","ValidInfoAccepted","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com with valid date, valid group succeeds
 "
-"passed","Tue Oct 27 23:41:33 BRT 2020","Tue Oct 27 23:41:53 BRT 2020","20395","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_GroupInventoryAccessRight","CheckNotAdminAccess_GroupInventoryAccessRight","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:06:51 BRT 2021","Thu Mar 25 23:07:08 BRT 2021","17116","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_JobQueueInviteUsers","CheckNotAdminAccess_JobQueueInviteUsers","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Wed Oct 28 00:30:39 BRT 2020","Wed Oct 28 00:30:52 BRT 2020","13138","","LogOn","","COSD_Tests.Tests.LogOn","SignWithValidUsernameNoPasswordIsRejected","SignWithValidUsernameNoPasswordIsRejected","Sign with valid username, no password is rejected
+"passed","Fri Mar 26 00:21:38 BRT 2021","Fri Mar 26 00:21:53 BRT 2021","15000","","LogOn","","COSD_Tests.Tests.LogOn","LogOnValidUsernameValidPasswordIsAccepted","LogOnValidUsernameValidPasswordIsAccepted","Log On valid user name, valid password is accepted
 "
-"passed","Wed Oct 28 00:20:50 BRT 2020","Wed Oct 28 00:22:43 BRT 2020","113382","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableInt","AddDataRequestVariableInt","Add a Data Request Variable with INT value. Should fail if can't save it
+"passed","Thu Mar 25 23:16:34 BRT 2021","Thu Mar 25 23:17:03 BRT 2021","28937","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_JobQueueProjectMaps","CheckAdminAccess_JobQueueProjectMaps","Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load
 "
-"passed","Tue Oct 27 23:54:18 BRT 2020","Tue Oct 27 23:54:48 BRT 2020","29998","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminUserDefinedReports","CheckAdminAccess_AdminUserDefinedReports","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminUserDefinedReports' URL. It expects normal page load
+"passed","Thu Mar 25 23:10:18 BRT 2021","Thu Mar 25 23:10:45 BRT 2021","27199","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminGroups","CheckAdminAccess_AdminGroups","Test with admin user to show access is permitted. Try to access the url: '/AdminGroups'. Should fail if page doesn't load
 "
-"passed","Wed Oct 28 00:11:46 BRT 2020","Wed Oct 28 00:13:10 BRT 2020","83605","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlRequestWithName","AddControlRequestWithName","Add Control Requests with 4 letter name and 4 letter description. Should fail if can't add.
+"passed","Thu Mar 25 23:47:26 BRT 2021","Thu Mar 25 23:49:02 BRT 2021","96493","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceNextWithoutSelectFacilityGivesError","HHRPDistanceNextWithoutSelectFacilityGivesError","HHRP Distance, next without select facility gives error
 "
-"passed","Wed Oct 28 00:17:27 BRT 2020","Wed Oct 28 00:18:30 BRT 2020","62975","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableDisplay","AddControlVariableDisplay","Add Control Variable with DISPLAY value. Should fail if can't save it
+"failed","Fri Mar 26 00:51:14 BRT 2021","Fri Mar 26 00:51:54 BRT 2021","39984","","WFTrack.Setup","","COSD_Tests.Tests.WFTrackSetup","ApplyWithoutSelectPrincipalUsersGivesError","ApplyWithoutSelectPrincipalUsersGivesError","
+Setup SetUp method failed
+[Apply] without select principal users gives error
 "
-"passed","Tue Oct 27 23:45:44 BRT 2020","Tue Oct 27 23:46:10 BRT 2020","26074","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminRefTables","CheckNotAdminAccess_AdminRefTables","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:18:56 BRT 2021","Thu Mar 25 23:19:24 BRT 2021","27322","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_WizSyncInventory","CheckAdminAccess_WizSyncInventory","Test with admin user to show access is permitted. Admin user sign in and try to access '/WizSyncInventory' URL. It expects normal page load
 "
-"passed","Tue Oct 27 23:42:33 BRT 2020","Tue Oct 27 23:42:54 BRT 2020","20732","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_ReviewInvitations","CheckNotAdminAccess_ReviewInvitations","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:04:50 BRT 2021","Thu Mar 25 23:05:07 BRT 2021","17392","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminGroupsCreate","CheckNotAdminAccess_AdminGroupsCreate","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:46:33 BRT 2020","Tue Oct 27 23:46:56 BRT 2020","22864","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_Diagnostics","CheckNotAdminAccess_Diagnostics","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Fri Mar 26 00:16:42 BRT 2021","Fri Mar 26 00:18:01 BRT 2021","78783","","HHRP.Run","","COSD_Tests.Tests.HHRPRun","QueuePrioritizationRunSpecificFacility","QueuePrioritizationRunSpecificFacility","Queue prioritization Run - specific facility
 "
-"passed","Wed Oct 28 00:07:42 BRT 2020","Wed Oct 28 00:08:37 BRT 2020","55121","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","DateExpiredRejected","DateExpiredRejected","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com, expiry date in the past is rejected
+"failed","Thu Mar 25 23:31:27 BRT 2021","Thu Mar 25 23:32:12 BRT 2021","44917","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlRequestWithName","AddControlRequestWithName","Add Control Requests with 4 letter name and 4 letter description. Should fail if can't add.
 "
-"passed","Wed Oct 28 00:32:07 BRT 2020","Wed Oct 28 00:32:18 BRT 2020","10457","","LogOn","","COSD_Tests.Tests.LogOn","Attempt_To_Access_Internal_URL_Without_Valid_Session_Results_In_Request_For_User_Pass","Attempt_To_Access_Internal_URL_Without_Valid_Session_Results_In_Request_For_User_Pass","Attempt to access internal URL without valid session results in request for User/Pass 
+"failed","Thu Mar 25 23:38:34 BRT 2021","Thu Mar 25 23:40:19 BRT 2021","105462","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableInt","AddDataRequestVariableInt","Add a Data Request Variable with INT value. Should fail if can't save it
 "
-"passed","Wed Oct 28 00:01:12 BRT 2020","Wed Oct 28 00:02:01 BRT 2020","49504","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","RegisteredUsersDisplayed","RegisteredUsersDisplayed","User Invite, Show Unclaimed - updates grid to show invited users not claiming invitation
+"passed","Thu Mar 25 23:18:03 BRT 2021","Thu Mar 25 23:18:29 BRT 2021","26557","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_Diagnostics","CheckAdminAccess_Diagnostics","Test with admin user to show access is permitted. Admin user sign in and try to access '/Diagnostics' URL. It expects normal page load
 "
-"passed","Wed Oct 28 00:16:21 BRT 2020","Wed Oct 28 00:17:27 BRT 2020","65655","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableBoolean","AddControlVariableBoolean","Add Control Variable with BOOLEAN value. Should fail if can't save it
+"failed","Fri Mar 26 00:49:16 BRT 2021","Fri Mar 26 00:49:53 BRT 2021","37480","","WFTrack.Setup","","COSD_Tests.Tests.WFTrackSetup","AssignPrincipalUserToProject","AssignPrincipalUserToProject","
+Setup SetUp method failed
+Assign Principal User to project
 "
-"passed","Tue Oct 27 23:52:42 BRT 2020","Tue Oct 27 23:53:17 BRT 2020","34312","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_JobQueueInviteUsers","CheckAdminAccess_JobQueueInviteUsers","Test with admin user to show access is permitted. Try to access the url: '/JobQueueInviteUsers'. Should fail if page doesn't load
+"passed","Thu Mar 25 23:09:26 BRT 2021","Thu Mar 25 23:09:44 BRT 2021","17834","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_TradeSecretReport","CheckNotAdminAccess_TradeSecretReport","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
 "
-"passed","Tue Oct 27 23:54:48 BRT 2020","Tue Oct 27 23:55:19 BRT 2020","30553","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_ProjectMappingAdmin","CheckAdminAccess_ProjectMappingAdmin","Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load
+"failed","Thu Mar 25 23:36:58 BRT 2021","Thu Mar 25 23:37:43 BRT 2021","45047","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestWithoutName","AddDataRequestWithoutName","Add Data Requests without name. Should fail if can add.
 "
-"passed","Tue Oct 27 23:43:55 BRT 2020","Tue Oct 27 23:44:23 BRT 2020","27930","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminChangeLog","CheckNotAdminAccess_AdminChangeLog","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"passed","Thu Mar 25 23:24:52 BRT 2021","Thu Mar 25 23:25:45 BRT 2021","53265","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","RegisteredUsersResendInvitationNo","RegisteredUsersResendInvitationNo","User Invite, Show Claimed; Resend.  [No, Cancel] does not resend invitation
 "
-"passed","Wed Oct 28 00:09:26 BRT 2020","Wed Oct 28 00:10:24 BRT 2020","58750","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","ValidInfoAccepted","ValidInfoAccepted","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com with valid date, valid group succeeds
+"failed","Fri Mar 26 00:53:00 BRT 2021","Fri Mar 26 00:53:36 BRT 2021","36106","","WFTrack.Tickets","","COSD_Tests.Tests.WFTrackTickets","ResolveTicketDueDatesShouldUpdateInOrder","ResolveTicketDueDatesShouldUpdateInOrder","Resolve Ticket, due dates should update in order
 "
-"passed","Tue Oct 27 23:53:17 BRT 2020","Tue Oct 27 23:53:48 BRT 2020","30767","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminPasswordPolicy","CheckAdminAccess_AdminPasswordPolicy","Test with admin user to show access is permitted. Try to access the url: '/AdminPasswordPolicy'. Should fail if page doesn't load
+"failed","Fri Mar 26 00:50:34 BRT 2021","Fri Mar 26 00:51:14 BRT 2021","40043","","WFTrack.Setup","","COSD_Tests.Tests.WFTrackSetup","ApplyWithoutSelectWorkflowGivesError","ApplyWithoutSelectWorkflowGivesError","
+Setup SetUp method failed
+[Apply] without select workflow gives error
+"
+"passed","Fri Mar 26 00:21:53 BRT 2021","Fri Mar 26 00:22:33 BRT 2021","39366","","LogOn","","COSD_Tests.Tests.LogOn","LogOnWithValidUsernamePasswordLogOffReturnsToLogonPage","LogOnWithValidUsernamePasswordLogOffReturnsToLogonPage","Log On with Valid Username/Passowrd, Log Off, returns to Logon Page
+"
+"passed","Thu Mar 25 23:17:33 BRT 2021","Thu Mar 25 23:18:03 BRT 2021","29740","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminThemeDefaults","CheckAdminAccess_AdminThemeDefaults","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminThemeDefaults' URL. It expects normal page load
+"
+"passed","Thu Mar 25 23:14:14 BRT 2021","Thu Mar 25 23:14:43 BRT 2021","28704","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_JobQueueInviteUsers","CheckAdminAccess_JobQueueInviteUsers","Test with admin user to show access is permitted. Try to access the url: '/JobQueueInviteUsers'. Should fail if page doesn't load
+"
+"passed","Fri Mar 26 00:04:45 BRT 2021","Fri Mar 26 00:06:32 BRT 2021","107122","","HHRP.Refine","","COSD_Tests.Tests.HHRPRefine","RefinementRunWithoutCommentsRuns","RefinementRunWithoutCommentsRuns","Refinement run without comments runs
+"
+"failed","Thu Mar 25 23:52:30 BRT 2021","Thu Mar 25 23:53:48 BRT 2021","78539","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceRowWithDistanceInTwoBoxesPasses","HHRPDistanceRowWithDistanceInTwoBoxesPasses","hhrp distance, row with distance in t two boxes passes
+"
+"failed","Fri Mar 26 00:51:54 BRT 2021","Fri Mar 26 00:52:27 BRT 2021","33105","","WFTrack.Setup","","COSD_Tests.Tests.WFTrackSetup","ApplyWithoutSelectionsGivesError","ApplyWithoutSelectionsGivesError","
+Setup SetUp method failed
+[Apply] without selections gives error
+"
+"passed","Thu Mar 25 23:22:47 BRT 2021","Thu Mar 25 23:23:28 BRT 2021","40983","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","PendingInvitationsDisplayed","PendingInvitationsDisplayed","User Unvite, show Claimed - updates grid to show invted users claiming invitation
+"
+"passed","Thu Mar 25 23:08:52 BRT 2021","Thu Mar 25 23:09:09 BRT 2021","16742","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminThemeDefaults","CheckNotAdminAccess_AdminThemeDefaults","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"failed","Thu Mar 25 23:09:44 BRT 2021","Thu Mar 25 23:10:01 BRT 2021","16937","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_WizSyncInventory","CheckNotAdminAccess_WizSyncInventory","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"failed","Fri Mar 26 00:45:39 BRT 2021","Fri Mar 26 00:46:36 BRT 2021","56990","","WFTrack.Calendar","","COSD_Tests.Tests.WFTrackCalendar","VerifyChangeProjectTicketsUpdatesProjectSelectionCalendar","VerifyChangeProjectTicketsUpdatesProjectSelectionCalendar","Verify change in project in Tickets updates project selection in Calendar
+"
+"passed","Thu Mar 25 23:07:42 BRT 2021","Thu Mar 25 23:07:59 BRT 2021","17439","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminUserDefinedReports","CheckNotAdminAccess_AdminUserDefinedReports","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"passed","Thu Mar 25 23:06:17 BRT 2021","Thu Mar 25 23:06:34 BRT 2021","16791","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_ReviewInvitations","CheckNotAdminAccess_ReviewInvitations","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"failed","Thu Mar 25 23:34:05 BRT 2021","Thu Mar 25 23:35:02 BRT 2021","56705","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlVariableText","AddControlVariableText","Add Control Variable with TEXT value. Should fail if can't save it
+"
+"passed","Thu Mar 25 23:28:54 BRT 2021","Thu Mar 25 23:29:41 BRT 2021","47237","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","NoUserGroupRejected","NoUserGroupRejected","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com does not proceed without User Group
+"
+"failed","Thu Mar 25 23:37:43 BRT 2021","Thu Mar 25 23:38:34 BRT 2021","50443","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestWithName","AddDataRequestWithName","Add Data Requests with 4 letter name and 4 letter description. Should fail if can't add.
+"
+"failed","Thu Mar 25 23:03:48 BRT 2021","Thu Mar 25 23:04:11 BRT 2021","23381","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AllActivityMapleLeafs","CheckAdminAccess_AllActivityMapleLeafs","Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects Application Key Column does not match 'MapleLeafs'
+"
+"failed","Fri Mar 26 00:22:49 BRT 2021","Fri Mar 26 00:22:52 BRT 2021","2150","","LogOn","","COSD_Tests.Tests.LogOn","ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail","ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail","Forgot Password to valid account email results in email to end user email
+"
+"failed","Thu Mar 25 23:30:41 BRT 2021","Thu Mar 25 23:31:27 BRT 2021","45576","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddControlRequestWithoutName","AddControlRequestWithoutName","Add Control Requests without name. Should fail if can add.
+"
+"failed","Thu Mar 25 23:45:41 BRT 2021","Thu Mar 25 23:47:26 BRT 2021","104549","","EqtnExpression","","COSD_Tests.Tests.EqtnExpression","AddDataRequestVariableDisplay","AddDataRequestVariableDisplay","Add a Data Request Variable with DISPLAY value. Should fail if can't save it
+"
+"passed","Fri Mar 26 00:13:41 BRT 2021","Fri Mar 26 00:14:36 BRT 2021","55088","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","FilterRowsToDevice","FilterRowsToDevice","Filter rows to Device
+"
+"passed","Fri Mar 26 00:40:23 BRT 2021","Fri Mar 26 00:43:28 BRT 2021","185500","","LogOn","","COSD_Tests.Tests.LogOn","TooManyFailedAttempts","TooManyFailedAttempts","Try to access COSD with a wrong login/password. Expected to redirect to page 'too many failed attempts'
+"
+"passed","Fri Mar 26 00:19:49 BRT 2021","Fri Mar 26 00:20:28 BRT 2021","39163","","HHRP.Run","","COSD_Tests.Tests.HHRPRun","PrioritizationRunBlankDeviceDistancesCheckGivesError","PrioritizationRunBlankDeviceDistancesCheckGivesError","Prioritization run, blank device distances m check gives error message when missing
+"
+"passed","Thu Mar 25 23:27:18 BRT 2021","Thu Mar 25 23:28:03 BRT 2021","44792","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","ValidEmailAccepted","ValidEmailAccepted","User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com is accepted
+"
+"failed","Thu Mar 25 23:06:34 BRT 2021","Thu Mar 25 23:06:51 BRT 2021","17278","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_WizInviteUsers","CheckNotAdminAccess_WizInviteUsers","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"passed","Fri Mar 26 00:46:36 BRT 2021","Fri Mar 26 00:48:16 BRT 2021","99803","","WFTrack.Dashboard","","COSD_Tests.Tests.WFTrackDashboard","FilterByPrincipal","FilterByPrincipal","Filter By Principal
+"
+"failed","Thu Mar 25 23:57:49 BRT 2021","Thu Mar 25 23:59:12 BRT 2021","83237","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceInputDistanceLessThan50SetsBoxTo50","HHRPDistanceInputDistanceLessThan50SetsBoxTo50","hhrp distance, input distance less <50 sets box value to 50
+"
+"passed","Thu Mar 25 23:22:03 BRT 2021","Thu Mar 25 23:22:47 BRT 2021","44047","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","RegisteredUsersDisplayed","RegisteredUsersDisplayed","User Invite, Show Unclaimed - updates grid to show invited users not claiming invitation
+"
+"failed","Fri Mar 26 00:43:38 BRT 2021","Fri Mar 26 00:44:18 BRT 2021","39909","","WFTrack.Calendar","","COSD_Tests.Tests.WFTrackCalendar","VerifyUpdateShowTicketsProperDayMonthView","VerifyUpdateShowTicketsProperDayMonthView","Verify Update to Ticket Shows ticket on proper day of month view
+"
+"passed","Thu Mar 25 23:15:10 BRT 2021","Thu Mar 25 23:15:41 BRT 2021","30612","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminChangeLog","CheckAdminAccess_AdminChangeLog","Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load
+"
+"passed","Thu Mar 25 23:19:24 BRT 2021","Thu Mar 25 23:19:51 BRT 2021","27499","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_JobQueueSyncInventory","CheckAdminAccess_JobQueueSyncInventory","Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueSyncInventory' URL. It expects normal page load
+"
+"passed","Thu Mar 25 23:23:28 BRT 2021","Thu Mar 25 23:24:08 BRT 2021","39622","","AdminUserInvite","","COSD_Tests.Tests.AdminUserInvite","PendingInvitationsResendInvitationNo","PendingInvitationsResendInvitationNo","User Invite, Show Unclaimed; Resend.  [No, Cancel] does not resend invitation
+"
+"failed","Thu Mar 25 23:18:29 BRT 2021","Thu Mar 25 23:18:56 BRT 2021","26973","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_TradeSecretReports","CheckAdminAccess_TradeSecretReports","Test with admin user to show access is permitted. Admin user sign in and try to access '/TradeSecretReports' URL. It expects normal page load
+"
+"failed","Fri Mar 26 00:52:27 BRT 2021","Fri Mar 26 00:53:00 BRT 2021","33007","","WFTrack.Tickets","","COSD_Tests.Tests.WFTrackTickets","ResolveTicketShouldAutoAssignNextTicket","ResolveTicketShouldAutoAssignNextTicket","Resolve ticket, should auto assign next ticket
+"
+"passed","Fri Mar 26 00:11:24 BRT 2021","Fri Mar 26 00:12:10 BRT 2021","45594","","HHRP.Results","","COSD_Tests.Tests.HHRPResults","PermitLevelScore","PermitLevelScore","Permit Level Score
+"
+"failed","Thu Mar 25 23:55:05 BRT 2021","Thu Mar 25 23:56:26 BRT 2021","80202","","HHRP.Distance","","COSD_Tests.Tests.HHRPDistance","HHRPDistanceRowWithOnlyMiddleBoxFilledPasses","HHRPDistanceRowWithOnlyMiddleBoxFilledPasses","hhrp distance, row with only middle box filled passes
+"
+"failed","Fri Mar 26 00:49:53 BRT 2021","Fri Mar 26 00:50:34 BRT 2021","40512","","WFTrack.Setup","","COSD_Tests.Tests.WFTrackSetup","ApplyWithoutSelectProjectGivesError","ApplyWithoutSelectProjectGivesError","
+Setup SetUp method failed
+[Apply] without select project gives error
+"
+"failed","Fri Mar 26 00:54:09 BRT 2021","Fri Mar 26 00:55:05 BRT 2021","55460","","WFTrack.Tickets","","COSD_Tests.Tests.WFTrackTickets","VerifyThatUpdateInProjectsOnCalendarUpdatesTickets","VerifyThatUpdateInProjectsOnCalendarUpdatesTickets","Verify that update in projects on Calendar updates Tickets
+"
+"passed","Thu Mar 25 23:05:07 BRT 2021","Thu Mar 25 23:05:25 BRT 2021","17517","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_AdminAccessRights","CheckNotAdminAccess_AdminAccessRights","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"passed","Thu Mar 25 23:14:43 BRT 2021","Thu Mar 25 23:15:10 BRT 2021","27369","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminPasswordPolicy","CheckAdminAccess_AdminPasswordPolicy","Test with admin user to show access is permitted. Try to access the url: '/AdminPasswordPolicy'. Should fail if page doesn't load
+"
+"passed","Thu Mar 25 23:12:07 BRT 2021","Thu Mar 25 23:12:35 BRT 2021","27880","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_GroupMembership","CheckAdminAccess_GroupMembership","Test with admin user to show access is permitted. Try to access the url: '/GroupMembership'. Should fail if page doesn't load
+"
+"passed","Thu Mar 25 23:11:12 BRT 2021","Thu Mar 25 23:11:39 BRT 2021","27505","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckAdminAccess_AdminAccessRights","CheckAdminAccess_AdminAccessRights","Test with admin user to show access is permitted. Try to access the url: '/AdminAccessRights'. Should fail if page doesn't load
+"
+"passed","Fri Mar 26 00:48:16 BRT 2021","Fri Mar 26 00:49:16 BRT 2021","59691","","WFTrack.Dashboard","","COSD_Tests.Tests.WFTrackDashboard","FilterByWorkflow","FilterByWorkflow","Filter By Workflow
+"
+"passed","Thu Mar 25 23:05:59 BRT 2021","Thu Mar 25 23:06:17 BRT 2021","18386","","AdminSecurity","","COSD_Tests.Tests.AdminSecurity","CheckNotAdminAccess_WizShadowUser","CheckNotAdminAccess_WizShadowUser","An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied
+"
+"passed","Fri Mar 26 00:22:33 BRT 2021","Fri Mar 26 00:22:39 BRT 2021","6435","","LogOn","","COSD_Tests.Tests.LogOn","Attempt_To_Access_Internal_URL_Without_Valid_Session_Results_In_Request_For_User_Pass","Attempt_To_Access_Internal_URL_Without_Valid_Session_Results_In_Request_For_User_Pass","Attempt to access internal URL without valid session results in request for User/Pass 
 "

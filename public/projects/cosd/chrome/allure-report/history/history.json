@@ -1,14 +1,42 @@
 {
+  "COSD_Tests.Tests.WFTrackSetup.ApplyWithoutSelectionsGivesError" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "951ba41afe9e72ee",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#btnAssign\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730714421,
+        "stop" : 1616730747526,
+        "duration" : 33105
+      }
+    } ]
+  },
   "COSD_Tests.Tests.AdminUserInvite.InvalidEmailRejected" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2308ac8516d4f0f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725590899,
+        "stop" : 1616725638258,
+        "duration" : 47359
+      }
+    }, {
       "uid" : "b2564a0a5b306c27",
       "status" : "passed",
       "time" : {
@@ -18,73 +46,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.LogOnWithNoUserNameValidPasswordIsRejected" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a7d94d8ee4751608",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855852615,
-        "stop" : 1603855865566,
-        "duration" : 12951
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_ProjectMappingAdmin" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c1429170f801466f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853091359,
-        "stop" : 1603853115318,
-        "duration" : 23959
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminShadowUser.SelectUserStatusAvailable" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "43590c6ec5c0679c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603854005994,
-        "stop" : 1603854072279,
-        "duration" : 66285
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminGroups_Create" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ab0bebf57e846c97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724645409,
+        "stop" : 1616724672079,
+        "duration" : 26670
+      }
+    }, {
       "uid" : "f10d3b9d20c57d4c",
       "status" : "passed",
       "time" : {
@@ -94,54 +73,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "45653005ae571107",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853719490,
-        "stop" : 1603853750074,
-        "duration" : 30584
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.LogOn.LoginWithUpperCaseUsername" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3f63389ed6e7cdf5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855981531,
-        "stop" : 1603856002949,
-        "duration" : 21418
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminUsersCreate" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d0e5410c2c50a47a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724191233,
+        "stop" : 1616724210249,
+        "duration" : 19016
+      }
+    }, {
       "uid" : "860620d6fd87e9e2",
       "status" : "passed",
       "time" : {
@@ -151,7 +100,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_TradeSecretReport" : {
+  "COSD_Tests.Tests.HHRPRefine.RefinementRunWithoutCommentsRuns" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -161,16 +110,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40e15fe38612bdd7",
+      "uid" : "ffa4d77cfb2748b4",
       "status" : "passed",
       "time" : {
-        "start" : 1603853216553,
-        "stop" : 1603853239762,
-        "duration" : 23209
+        "start" : 1616727885251,
+        "stop" : 1616727992373,
+        "duration" : 107122
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminUserInvite.PendingInvitationsResendInvitationYes" : {
+  "COSD_Tests.Tests.HHRPManagement.CountHeaderItems" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -180,16 +129,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4cfbd79b5b461376",
+      "uid" : "c631b605972e5a57",
       "status" : "passed",
       "time" : {
-        "start" : 1603854210881,
-        "stop" : 1603854260465,
-        "duration" : 49584
+        "start" : 1616727552953,
+        "stop" : 1616727586961,
+        "duration" : 34008
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.TooManyFailedAttempts" : {
+  "COSD_Tests.Tests.HHRPResults.PermitLevelScore" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -199,12 +148,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8c433b904607e6e1",
+      "uid" : "c57aa0543b2ae2e5",
       "status" : "passed",
       "time" : {
-        "start" : 1603856370586,
-        "stop" : 1603856555187,
-        "duration" : 184601
+        "start" : 1616728284955,
+        "stop" : 1616728330549,
+        "duration" : 45594
       }
     } ]
   },
@@ -213,11 +162,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e786a68e46be8141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724445417,
+        "stop" : 1616724462097,
+        "duration" : 16680
+      }
+    }, {
       "uid" : "641d49fcfc11da9c",
       "status" : "passed",
       "time" : {
@@ -227,7 +184,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminChangeLog" : {
+  "COSD_Tests.Tests.HHRPResults.SiteLevelScore" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -237,6 +194,33 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "406d55b81e11e5a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728239530,
+        "stop" : 1616728284953,
+        "duration" : 45423
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminChangeLog" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b049848c2da529e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724910424,
+        "stop" : 1616724941036,
+        "duration" : 30612
+      }
+    }, {
       "uid" : "b63d69a3a6596050",
       "status" : "passed",
       "time" : {
@@ -246,35 +230,25 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.LogOnValidUsernameValidPasswordIsAccepted" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "52c456cdf954dcdf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855865569,
-        "stop" : 1603855884197,
-        "duration" : 18628
-      }
-    } ]
-  },
   "COSD_Tests.Tests.EqtnExpression.AddControlVariableDisplay" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d3b840d58d9f80d6",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726159118,
+        "stop" : 1616726218596,
+        "duration" : 59478
+      }
+    }, {
       "uid" : "97445d379a02bf1a",
       "status" : "passed",
       "time" : {
@@ -286,14 +260,23 @@
   },
   "COSD_Tests.Tests.EqtnExpression.AddControlRequestWithName" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1becd686a9aac5a3",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: iframe_mainEditor",
+      "time" : {
+        "start" : 1616725887345,
+        "stop" : 1616725932262,
+        "duration" : 44917
+      }
+    }, {
       "uid" : "da9ba797bb5c51a9",
       "status" : "passed",
       "time" : {
@@ -308,11 +291,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d92eb3a16e44d75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724727731,
+        "stop" : 1616724755611,
+        "duration" : 27880
+      }
+    }, {
       "uid" : "faf723b0f05ab242",
       "status" : "passed",
       "time" : {
@@ -327,11 +318,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b1ee513dd32f0d13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725053636,
+        "stop" : 1616725083376,
+        "duration" : 29740
+      }
+    }, {
       "uid" : "4ceaed3aaac7afc9",
       "status" : "passed",
       "time" : {
@@ -346,11 +345,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d4175cc6e2ee2377",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728972066,
+        "stop" : 1616728986962,
+        "duration" : 14896
+      }
+    }, {
       "uid" : "80a6eaed5d943d65",
       "status" : "passed",
       "time" : {
@@ -360,7 +367,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.Forgot_Password_To_Email_That_Is_Not_A_Valid_Account_Does_Not_Reveal_Valid_Or_Invalid_Account" : {
+  "COSD_Tests.Tests.HHRPRun.QueuePrioritizationRunAllFacilities" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -370,12 +377,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ff6c9676643b007",
+      "uid" : "5d223c062a005b5f",
       "status" : "passed",
       "time" : {
-        "start" : 1603855938332,
-        "stop" : 1603855953621,
-        "duration" : 15289
+        "start" : 1616728540623,
+        "stop" : 1616728602604,
+        "duration" : 61981
       }
     } ]
   },
@@ -384,11 +391,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "68049051d963175a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725545531,
+        "stop" : 1616725590897,
+        "duration" : 45366
+      }
+    }, {
       "uid" : "40006a7dedf6fd50",
       "status" : "passed",
       "time" : {
@@ -398,7 +413,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs" : {
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceNextWithoutDistanceDefinedGivesError" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -408,50 +423,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c82752bd1870e7b0",
+      "uid" : "1ccb1df96274023c",
       "status" : "passed",
       "time" : {
-        "start" : 1603852769392,
-        "stop" : 1603852798893,
-        "duration" : 29501
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminPasswordPolicy" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "75bef8d22a44d67a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853015416,
-        "stop" : 1603853035623,
-        "duration" : 20207
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_WizInviteUsers" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "20a958ee3f5055ec",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853522339,
-        "stop" : 1603853562914,
-        "duration" : 40575
+        "start" : 1616726942596,
+        "stop" : 1616727007477,
+        "duration" : 64881
       }
     } ]
   },
@@ -460,11 +437,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5933fc2b929499bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724601197,
+        "stop" : 1616724618203,
+        "duration" : 17006
+      }
+    }, {
       "uid" : "4a2bf064b530f1e6",
       "status" : "passed",
       "time" : {
@@ -474,7 +459,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory" : {
+  "COSD_Tests.Tests.WFTrackTickets.ResolveTicketShouldAutoAssignNextTicket" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -484,6 +469,35 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "3fef6bf08abda31d",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_WF_PRJ_INV\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730747528,
+        "stop" : 1616730780535,
+        "duration" : 33007
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "278db7bfe9706d9e",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1616724584258,
+        "stop" : 1616724601195,
+        "duration" : 16937
+      }
+    }, {
       "uid" : "e99652bb6b35873d",
       "status" : "failed",
       "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
@@ -499,11 +513,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4469f09cc15e96b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728882086,
+        "stop" : 1616728890417,
+        "duration" : 8331
+      }
+    }, {
       "uid" : "14f8854105d693bd",
       "status" : "passed",
       "time" : {
@@ -518,11 +540,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "29f46246c02bfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725734067,
+        "stop" : 1616725781304,
+        "duration" : 47237
+      }
+    }, {
       "uid" : "20192111bbce08b6",
       "status" : "passed",
       "time" : {
@@ -534,14 +564,23 @@
   },
   "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableBoolean" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6f659abe15a2e550",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726635896,
+        "stop" : 1616726741547,
+        "duration" : 105651
+      }
+    }, {
       "uid" : "667c7e7fb1d9e262",
       "status" : "passed",
       "time" : {
@@ -551,55 +590,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.Attempt_To_Access_Internal_URL_Without_Valid_Session_Results_In_Request_For_User_Pass" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2a34aab1a605564f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855927870,
-        "stop" : 1603855938327,
-        "duration" : 10457
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.EqtnExpression.AddDataRequestWithoutName" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b5f552ffddc90baa",
-      "status" : "failed",
-      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
-      "time" : {
-        "start" : 1603855110626,
-        "stop" : 1603855176416,
-        "duration" : 65790
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminUserInvite.PendingInvitationsDisplayed" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "34b5b0b981fcbc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725367532,
+        "stop" : 1616725408515,
+        "duration" : 40983
+      }
+    }, {
       "uid" : "a81aa75560922442",
       "status" : "passed",
       "time" : {
@@ -614,11 +622,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "23097674c1e1ad89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725638260,
+        "stop" : 1616725683052,
+        "duration" : 44792
+      }
+    }, {
       "uid" : "5452e6abb7344aab",
       "status" : "passed",
       "time" : {
@@ -628,54 +644,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminUserDefinedReports" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c448ee2745f910fa",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853063557,
-        "stop" : 1603853091355,
-        "duration" : 27798
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_GroupInventoryAccessRight" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7b8f537e4f27649f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603852893111,
-        "stop" : 1603852913506,
-        "duration" : 20395
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_Diagnostics" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8404abc7a37e591c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724549245,
+        "stop" : 1616724566419,
+        "duration" : 17174
+      }
+    }, {
       "uid" : "a7879eff2c60311",
       "status" : "passed",
       "time" : {
@@ -685,27 +671,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9362654f815024bb",
-      "status" : "failed",
-      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
-      "time" : {
-        "start" : 1603852974529,
-        "stop" : 1603852995171,
-        "duration" : 20642
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.EqtnExpression.AddControlVariableBoolean" : {
+  "COSD_Tests.Tests.HHRPRun.PrioritizationRunBadInputNumbersForDistanceInputsGivesError" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -715,6 +681,34 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "e558fd977ec97079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728828232,
+        "stop" : 1616728867176,
+        "duration" : 38944
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddControlVariableBoolean" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "451919a240b2d06a",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726102684,
+        "stop" : 1616726159115,
+        "duration" : 56431
+      }
+    }, {
       "uid" : "b8b7a1557037c5b1",
       "status" : "passed",
       "time" : {
@@ -729,11 +723,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e63255d8fbea1959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724290403,
+        "stop" : 1616724307795,
+        "duration" : 17392
+      }
+    }, {
       "uid" : "fc14c1dfaf5e03ea",
       "status" : "passed",
       "time" : {
@@ -743,7 +745,26 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.EqtnExpression.AddControlRequestWithoutName" : {
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceNextWithoutSelectFacilityGivesError" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21c4f2a16926051c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616726846101,
+        "stop" : 1616726942594,
+        "duration" : 96493
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceRowWithOnlyMiddleBoxFilledPasses" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -753,45 +774,35 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dcda01ff167fd8c7",
+      "uid" : "11b7a781393e8abd",
       "status" : "failed",
-      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
       "time" : {
-        "start" : 1603854624977,
-        "stop" : 1603854706485,
-        "duration" : 81508
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_GroupInventoryAccessRight" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "85b6aeac435c2ea1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853392332,
-        "stop" : 1603853424092,
-        "duration" : 31760
+        "start" : 1616727305992,
+        "stop" : 1616727386194,
+        "duration" : 80202
       }
     } ]
   },
   "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableFloat" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1a19dab34d4c6768",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726419557,
+        "stop" : 1616726527413,
+        "duration" : 107856
+      }
+    }, {
       "uid" : "2a7b795f9f04ae28",
       "status" : "passed",
       "time" : {
@@ -801,35 +812,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableDisplay" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1aa61d312c1eb954",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855703021,
-        "stop" : 1603855815439,
-        "duration" : 112418
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_WizSyncInventory" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5431eff03fee2d51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725136910,
+        "stop" : 1616725164232,
+        "duration" : 27322
+      }
+    }, {
       "uid" : "4cf94bf00d306af",
       "status" : "passed",
       "time" : {
@@ -844,11 +844,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "40815b615c8d021a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725781306,
+        "stop" : 1616725841761,
+        "duration" : 60455
+      }
+    }, {
       "uid" : "c7d6bb77844ffe46",
       "status" : "passed",
       "time" : {
@@ -858,7 +866,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminUsers" : {
+  "COSD_Tests.Tests.HHRPManagement.FilterRunColumn" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -868,6 +876,33 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "1564141dce8e42e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616727586963,
+        "stop" : 1616727653240,
+        "duration" : 66277
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminUsers" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "feb50034a0281543",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724210251,
+        "stop" : 1616724228106,
+        "duration" : 17855
+      }
+    }, {
       "uid" : "2a69d6fe194fec07",
       "status" : "passed",
       "time" : {
@@ -877,35 +912,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.LogOnPageLoads" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2fd4e908889f1b96",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855815443,
-        "stop" : 1603855826948,
-        "duration" : 11505
-      }
-    } ]
-  },
   "COSD_Tests.Tests.LogOn.WaitToBeRedirected" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d153da2f9ff7ba5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616729004882,
+        "stop" : 1616730023377,
+        "duration" : 1018495
+      }
+    }, {
       "uid" : "a942720beeb4cbf4",
       "status" : "failed",
       "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
@@ -916,35 +940,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3b1eec17e18afe24",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603856562350,
-        "stop" : 1603856576480,
-        "duration" : 14130
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminAccessRights" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "143f01ee3a943171",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724307797,
+        "stop" : 1616724325314,
+        "duration" : 17517
+      }
+    }, {
       "uid" : "9f2e8789b3f0ba0f",
       "status" : "passed",
       "time" : {
@@ -956,14 +969,23 @@
   },
   "COSD_Tests.Tests.EqtnExpression.AddDataRequestWithName" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7c249c2d8ae34209",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: iframe_mainEditor",
+      "time" : {
+        "start" : 1616726263648,
+        "stop" : 1616726314091,
+        "duration" : 50443
+      }
+    }, {
       "uid" : "63b4d92469748514",
       "status" : "passed",
       "time" : {
@@ -978,11 +1000,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ed9c36cef9fdc260",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724359164,
+        "stop" : 1616724377550,
+        "duration" : 18386
+      }
+    }, {
       "uid" : "60e344dfa9e00997",
       "status" : "passed",
       "time" : {
@@ -997,11 +1027,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2c55a8aecf78899b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728913854,
+        "stop" : 1616728953220,
+        "duration" : 39366
+      }
+    }, {
       "uid" : "b6bef0d70d299cf5",
       "status" : "passed",
       "time" : {
@@ -1011,36 +1049,25 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityListCOSD" : {
+  "COSD_Tests.Tests.EqtnExpression.AddControlVariableText" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7a4e5c095081025a",
-      "status" : "failed",
-      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
-      "time" : {
-        "start" : 1603852798896,
-        "stop" : 1603852831331,
-        "duration" : 32435
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.EqtnExpression.AddControlVariableText" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4001e7f016c7a553",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726045975,
+        "stop" : 1616726102680,
+        "duration" : 56705
+      }
+    }, {
       "uid" : "9c1e065aa91520af",
       "status" : "passed",
       "time" : {
@@ -1050,7 +1077,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueInviteUsers" : {
+  "COSD_Tests.Tests.HHRPResults.FacilityLevelScore" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1060,69 +1087,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f7935cf6b1f2331",
+      "uid" : "a193a9c7680fd460",
       "status" : "passed",
       "time" : {
-        "start" : 1603853562918,
-        "stop" : 1603853597230,
-        "duration" : 34312
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableText" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "fae43e53c389c300",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855477104,
-        "stop" : 1603855590488,
-        "duration" : 113384
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminRefTables" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b9865c4fb7343c60",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853144176,
-        "stop" : 1603853170250,
-        "duration" : 26074
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableInt" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "651a11e47d94b046",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603855250481,
-        "stop" : 1603855363863,
-        "duration" : 113382
+        "start" : 1616728195074,
+        "stop" : 1616728239529,
+        "duration" : 44455
       }
     } ]
   },
@@ -1131,11 +1101,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4800988f56a9eb6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728873534,
+        "stop" : 1616728882084,
+        "duration" : 8550
+      }
+    }, {
       "uid" : "fa37af6b1895e5f4",
       "status" : "passed",
       "time" : {
@@ -1145,16 +1123,44 @@
       }
     } ]
   },
+  "COSD_Tests.Tests.WFTrackCalendar.VerifyUpdateShowTicketsProperDayTodayView" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d1938ea3a4af9e",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Project\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730298021,
+        "stop" : 1616730339900,
+        "duration" : 41879
+      }
+    } ]
+  },
   "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_Diagnostics" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4585ffbf7fddf05e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725083377,
+        "stop" : 1616725109934,
+        "duration" : 26557
+      }
+    }, {
       "uid" : "d08b1f681879a277",
       "status" : "passed",
       "time" : {
@@ -1164,41 +1170,23 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity" : {
+  "COSD_Tests.Tests.WFTrackSetup.ApplyWithoutSelectProjectGivesError" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3b980346d3933bca",
-      "status" : "passed",
+      "uid" : "40fafa4afcac4bc1",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#WFList\"}\n  (Session info: chrome=89.0.4389.90)",
       "time" : {
-        "start" : 1603852666326,
-        "stop" : 1603852727401,
-        "duration" : 61075
-      }
-    } ]
-  },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminGroups" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3f1ba29b2bed6739",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603852831335,
-        "stop" : 1603852851662,
-        "duration" : 20327
+        "start" : 1616730593877,
+        "stop" : 1616730634389,
+        "duration" : 40512
       }
     } ]
   },
@@ -1207,11 +1195,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ff5021eab95f2959",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724941040,
+        "stop" : 1616724967987,
+        "duration" : 26947
+      }
+    }, {
       "uid" : "9d9da98f0b9927b0",
       "status" : "passed",
       "time" : {
@@ -1221,35 +1217,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminUserInvite.RegisteredUsersResendInvitationNo" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d387d200f91bf259",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603854260467,
-        "stop" : 1603854317909,
-        "duration" : 57442
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_GroupMembership" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6afe49264575cfd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724342031,
+        "stop" : 1616724359162,
+        "duration" : 17131
+      }
+    }, {
       "uid" : "d6026af1f1532399",
       "status" : "passed",
       "time" : {
@@ -1261,14 +1246,23 @@
   },
   "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_WizShadowUser" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "da77058f52c8f690",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1616724755613,
+        "stop" : 1616724786418,
+        "duration" : 30805
+      }
+    }, {
       "uid" : "c6655d8072eb89d0",
       "status" : "failed",
       "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
@@ -1284,11 +1278,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "cd2df96983203534",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724967991,
+        "stop" : 1616724994812,
+        "duration" : 26821
+      }
+    }, {
       "uid" : "c042c8110f32232f",
       "status" : "passed",
       "time" : {
@@ -1300,14 +1302,23 @@
   },
   "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_TradeSecretReports" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c9848c7142fc07dd",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1616725109935,
+        "stop" : 1616725136908,
+        "duration" : 26973
+      }
+    }, {
       "uid" : "84792ef30ff6bd73",
       "status" : "failed",
       "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
@@ -1318,22 +1329,23 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminShadowUser.SelectUserStatusNotAvailable" : {
+  "COSD_Tests.Tests.WFTrackSetup.AssignPrincipalUserToProject" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "313f8af8edf03da9",
-      "status" : "passed",
+      "uid" : "ef8950a351332bb9",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_WF_PRJ_INV\"}\n  (Session info: chrome=89.0.4389.90)",
       "time" : {
-        "start" : 1603853939047,
-        "stop" : 1603854005983,
-        "duration" : 66936
+        "start" : 1616730556395,
+        "stop" : 1616730593875,
+        "duration" : 37480
       }
     } ]
   },
@@ -1342,11 +1354,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "25ee2fa99cfbe635",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725408521,
+        "stop" : 1616725448143,
+        "duration" : 39622
+      }
+    }, {
       "uid" : "5c1a289c62e64f5c",
       "status" : "passed",
       "time" : {
@@ -1358,14 +1378,23 @@
   },
   "COSD_Tests.Tests.LogOn.ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e7aa22f901f5d70f",
+      "status" : "failed",
+      "statusDetails" : "System.NotImplementedException : Email being sent needs to verified manually",
+      "time" : {
+        "start" : 1616728969915,
+        "stop" : 1616728972065,
+        "duration" : 2150
+      }
+    }, {
       "uid" : "4029dee3d2c874fb",
       "status" : "failed",
       "statusDetails" : "System.NotImplementedException : Email being sent needs to verified manually",
@@ -1376,7 +1405,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminUserInvite.RegisteredUsersDisplayed" : {
+  "COSD_Tests.Tests.HHRPRun.PrioritizationRunSelectFacilityStep" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1386,6 +1415,33 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "8690d71126980c19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728743426,
+        "stop" : 1616728789062,
+        "duration" : 45636
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminUserInvite.RegisteredUsersDisplayed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "59becc3282f1186c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725323483,
+        "stop" : 1616725367530,
+        "duration" : 44047
+      }
+    }, {
       "uid" : "310764730104bfc1",
       "status" : "passed",
       "time" : {
@@ -1395,7 +1451,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_ReviewInvitations" : {
+  "COSD_Tests.Tests.HHRPRefine.RefinementRunWithAllExcludedRuns" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1405,12 +1461,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a40a1b33ac27d54",
+      "uid" : "8dca676d3275e2f4",
       "status" : "passed",
       "time" : {
-        "start" : 1603852953795,
-        "stop" : 1603852974527,
-        "duration" : 20732
+        "start" : 1616727992374,
+        "stop" : 1616728195072,
+        "duration" : 202698
       }
     } ]
   },
@@ -1419,11 +1475,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5ba0e432da424266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724786421,
+        "stop" : 1616724816911,
+        "duration" : 30490
+      }
+    }, {
       "uid" : "8e1a49e9da282bc1",
       "status" : "passed",
       "time" : {
@@ -1433,35 +1497,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminRefTables" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1f7d91975887db66",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853750077,
-        "stop" : 1603853782487,
-        "duration" : 32410
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_JobQueueInviteUsers" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bc1cf9a9b0ba9ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724411626,
+        "stop" : 1616724428742,
+        "duration" : 17116
+      }
+    }, {
       "uid" : "5cd50f6f97694a6c",
       "status" : "passed",
       "time" : {
@@ -1471,7 +1524,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.EqtnExpression.AddControlVariableInt" : {
+  "COSD_Tests.Tests.HHRPRun.PrioritizationRunBlankDeviceDistancesCheckGivesError" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1481,12 +1534,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3ba7cf9fe174055",
+      "uid" : "edc0a8b23854bceb",
       "status" : "passed",
       "time" : {
-        "start" : 1603854790098,
-        "stop" : 1603854855791,
-        "duration" : 65693
+        "start" : 1616728789064,
+        "stop" : 1616728828227,
+        "duration" : 39163
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPRun.QueuePrioritizationRunSpecificFacility" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "152eee5b7eac5f1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728602605,
+        "stop" : 1616728681388,
+        "duration" : 78783
       }
     } ]
   },
@@ -1495,11 +1567,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "5799469f5f269f50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724498061,
+        "stop" : 1616724514439,
+        "duration" : 16378
+      }
+    }, {
       "uid" : "86b062f46374c018",
       "status" : "passed",
       "time" : {
@@ -1509,7 +1589,7 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminUserInvite.DateExpiredRejected" : {
+  "COSD_Tests.Tests.HHRPResults.MaterialLevelScore" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -1519,12 +1599,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "435a46d84fd8b527",
+      "uid" : "ad128c7e20fec2bc",
       "status" : "passed",
       "time" : {
-        "start" : 1603854462761,
-        "stop" : 1603854517882,
-        "duration" : 55121
+        "start" : 1616728376793,
+        "stop" : 1616728421665,
+        "duration" : 44872
       }
     } ]
   },
@@ -1533,11 +1613,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "164fbc0b5313ee85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724532501,
+        "stop" : 1616724549243,
+        "duration" : 16742
+      }
+    }, {
       "uid" : "778c18de238af01",
       "status" : "passed",
       "time" : {
@@ -1552,11 +1640,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "909d1fa536086ca2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724618208,
+        "stop" : 1616724645407,
+        "duration" : 27199
+      }
+    }, {
       "uid" : "141af95212ea25d4",
       "status" : "passed",
       "time" : {
@@ -1566,35 +1662,24 @@
       }
     } ]
   },
-  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminAccessRights" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b23975a8a788ac53",
-      "status" : "passed",
-      "time" : {
-        "start" : 1603853362100,
-        "stop" : 1603853392328,
-        "duration" : 30228
-      }
-    } ]
-  },
   "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueSyncInventory" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6f260a0277d6d25d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725164234,
+        "stop" : 1616725191733,
+        "duration" : 27499
+      }
+    }, {
       "uid" : "54937c10760e0d68",
       "status" : "passed",
       "time" : {
@@ -1606,14 +1691,23 @@
   },
   "COSD_Tests.Tests.EqtnExpression.AddControlVariableFloat" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "460d34e6a3733a44",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616725989461,
+        "stop" : 1616726045973,
+        "duration" : 56512
+      }
+    }, {
       "uid" : "bac56ea5ef38dd10",
       "status" : "passed",
       "time" : {
@@ -1628,17 +1722,1490 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c2671469ea1610c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724883050,
+        "stop" : 1616724910419,
+        "duration" : 27369
+      }
+    }, {
       "uid" : "9fea47079755cbb9",
       "status" : "passed",
       "time" : {
         "start" : 1603853597234,
         "stop" : 1603853628001,
         "duration" : 30767
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPRefine.RefinementRunWithSingleRefinementRuns" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fddb69882dfd12d7",
+      "status" : "failed",
+      "statusDetails" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616727802733,
+        "stop" : 1616727885249,
+        "duration" : 82516
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackCalendar.VerifyChangeProjectTicketsUpdatesProjectSelectionCalendar" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe6d23ea4e83f132",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Project\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730339903,
+        "stop" : 1616730396893,
+        "duration" : 56990
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.LogOnWithNoUserNameValidPasswordIsRejected" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1fea9d73ad35239d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728890418,
+        "stop" : 1616728898849,
+        "duration" : 8431
+      }
+    }, {
+      "uid" : "a7d94d8ee4751608",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855852615,
+        "stop" : 1603855865566,
+        "duration" : 12951
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPResults.DeviceLevelScore" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c38e1d9d4bf58a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728330553,
+        "stop" : 1616728376791,
+        "duration" : 46238
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceRemoveLinkClearsRowOfData" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "afc8c77c1599d528",
+      "status" : "failed",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+      "time" : {
+        "start" : 1616727075776,
+        "stop" : 1616727150241,
+        "duration" : 74465
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_ProjectMappingAdmin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "84d900dbd8beb64b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724479538,
+        "stop" : 1616724498059,
+        "duration" : 18521
+      }
+    }, {
+      "uid" : "c1429170f801466f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853091359,
+        "stop" : 1603853115318,
+        "duration" : 23959
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminShadowUser.SelectUserStatusAvailable" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "41969b02bc584b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725262707,
+        "stop" : 1616725323481,
+        "duration" : 60774
+      }
+    }, {
+      "uid" : "43590c6ec5c0679c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603854005994,
+        "stop" : 1603854072279,
+        "duration" : 66285
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cccf55dc3aabbd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724994813,
+        "stop" : 1616725023750,
+        "duration" : 28937
+      }
+    }, {
+      "uid" : "45653005ae571107",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853719490,
+        "stop" : 1603853750074,
+        "duration" : 30584
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.LoginWithUpperCaseUsername" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dd8a9c50ba26014d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728986964,
+        "stop" : 1616729004880,
+        "duration" : 17916
+      }
+    }, {
+      "uid" : "3f63389ed6e7cdf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855981531,
+        "stop" : 1603856002949,
+        "duration" : 21418
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_TradeSecretReport" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "26721625c0f6c7da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724566421,
+        "stop" : 1616724584255,
+        "duration" : 17834
+      }
+    }, {
+      "uid" : "40e15fe38612bdd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853216553,
+        "stop" : 1603853239762,
+        "duration" : 23209
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackDashboard.FilterByWorkflow" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59b45b56da15643b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616730496702,
+        "stop" : 1616730556393,
+        "duration" : 59691
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminUserInvite.PendingInvitationsResendInvitationYes" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "96184d7e453263fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725448145,
+        "stop" : 1616725492263,
+        "duration" : 44118
+      }
+    }, {
+      "uid" : "4cfbd79b5b461376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603854210881,
+        "stop" : 1603854260465,
+        "duration" : 49584
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.TooManyFailedAttempts" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "53e4073eb9fd0960",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616730023379,
+        "stop" : 1616730208879,
+        "duration" : 185500
+      }
+    }, {
+      "uid" : "8c433b904607e6e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603856370586,
+        "stop" : 1603856555187,
+        "duration" : 184601
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.LogOnValidUsernameValidPasswordIsAccepted" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2ce1ba7b4f00bfea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728898852,
+        "stop" : 1616728913852,
+        "duration" : 15000
+      }
+    }, {
+      "uid" : "52c456cdf954dcdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855865569,
+        "stop" : 1603855884197,
+        "duration" : 18628
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPResults.VerifyFilterAndReset" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37208179a141bc51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728476757,
+        "stop" : 1616728540621,
+        "duration" : 63864
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackCalendar.VerifyUpdateShowTicketsProperDayWeekView" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce1abc473da1892f",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Project\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730258113,
+        "stop" : 1616730298017,
+        "duration" : 39904
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPRun.VerifyPriortizationRunChangeToxictyTable" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "358803ab3cb0f1aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728681390,
+        "stop" : 1616728743424,
+        "duration" : 62034
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.Forgot_Password_To_Email_That_Is_Not_A_Valid_Account_Does_Not_Reveal_Valid_Or_Invalid_Account" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "18ae8b6747bfbf17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728959659,
+        "stop" : 1616728969913,
+        "duration" : 10254
+      }
+    }, {
+      "uid" : "8ff6c9676643b007",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855938332,
+        "stop" : 1603855953621,
+        "duration" : 15289
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackTickets.ResolveTicketDueDatesShouldUpdateInOrder" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53a7892b0475fbe1",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_WF_PRJ_INV\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730780536,
+        "stop" : 1616730816642,
+        "duration" : 36106
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackSetup.ApplyWithoutSelectWorkflowGivesError" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "702a7ec38e180dbb",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#UserList\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730634390,
+        "stop" : 1616730674433,
+        "duration" : 40043
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7929eb525ad84b19",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+      "time" : {
+        "start" : 1616724228112,
+        "stop" : 1616724251493,
+        "duration" : 23381
+      }
+    }, {
+      "uid" : "c82752bd1870e7b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603852769392,
+        "stop" : 1603852798893,
+        "duration" : 29501
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminPasswordPolicy" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a56ee4e64509ceea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724428745,
+        "stop" : 1616724445413,
+        "duration" : 16668
+      }
+    }, {
+      "uid" : "75bef8d22a44d67a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853015416,
+        "stop" : 1603853035623,
+        "duration" : 20207
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPWithDistancesDefinedAndDefaultsFinishes" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac7e05b271cb1e1c",
+      "status" : "failed",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+      "time" : {
+        "start" : 1616727007479,
+        "stop" : 1616727075773,
+        "duration" : 68294
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceRowWithDistanceInFirstBoxOnlyPasses" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58e377bcef30bc73",
+      "status" : "failed",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+      "time" : {
+        "start" : 1616727228785,
+        "stop" : 1616727305990,
+        "duration" : 77205
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_WizInviteUsers" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d1e471ee33e1caeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724816913,
+        "stop" : 1616724854342,
+        "duration" : 37429
+      }
+    }, {
+      "uid" : "20a958ee3f5055ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853522339,
+        "stop" : 1603853562914,
+        "duration" : 40575
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackTickets.ResolveAllTicketsTicketsAssignedToMeHasNoDataAvailable" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "37289c44c8cb73aa",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_WF_PRJ_INV\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730816644,
+        "stop" : 1616730849908,
+        "duration" : 33264
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackSetup.ApplyWithoutSelectPrincipalUsersGivesError" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7b5d86c006e8b3d",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#WFList\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730674436,
+        "stop" : 1616730714420,
+        "duration" : 39984
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.Attempt_To_Access_Internal_URL_Without_Valid_Session_Results_In_Request_For_User_Pass" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ab148b911b101f80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728953222,
+        "stop" : 1616728959657,
+        "duration" : 6435
+      }
+    }, {
+      "uid" : "2a34aab1a605564f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855927870,
+        "stop" : 1603855938327,
+        "duration" : 10457
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddDataRequestWithoutName" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "63105bbb133920d8",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: iframe_mainEditor",
+      "time" : {
+        "start" : 1616726218599,
+        "stop" : 1616726263646,
+        "duration" : 45047
+      }
+    }, {
+      "uid" : "b5f552ffddc90baa",
+      "status" : "failed",
+      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+      "time" : {
+        "start" : 1603855110626,
+        "stop" : 1603855176416,
+        "duration" : 65790
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminUserDefinedReports" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "25198710287ab797",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724462098,
+        "stop" : 1616724479537,
+        "duration" : 17439
+      }
+    }, {
+      "uid" : "c448ee2745f910fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853063557,
+        "stop" : 1603853091355,
+        "duration" : 27798
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_GroupInventoryAccessRight" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "507c4717d3a069e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724325316,
+        "stop" : 1616724342029,
+        "duration" : 16713
+      }
+    }, {
+      "uid" : "7b8f537e4f27649f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603852893111,
+        "stop" : 1603852913506,
+        "duration" : 20395
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "eea34e5604542c1c",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1616724394345,
+        "stop" : 1616724411623,
+        "duration" : 17278
+      }
+    }, {
+      "uid" : "9362654f815024bb",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1603852974529,
+        "stop" : 1603852995171,
+        "duration" : 20642
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddControlRequestWithoutName" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e175983df5d873bc",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: iframe_mainEditor",
+      "time" : {
+        "start" : 1616725841767,
+        "stop" : 1616725887343,
+        "duration" : 45576
+      }
+    }, {
+      "uid" : "dcda01ff167fd8c7",
+      "status" : "failed",
+      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+      "time" : {
+        "start" : 1603854624977,
+        "stop" : 1603854706485,
+        "duration" : 81508
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_GroupInventoryAccessRight" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9c09e90c830b825b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724699586,
+        "stop" : 1616724727728,
+        "duration" : 28142
+      }
+    }, {
+      "uid" : "85b6aeac435c2ea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853392332,
+        "stop" : 1603853424092,
+        "duration" : 31760
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableDisplay" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "dc7009fefde83997",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726741549,
+        "stop" : 1616726846098,
+        "duration" : 104549
+      }
+    }, {
+      "uid" : "1aa61d312c1eb954",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855703021,
+        "stop" : 1603855815439,
+        "duration" : 112418
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPRefine.RefinementRunWithoutExclusionRuns" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f347ff1866cd2f12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616727725774,
+        "stop" : 1616727802731,
+        "duration" : 76957
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPManagement.FilterRunColumnYes" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "376f7d07b0905547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616727653242,
+        "stop" : 1616727725772,
+        "duration" : 72530
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.LogOnPageLoads" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "88e5d8eaa1ecfd4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728867178,
+        "stop" : 1616728873532,
+        "duration" : 6354
+      }
+    }, {
+      "uid" : "2fd4e908889f1b96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855815443,
+        "stop" : 1603855826948,
+        "duration" : 11505
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackTickets.VerifyThatUpdateInProjectsOnCalendarUpdatesTickets" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fe9e479e8749291",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Project\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730849909,
+        "stop" : 1616730905369,
+        "duration" : 55460
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e75c1fd1492a792",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616730208881,
+        "stop" : 1616730218200,
+        "duration" : 9319
+      }
+    }, {
+      "uid" : "3b1eec17e18afe24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603856562350,
+        "stop" : 1603856576480,
+        "duration" : 14130
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceInputDistanceLessThan50SetsBoxTo50" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c7a31f00421cfbc0",
+      "status" : "failed",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+      "time" : {
+        "start" : 1616727469713,
+        "stop" : 1616727552950,
+        "duration" : 83237
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityListCOSD" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9aefa49f0d3623c5",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+      "time" : {
+        "start" : 1616724251495,
+        "stop" : 1616724273117,
+        "duration" : 21622
+      }
+    }, {
+      "uid" : "7a4e5c095081025a",
+      "status" : "failed",
+      "statusDetails" : "  Expected: False\r\n  But was:  True\r\n",
+      "time" : {
+        "start" : 1603852798896,
+        "stop" : 1603852831331,
+        "duration" : 32435
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueInviteUsers" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "990151d60f13c770",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724854344,
+        "stop" : 1616724883048,
+        "duration" : 28704
+      }
+    }, {
+      "uid" : "1f7935cf6b1f2331",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853562918,
+        "stop" : 1603853597230,
+        "duration" : 34312
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableText" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a16110b789d5bf1f",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726527415,
+        "stop" : 1616726635894,
+        "duration" : 108479
+      }
+    }, {
+      "uid" : "fae43e53c389c300",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855477104,
+        "stop" : 1603855590488,
+        "duration" : 113384
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminRefTables" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "36a7e35da902a99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724514443,
+        "stop" : 1616724532499,
+        "duration" : 18056
+      }
+    }, {
+      "uid" : "b9865c4fb7343c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853144176,
+        "stop" : 1603853170250,
+        "duration" : 26074
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceNonsenseInputAAACreatesClearBox" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1ebeed4b394086c",
+      "status" : "failed",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+      "time" : {
+        "start" : 1616727386195,
+        "stop" : 1616727469711,
+        "duration" : 83516
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddDataRequestVariableInt" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bc7b36c0b43d176f",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616726314093,
+        "stop" : 1616726419555,
+        "duration" : 105462
+      }
+    }, {
+      "uid" : "651a11e47d94b046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603855250481,
+        "stop" : 1603855363863,
+        "duration" : 113382
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4f59d443a26683d7",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+      "time" : {
+        "start" : 1616724145436,
+        "stop" : 1616724191134,
+        "duration" : 45698
+      }
+    }, {
+      "uid" : "3b980346d3933bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603852666326,
+        "stop" : 1603852727401,
+        "duration" : 61075
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_AdminGroups" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "790a333da13c5907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724273118,
+        "stop" : 1616724290399,
+        "duration" : 17281
+      }
+    }, {
+      "uid" : "3f1ba29b2bed6739",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603852831335,
+        "stop" : 1603852851662,
+        "duration" : 20327
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminUserInvite.RegisteredUsersResendInvitationNo" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "630066c974583524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725492265,
+        "stop" : 1616725545530,
+        "duration" : 53265
+      }
+    }, {
+      "uid" : "d387d200f91bf259",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603854260467,
+        "stop" : 1603854317909,
+        "duration" : 57442
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPDistance.HHRPDistanceRowWithDistanceInTwoBoxesPasses" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf74e7f3672f540c",
+      "status" : "failed",
+      "statusDetails" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
+      "time" : {
+        "start" : 1616727150244,
+        "stop" : 1616727228783,
+        "duration" : 78539
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminShadowUser.SelectUserStatusNotAvailable" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "db63904d2ff1dc1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725191743,
+        "stop" : 1616725262702,
+        "duration" : 70959
+      }
+    }, {
+      "uid" : "313f8af8edf03da9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853939047,
+        "stop" : 1603854005983,
+        "duration" : 66936
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackDashboard.FilterByPrincipal" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "766569841600bd0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616730396895,
+        "stop" : 1616730496698,
+        "duration" : 99803
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_ReviewInvitations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "eb6fd20abdc5bb94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724377552,
+        "stop" : 1616724394343,
+        "duration" : 16791
+      }
+    }, {
+      "uid" : "1a40a1b33ac27d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603852953795,
+        "stop" : 1603852974527,
+        "duration" : 20732
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.HHRPResults.FilterRowsToDevice" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "60f3d458d7f6a30",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616728421667,
+        "stop" : 1616728476755,
+        "duration" : 55088
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminRefTables" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "ce87bdd13fed01eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725023752,
+        "stop" : 1616725053635,
+        "duration" : 29883
+      }
+    }, {
+      "uid" : "1f7d91975887db66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853750077,
+        "stop" : 1603853782487,
+        "duration" : 32410
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.EqtnExpression.AddControlVariableInt" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "cf68cc9911b50b90",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
+      "time" : {
+        "start" : 1616725932265,
+        "stop" : 1616725989451,
+        "duration" : 57186
+      }
+    }, {
+      "uid" : "f3ba7cf9fe174055",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603854790098,
+        "stop" : 1603854855791,
+        "duration" : 65693
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.WFTrackCalendar.VerifyUpdateShowTicketsProperDayMonthView" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dacf8e5b8b5b368f",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Project\"}\n  (Session info: chrome=89.0.4389.90)",
+      "time" : {
+        "start" : 1616730218202,
+        "stop" : 1616730258111,
+        "duration" : 39909
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminUserInvite.DateExpiredRejected" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "73cd767014525d56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616725683056,
+        "stop" : 1616725734065,
+        "duration" : 51009
+      }
+    }, {
+      "uid" : "435a46d84fd8b527",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603854462761,
+        "stop" : 1603854517882,
+        "duration" : 55121
+      }
+    } ]
+  },
+  "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AdminAccessRights" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7bf7b13f7e337d37",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616724672080,
+        "stop" : 1616724699585,
+        "duration" : 27505
+      }
+    }, {
+      "uid" : "b23975a8a788ac53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603853362100,
+        "stop" : 1603853392328,
+        "duration" : 30228
       }
     } ]
   }

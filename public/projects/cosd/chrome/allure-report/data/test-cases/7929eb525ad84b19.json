@@ -1,0 +1,164 @@
+{
+  "uid" : "7929eb525ad84b19",
+  "name" : "CheckAdminAccess_AllActivityMapleLeafs",
+  "fullName" : "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs",
+  "historyId" : "COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs",
+  "time" : {
+    "start" : 1616724228112,
+    "stop" : 1616724251493,
+    "duration" : 23381
+  },
+  "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects Application Key Column does not match 'MapleLeafs'\n",
+  "descriptionHtml" : "<p>Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects Application Key Column does not match 'MapleLeafs'</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+  "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 148",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1616724251491,
+      "stop" : 1616724251491,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1616724251491,
+      "stop" : 1616724251491,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects Application Key Column does not match 'MapleLeafs'\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+    "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 148",
+    "steps" : [ {
+      "name" : "CheckAdminAccess_AllActivityMapleLeafs",
+      "time" : {
+        "start" : 1616724228112,
+        "stop" : 1616724251492,
+        "duration" : 23380
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+      "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckAdminAccess_AllActivityMapleLeafs() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 148",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fceeb93d5ec4aac",
+        "name" : "Console Output",
+        "source" : "3fceeb93d5ec4aac.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1616724251491,
+      "stop" : 1616724251491,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAdminAccess_AllActivityMapleLeafs"
+  }, {
+    "name" : "package",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.4"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c82752bd1870e7b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603852769392,
+          "stop" : 1603852798893,
+          "duration" : 29501
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.4" ]
+  },
+  "source" : "7929eb525ad84b19.json",
+  "parameterValues" : [ ]
+}
