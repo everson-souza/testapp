@@ -1,0 +1,334 @@
+{
+  "uid" : "2389427656ce872",
+  "name" : "InventoryLockedAttempEditLeaseAccessDenied",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.InventoryLockedAttempEditLeaseAccessDenied",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.InventoryLockedAttempEditLeaseAccessDenied",
+  "time" : {
+    "start" : 1617059295021,
+    "stop" : 1617059345106,
+    "duration" : 50085
+  },
+  "description" : "Inventory Locked, attemp to edit lease source should give 'access denied' message\n",
+  "descriptionHtml" : "<p>Inventory Locked, attemp to edit lease source should give 'access denied' message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617059345105,
+      "stop" : 1617059345105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1617059345105,
+      "stop" : 1617059345105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Inventory Locked, attemp to edit lease source should give 'access denied' message\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "InventoryLockedAttempEditLeaseAccessDenied",
+      "time" : {
+        "start" : 1617059295021,
+        "stop" : 1617059345106,
+        "duration" : 50085
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1617059297039,
+          "stop" : 1617059329979,
+          "duration" : 32940
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617059297039,
+            "stop" : 1617059303026,
+            "duration" : 5987
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set username to QA_BOEMNotEdit@weblakes.com",
+          "time" : {
+            "start" : 1617059303026,
+            "stop" : 1617059303193,
+            "duration" : 167
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set password to ETQvv0Rc5QGf6#125",
+          "time" : {
+            "start" : 1617059303193,
+            "stop" : 1617059303350,
+            "duration" : 157
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617059303350,
+            "stop" : 1617059319966,
+            "duration" : 16616
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1617059329993,
+          "stop" : 1617059332054,
+          "duration" : 2061
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1617059332054,
+          "stop" : 1617059335156,
+          "duration" : 3102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select inventory icon",
+        "time" : {
+          "start" : 1617059335156,
+          "stop" : 1617059338253,
+          "duration" : 3097
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative URL /Input/NavLeaseOperations/NploLease/Edit/124",
+        "time" : {
+          "start" : 1617059338253,
+          "stop" : 1617059344342,
+          "duration" : 6089
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617059344354,
+          "stop" : 1617059344698,
+          "duration" : 344
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d3b4f490673cab5f",
+          "name" : "Attachment Title",
+          "source" : "d3b4f490673cab5f.png",
+          "type" : "image/png",
+          "size" : 60543
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "dec6c8c2661cc971",
+        "name" : "Console Output",
+        "source" : "dec6c8c2661cc971.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617059345105,
+      "stop" : 1617059345105,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "InventoryLockedAttempEditLeaseAccessDenied"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.32"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ebfef8896556c6a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616549689975,
+          "stop" : 1616549753018,
+          "duration" : 63043
+        }
+      }, {
+        "uid" : "7d423dd9dbf14e33",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616037892183,
+          "stop" : 1616037950856,
+          "duration" : 58673
+        }
+      }, {
+        "uid" : "b9d7beae0eb340db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615328357094,
+          "stop" : 1615328403440,
+          "duration" : 46346
+        }
+      }, {
+        "uid" : "74f5c8cf3273986",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614729836346,
+          "stop" : 1614729870707,
+          "duration" : 34361
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.32" ]
+  },
+  "source" : "2389427656ce872.json",
+  "parameterValues" : [ ]
+}

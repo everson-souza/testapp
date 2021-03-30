@@ -1,0 +1,333 @@
+{
+  "uid" : "7ed074607dd8f48b",
+  "name" : "TooManyFailedAttemptsOnFirstTry",
+  "fullName" : "BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "historyId" : "BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "time" : {
+    "start" : 1617095636260,
+    "stop" : 1617095689960,
+    "duration" : 53700
+  },
+  "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+  "descriptionHtml" : "<p>Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617095689959,
+      "stop" : 1617095689959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1617095689959,
+      "stop" : 1617095689959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "TooManyFailedAttemptsOnFirstTry",
+      "time" : {
+        "start" : 1617095636260,
+        "stop" : 1617095689960,
+        "duration" : 53700
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1617095638116,
+          "stop" : 1617095689282,
+          "duration" : 51166
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617095638116,
+            "stop" : 1617095642855,
+            "duration" : 4739
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1617095642855,
+            "stop" : 1617095643143,
+            "duration" : 288
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1617095643143,
+            "stop" : 1617095643331,
+            "duration" : 188
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617095643331,
+            "stop" : 1617095679269,
+            "duration" : 35938
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617095689295,
+          "stop" : 1617095689632,
+          "duration" : 337
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c9dc5c61ca56bd2",
+          "name" : "Attachment Title",
+          "source" : "c9dc5c61ca56bd2.png",
+          "type" : "image/png",
+          "size" : 65801
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "8efbbb9bd5e624fc",
+        "name" : "Console Output",
+        "source" : "8efbbb9bd5e624fc.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617095689959,
+      "stop" : 1617095689959,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "TooManyFailedAttemptsOnFirstTry"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.14",
+    "url" : "https://jira.com/browse/LOGON.14",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "f1bb67e32e9dff9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616581267256,
+          "stop" : 1616581334952,
+          "duration" : 67696
+        }
+      }, {
+        "uid" : "42275a649f9839e6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Timed out because the current page keeps loading forever!",
+        "time" : {
+          "start" : 1616206301280,
+          "stop" : 1616206392267,
+          "duration" : 90987
+        }
+      }, {
+        "uid" : "251fa56fb6e4dd24",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615343192141,
+          "stop" : 1615343205445,
+          "duration" : 13304
+        }
+      }, {
+        "uid" : "9bff3895922ddce1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614753388668,
+          "stop" : 1614753401268,
+          "duration" : 12600
+        }
+      }, {
+        "uid" : "2c8bef61b8be3b4e",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=88.0.4324.150)",
+        "time" : {
+          "start" : 1613632194854,
+          "stop" : 1613632244577,
+          "duration" : 49723
+        }
+      }, {
+        "uid" : "bb9bb5b878610f3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611919638249,
+          "stop" : 1611919651633,
+          "duration" : 13384
+        }
+      }, {
+        "uid" : "8865a7ca27b9f628",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609935916835,
+          "stop" : 1609935929351,
+          "duration" : 12516
+        }
+      }, {
+        "uid" : "a5caab168ce7ee4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606855334942,
+          "stop" : 1606855347873,
+          "duration" : 12931
+        }
+      }, {
+        "uid" : "7681eb667f796d67",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606191385341,
+          "stop" : 1606191397936,
+          "duration" : 12595
+        }
+      }, {
+        "uid" : "50e20ecb0e7ebbca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605896149482,
+          "stop" : 1605896163018,
+          "duration" : 13536
+        }
+      }, {
+        "uid" : "4bdb3b24a20e95bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604585751235,
+          "stop" : 1604585765544,
+          "duration" : 14309
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7ed074607dd8f48b.json",
+  "parameterValues" : [ ]
+}

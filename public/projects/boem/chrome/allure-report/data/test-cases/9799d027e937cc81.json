@@ -1,0 +1,494 @@
+{
+  "uid" : "9799d027e937cc81",
+  "name" : "CheckFacilityListAccessLevel",
+  "fullName" : "BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel",
+  "historyId" : "BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel",
+  "time" : {
+    "start" : 1617126414890,
+    "stop" : 1617126600113,
+    "duration" : 185223
+  },
+  "description" : "Verify if 'Facility List' admin access right has 'Platform'\n",
+  "descriptionHtml" : "<p>Verify if 'Facility List' admin access right has 'Platform'</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 116\r\n",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617126600083,
+      "stop" : 1617126600083,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1617126600085,
+      "stop" : 1617126600085,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify if 'Facility List' admin access right has 'Platform'\n",
+    "status" : "failed",
+    "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 116\r\n",
+    "steps" : [ {
+      "name" : "CheckFacilityListAccessLevel",
+      "time" : {
+        "start" : 1617126414895,
+        "stop" : 1617126600099,
+        "duration" : 185204
+      },
+      "status" : "failed",
+      "statusMessage" : "  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminAccessRights.CheckFacilityListAccessLevel() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 116\r\n",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1617126417526,
+          "stop" : 1617126461190,
+          "duration" : 43664
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617126417527,
+            "stop" : 1617126437102,
+            "duration" : 19575
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set username to qa_boem@weblakes.com",
+          "time" : {
+            "start" : 1617126437102,
+            "stop" : 1617126437467,
+            "duration" : 365
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set password to e45eT%0n^SpXdsb2",
+          "time" : {
+            "start" : 1617126437467,
+            "stop" : 1617126437691,
+            "duration" : 224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617126437692,
+            "stop" : 1617126451179,
+            "duration" : 13487
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Open AdminAccessRights page",
+        "time" : {
+          "start" : 1617126461191,
+          "stop" : 1617126468645,
+          "duration" : 7454
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Change user group",
+        "time" : {
+          "start" : 1617126468646,
+          "stop" : 1617126492653,
+          "duration" : 24007
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Filter Object type using Report",
+        "time" : {
+          "start" : 1617126492653,
+          "stop" : 1617126502882,
+          "duration" : 10229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Unchek all checkboxes",
+        "time" : {
+          "start" : 1617126502882,
+          "stop" : 1617126570918,
+          "duration" : 68036
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check Checkbox for Facilities/Structures",
+        "time" : {
+          "start" : 1617126570918,
+          "stop" : 1617126587282,
+          "duration" : 16364
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Open NavReporting page ",
+        "time" : {
+          "start" : 1617126587282,
+          "stop" : 1617126588508,
+          "duration" : 1226
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1617126588508,
+          "stop" : 1617126593523,
+          "duration" : 5015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Verify menu items",
+        "time" : {
+          "start" : 1617126593523,
+          "stop" : 1617126598579,
+          "duration" : 5056
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617126598757,
+          "stop" : 1617126599215,
+          "duration" : 458
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "78c0b2509c2e2493",
+          "name" : "Attachment Title",
+          "source" : "78c0b2509c2e2493.png",
+          "type" : "image/png",
+          "size" : 45556
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "c5e5c9a2152766aa",
+        "name" : "Console Output",
+        "source" : "c5e5c9a2152766aa.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 14,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 15,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617126600085,
+      "stop" : 1617126600085,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminAccessRights"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckFacilityListAccessLevel"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminAccessRights"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTS.2"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRights"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "66352ec36a39361d",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1617108812308,
+        "stop" : 1617108989631,
+        "duration" : 177323
+      }
+    }, {
+      "uid" : "dd68b7aba93d60d8",
+      "status" : "failed",
+      "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1617062791012,
+        "stop" : 1617062969333,
+        "duration" : 178321
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "c352390c9a1cb52b",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616553076643,
+          "stop" : 1616553248544,
+          "duration" : 171901
+        }
+      }, {
+        "uid" : "671eee3fee3364c5",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616041620669,
+          "stop" : 1616041809484,
+          "duration" : 188815
+        }
+      }, {
+        "uid" : "5e61b3d1e89a91db",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615430527489,
+          "stop" : 1615430690503,
+          "duration" : 163014
+        }
+      }, {
+        "uid" : "c54aeaad6a78f0a9",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1614731676343,
+          "stop" : 1614731820774,
+          "duration" : 144431
+        }
+      }, {
+        "uid" : "79c28b11d07e8eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613775692051,
+          "stop" : 1613775847467,
+          "duration" : 155416
+        }
+      }, {
+        "uid" : "2d5ccfeb8adb3f23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611895438006,
+          "stop" : 1611895782712,
+          "duration" : 344706
+        }
+      }, {
+        "uid" : "a73c3fe759df3259",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609914431697,
+          "stop" : 1609914774133,
+          "duration" : 342436
+        }
+      }, {
+        "uid" : "7345a32608bd7926",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606934855816,
+          "stop" : 1606935156317,
+          "duration" : 300501
+        }
+      }, {
+        "uid" : "728d176669e7e96f",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Could not find Object Name with value Facility List",
+        "time" : {
+          "start" : 1606237385129,
+          "stop" : 1606237649313,
+          "duration" : 264184
+        }
+      }, {
+        "uid" : "6cf0620ce5a7e277",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Could not find Object Name with value Facility List",
+        "time" : {
+          "start" : 1605881068718,
+          "stop" : 1605881449891,
+          "duration" : 381173
+        }
+      }, {
+        "uid" : "17dbcf3145cbe336",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Could not find Object Name with value Facility List",
+        "time" : {
+          "start" : 1604435584857,
+          "stop" : 1604436111591,
+          "duration" : 526734
+        }
+      }, {
+        "uid" : "17b2d4976cef6955",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Could not find Object Name with value Facility List",
+        "time" : {
+          "start" : 1601602885828,
+          "stop" : 1601603212783,
+          "duration" : 326955
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTS.2" ]
+  },
+  "source" : "9799d027e937cc81.json",
+  "parameterValues" : [ ]
+}
