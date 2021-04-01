@@ -4,102 +4,123 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+      "name" : "System.Exception : Was redirected to Access denied page",
       "children" : [ {
         "name" : "CheckAdminUser_AccountActivity",
-        "uid" : "4f59d443a26683d7",
-        "parentUid" : "0f9e8a2559760ba65c4083f291c7a8a1",
+        "uid" : "f5ddb7fdf4a6e6cd",
+        "parentUid" : "a0b3ff1a8b1f8dfd9235b34a324dee2c",
         "status" : "failed",
         "time" : {
-          "start" : 1616724145436,
-          "stop" : 1616724191134,
-          "duration" : 45698
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0f9e8a2559760ba65c4083f291c7a8a1"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
-      "children" : [ {
-        "name" : "CheckAdminAccess_AllActivityMapleLeafs",
-        "uid" : "7929eb525ad84b19",
-        "parentUid" : "a358f0efcbbe0a308733b72aba483b89",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616724228112,
-          "stop" : 1616724251493,
-          "duration" : 23381
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "CheckAdminAccess_AllActivityListCOSD",
-        "uid" : "9aefa49f0d3623c5",
-        "parentUid" : "a358f0efcbbe0a308733b72aba483b89",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616724251495,
-          "stop" : 1616724273117,
-          "duration" : 21622
+          "start" : 1617280628712,
+          "stop" : 1617280660162,
+          "duration" : 31450
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a358f0efcbbe0a308733b72aba483b89"
+      "uid" : "a0b3ff1a8b1f8dfd9235b34a324dee2c"
     }, {
-      "name" : "  Expected: True\r\n  But was:  False\r\n",
+      "name" : "System.Exception : Was redirected to Server Error page",
       "children" : [ {
-        "name" : "CheckNotAdminAccess_WizInviteUsers",
-        "uid" : "eea34e5604542c1c",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "name" : "CheckAdminAccess_AllActivityMapleLeafs",
+        "uid" : "c75e2fbf4334eadb",
+        "parentUid" : "6063a0d3138aad4541a0c0047d78e976",
         "status" : "failed",
         "time" : {
-          "start" : 1616724394345,
-          "stop" : 1616724411623,
-          "duration" : 17278
+          "start" : 1617280680681,
+          "stop" : 1617280695020,
+          "duration" : 14339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CheckAdminAccess_AllActivityListCOSD",
+        "uid" : "f356c9f67ed83f0",
+        "parentUid" : "6063a0d3138aad4541a0c0047d78e976",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617280695032,
+          "stop" : 1617280709571,
+          "duration" : 14539
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6063a0d3138aad4541a0c0047d78e976"
+    }, {
+      "name" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "CheckNotAdminAccess_WizInviteUsers",
+        "uid" : "59c5033261fbc199",
+        "parentUid" : "3f3cd83471a210b5114c2e1a30de65af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617280785300,
+          "stop" : 1617280795815,
+          "duration" : 10515
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckNotAdminAccess_WizSyncInventory",
-        "uid" : "278db7bfe9706d9e",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "uid" : "9df4956c82daec63",
+        "parentUid" : "3f3cd83471a210b5114c2e1a30de65af",
         "status" : "failed",
         "time" : {
-          "start" : 1616724584258,
-          "stop" : 1616724601195,
-          "duration" : 16937
+          "start" : 1617280894466,
+          "stop" : 1617280903560,
+          "duration" : 9094
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "3f3cd83471a210b5114c2e1a30de65af"
+    }, {
+      "name" : "  Page didn't load correctly\r\n  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
         "name" : "CheckAdminAccess_WizShadowUser",
-        "uid" : "da77058f52c8f690",
-        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
+        "uid" : "20b747b2f76d5e60",
+        "parentUid" : "33125dcd73a4bab3edf7ec1f11083cde",
         "status" : "failed",
         "time" : {
-          "start" : 1616724755613,
-          "stop" : 1616724786418,
-          "duration" : 30805
+          "start" : 1617281014790,
+          "stop" : 1617281035707,
+          "duration" : 20917
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckAdminAccess_TradeSecretReports",
-        "uid" : "c9848c7142fc07dd",
+        "uid" : "7cf5639aee15625c",
+        "parentUid" : "33125dcd73a4bab3edf7ec1f11083cde",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617281270031,
+          "stop" : 1617281288407,
+          "duration" : 18376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33125dcd73a4bab3edf7ec1f11083cde"
+    }, {
+      "name" : "  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "AddDataRequestWithName",
+        "uid" : "a270c370c4a4173c",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1616725109935,
-          "stop" : 1616725136908,
-          "duration" : 26973
+          "start" : 1617282206289,
+          "stop" : 1617282263884,
+          "duration" : 57595
         },
         "flaky" : false,
         "newFailed" : false,
@@ -107,318 +128,76 @@
       } ],
       "uid" : "c86ed87ee3c8ca31116e6fa9f6aa518a"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: iframe_mainEditor",
+      "name" : "  Request variable was not added\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
-        "name" : "AddControlRequestWithoutName",
-        "uid" : "e175983df5d873bc",
-        "parentUid" : "a0ca24b0348d21184b39f8cba7b814a8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616725841767,
-          "stop" : 1616725887343,
-          "duration" : 45576
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddControlRequestWithName",
-        "uid" : "1becd686a9aac5a3",
-        "parentUid" : "a0ca24b0348d21184b39f8cba7b814a8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616725887345,
-          "stop" : 1616725932262,
-          "duration" : 44917
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddDataRequestWithoutName",
-        "uid" : "63105bbb133920d8",
-        "parentUid" : "a0ca24b0348d21184b39f8cba7b814a8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726218599,
-          "stop" : 1616726263646,
-          "duration" : 45047
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddDataRequestWithName",
-        "uid" : "7c249c2d8ae34209",
-        "parentUid" : "a0ca24b0348d21184b39f8cba7b814a8",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726263648,
-          "stop" : 1616726314091,
-          "duration" : 50443
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a0ca24b0348d21184b39f8cba7b814a8"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: /html/body/div[1]/div[3]/button[2]",
-      "children" : [ {
-        "name" : "AddControlVariableInt",
-        "uid" : "cf68cc9911b50b90",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616725932265,
-          "stop" : 1616725989451,
-          "duration" : 57186
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddControlVariableFloat",
-        "uid" : "460d34e6a3733a44",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616725989461,
-          "stop" : 1616726045973,
-          "duration" : 56512
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddControlVariableText",
-        "uid" : "4001e7f016c7a553",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726045975,
-          "stop" : 1616726102680,
-          "duration" : 56705
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddControlVariableBoolean",
-        "uid" : "451919a240b2d06a",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726102684,
-          "stop" : 1616726159115,
-          "duration" : 56431
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddControlVariableDisplay",
-        "uid" : "d3b840d58d9f80d6",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726159118,
-          "stop" : 1616726218596,
-          "duration" : 59478
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "AddDataRequestVariableInt",
-        "uid" : "bc7b36c0b43d176f",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
+        "uid" : "55a400f1809fa66a",
+        "parentUid" : "a284bf52b1578584d14e441274b1bb52",
         "status" : "failed",
         "time" : {
-          "start" : 1616726314093,
-          "stop" : 1616726419555,
-          "duration" : 105462
+          "start" : 1617282263896,
+          "stop" : 1617282359689,
+          "duration" : 95793
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AddDataRequestVariableFloat",
-        "uid" : "1a19dab34d4c6768",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
+        "uid" : "1db85dcc420fad94",
+        "parentUid" : "a284bf52b1578584d14e441274b1bb52",
         "status" : "failed",
         "time" : {
-          "start" : 1616726419557,
-          "stop" : 1616726527413,
-          "duration" : 107856
+          "start" : 1617282359703,
+          "stop" : 1617282454585,
+          "duration" : 94882
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AddDataRequestVariableText",
-        "uid" : "a16110b789d5bf1f",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
+        "uid" : "76850bba3f32a73b",
+        "parentUid" : "a284bf52b1578584d14e441274b1bb52",
         "status" : "failed",
         "time" : {
-          "start" : 1616726527415,
-          "stop" : 1616726635894,
-          "duration" : 108479
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddDataRequestVariableBoolean",
-        "uid" : "6f659abe15a2e550",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726635896,
-          "stop" : 1616726741547,
-          "duration" : 105651
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AddDataRequestVariableDisplay",
-        "uid" : "dc7009fefde83997",
-        "parentUid" : "fa0cd4ff46a3242cc84bbcbfeba23b95",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616726741549,
-          "stop" : 1616726846098,
-          "duration" : 104549
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fa0cd4ff46a3242cc84bbcbfeba23b95"
-    }, {
-      "name" : "System.ArgumentOutOfRangeException : Index was out of range. Must be non-negative and less than the size of the collection.\r\nParameter name: index",
-      "children" : [ {
-        "name" : "HHRPWithDistancesDefinedAndDefaultsFinishes",
-        "uid" : "ac7e05b271cb1e1c",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727007479,
-          "stop" : 1616727075773,
-          "duration" : 68294
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "HHRPDistanceRemoveLinkClearsRowOfData",
-        "uid" : "afc8c77c1599d528",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727075776,
-          "stop" : 1616727150241,
-          "duration" : 74465
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "HHRPDistanceRowWithDistanceInTwoBoxesPasses",
-        "uid" : "cf74e7f3672f540c",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727150244,
-          "stop" : 1616727228783,
-          "duration" : 78539
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "HHRPDistanceRowWithDistanceInFirstBoxOnlyPasses",
-        "uid" : "58e377bcef30bc73",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727228785,
-          "stop" : 1616727305990,
-          "duration" : 77205
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "HHRPDistanceRowWithOnlyMiddleBoxFilledPasses",
-        "uid" : "11b7a781393e8abd",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727305992,
-          "stop" : 1616727386194,
-          "duration" : 80202
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "HHRPDistanceNonsenseInputAAACreatesClearBox",
-        "uid" : "f1ebeed4b394086c",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727386195,
-          "stop" : 1616727469711,
-          "duration" : 83516
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "HHRPDistanceInputDistanceLessThan50SetsBoxTo50",
-        "uid" : "c7a31f00421cfbc0",
-        "parentUid" : "baadf417cb5611e7b4c876cd95d3f417",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616727469713,
-          "stop" : 1616727552950,
-          "duration" : 83237
+          "start" : 1617282454596,
+          "stop" : 1617282547542,
+          "duration" : 92946
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "baadf417cb5611e7b4c876cd95d3f417"
+      "uid" : "a284bf52b1578584d14e441274b1bb52"
     }, {
-      "name" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=89.0.4389.90)",
+      "name" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : element not interactable\n  (Session info: chrome=89.0.4389.114)",
       "children" : [ {
         "name" : "RefinementRunWithSingleRefinementRuns",
-        "uid" : "fddb69882dfd12d7",
-        "parentUid" : "7a87e00e9b5a7e6a968b771bce9f335d",
+        "uid" : "5893c162f06f8852",
+        "parentUid" : "6dda466bd68ed47e19680c8017036687",
         "status" : "failed",
         "time" : {
-          "start" : 1616727802733,
-          "stop" : 1616727885249,
-          "duration" : 82516
+          "start" : 1617283684631,
+          "stop" : 1617283772620,
+          "duration" : 87989
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7a87e00e9b5a7e6a968b771bce9f335d"
+      "uid" : "6dda466bd68ed47e19680c8017036687"
     }, {
       "name" : "System.NotImplementedException : Email being sent needs to verified manually",
       "children" : [ {
         "name" : "ForgotPasswordToValidAccountEmailResultsInEmailToEndUserEmail",
-        "uid" : "e7aa22f901f5d70f",
+        "uid" : "68f6b046fc3a50e9",
         "parentUid" : "0ebd22cd458d97eb4728ffa717175d77",
         "status" : "failed",
         "time" : {
-          "start" : 1616728969915,
-          "stop" : 1616728972065,
-          "duration" : 2150
+          "start" : 1617284695969,
+          "stop" : 1617284697716,
+          "duration" : 1747
         },
         "flaky" : false,
         "newFailed" : false,
@@ -426,194 +205,129 @@
       } ],
       "uid" : "0ebd22cd458d97eb4728ffa717175d77"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#Project\"}\n  (Session info: chrome=89.0.4389.90)",
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_Tickets_Submitted_by_Me\"}\n  (Session info: chrome=89.0.4389.114)",
       "children" : [ {
         "name" : "VerifyUpdateShowTicketsProperDayMonthView",
-        "uid" : "dacf8e5b8b5b368f",
-        "parentUid" : "231e9b8ccf5ebd807af29f4523df134c",
+        "uid" : "a5c303e55af8868d",
+        "parentUid" : "5a04b7c80e0a88d513e60e3f0f42e0cd",
         "status" : "failed",
         "time" : {
-          "start" : 1616730218202,
-          "stop" : 1616730258111,
-          "duration" : 39909
+          "start" : 1617285892638,
+          "stop" : 1617285929307,
+          "duration" : 36669
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyUpdateShowTicketsProperDayWeekView",
-        "uid" : "ce1abc473da1892f",
-        "parentUid" : "231e9b8ccf5ebd807af29f4523df134c",
+        "uid" : "b8b2fb04a3fbf1d2",
+        "parentUid" : "5a04b7c80e0a88d513e60e3f0f42e0cd",
         "status" : "failed",
         "time" : {
-          "start" : 1616730258113,
-          "stop" : 1616730298017,
-          "duration" : 39904
+          "start" : 1617285929320,
+          "stop" : 1617285964531,
+          "duration" : 35211
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "VerifyUpdateShowTicketsProperDayTodayView",
-        "uid" : "8d1938ea3a4af9e",
-        "parentUid" : "231e9b8ccf5ebd807af29f4523df134c",
+        "uid" : "b3266e9cc02bda83",
+        "parentUid" : "5a04b7c80e0a88d513e60e3f0f42e0cd",
         "status" : "failed",
         "time" : {
-          "start" : 1616730298021,
-          "stop" : 1616730339900,
-          "duration" : 41879
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyChangeProjectTicketsUpdatesProjectSelectionCalendar",
-        "uid" : "fe6d23ea4e83f132",
-        "parentUid" : "231e9b8ccf5ebd807af29f4523df134c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616730339903,
-          "stop" : 1616730396893,
-          "duration" : 56990
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyThatUpdateInProjectsOnCalendarUpdatesTickets",
-        "uid" : "8fe9e479e8749291",
-        "parentUid" : "231e9b8ccf5ebd807af29f4523df134c",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616730849909,
-          "stop" : 1616730905369,
-          "duration" : 55460
+          "start" : 1617285964544,
+          "stop" : 1617285998543,
+          "duration" : 33999
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "231e9b8ccf5ebd807af29f4523df134c"
+      "uid" : "5a04b7c80e0a88d513e60e3f0f42e0cd"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_WF_PRJ_INV\"}\n  (Session info: chrome=89.0.4389.90)",
+      "name" : "  Expected: 3\r\n  But was:  4\r\n",
       "children" : [ {
-        "name" : "AssignPrincipalUserToProject",
-        "uid" : "ef8950a351332bb9",
-        "parentUid" : "226dc3cae73ed0d2cb1aca5af3f3e839",
+        "name" : "FilterByPrincipal",
+        "uid" : "3622a13d71476851",
+        "parentUid" : "d7eaa1ceb236050fdd392fa61f51e512",
         "status" : "failed",
         "time" : {
-          "start" : 1616730556395,
-          "stop" : 1616730593875,
-          "duration" : 37480
+          "start" : 1617286070832,
+          "stop" : 1617286132782,
+          "duration" : 61950
         },
         "flaky" : false,
-        "newFailed" : false,
+        "newFailed" : true,
         "parameters" : [ ]
-      }, {
-        "name" : "ResolveTicketShouldAutoAssignNextTicket",
-        "uid" : "3fef6bf08abda31d",
-        "parentUid" : "226dc3cae73ed0d2cb1aca5af3f3e839",
+      } ],
+      "uid" : "d7eaa1ceb236050fdd392fa61f51e512"
+    }, {
+      "name" : "  Expected: 2\r\n  But was:  1\r\n",
+      "children" : [ {
+        "name" : "FilterByWorkflow",
+        "uid" : "6fc448cf8b51a800",
+        "parentUid" : "ae082d51ac8d15f34c068788b5f37b9a",
         "status" : "failed",
         "time" : {
-          "start" : 1616730747528,
-          "stop" : 1616730780535,
-          "duration" : 33007
+          "start" : 1617286132792,
+          "stop" : 1617286166012,
+          "duration" : 33220
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae082d51ac8d15f34c068788b5f37b9a"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#gbox_grid_Tickets_Assigned_to_Me\"}\n  (Session info: chrome=89.0.4389.114)",
+      "children" : [ {
+        "name" : "ResolveTicketShouldAutoAssignNextTicket",
+        "uid" : "e7dac2bb65a29d9d",
+        "parentUid" : "8c6f61df1beece64ca0cd1f2a42a0b90",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617286598053,
+          "stop" : 1617286715494,
+          "duration" : 117441
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ResolveTicketDueDatesShouldUpdateInOrder",
-        "uid" : "53a7892b0475fbe1",
-        "parentUid" : "226dc3cae73ed0d2cb1aca5af3f3e839",
+        "uid" : "a17273d1ed494990",
+        "parentUid" : "8c6f61df1beece64ca0cd1f2a42a0b90",
         "status" : "failed",
         "time" : {
-          "start" : 1616730780536,
-          "stop" : 1616730816642,
-          "duration" : 36106
+          "start" : 1617286715506,
+          "stop" : 1617286831795,
+          "duration" : 116289
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "8c6f61df1beece64ca0cd1f2a42a0b90"
+    }, {
+      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wrapper']/div[1]/nav/div/ul/li[6]/a",
+      "children" : [ {
         "name" : "ResolveAllTicketsTicketsAssignedToMeHasNoDataAvailable",
-        "uid" : "37289c44c8cb73aa",
-        "parentUid" : "226dc3cae73ed0d2cb1aca5af3f3e839",
+        "uid" : "b1216ac2d7bd07b3",
+        "parentUid" : "ee23478bf0506f6ac1a9e9528a833c62",
         "status" : "failed",
         "time" : {
-          "start" : 1616730816644,
-          "stop" : 1616730849908,
-          "duration" : 33264
+          "start" : 1617286831809,
+          "stop" : 1617286898908,
+          "duration" : 67099
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "226dc3cae73ed0d2cb1aca5af3f3e839"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#WFList\"}\n  (Session info: chrome=89.0.4389.90)",
-      "children" : [ {
-        "name" : "ApplyWithoutSelectProjectGivesError",
-        "uid" : "40fafa4afcac4bc1",
-        "parentUid" : "6c38380d4ef121670d1a7435f0ef3097",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616730593877,
-          "stop" : 1616730634389,
-          "duration" : 40512
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "ApplyWithoutSelectPrincipalUsersGivesError",
-        "uid" : "e7b5d86c006e8b3d",
-        "parentUid" : "6c38380d4ef121670d1a7435f0ef3097",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616730674436,
-          "stop" : 1616730714420,
-          "duration" : 39984
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6c38380d4ef121670d1a7435f0ef3097"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#UserList\"}\n  (Session info: chrome=89.0.4389.90)",
-      "children" : [ {
-        "name" : "ApplyWithoutSelectWorkflowGivesError",
-        "uid" : "702a7ec38e180dbb",
-        "parentUid" : "833d1f8cbc1201d4ef36285c9b6e84b0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616730634390,
-          "stop" : 1616730674433,
-          "duration" : 40043
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "833d1f8cbc1201d4ef36285c9b6e84b0"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#btnAssign\"}\n  (Session info: chrome=89.0.4389.90)",
-      "children" : [ {
-        "name" : "ApplyWithoutSelectionsGivesError",
-        "uid" : "951ba41afe9e72ee",
-        "parentUid" : "c1cea806ab832cf50cbe1eb5ba08ded7",
-        "status" : "failed",
-        "time" : {
-          "start" : 1616730714421,
-          "stop" : 1616730747526,
-          "duration" : 33105
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c1cea806ab832cf50cbe1eb5ba08ded7"
+      "uid" : "ee23478bf0506f6ac1a9e9528a833c62"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
