@@ -1,0 +1,165 @@
+{
+  "uid" : "d9a345d895a17eff",
+  "name" : "CheckNotAdminAccess_WizInviteUsers",
+  "fullName" : "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers",
+  "historyId" : "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers",
+  "time" : {
+    "start" : 1617243316558,
+    "stop" : 1617243328240,
+    "duration" : 11682
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 370\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617243328239,
+      "stop" : 1617243328239,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1617243328239,
+      "stop" : 1617243328239,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "failed",
+    "statusMessage" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 370\r\n",
+    "steps" : [ {
+      "name" : "CheckNotAdminAccess_WizInviteUsers",
+      "time" : {
+        "start" : 1617243316558,
+        "stop" : 1617243328239,
+        "duration" : 11681
+      },
+      "status" : "failed",
+      "statusMessage" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizInviteUsers() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 370\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f965d331ceffd62e",
+        "name" : "Console Output",
+        "source" : "f965d331ceffd62e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1617243328239,
+      "stop" : 1617243328239,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckNotAdminAccess_WizInviteUsers"
+  }, {
+    "name" : "package",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.13"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "35c0c03b5dface6d",
+        "status" : "failed",
+        "statusDetails" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1617119470460,
+          "stop" : 1617119547853,
+          "duration" : 77393
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.13" ]
+  },
+  "source" : "d9a345d895a17eff.json",
+  "parameterValues" : [ ]
+}

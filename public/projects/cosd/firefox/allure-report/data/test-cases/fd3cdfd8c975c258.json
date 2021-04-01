@@ -1,0 +1,165 @@
+{
+  "uid" : "fd3cdfd8c975c258",
+  "name" : "CheckNotAdminAccess_WizSyncInventory",
+  "fullName" : "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory",
+  "historyId" : "COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory",
+  "time" : {
+    "start" : 1617243441281,
+    "stop" : 1617243453182,
+    "duration" : 11901
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 612\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617243453181,
+      "stop" : 1617243453181,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1617243453181,
+      "stop" : 1617243453181,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "failed",
+    "statusMessage" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 612\r\n",
+    "steps" : [ {
+      "name" : "CheckNotAdminAccess_WizSyncInventory",
+      "time" : {
+        "start" : 1617243441281,
+        "stop" : 1617243453181,
+        "duration" : 11900
+      },
+      "status" : "failed",
+      "statusMessage" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckNotAdminAccess_WizSyncInventory() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 612\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4b92ed028b31aaca",
+        "name" : "Console Output",
+        "source" : "4b92ed028b31aaca.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1617243453181,
+      "stop" : 1617243453181,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckNotAdminAccess_WizSyncInventory"
+  }, {
+    "name" : "package",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.24"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1ad3c045a428df03",
+        "status" : "failed",
+        "statusDetails" : "  Was not redirected to Access Denied page\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1617119547904,
+          "stop" : 1617119579535,
+          "duration" : 31631
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.24" ]
+  },
+  "source" : "fd3cdfd8c975c258.json",
+  "parameterValues" : [ ]
+}
