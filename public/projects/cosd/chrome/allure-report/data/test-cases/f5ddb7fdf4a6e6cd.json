@@ -1,0 +1,173 @@
+{
+  "uid" : "f5ddb7fdf4a6e6cd",
+  "name" : "CheckAdminUser_AccountActivity",
+  "fullName" : "COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity",
+  "historyId" : "COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity",
+  "time" : {
+    "start" : 1617280628712,
+    "stop" : 1617280660162,
+    "duration" : 31450
+  },
+  "description" : "Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values\n",
+  "descriptionHtml" : "<p>Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : Was redirected to Access denied page",
+  "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 87",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617280660147,
+      "stop" : 1617280660147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp",
+    "time" : {
+      "start" : 1617280660147,
+      "stop" : 1617280660147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : Was redirected to Access denied page",
+    "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 87",
+    "steps" : [ {
+      "name" : "CheckAdminUser_AccountActivity",
+      "time" : {
+        "start" : 1617280628714,
+        "stop" : 1617280660158,
+        "duration" : 31444
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : Was redirected to Access denied page",
+      "statusTrace" : "   at COSD_Tests.Tests.AdminSecurity.CheckAdminUser_AccountActivity() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\COSD\\COSD_Tests\\Tests\\AdminSecurity.cs:line 87",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24017332db1f3356",
+        "name" : "Console Output",
+        "source" : "24017332db1f3356.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1617280660148,
+      "stop" : 1617280660148,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAdminUser_AccountActivity"
+  }, {
+    "name" : "package",
+    "value" : "COSD_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.1"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "4f59d443a26683d7",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616724145436,
+          "stop" : 1616724191134,
+          "duration" : 45698
+        }
+      }, {
+        "uid" : "3b980346d3933bca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1603852666326,
+          "stop" : 1603852727401,
+          "duration" : 61075
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.1" ]
+  },
+  "source" : "f5ddb7fdf4a6e6cd.json",
+  "parameterValues" : [ ]
+}
