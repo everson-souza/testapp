@@ -1,0 +1,479 @@
+{
+  "uid" : "410d38f3c16779",
+  "name" : "SelectShadowUser_NotAvailableStatus_Failed",
+  "fullName" : "BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_NotAvailableStatus_Failed",
+  "historyId" : "BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_NotAvailableStatus_Failed",
+  "time" : {
+    "start" : 1617750393627,
+    "stop" : 1617750428835,
+    "duration" : 35208
+  },
+  "description" : "Show User, Unable to Select Account with status <Not Available>\n",
+  "descriptionHtml" : "<p>Show User, Unable to Select Account with status <Not Available></p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_NotAvailableStatus_Failed() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 73",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617750428835,
+      "stop" : 1617750428835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1617750428835,
+      "stop" : 1617750428835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Show User, Unable to Select Account with status <Not Available>\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_NotAvailableStatus_Failed() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 73",
+    "steps" : [ {
+      "name" : "SelectShadowUser_NotAvailableStatus_Failed",
+      "time" : {
+        "start" : 1617750393627,
+        "stop" : 1617750428835,
+        "duration" : 35208
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.SelectShadowUser_NotAvailableStatus_Failed() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 73",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1617750397797,
+          "stop" : 1617750413972,
+          "duration" : 16175
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617750397797,
+            "stop" : 1617750398591,
+            "duration" : 794
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set username to QA_BOEMAdmin@weblakes.com",
+          "time" : {
+            "start" : 1617750398591,
+            "stop" : 1617750398637,
+            "duration" : 46
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set password to 23M8BScKKXGUa5525",
+          "time" : {
+            "start" : 1617750398637,
+            "stop" : 1617750398681,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617750398682,
+            "stop" : 1617750403966,
+            "duration" : 5284
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 4
+      }, {
+        "name" : "Open admin shadow user page",
+        "time" : {
+          "start" : 1617750413972,
+          "stop" : 1617750414837,
+          "duration" : 865
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Set search to Not Available",
+        "time" : {
+          "start" : 1617750414837,
+          "stop" : 1617750419953,
+          "duration" : 5116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select user in first row",
+        "time" : {
+          "start" : 1617750419953,
+          "stop" : 1617750427958,
+          "duration" : 8005
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.AdminShadowUserPage.__a$_around_SelectUserRow_100664123_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminShadowUser\\AdminShadowUserPage.cs:line 70\r\n   at BOEM_Tests.PageObjects.AdminShadowUserPage.__a$_around_SelectUserRow_100664123_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617750427958,
+          "stop" : 1617750428027,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3e27b3d072e1d9a1",
+          "name" : "Attachment Title",
+          "source" : "3e27b3d072e1d9a1.png",
+          "type" : "image/png",
+          "size" : 60153
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "503c00ee7a0bc6a5",
+        "name" : "Console Output",
+        "source" : "503c00ee7a0bc6a5.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 9
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617750428835,
+      "stop" : 1617750428835,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminShadowUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "SelectShadowUser_NotAvailableStatus_Failed"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminShadowUser"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSHADOWUSER.1"
+  }, {
+    "name" : "suite",
+    "value" : "AdminShadowUser"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 25,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "47f5357b40843c98",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+        "time" : {
+          "start" : 1617674857985,
+          "stop" : 1617674909172,
+          "duration" : 51187
+        }
+      }, {
+        "uid" : "9e62e7f9f8173a28",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1617329082292,
+          "stop" : 1617329148366,
+          "duration" : 66074
+        }
+      }, {
+        "uid" : "70e585db62289fe4",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1617152394565,
+          "stop" : 1617152440708,
+          "duration" : 46143
+        }
+      }, {
+        "uid" : "286b4733c95dbc7b",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1617067462655,
+          "stop" : 1617067502137,
+          "duration" : 39482
+        }
+      }, {
+        "uid" : "a406f2e4a2925541",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1616820485557,
+          "stop" : 1616820537941,
+          "duration" : 52384
+        }
+      }, {
+        "uid" : "5b8107356bec144a",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1616721703772,
+          "stop" : 1616721753425,
+          "duration" : 49653
+        }
+      }, {
+        "uid" : "ebe46554b0260218",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1616457808949,
+          "stop" : 1616457871010,
+          "duration" : 62061
+        }
+      }, {
+        "uid" : "bb7defb72656d209",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1616212221022,
+          "stop" : 1616212285857,
+          "duration" : 64835
+        }
+      }, {
+        "uid" : "b8ff6feb149957ee",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1616119663015,
+          "stop" : 1616119714105,
+          "duration" : 51090
+        }
+      }, {
+        "uid" : "126d1fc6ec027459",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='grid_SelectUSERS']/tbody/tr[2]",
+        "time" : {
+          "start" : 1616028482430,
+          "stop" : 1616028546849,
+          "duration" : 64419
+        }
+      }, {
+        "uid" : "1df7ddb11471d506",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615948776693,
+          "stop" : 1615948803584,
+          "duration" : 26891
+        }
+      }, {
+        "uid" : "eb537eb9f5f6e517",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615857501810,
+          "stop" : 1615857556482,
+          "duration" : 54672
+        }
+      }, {
+        "uid" : "ed33b7524bd1bfd0",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615654948667,
+          "stop" : 1615655003173,
+          "duration" : 54506
+        }
+      }, {
+        "uid" : "971bae77d5d4a4ca",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615321063507,
+          "stop" : 1615321119751,
+          "duration" : 56244
+        }
+      }, {
+        "uid" : "4a70cc998690f01b",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615438930648,
+          "stop" : 1615438984599,
+          "duration" : 53951
+        }
+      }, {
+        "uid" : "3943eebd143f3ae7",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615321063507,
+          "stop" : 1615321119751,
+          "duration" : 56244
+        }
+      }, {
+        "uid" : "a823c1f067b2d538",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1615217643674,
+          "stop" : 1615217675851,
+          "duration" : 32177
+        }
+      }, {
+        "uid" : "559c0fb060a78299",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1614800270857,
+          "stop" : 1614800285562,
+          "duration" : 14705
+        }
+      }, {
+        "uid" : "89870662214dad2c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1613566711285,
+          "stop" : 1613566766888,
+          "duration" : 55603
+        }
+      }, {
+        "uid" : "383e40958305adb4",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //div[@id='gridFilter_SelectUSERS']/ul/li[2]/div",
+        "time" : {
+          "start" : 1611848225784,
+          "stop" : 1611848258253,
+          "duration" : 32469
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSHADOWUSER.1" ]
+  },
+  "source" : "410d38f3c16779.json",
+  "parameterValues" : [ ]
+}
