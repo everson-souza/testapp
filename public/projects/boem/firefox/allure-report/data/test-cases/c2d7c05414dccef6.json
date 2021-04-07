@@ -1,0 +1,494 @@
+{
+  "uid" : "c2d7c05414dccef6",
+  "name" : "CheckUser_AccountActivity",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity",
+  "time" : {
+    "start" : 1617748856989,
+    "stop" : 1617748901944,
+    "duration" : 44955
+  },
+  "description" : "Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values\n",
+  "descriptionHtml" : "<p>Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 84",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617748901944,
+      "stop" : 1617748901944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1617748901944,
+      "stop" : 1617748901944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 84",
+    "steps" : [ {
+      "name" : "CheckUser_AccountActivity",
+      "time" : {
+        "start" : 1617748856989,
+        "stop" : 1617748901944,
+        "duration" : 44955
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 84",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1617748861191,
+          "stop" : 1617748876844,
+          "duration" : 15653
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617748861191,
+            "stop" : 1617748861926,
+            "duration" : 735
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set username to qa_boem@weblakes.com",
+          "time" : {
+            "start" : 1617748861926,
+            "stop" : 1617748861965,
+            "duration" : 39
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Set password to e45eT%0n^SpXdsb2",
+          "time" : {
+            "start" : 1617748861965,
+            "stop" : 1617748862000,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617748862000,
+            "stop" : 1617748866843,
+            "duration" : 4843
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "hasContent" : true
+      }, {
+        "name" : "Click on admin on top menu",
+        "time" : {
+          "start" : 1617748876844,
+          "stop" : 1617748880179,
+          "duration" : 3335
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on tools auditing menu",
+        "time" : {
+          "start" : 1617748880180,
+          "stop" : 1617748885396,
+          "duration" : 5216
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on user account activity",
+        "time" : {
+          "start" : 1617748885396,
+          "stop" : 1617748891073,
+          "duration" : 5677
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select user QA_BOEM@weblakes.com",
+        "time" : {
+          "start" : 1617748891073,
+          "stop" : 1617748901084,
+          "duration" : 10011
+        },
+        "status" : "failed",
+        "statusMessage" : "Unable to locate element: #gs_username",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at BOEM_Tests.PageObjects.AdminSecurityPage.__a$_around_SelectUserOnDropDown_100665881_o(String value) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminSecurity\\AdminSecurityPage.cs:line 137\r\n   at BOEM_Tests.PageObjects.AdminSecurityPage.__a$_around_SelectUserOnDropDown_100665881_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617748901084,
+          "stop" : 1617748901152,
+          "duration" : 68
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d8f8731cecaa8a4b",
+          "name" : "Attachment Title",
+          "source" : "d8f8731cecaa8a4b.png",
+          "type" : "image/png",
+          "size" : 51747
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b8e806ac82dbcd7c",
+        "name" : "Console Output",
+        "source" : "b8e806ac82dbcd7c.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 10,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617748901944,
+      "stop" : 1617748901944,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckUser_AccountActivity"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.1"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 21,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "94a471a29223214a",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617672541930,
+          "stop" : 1617672618237,
+          "duration" : 76307
+        }
+      }, {
+        "uid" : "571b150734e10279",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617326740816,
+          "stop" : 1617326815177,
+          "duration" : 74361
+        }
+      }, {
+        "uid" : "3bd9a1b177fc50d6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617150102598,
+          "stop" : 1617150176719,
+          "duration" : 74121
+        }
+      }, {
+        "uid" : "5d17f993054539d3",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617065373221,
+          "stop" : 1617065417469,
+          "duration" : 44248
+        }
+      }, {
+        "uid" : "d69de61a4898b81e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1616818261894,
+          "stop" : 1616818306174,
+          "duration" : 44280
+        }
+      }, {
+        "uid" : "f7d1cff18fcf3f26",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1616719449196,
+          "stop" : 1616719508544,
+          "duration" : 59348
+        }
+      }, {
+        "uid" : "210d38140d959c7c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616455407734,
+          "stop" : 1616455453000,
+          "duration" : 45266
+        }
+      }, {
+        "uid" : "31007e8b579c52e8",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616209919242,
+          "stop" : 1616209978628,
+          "duration" : 59386
+        }
+      }, {
+        "uid" : "9e453988a7aced1c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616117403141,
+          "stop" : 1616117477036,
+          "duration" : 73895
+        }
+      }, {
+        "uid" : "8a560d59d6e14487",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616026056586,
+          "stop" : 1616026130760,
+          "duration" : 74174
+        }
+      }, {
+        "uid" : "ad268325ace98d25",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615946467754,
+          "stop" : 1615946512348,
+          "duration" : 44594
+        }
+      }, {
+        "uid" : "77c37da601370184",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615855166600,
+          "stop" : 1615855214178,
+          "duration" : 47578
+        }
+      }, {
+        "uid" : "f9001eb8010a3067",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615652697876,
+          "stop" : 1615652740995,
+          "duration" : 43119
+        }
+      }, {
+        "uid" : "a36c3e07d34a5f9c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615319253797,
+          "stop" : 1615319367408,
+          "duration" : 113611
+        }
+      }, {
+        "uid" : "fab4ff550a03b8df",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615436707964,
+          "stop" : 1615436750652,
+          "duration" : 42688
+        }
+      }, {
+        "uid" : "991ccb9e5d8deb68",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615319253797,
+          "stop" : 1615319367408,
+          "duration" : 113611
+        }
+      }, {
+        "uid" : "892464ceb459708e",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615216043375,
+          "stop" : 1615216090692,
+          "duration" : 47317
+        }
+      }, {
+        "uid" : "c808d33930d50bcc",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1614799125187,
+          "stop" : 1614799166927,
+          "duration" : 41740
+        }
+      }, {
+        "uid" : "a5aff21813ade050",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1613576748397,
+          "stop" : 1613576865688,
+          "duration" : 117291
+        }
+      }, {
+        "uid" : "c6d0c42e3e444f7d",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1611889294396,
+          "stop" : 1611889360454,
+          "duration" : 66058
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.1" ]
+  },
+  "source" : "c2d7c05414dccef6.json",
+  "parameterValues" : [ ]
+}
