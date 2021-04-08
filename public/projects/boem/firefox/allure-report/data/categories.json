@@ -7,65 +7,65 @@
       "name" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
       "children" : [ {
         "name" : "GlycolEmissionsImport",
-        "uid" : "9641bc6f5a0af279",
+        "uid" : "da59384dfd4e4b25",
         "parentUid" : "f063ab8d12c60f1d315c15f51f3ef1bb",
         "status" : "failed",
         "time" : {
-          "start" : 1617744347067,
-          "stop" : 1617744446743,
-          "duration" : 99676
+          "start" : 1617836632525,
+          "stop" : 1617836739625,
+          "duration" : 107100
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AmineEmissionsImport",
-        "uid" : "4af19e13c241180b",
+        "uid" : "267500244955eddd",
         "parentUid" : "f063ab8d12c60f1d315c15f51f3ef1bb",
         "status" : "failed",
         "time" : {
-          "start" : 1617744446817,
-          "stop" : 1617744494239,
-          "duration" : 47422
+          "start" : 1617836739689,
+          "stop" : 1617836786533,
+          "duration" : 46844
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "GlycolEmissionsImport",
-        "uid" : "f4f2ae80bbe8d171",
+        "uid" : "3f61eda0edd7c729",
         "parentUid" : "f063ab8d12c60f1d315c15f51f3ef1bb",
         "status" : "failed",
         "time" : {
-          "start" : 1617770501046,
-          "stop" : 1617770612025,
-          "duration" : 110979
+          "start" : 1617863546790,
+          "stop" : 1617863658268,
+          "duration" : 111478
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AmineEmissionsImport",
-        "uid" : "39500af249ca00d9",
+        "uid" : "eff130840d325200",
         "parentUid" : "f063ab8d12c60f1d315c15f51f3ef1bb",
         "status" : "failed",
         "time" : {
-          "start" : 1617770612041,
-          "stop" : 1617770674340,
-          "duration" : 62299
+          "start" : 1617863658285,
+          "stop" : 1617863722351,
+          "duration" : 64066
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "DrillingRigDataImport",
-        "uid" : "5edd7b7c3df8c64f",
+        "uid" : "97d01cd1b6ea1392",
         "parentUid" : "f063ab8d12c60f1d315c15f51f3ef1bb",
         "status" : "failed",
         "time" : {
-          "start" : 1617770792543,
-          "stop" : 1617770835444,
-          "duration" : 42901
+          "start" : 1617863841671,
+          "stop" : 1617863886104,
+          "duration" : 44433
         },
         "flaky" : false,
         "newFailed" : false,
@@ -76,13 +76,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Add Lease' button could NOT be found in current page. Please check the test's screenshot",
       "children" : [ {
         "name" : "InventoryLockedAddLeaseAccessDenied",
-        "uid" : "24a91285505003b7",
+        "uid" : "893613d738135a89",
         "parentUid" : "f2c1f0607a344b7ea711024f0c3212e9",
         "status" : "failed",
         "time" : {
-          "start" : 1617745856669,
-          "stop" : 1617745898166,
-          "duration" : 41497
+          "start" : 1617838093882,
+          "stop" : 1617838135194,
+          "duration" : 41312
         },
         "flaky" : false,
         "newFailed" : false,
@@ -90,16 +90,97 @@
       } ],
       "uid" : "f2c1f0607a344b7ea711024f0c3212e9"
     }, {
+      "name" : "  Could not find activity: 'Access Rights - Edit:0 - Submit' in grid\r\n  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "AccessFeatureAccessRightsManagerEditRightsLogsActivity",
+        "uid" : "fa456065b569079",
+        "parentUid" : "0c65a1b18c0bba1d0f06e535020119f7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617839404298,
+          "stop" : 1617839465532,
+          "duration" : 61234
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c65a1b18c0bba1d0f06e535020119f7"
+    }, {
+      "name" : "  Could not find activity 'User Account Activity - Index' in grid\r\n  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "AccessFeatureInventoryAccessRightsUpdateLogsActivity",
+        "uid" : "7204e7ce7f5cc6b2",
+        "parentUid" : "7a12904dbf2fffad56db5e41d9c7d55a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617839506133,
+          "stop" : 1617839568008,
+          "duration" : 61875
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a12904dbf2fffad56db5e41d9c7d55a"
+    }, {
+      "name" : "OpenQA.Selenium.WebDriverTimeoutException : Page took too long to load",
+      "children" : [ {
+        "name" : "AccessFeatureChangeHistoryReportLogsActivity",
+        "uid" : "6b98787387ea69b6",
+        "parentUid" : "ad518c14477dbbea62f1570ef7aed755",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617839891518,
+          "stop" : 1617839965202,
+          "duration" : 73684
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad518c14477dbbea62f1570ef7aed755"
+    }, {
+      "name" : "  Could not find activity 'Theme Defaults - Edit:24 - Submit' in grid\r\n  Expected: True\r\n  But was:  False\r\n",
+      "children" : [ {
+        "name" : "AccessFeatureThemeDefaultsEditSubmitFormLogsActivity",
+        "uid" : "cb800cf8a1aa5d8b",
+        "parentUid" : "14dd2c5c0254d1a142e51c58b1c5d79b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617840494573,
+          "stop" : 1617840566776,
+          "duration" : 72203
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AccessFeatureThemeDefaultsEditCancelFormLogsActivity",
+        "uid" : "62173fb91430fbdf",
+        "parentUid" : "14dd2c5c0254d1a142e51c58b1c5d79b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617840566776,
+          "stop" : 1617840639471,
+          "duration" : 72695
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14dd2c5c0254d1a142e51c58b1c5d79b"
+    }, {
       "name" : "System.Exception : (TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
       "children" : [ {
         "name" : "CheckUserDefinedReports",
-        "uid" : "5cbd9b34ef783f61",
+        "uid" : "9ce09ecc794d0e9f",
         "parentUid" : "6f3cdbe333da990f2a1d5259b0f92df1",
         "status" : "failed",
         "time" : {
-          "start" : 1617748098062,
-          "stop" : 1617748233660,
-          "duration" : 135598
+          "start" : 1617840639471,
+          "stop" : 1617840773701,
+          "duration" : 134230
         },
         "flaky" : false,
         "newFailed" : false,
@@ -110,13 +191,13 @@
       "name" : "System.Exception : (TEST FAILED) EXPECTED: 2 menu item(s). BUT WAS: 1 menu item(s).",
       "children" : [ {
         "name" : "CheckFacilityListAccessLevel",
-        "uid" : "28874d4af232e988",
+        "uid" : "5a2a59ae07ca08e",
         "parentUid" : "385b386b3f6906d212c0aed90d710b02",
         "status" : "failed",
         "time" : {
-          "start" : 1617748233660,
-          "stop" : 1617748383364,
-          "duration" : 149704
+          "start" : 1617840773701,
+          "stop" : 1617840923316,
+          "duration" : 149615
         },
         "flaky" : false,
         "newFailed" : false,
@@ -127,13 +208,13 @@
       "name" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
       "children" : [ {
         "name" : "CheckUser_AccountActivity",
-        "uid" : "c2d7c05414dccef6",
+        "uid" : "e818f7f1d3c4c8ac",
         "parentUid" : "33e97f6e7241b20a8df6bc9dc6c91fb7",
         "status" : "failed",
         "time" : {
-          "start" : 1617748856989,
-          "stop" : 1617748901944,
-          "duration" : 44955
+          "start" : 1617841376819,
+          "stop" : 1617841420566,
+          "duration" : 43747
         },
         "flaky" : false,
         "newFailed" : false,
@@ -144,26 +225,26 @@
       "name" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
         "name" : "CheckAccess_WizInviteUsers",
-        "uid" : "22f18cc28d71e7b",
+        "uid" : "93ea99179e15ead2",
         "parentUid" : "b19592cf699b62518231311807ba8e0c",
         "status" : "failed",
         "time" : {
-          "start" : 1617749223227,
-          "stop" : 1617749251536,
-          "duration" : 28309
+          "start" : 1617841733595,
+          "stop" : 1617841761083,
+          "duration" : 27488
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckAccess_WizSyncInventory",
-        "uid" : "975099669877c228",
+        "uid" : "4ec6cb390094ef3c",
         "parentUid" : "b19592cf699b62518231311807ba8e0c",
         "status" : "failed",
         "time" : {
-          "start" : 1617749534992,
-          "stop" : 1617749567166,
-          "duration" : 32174
+          "start" : 1617842038254,
+          "stop" : 1617842069138,
+          "duration" : 30884
         },
         "flaky" : false,
         "newFailed" : false,
@@ -171,46 +252,29 @@
       } ],
       "uid" : "b19592cf699b62518231311807ba8e0c"
     }, {
-      "name" : "OpenQA.Selenium.WebDriverTimeoutException : Page took too long to load",
-      "children" : [ {
-        "name" : "CheckAdminAccess_AdminChangeLog",
-        "uid" : "287181bc42cf6b72",
-        "parentUid" : "ad518c14477dbbea62f1570ef7aed755",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617749983320,
-          "stop" : 1617750059033,
-          "duration" : 75713
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ad518c14477dbbea62f1570ef7aed755"
-    }, {
       "name" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
       "children" : [ {
         "name" : "CheckAdminAccess_ProjectMappingAdmin",
-        "uid" : "c1fbbcfe5458a012",
+        "uid" : "34dbe76206585c41",
         "parentUid" : "b720af60f5e8a9e760b32ba15c10d998",
         "status" : "failed",
         "time" : {
-          "start" : 1617750095375,
-          "stop" : 1617750131286,
-          "duration" : 35911
+          "start" : 1617842543475,
+          "stop" : 1617842578771,
+          "duration" : 35296
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CheckAdminAccess_JobQueueProjectMaps",
-        "uid" : "313665c7b1847b4",
+        "uid" : "b252f11cf3cb9458",
         "parentUid" : "b720af60f5e8a9e760b32ba15c10d998",
         "status" : "failed",
         "time" : {
-          "start" : 1617750131286,
-          "stop" : 1617750167599,
-          "duration" : 36313
+          "start" : 1617842578771,
+          "stop" : 1617842614184,
+          "duration" : 35413
         },
         "flaky" : false,
         "newFailed" : false,
@@ -221,13 +285,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
       "children" : [ {
         "name" : "SelectShadowUser_NotAvailableStatus_Failed",
-        "uid" : "9d56ed28e8291482",
+        "uid" : "ab294c68b1f83fd1",
         "parentUid" : "427701391b246d27cc599e2b5459a47e",
         "status" : "failed",
         "time" : {
-          "start" : 1617750393627,
-          "stop" : 1617750428835,
-          "duration" : 35208
+          "start" : 1617842832852,
+          "stop" : 1617842867843,
+          "duration" : 34991
         },
         "flaky" : false,
         "newFailed" : false,
@@ -238,13 +302,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Pop-Up Error' element was NOT displayed! Please, check this test's screenshot.",
       "children" : [ {
         "name" : "InviteUser_NoUserGroup_Rejected",
-        "uid" : "e57a29b390034e60",
+        "uid" : "6ff24534291aba2a",
         "parentUid" : "f498263773539a3bb46cc923955e94f0",
         "status" : "failed",
         "time" : {
-          "start" : 1617750855945,
-          "stop" : 1617750902297,
-          "duration" : 46352
+          "start" : 1617843294361,
+          "stop" : 1617843340781,
+          "duration" : 46420
         },
         "flaky" : false,
         "newFailed" : false,
@@ -252,98 +316,68 @@
       } ],
       "uid" : "f498263773539a3bb46cc923955e94f0"
     }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+      "name" : "  Expected: True\r\n  But was:  False\r\n",
       "children" : [ {
-        "name" : "VerifyNoDataAvailable",
-        "uid" : "e4b465d30d976d43",
-        "parentUid" : "1e5aa12c47abc84002ea0592d1f3529a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617751231674,
-          "stop" : 1617751267375,
-          "duration" : 35701
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "VerifyNoDataFound",
-        "uid" : "f8454c41edd5bc4a",
-        "parentUid" : "1e5aa12c47abc84002ea0592d1f3529a",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617751267390,
-          "stop" : 1617751303196,
-          "duration" : 35806
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "VerifyDefaultValues",
-        "uid" : "9506b5b031bca5",
-        "parentUid" : "1e5aa12c47abc84002ea0592d1f3529a",
+        "uid" : "11d934176fed5cb5",
+        "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1617751303211,
-          "stop" : 1617751338983,
-          "duration" : 35772
+          "start" : 1617843859813,
+          "stop" : 1617843955273,
+          "duration" : 95460
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      } ],
-      "uid" : "1e5aa12c47abc84002ea0592d1f3529a"
-    }, {
-      "name" : "  Expected: True\r\n  But was:  False\r\n",
-      "children" : [ {
+      }, {
         "name" : "OPDAreaExportToExcel",
-        "uid" : "4656b336678ccc4c",
+        "uid" : "4bdae237c265fe41",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1617754229392,
-          "stop" : 1617754265735,
-          "duration" : 36343
+          "start" : 1617846765230,
+          "stop" : 1617846801812,
+          "duration" : 36582
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "UploadWrongAMINECalcEmissions_WrongFileFormart",
-        "uid" : "903c4f5ded300f74",
+        "uid" : "b788bd81a031c7d0",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1617764835202,
-          "stop" : 1617765021374,
-          "duration" : 186172
+          "start" : 1617857444172,
+          "stop" : 1617857626216,
+          "duration" : 182044
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "UploadGRIGLYCalcEmissions_WrongFileFormat",
-        "uid" : "8bee67b54ef299c9",
+        "uid" : "4d637614e5c4d0f",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1617765021389,
-          "stop" : 1617765155395,
-          "duration" : 134006
+          "start" : 1617857626232,
+          "stop" : 1617857760157,
+          "duration" : 133925
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EmissionsByEquipmentTypeReport",
-        "uid" : "901f6e770daac82f",
+        "uid" : "431d23ea000d691f",
         "parentUid" : "c86ed87ee3c8ca31116e6fa9f6aa518a",
         "status" : "failed",
         "time" : {
-          "start" : 1617776948158,
-          "stop" : 1617777116907,
-          "duration" : 168749
+          "start" : 1617869996238,
+          "stop" : 1617870161100,
+          "duration" : 164862
         },
         "flaky" : false,
         "newFailed" : false,
@@ -351,16 +385,33 @@
       } ],
       "uid" : "c86ed87ee3c8ca31116e6fa9f6aa518a"
     }, {
+      "name" : "System.Exception : (TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+      "children" : [ {
+        "name" : "DASHBOARDPORTAL_1",
+        "uid" : "def7d5c295ce18a6",
+        "parentUid" : "8808dfe9637157965a92cfbfdac02d9d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617843955289,
+          "stop" : 1617844053722,
+          "duration" : 98433
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8808dfe9637157965a92cfbfdac02d9d"
+    }, {
       "name" : "  Expected: False\r\n  But was:  True\r\n",
       "children" : [ {
         "name" : "CheckSinglePanelCompressButton",
-        "uid" : "f104c920776fdce6",
+        "uid" : "e79d6ea61caa489d",
         "parentUid" : "06344b684aae083913b4429219012354",
         "status" : "failed",
         "time" : {
-          "start" : 1617754442413,
-          "stop" : 1617754502516,
-          "duration" : 60103
+          "start" : 1617846979247,
+          "stop" : 1617847041120,
+          "duration" : 61873
         },
         "flaky" : true,
         "newFailed" : false,
@@ -371,39 +422,39 @@
       "name" : "  Expected: 0\r\n  But was:  2\r\n",
       "children" : [ {
         "name" : "CheckMultiplePeriodsCompressExpandButton",
-        "uid" : "a2ce04172485d882",
+        "uid" : "7f0827f8fbcc4320",
         "parentUid" : "3e5d525f5ce94db5c79a7c6c696b27f2",
         "status" : "failed",
         "time" : {
-          "start" : 1617754502531,
-          "stop" : 1617754566504,
-          "duration" : 63973
+          "start" : 1617847041120,
+          "stop" : 1617847104845,
+          "duration" : 63725
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompressAllPanels",
-        "uid" : "b37d5da30e35519",
+        "uid" : "ff7252a83baa8af3",
         "parentUid" : "3e5d525f5ce94db5c79a7c6c696b27f2",
         "status" : "failed",
         "time" : {
-          "start" : 1617754566504,
-          "stop" : 1617754631380,
-          "duration" : 64876
+          "start" : 1617847104845,
+          "stop" : 1617847168635,
+          "duration" : 63790
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompressExpandAll",
-        "uid" : "5cb453d0e8e89137",
+        "uid" : "c74140d7df1c3460",
         "parentUid" : "3e5d525f5ce94db5c79a7c6c696b27f2",
         "status" : "failed",
         "time" : {
-          "start" : 1617754631380,
-          "stop" : 1617754694747,
-          "duration" : 63367
+          "start" : 1617847168635,
+          "stop" : 1617847232636,
+          "duration" : 64001
         },
         "flaky" : true,
         "newFailed" : false,
@@ -414,13 +465,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //*[@id='dshbrd-control-header']/div/button[1]",
       "children" : [ {
         "name" : "SettingsDefault",
-        "uid" : "d282aab61db84465",
+        "uid" : "c9cd7ce7381be4cc",
         "parentUid" : "efdf9693838aef0b724e077bfc0a1843",
         "status" : "failed",
         "time" : {
-          "start" : 1617754748777,
-          "stop" : 1617754797094,
-          "duration" : 48317
+          "start" : 1617847287171,
+          "stop" : 1617847335719,
+          "duration" : 48548
         },
         "flaky" : true,
         "newFailed" : false,
@@ -431,26 +482,26 @@
       "name" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
       "children" : [ {
         "name" : "EIQuestionnaireLO_4",
-        "uid" : "deb09d5567008116",
+        "uid" : "130efd4e4d861df5",
         "parentUid" : "96ff1eaad65a6a7ab224ef2283d051c9",
         "status" : "failed",
         "time" : {
-          "start" : 1617755464817,
-          "stop" : 1617755625889,
-          "duration" : 161072
+          "start" : 1617847929812,
+          "stop" : 1617848093239,
+          "duration" : 163427
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_21",
-        "uid" : "759528d9bd9306ba",
+        "uid" : "fab8923e1ed7c832",
         "parentUid" : "96ff1eaad65a6a7ab224ef2283d051c9",
         "status" : "failed",
         "time" : {
-          "start" : 1617761527041,
-          "stop" : 1617761694914,
-          "duration" : 167873
+          "start" : 1617854127212,
+          "stop" : 1617854294772,
+          "duration" : 167560
         },
         "flaky" : false,
         "newFailed" : false,
@@ -461,26 +512,26 @@
       "name" : "System.Exception : (TEST FAILED) The 'Re-Calculate' button is visible and enabled!",
       "children" : [ {
         "name" : "EIQuestionnaireLO_6",
-        "uid" : "7eaa0e5aedab05f9",
+        "uid" : "ae24d62595dc4f09",
         "parentUid" : "01498c32e31e003b75990b5da952a1b8",
         "status" : "failed",
         "time" : {
-          "start" : 1617755793126,
-          "stop" : 1617755959723,
-          "duration" : 166597
+          "start" : 1617848261354,
+          "stop" : 1617848427606,
+          "duration" : 166252
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_23",
-        "uid" : "8df9917cc9495c35",
+        "uid" : "31397c3d3d38a856",
         "parentUid" : "01498c32e31e003b75990b5da952a1b8",
         "status" : "failed",
         "time" : {
-          "start" : 1617761865978,
-          "stop" : 1617762043369,
-          "duration" : 177391
+          "start" : 1617854465486,
+          "stop" : 1617854643533,
+          "duration" : 178047
         },
         "flaky" : false,
         "newFailed" : false,
@@ -491,39 +542,39 @@
       "name" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
       "children" : [ {
         "name" : "EIQuestionnaireLO_8",
-        "uid" : "820431270d7d0025",
+        "uid" : "b85be1b25f150433",
         "parentUid" : "4cd8d1c589a35e4ef2b1c195be3de973",
         "status" : "failed",
         "time" : {
-          "start" : 1617756130205,
-          "stop" : 1617756302695,
-          "duration" : 172490
+          "start" : 1617848598966,
+          "stop" : 1617848771473,
+          "duration" : 172507
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_25",
-        "uid" : "c1bb729bf1ec21fc",
+        "uid" : "9945cffde9e6b070",
         "parentUid" : "4cd8d1c589a35e4ef2b1c195be3de973",
         "status" : "failed",
         "time" : {
-          "start" : 1617762219292,
-          "stop" : 1617762396825,
-          "duration" : 177533
+          "start" : 1617854819579,
+          "stop" : 1617854997044,
+          "duration" : 177465
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_29",
-        "uid" : "1b24adbb6e237a52",
+        "uid" : "8c1bd344ebec337f",
         "parentUid" : "4cd8d1c589a35e4ef2b1c195be3de973",
         "status" : "failed",
         "time" : {
-          "start" : 1617762945642,
-          "stop" : 1617763132516,
-          "duration" : 186874
+          "start" : 1617855548430,
+          "stop" : 1617855736488,
+          "duration" : 188058
         },
         "flaky" : false,
         "newFailed" : false,
@@ -534,65 +585,65 @@
       "name" : "OpenQA.Selenium.ElementNotInteractableException : Element <tr id=\"111\" class=\"ui-widget-content jqgrow ui-row-ltr ui-priority-secondary\"> could not be scrolled into view",
       "children" : [ {
         "name" : "EIQuestionnaireLO_9",
-        "uid" : "7ad591213ac40f13",
+        "uid" : "a768dc761948bebf",
         "parentUid" : "506dc9384894ddcca713caf2c9feba46",
         "status" : "failed",
         "time" : {
-          "start" : 1617756302695,
-          "stop" : 1617756471539,
-          "duration" : 168844
+          "start" : 1617848771489,
+          "stop" : 1617848940005,
+          "duration" : 168516
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EIQuestionnaireLO_10",
-        "uid" : "97c3bd3192352c2b",
+        "uid" : "450c1e949c1f2cbb",
         "parentUid" : "506dc9384894ddcca713caf2c9feba46",
         "status" : "failed",
         "time" : {
-          "start" : 1617756471539,
-          "stop" : 1617756642021,
-          "duration" : 170482
+          "start" : 1617848940021,
+          "stop" : 1617849110369,
+          "duration" : 170348
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EIQuestionnaireLO_13",
-        "uid" : "96468f1c7374ea5e",
+        "uid" : "fc8e92e3e79c3274",
         "parentUid" : "506dc9384894ddcca713caf2c9feba46",
         "status" : "failed",
         "time" : {
-          "start" : 1617757005660,
-          "stop" : 1617757185181,
-          "duration" : 179521
+          "start" : 1617849521406,
+          "stop" : 1617849699966,
+          "duration" : 178560
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EIQuestionnaireLO_14",
-        "uid" : "ad56fd140e9216f1",
+        "uid" : "880b811d873048dd",
         "parentUid" : "506dc9384894ddcca713caf2c9feba46",
         "status" : "failed",
         "time" : {
-          "start" : 1617757185196,
-          "stop" : 1617757365922,
-          "duration" : 180726
+          "start" : 1617849699982,
+          "stop" : 1617849928312,
+          "duration" : 228330
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EIQuestionnaireLO_17",
-        "uid" : "795ae138ab20774c",
+        "uid" : "fac9f0081e5f21fe",
         "parentUid" : "506dc9384894ddcca713caf2c9feba46",
         "status" : "failed",
         "time" : {
-          "start" : 1617757749285,
-          "stop" : 1617757940437,
-          "duration" : 191152
+          "start" : 1617850311576,
+          "stop" : 1617850502258,
+          "duration" : 190682
         },
         "flaky" : false,
         "newFailed" : false,
@@ -603,13 +654,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Tab Data Request' element is visible and enabled!",
       "children" : [ {
         "name" : "EIQuestionnaireLO_12",
-        "uid" : "a1182d13a948f5",
+        "uid" : "9c6a14bc12916294",
         "parentUid" : "6063e87b42d7f1258757e36e8a48c98d",
         "status" : "failed",
         "time" : {
-          "start" : 1617756823107,
-          "stop" : 1617757005645,
-          "duration" : 182538
+          "start" : 1617849291097,
+          "stop" : 1617849521391,
+          "duration" : 230294
         },
         "flaky" : false,
         "newFailed" : false,
@@ -620,13 +671,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Tab Emissions Factors' element is visible and enabled!",
       "children" : [ {
         "name" : "EIQuestionnaireLO_16",
-        "uid" : "3a2b89e6fbea830d",
+        "uid" : "624ad8a6023ad7bf",
         "parentUid" : "5bb8b410a5ce24922eba93458009cb42",
         "status" : "failed",
         "time" : {
-          "start" : 1617757558497,
-          "stop" : 1617757749269,
-          "duration" : 190772
+          "start" : 1617850120747,
+          "stop" : 1617850311576,
+          "duration" : 190829
         },
         "flaky" : false,
         "newFailed" : false,
@@ -637,13 +688,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'VOC Text Input' element is visible, enabled and can be editable",
       "children" : [ {
         "name" : "EIQuestionnaireLO_18",
-        "uid" : "c7df7b271a63fc7d",
+        "uid" : "b3f6ec79129ff129",
         "parentUid" : "ba872aeeaa982f6801dbcb0a84efbb1e",
         "status" : "failed",
         "time" : {
-          "start" : 1617757940453,
-          "stop" : 1617758156277,
-          "duration" : 215824
+          "start" : 1617850502273,
+          "stop" : 1617850717918,
+          "duration" : 215645
         },
         "flaky" : false,
         "newFailed" : false,
@@ -654,13 +705,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Select Calculator' button is visible and enabled!",
       "children" : [ {
         "name" : "EIQuestionnaireLO_20",
-        "uid" : "36879f4d421579f1",
+        "uid" : "fad82076185954ca",
         "parentUid" : "a738e9f541db6d3c3ce35546d7c5b300",
         "status" : "failed",
         "time" : {
-          "start" : 1617758366886,
-          "stop" : 1617758570011,
-          "duration" : 203125
+          "start" : 1617850936812,
+          "stop" : 1617851139782,
+          "duration" : 202970
         },
         "flaky" : false,
         "newFailed" : false,
@@ -671,13 +722,13 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Duration (hours)' input was NOT found!",
       "children" : [ {
         "name" : "EISQuestionnaire_3",
-        "uid" : "92ee80daefde1d3d",
+        "uid" : "28e9148ba38152e4",
         "parentUid" : "ff4472222dc6f08f7fd44103acc8d636",
         "status" : "failed",
         "time" : {
-          "start" : 1617759510354,
-          "stop" : 1617759643938,
-          "duration" : 133584
+          "start" : 1617852082260,
+          "stop" : 1617852216023,
+          "duration" : 133763
         },
         "flaky" : false,
         "newFailed" : false,
@@ -688,13 +739,13 @@
       "name" : "System.Exception : (NoSuchElementException) One of these elements are NOT found: 'Duration', 'Total Vessel Power', 'Engine Load Factor', 'Vessel Model Year'",
       "children" : [ {
         "name" : "EISQuestionnaire_4",
-        "uid" : "7276b3ecef0eb40e",
+        "uid" : "87a2cca1e6d1f8e8",
         "parentUid" : "ffa78bfc8f2ccaf6218afd3e20971b8a",
         "status" : "failed",
         "time" : {
-          "start" : 1617759643938,
-          "stop" : 1617759777868,
-          "duration" : 133930
+          "start" : 1617852216038,
+          "stop" : 1617852349690,
+          "duration" : 133652
         },
         "flaky" : false,
         "newFailed" : false,
@@ -705,13 +756,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Material Processed Code' was NOT blank.",
       "children" : [ {
         "name" : "EISQuestionnaire_6",
-        "uid" : "38bb87cd0f8fcd91",
+        "uid" : "eb09df45f5531018",
         "parentUid" : "45d3c2807fd2c34dbb075d0b694fd107",
         "status" : "failed",
         "time" : {
-          "start" : 1617759940006,
-          "stop" : 1617760095955,
-          "duration" : 155949
+          "start" : 1617852509035,
+          "stop" : 1617852664239,
+          "duration" : 155204
         },
         "flaky" : false,
         "newFailed" : false,
@@ -722,52 +773,52 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Number of Operating Days in Month' text box was NOT displayed in current page",
       "children" : [ {
         "name" : "EISQuestionnaire_7",
-        "uid" : "9f4d28ea25ef2892",
+        "uid" : "765341eea5f98679",
         "parentUid" : "1986afa460b4708f93a6765cad296473",
         "status" : "failed",
         "time" : {
-          "start" : 1617760095955,
-          "stop" : 1617760207143,
-          "duration" : 111188
+          "start" : 1617852664239,
+          "stop" : 1617852772059,
+          "duration" : 107820
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_9",
-        "uid" : "23438aef458ce3bc",
+        "uid" : "bcf699a437fa6258",
         "parentUid" : "1986afa460b4708f93a6765cad296473",
         "status" : "failed",
         "time" : {
-          "start" : 1617760292966,
-          "stop" : 1617760363435,
-          "duration" : 70469
+          "start" : 1617852856866,
+          "stop" : 1617852925207,
+          "duration" : 68341
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_10",
-        "uid" : "1d6e048fbaed3139",
+        "uid" : "d9f5ff084886fc32",
         "parentUid" : "1986afa460b4708f93a6765cad296473",
         "status" : "failed",
         "time" : {
-          "start" : 1617760363435,
-          "stop" : 1617760433885,
-          "duration" : 70450
+          "start" : 1617852925222,
+          "stop" : 1617853041026,
+          "duration" : 115804
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_11",
-        "uid" : "a9a18a9d0c12eb11",
+        "uid" : "7ff8fe46acf79d18",
         "parentUid" : "1986afa460b4708f93a6765cad296473",
         "status" : "failed",
         "time" : {
-          "start" : 1617760433901,
-          "stop" : 1617760501875,
-          "duration" : 67974
+          "start" : 1617853041042,
+          "stop" : 1617853109319,
+          "duration" : 68277
         },
         "flaky" : false,
         "newFailed" : false,
@@ -778,26 +829,26 @@
       "name" : "System.Exception : (NoSuchElementException) The 'F box' was NOT displayed in current page",
       "children" : [ {
         "name" : "EISQuestionnaire_16",
-        "uid" : "8b8c661838d24506",
+        "uid" : "3f16f525bb3acd9a",
         "parentUid" : "ee28f24f5fec8c0849a28c5795a2e10c",
         "status" : "failed",
         "time" : {
-          "start" : 1617760968627,
-          "stop" : 1617761054470,
-          "duration" : 85843
+          "start" : 1617853567907,
+          "stop" : 1617853702030,
+          "duration" : 134123
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_17",
-        "uid" : "1804b64a9ce997dd",
+        "uid" : "cedeae3f14e21de2",
         "parentUid" : "ee28f24f5fec8c0849a28c5795a2e10c",
         "status" : "failed",
         "time" : {
-          "start" : 1617761054470,
-          "stop" : 1617761140434,
-          "duration" : 85964
+          "start" : 1617853702045,
+          "stop" : 1617853788749,
+          "duration" : 86704
         },
         "flaky" : false,
         "newFailed" : false,
@@ -808,26 +859,26 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Throughput box' was NOT displayed in current page",
       "children" : [ {
         "name" : "EISQuestionnaire_18",
-        "uid" : "51b1436edd0ea41",
+        "uid" : "36ff9f6555670f4",
         "parentUid" : "a86e5f30ff16b932f8ec41a0f26155ff",
         "status" : "failed",
         "time" : {
-          "start" : 1617761140449,
-          "stop" : 1617761226846,
-          "duration" : 86397
+          "start" : 1617853788765,
+          "stop" : 1617853874858,
+          "duration" : 86093
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_19",
-        "uid" : "b1992594479c4dd9",
+        "uid" : "ee4c8afea7eac1e5",
         "parentUid" : "a86e5f30ff16b932f8ec41a0f26155ff",
         "status" : "failed",
         "time" : {
-          "start" : 1617761226846,
-          "stop" : 1617761313665,
-          "duration" : 86819
+          "start" : 1617853874858,
+          "stop" : 1617853961086,
+          "duration" : 86228
         },
         "flaky" : false,
         "newFailed" : false,
@@ -838,13 +889,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Primary Type Control Equipment' input box was NOT enabled!",
       "children" : [ {
         "name" : "EISQuestionnaire_26",
-        "uid" : "9f06915fd0898e71",
+        "uid" : "8af90ec7c9b44495",
         "parentUid" : "4fbe17336f4c45d556f9c96930e7369b",
         "status" : "failed",
         "time" : {
-          "start" : 1617762396825,
-          "stop" : 1617762577617,
-          "duration" : 180792
+          "start" : 1617854997044,
+          "stop" : 1617855178178,
+          "duration" : 181134
         },
         "flaky" : false,
         "newFailed" : false,
@@ -855,13 +906,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Tab Emission Factors' element is visible and enabled!",
       "children" : [ {
         "name" : "EISQuestionnaire_31",
-        "uid" : "21653be7e2f8103b",
+        "uid" : "1b81c0b0c6a9e6fd",
         "parentUid" : "2962ef74e0539862d8ec47eb5982b7af",
         "status" : "failed",
         "time" : {
-          "start" : 1617763353561,
-          "stop" : 1617763574476,
-          "duration" : 220915
+          "start" : 1617855957767,
+          "stop" : 1617856179080,
+          "duration" : 221313
         },
         "flaky" : false,
         "newFailed" : false,
@@ -872,13 +923,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Clear' button is visible and enabled!",
       "children" : [ {
         "name" : "EISQuestionnaire_33",
-        "uid" : "a1cc8521cd823030",
+        "uid" : "9b32e3977b592f99",
         "parentUid" : "a2280dffc4a2cd8dcd4dc6accfe07862",
         "status" : "failed",
         "time" : {
-          "start" : 1617763790254,
-          "stop" : 1617763997464,
-          "duration" : 207210
+          "start" : 1617856396465,
+          "stop" : 1617856605244,
+          "duration" : 208779
         },
         "flaky" : false,
         "newFailed" : false,
@@ -889,13 +940,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Import/Export Activity Data' button is visible and enabled!",
       "children" : [ {
         "name" : "EISQuestionnaire_35",
-        "uid" : "5d0247a6e00e103a",
+        "uid" : "b6c76dde91efa3fc",
         "parentUid" : "7a92246fc24481d697d1bd41e1624b73",
         "status" : "failed",
         "time" : {
-          "start" : 1617764209027,
-          "stop" : 1617764421647,
-          "duration" : 212620
+          "start" : 1617856816278,
+          "stop" : 1617857028817,
+          "duration" : 212539
         },
         "flaky" : false,
         "newFailed" : false,
@@ -906,13 +957,13 @@
       "name" : "System.Exception : (TEST FAILED) The 'Facility-Wide Zero Emissions' button was NOT found!",
       "children" : [ {
         "name" : "EISQuestionnaire_36",
-        "uid" : "ca3b8a3382687530",
+        "uid" : "618dbbed81ee6aed",
         "parentUid" : "1c6d9e65bc51864ef9bf544e6a66cf37",
         "status" : "failed",
         "time" : {
-          "start" : 1617764421663,
-          "stop" : 1617764627873,
-          "duration" : 206210
+          "start" : 1617857028817,
+          "stop" : 1617857235106,
+          "duration" : 206289
         },
         "flaky" : false,
         "newFailed" : false,
@@ -923,13 +974,13 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Export Blank Template' button was NOT displayed",
       "children" : [ {
         "name" : "ExportBlankTemplate",
-        "uid" : "e971ca14b3e068a2",
+        "uid" : "ef154417c37af845",
         "parentUid" : "736085448ea523b442413f440564723c",
         "status" : "failed",
         "time" : {
-          "start" : 1617765966092,
-          "stop" : 1617766020825,
-          "duration" : 54733
+          "start" : 1617858784968,
+          "stop" : 1617858839045,
+          "duration" : 54077
         },
         "flaky" : false,
         "newFailed" : false,
@@ -940,13 +991,13 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Export All' button was NOT displayed",
       "children" : [ {
         "name" : "ExportSelectedFacility_All",
-        "uid" : "63993ec3b4903702",
+        "uid" : "75d16a9fa4fd30da",
         "parentUid" : "d2d10a0e894e2a2d7597727cddcebd14",
         "status" : "failed",
         "time" : {
-          "start" : 1617766020841,
-          "stop" : 1617766115153,
-          "duration" : 94312
+          "start" : 1617858839045,
+          "stop" : 1617858933862,
+          "duration" : 94817
         },
         "flaky" : false,
         "newFailed" : false,
@@ -957,13 +1008,13 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Release Points Only' button was NOT displayed",
       "children" : [ {
         "name" : "ExportSelectedFacility_ReleasePointsOnly",
-        "uid" : "d94f6d71ad930fcb",
+        "uid" : "57d06f0db4c989b4",
         "parentUid" : "76093c41d9cc55c3057bdb35ea03cdfe",
         "status" : "failed",
         "time" : {
-          "start" : 1617766115153,
-          "stop" : 1617766209589,
-          "duration" : 94436
+          "start" : 1617858933878,
+          "stop" : 1617859028537,
+          "duration" : 94659
         },
         "flaky" : false,
         "newFailed" : false,
@@ -974,13 +1025,13 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Danger Alert' element was NOT found! Please, check this test's screenshot.",
       "children" : [ {
         "name" : "ImportCorruptedExcelFile",
-        "uid" : "67a7d4a1f1cb5493",
+        "uid" : "b4f7ba7f589d64a2",
         "parentUid" : "04089aab759227744da7465f3bc571f5",
         "status" : "failed",
         "time" : {
-          "start" : 1617766273757,
-          "stop" : 1617766417488,
-          "duration" : 143731
+          "start" : 1617859092356,
+          "stop" : 1617859236081,
+          "duration" : 143725
         },
         "flaky" : false,
         "newFailed" : false,
@@ -991,13 +1042,13 @@
       "name" : "System.Exception : (NoSuchElementException) The 'Unselect All' button was NOT displayed",
       "children" : [ {
         "name" : "ImportEmptyExcelFile",
-        "uid" : "6f2867e4e9b16f52",
+        "uid" : "4155960efff09886",
         "parentUid" : "6d6aad29a8468ac0a661c4a030088945",
         "status" : "failed",
         "time" : {
-          "start" : 1617766417503,
-          "stop" : 1617766546310,
-          "duration" : 128807
+          "start" : 1617859236097,
+          "stop" : 1617859412446,
+          "duration" : 176349
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1008,29 +1059,16 @@
       "name" : "OpenQA.Selenium.ElementClickInterceptedException : Element <select class=\"form-control emission-density-emissions\"> is not clickable at point (202,281) because another element <div class=\"lk-sk-spinner-container\"> obscures it",
       "children" : [ {
         "name" : "GRIDDEDEMISSIONS1",
-        "uid" : "84f67970bc203137",
+        "uid" : "f8f710805714f977",
         "parentUid" : "01b74d5288ca381837e2c92c57661684",
         "status" : "failed",
         "time" : {
-          "start" : 1617768067259,
-          "stop" : 1617768112808,
-          "duration" : 45549
+          "start" : 1617861020408,
+          "stop" : 1617861118943,
+          "duration" : 98535
         },
         "flaky" : true,
         "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "GRIDDEDEMISSIONS2",
-        "uid" : "a0f19938676e963c",
-        "parentUid" : "01b74d5288ca381837e2c92c57661684",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617802347860,
-          "stop" : 1617802393648,
-          "duration" : 45788
-        },
-        "flaky" : true,
-        "newFailed" : true,
         "parameters" : [ ]
       } ],
       "uid" : "01b74d5288ca381837e2c92c57661684"
@@ -1038,13 +1076,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: //*[@id='wizard-step-content']/div/div[2]/div/div[5]/div[3]/label/div/ins",
       "children" : [ {
         "name" : "VerifyCopyWithoutActivityOrEmissions",
-        "uid" : "117b069cd65fdd26",
+        "uid" : "557323d42b160e60",
         "parentUid" : "de3164d18a8e991ea19ec3dd422e43d3",
         "status" : "failed",
         "time" : {
-          "start" : 1617769896656,
-          "stop" : 1617769988578,
-          "duration" : 91922
+          "start" : 1617862940308,
+          "stop" : 1617863032159,
+          "duration" : 91851
         },
         "flaky" : true,
         "newFailed" : false,
@@ -1055,13 +1093,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: PeriodZeroEmission",
       "children" : [ {
         "name" : "ScanAndVerifyClickableButtons",
-        "uid" : "8ed8ea34eecd37ed",
+        "uid" : "58a41587278ae66c",
         "parentUid" : "43688e9f82855b3eecadf46b324e18cb",
         "status" : "failed",
         "time" : {
-          "start" : 1617771149366,
-          "stop" : 1617771295666,
-          "duration" : 146300
+          "start" : 1617864199979,
+          "stop" : 1617864344829,
+          "duration" : 144850
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1072,13 +1110,13 @@
       "name" : "System.NullReferenceException : Object reference not set to an instance of an object.",
       "children" : [ {
         "name" : "Forgot_Password_To_Valid_Account_Email_Results_In_Email_To_End_User_Email",
-        "uid" : "98bacdc4f7db6267",
+        "uid" : "d8ad9a448a9d1bbd",
         "parentUid" : "969bb051ff4dd943c290b90f862f14f0",
         "status" : "failed",
         "time" : {
-          "start" : 1617771869192,
-          "stop" : 1617771874068,
-          "duration" : 4876
+          "start" : 1617864980238,
+          "stop" : 1617864985305,
+          "duration" : 5067
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1089,13 +1127,13 @@
       "name" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
       "children" : [ {
         "name" : "TooManyFailedAttemptsOnFirstTry",
-        "uid" : "41318ab55876b9b5",
+        "uid" : "cf7e94f9e274df5e",
         "parentUid" : "a16d0170736fd0136da9e0e340b35ed9",
         "status" : "failed",
         "time" : {
-          "start" : 1617773064880,
-          "stop" : 1617773090666,
-          "duration" : 25786
+          "start" : 1617866172274,
+          "stop" : 1617866199249,
+          "duration" : 26975
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1106,13 +1144,13 @@
       "name" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gbox_grid_SelectPOLLUTANT",
       "children" : [ {
         "name" : "NonPlatformEmissionsReport",
-        "uid" : "b90bbb7e86a0f58d",
+        "uid" : "7ad00547544913c6",
         "parentUid" : "04a1582b2c0d4506c8458690dff30016",
         "status" : "failed",
         "time" : {
-          "start" : 1617777648951,
-          "stop" : 1617777716415,
-          "duration" : 67464
+          "start" : 1617870683831,
+          "stop" : 1617870748519,
+          "duration" : 64688
         },
         "flaky" : true,
         "newFailed" : false,
@@ -1123,104 +1161,104 @@
       "name" : "System.Exception : It was displayed an error. Please check the screenshot.",
       "children" : [ {
         "name" : "AccessURL3_InputDetails_NavSourceConfig_DetailedEditor_Create",
-        "uid" : "c5b1224e0deecefe",
+        "uid" : "b5ba1db4c25be8e3",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617781374951,
-          "stop" : 1617781423320,
-          "duration" : 48369
+          "start" : 1617874334353,
+          "stop" : 1617874380280,
+          "duration" : 45927
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL4_Input_NavReleasePointApportionment_Pntsite",
-        "uid" : "9e1011c8adf3d25",
+        "uid" : "35f198939fce3f50",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617781423351,
-          "stop" : 1617781468889,
-          "duration" : 45538
+          "start" : 1617874380280,
+          "stop" : 1617874423375,
+          "duration" : 43095
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL5_InputDetails_NavReleasePointApportionment_DetailedEditor_Create",
-        "uid" : "e1e7c487995f6343",
+        "uid" : "76c16e75ee978887",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617781468907,
-          "stop" : 1617781515118,
-          "duration" : 46211
+          "start" : 1617874423375,
+          "stop" : 1617874466659,
+          "duration" : 43284
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL9_EISQuestionnaire_Details",
-        "uid" : "9cbb8cbc5e945a4f",
+        "uid" : "f6a1720cd1c5acf0",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617781666692,
-          "stop" : 1617781713000,
-          "duration" : 46308
+          "start" : 1617874600386,
+          "stop" : 1617874643889,
+          "duration" : 43503
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL11_Input_NavReleasePointApportionment_Pntsite",
-        "uid" : "264f2076ad143d85",
+        "uid" : "8afc4b8d83c78d3b",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617781759320,
-          "stop" : 1617781805396,
-          "duration" : 46076
+          "start" : 1617874686893,
+          "stop" : 1617874729872,
+          "duration" : 42979
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL20_Activity_AllActivityList",
-        "uid" : "19e741845ddeae6b",
+        "uid" : "402f9e0b2d378083",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617782163868,
-          "stop" : 1617782207303,
-          "duration" : 43435
+          "start" : 1617875081492,
+          "stop" : 1617875124355,
+          "duration" : 42863
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL22_AdminLogSetting",
-        "uid" : "c9e575bb1e073fe3",
+        "uid" : "9a7f156ac7ab14f3",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617782281347,
-          "stop" : 1617782326291,
-          "duration" : 44944
+          "start" : 1617875197205,
+          "stop" : 1617875240352,
+          "duration" : 43147
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "AccessURL23_AdminSettings",
-        "uid" : "5aab0c37407052e",
+        "uid" : "347a2a7e00e3ecb3",
         "parentUid" : "4fe30d5da5a0e758d88413f014f78c2a",
         "status" : "failed",
         "time" : {
-          "start" : 1617782326307,
-          "stop" : 1617782370733,
-          "duration" : 44426
+          "start" : 1617875240352,
+          "stop" : 1617875284353,
+          "duration" : 44001
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1231,113 +1269,19 @@
       "name" : "OpenQA.Selenium.WebDriverTimeoutException : No message provided",
       "children" : [ {
         "name" : "AccessURL21_AdminChangeLog",
-        "uid" : "945e6143b7189612",
+        "uid" : "97cf2788834f9f24",
         "parentUid" : "0b166329f74b325c240dc6354898357f",
         "status" : "failed",
         "time" : {
-          "start" : 1617782207319,
-          "stop" : 1617782281331,
-          "duration" : 74012
+          "start" : 1617875124355,
+          "stop" : 1617875197205,
+          "duration" : 72850
         },
         "flaky" : true,
         "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessFeatureChangeHistoryReportLogsActivity",
-        "uid" : "8b56793bc2e80bc3",
-        "parentUid" : "0b166329f74b325c240dc6354898357f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617810960702,
-          "stop" : 1617811035076,
-          "duration" : 74374
-        },
-        "flaky" : true,
-        "newFailed" : true,
         "parameters" : [ ]
       } ],
       "uid" : "0b166329f74b325c240dc6354898357f"
-    }, {
-      "name" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: #lkDialogFrame",
-      "children" : [ {
-        "name" : "DASHBOARDPORTAL_1",
-        "uid" : "a8ca4eb4ec30c26e",
-        "parentUid" : "8d474204f37d5a9e5a27decdb120c7bd",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617797843314,
-          "stop" : 1617797926847,
-          "duration" : 83533
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8d474204f37d5a9e5a27decdb120c7bd"
-    }, {
-      "name" : "System.Exception : (TEST FAILED) Expected: Activity -> 'ACTION-ADMIN', Detail -> 'Edit Groups - Form Submit:1'\nBut was: Activity -> 'ACTION', Detail -> 'Dashboard - View : Main Dashboard'",
-      "children" : [ {
-        "name" : "AccessFeatureAccessRightsManagerEditRightsLogsActivity",
-        "uid" : "90d7dbee8042f260",
-        "parentUid" : "944755ef5f0e796ea515c6f97fff312f",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617810570519,
-          "stop" : 1617810626755,
-          "duration" : 56236
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "944755ef5f0e796ea515c6f97fff312f"
-    }, {
-      "name" : "System.Exception : (TEST FAILED) Expected: Activity -> 'ACTION-ADMIN', Detail -> 'User Account Activity - Index'\nBut was: Activity -> 'ACTION', Detail -> 'Dashboard - View : Main Dashboard'",
-      "children" : [ {
-        "name" : "AccessFeatureInventoryAccessRightsUpdateLogsActivity",
-        "uid" : "d9dc107e52337b47",
-        "parentUid" : "f3f792d72c5006fb81a27ef9a6158355",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617810626818,
-          "stop" : 1617810683568,
-          "duration" : 56750
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f3f792d72c5006fb81a27ef9a6158355"
-    }, {
-      "name" : "System.Exception : (TEST FAILED) Expected: Activity -> 'ACTION-ADMIN', Detail -> 'Theme Defaults - Edit:24 - Submit'\nBut was: Activity -> 'ACTION-ADMIN', Detail -> 'Theme Defaults - Edit - Submit'",
-      "children" : [ {
-        "name" : "AccessFeatureThemeDefaultsEditSubmitFormLogsActivity",
-        "uid" : "35e3f023110b82d3",
-        "parentUid" : "1e083542b03c07b11e64d4bd5b6b768e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617811798806,
-          "stop" : 1617811860520,
-          "duration" : 61714
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "AccessFeatureThemeDefaultsEditCancelFormLogsActivity",
-        "uid" : "65bd14c91b29d9ef",
-        "parentUid" : "1e083542b03c07b11e64d4bd5b6b768e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1617811860591,
-          "stop" : 1617811921131,
-          "duration" : 60540
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "1e083542b03c07b11e64d4bd5b6b768e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
