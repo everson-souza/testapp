@@ -1,0 +1,479 @@
+{
+  "uid" : "ef76b60e8e45e145",
+  "name" : "AccessURL23_AdminSettings",
+  "fullName" : "BOEM_Tests.Tests.Url.AccessURL23_AdminSettings",
+  "historyId" : "BOEM_Tests.Tests.Url.AccessURL23_AdminSettings",
+  "time" : {
+    "start" : 1617958573968,
+    "stop" : 1617958617305,
+    "duration" : 43337
+  },
+  "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/AdminSettings'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.AccessURL23_AdminSettings() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 603",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617958617305,
+      "stop" : 1617958617305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1617958617305,
+      "stop" : 1617958617305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.AccessURL23_AdminSettings() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 603",
+    "steps" : [ {
+      "name" : "AccessURL23_AdminSettings",
+      "time" : {
+        "start" : 1617958573968,
+        "stop" : 1617958617305,
+        "duration" : 43337
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.AccessURL23_AdminSettings() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 603",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1617958578283,
+          "stop" : 1617958594009,
+          "duration" : 15726
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617958578283,
+            "stop" : 1617958579073,
+            "duration" : 790
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set username to qa_boem@weblakes.com",
+          "time" : {
+            "start" : 1617958579073,
+            "stop" : 1617958579118,
+            "duration" : 45
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set password to e45eT%0n^SpXdsb2",
+          "time" : {
+            "start" : 1617958579118,
+            "stop" : 1617958579162,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617958579162,
+            "stop" : 1617958584009,
+            "duration" : 4847
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Access relative url /AdminSettings",
+        "time" : {
+          "start" : 1617958594009,
+          "stop" : 1617958606304,
+          "duration" : 12295
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1617958606304,
+          "stop" : 1617958616325,
+          "duration" : 10021
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666049_o(String titleText, By uniqueElement) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 89\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666049_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1617958616307,
+            "stop" : 1617958616325,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617958616325,
+          "stop" : 1617958616421,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "39132fa2a498127b",
+          "name" : "Attachment Title",
+          "source" : "39132fa2a498127b.png",
+          "type" : "image/png",
+          "size" : 73052
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "d6749f08b497e0d6",
+        "name" : "Console Output",
+        "source" : "d6749f08b497e0d6.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 9,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617958617305,
+      "stop" : 1617958617305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "AccessURL23_AdminSettings"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.23"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 27,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "347a2a7e00e3ecb3",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617875240352,
+          "stop" : 1617875284353,
+          "duration" : 44001
+        }
+      }, {
+        "uid" : "5aab0c37407052e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617782326307,
+          "stop" : 1617782370733,
+          "duration" : 44426
+        }
+      }, {
+        "uid" : "576c6ecec260b77b",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617712533105,
+          "stop" : 1617712590953,
+          "duration" : 57848
+        }
+      }, {
+        "uid" : "f5a673b4fb732276",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617366321590,
+          "stop" : 1617366379409,
+          "duration" : 57819
+        }
+      }, {
+        "uid" : "386e0dec7662a5dd",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617190681310,
+          "stop" : 1617190739238,
+          "duration" : 57928
+        }
+      }, {
+        "uid" : "c9efbecb65c27b78",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617104742318,
+          "stop" : 1617104800132,
+          "duration" : 57814
+        }
+      }, {
+        "uid" : "c8db378f3c8984b0",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616857959867,
+          "stop" : 1616858015800,
+          "duration" : 55933
+        }
+      }, {
+        "uid" : "d07c4d4efac206bd",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616759390374,
+          "stop" : 1616759444204,
+          "duration" : 53830
+        }
+      }, {
+        "uid" : "69ded54ad977db38",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616495887796,
+          "stop" : 1616495945662,
+          "duration" : 57866
+        }
+      }, {
+        "uid" : "8fa1d4f5e5e33950",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616250027416,
+          "stop" : 1616250074588,
+          "duration" : 47172
+        }
+      }, {
+        "uid" : "355906dc5b68b3",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616157762059,
+          "stop" : 1616157819160,
+          "duration" : 57101
+        }
+      }, {
+        "uid" : "5df6e0be36f6cf66",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616066954564,
+          "stop" : 1616067012033,
+          "duration" : 57469
+        }
+      }, {
+        "uid" : "622c3da56beb7625",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1615987538726,
+          "stop" : 1615987598054,
+          "duration" : 59328
+        }
+      }, {
+        "uid" : "13811bdcb1560e4d",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1615894873762,
+          "stop" : 1615894925453,
+          "duration" : 51691
+        }
+      }, {
+        "uid" : "3c0d0fbe254f9ed7",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615692069452,
+          "stop" : 1615692125968,
+          "duration" : 56516
+        }
+      }, {
+        "uid" : "c4efc629aebbc6e0",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615413389101,
+          "stop" : 1615413459288,
+          "duration" : 70187
+        }
+      }, {
+        "uid" : "979476dd47922f49",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615477017014,
+          "stop" : 1615477073839,
+          "duration" : 56825
+        }
+      }, {
+        "uid" : "79f5fcc0749c52db",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615413389101,
+          "stop" : 1615413459288,
+          "duration" : 70187
+        }
+      }, {
+        "uid" : "b52e2883326607a4",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615243386969,
+          "stop" : 1615243442306,
+          "duration" : 55337
+        }
+      }, {
+        "uid" : "44c0504748d7f132",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1614824864545,
+          "stop" : 1614824895957,
+          "duration" : 31412
+        }
+      } ]
+    },
+    "tags" : [ "URL.23" ]
+  },
+  "source" : "ef76b60e8e45e145.json",
+  "parameterValues" : [ ]
+}
