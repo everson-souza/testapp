@@ -1,0 +1,443 @@
+{
+  "uid" : "c5f2501468f34d25",
+  "name" : "AccessURL23_AdminSettings",
+  "fullName" : "BOEM_Tests.Tests.Url.AccessURL23_AdminSettings",
+  "historyId" : "BOEM_Tests.Tests.Url.AccessURL23_AdminSettings",
+  "time" : {
+    "start" : 1617982954234,
+    "stop" : 1617983007068,
+    "duration" : 52834
+  },
+  "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/AdminSettings'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.AccessURL23_AdminSettings() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 603",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617983007067,
+      "stop" : 1617983007067,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1617983007067,
+      "stop" : 1617983007067,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.AccessURL23_AdminSettings() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 603",
+    "steps" : [ {
+      "name" : "AccessURL23_AdminSettings",
+      "time" : {
+        "start" : 1617982954234,
+        "stop" : 1617983007068,
+        "duration" : 52834
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.AccessURL23_AdminSettings() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 603",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1617982956154,
+          "stop" : 1617982983088,
+          "duration" : 26934
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617982956154,
+            "stop" : 1617982960454,
+            "duration" : 4300
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set username to qa_boem@weblakes.com",
+          "time" : {
+            "start" : 1617982960454,
+            "stop" : 1617982960598,
+            "duration" : 144
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set password to e45eT%0n^SpXdsb2",
+          "time" : {
+            "start" : 1617982960598,
+            "stop" : 1617982960747,
+            "duration" : 149
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1617982960747,
+            "stop" : 1617982973079,
+            "duration" : 12332
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 4
+      }, {
+        "name" : "Access relative url /AdminSettings",
+        "time" : {
+          "start" : 1617982983088,
+          "stop" : 1617982996210,
+          "duration" : 13122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1617982996210,
+          "stop" : 1617983006295,
+          "duration" : 10085
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666049_o(String titleText, By uniqueElement) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 88\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666049_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1617983006216,
+            "stop" : 1617983006295,
+            "duration" : 79
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617983006297,
+          "stop" : 1617983006635,
+          "duration" : 338
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b50839ba0a519063",
+          "name" : "Attachment Title",
+          "source" : "b50839ba0a519063.png",
+          "type" : "image/png",
+          "size" : 76468
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "ddf64564c1cb2fe6",
+        "name" : "Console Output",
+        "source" : "ddf64564c1cb2fe6.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 9
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617983007067,
+      "stop" : 1617983007067,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "AccessURL23_AdminSettings"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.23"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "930ad5624e96f1fa",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=89.0.4389.114)",
+      "time" : {
+        "start" : 1617956473089,
+        "stop" : 1617956518753,
+        "duration" : 45664
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 16,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "4090aef6bb80619e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617883407939,
+          "stop" : 1617883457103,
+          "duration" : 49164
+        }
+      }, {
+        "uid" : "4ba10afbb1abd332",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617216296360,
+          "stop" : 1617216363006,
+          "duration" : 66646
+        }
+      }, {
+        "uid" : "48fb956e520cb8d9",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1617106663244,
+          "stop" : 1617106741960,
+          "duration" : 78716
+        }
+      }, {
+        "uid" : "4afa39fd3988fe46",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616592667402,
+          "stop" : 1616592735449,
+          "duration" : 68047
+        }
+      }, {
+        "uid" : "4354767edc879bb6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1616103502556,
+          "stop" : 1616103573190,
+          "duration" : 70634
+        }
+      }, {
+        "uid" : "7d77ecf439b37f96",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615315569600,
+          "stop" : 1615315642304,
+          "duration" : 72704
+        }
+      }, {
+        "uid" : "973e6c32af82abb9",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1614762657351,
+          "stop" : 1614762696340,
+          "duration" : 38989
+        }
+      }, {
+        "uid" : "f41407f4ba7c0315",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1613650223444,
+          "stop" : 1613650264975,
+          "duration" : 41531
+        }
+      }, {
+        "uid" : "8ecc07789ee44d4a",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1611928540701,
+          "stop" : 1611928582289,
+          "duration" : 41588
+        }
+      }, {
+        "uid" : "9a25dd280f0c3dfe",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1609943764571,
+          "stop" : 1609943804149,
+          "duration" : 39578
+        }
+      }, {
+        "uid" : "8e99856b7547749f",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1606869008370,
+          "stop" : 1606869049540,
+          "duration" : 41170
+        }
+      }, {
+        "uid" : "4756606a87f4c19a",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1606193894701,
+          "stop" : 1606193935152,
+          "duration" : 40451
+        }
+      }, {
+        "uid" : "5c3d7f271c6546bd",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1605904553982,
+          "stop" : 1605904594683,
+          "duration" : 40701
+        }
+      }, {
+        "uid" : "e0add471d596e4a3",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1604545643069,
+          "stop" : 1604545682854,
+          "duration" : 39785
+        }
+      }, {
+        "uid" : "d9e40b90cd085663",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1601506560143,
+          "stop" : 1601506599307,
+          "duration" : 39164
+        }
+      } ]
+    },
+    "tags" : [ "URL.23" ]
+  },
+  "source" : "c5f2501468f34d25.json",
+  "parameterValues" : [ ]
+}
