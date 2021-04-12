@@ -1,0 +1,195 @@
+{
+  "uid" : "b9ce98aaebaf92a1",
+  "name" : "TooManyFailedAttemptsOnFirstTry",
+  "fullName" : "BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "historyId" : "BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry",
+  "time" : {
+    "start" : 1617953277826,
+    "stop" : 1617953323489,
+    "duration" : 45663
+  },
+  "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+  "descriptionHtml" : "<p>Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.",
+  "statusTrace" : "   at BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 414",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617953323488,
+      "stop" : 1617953323488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1617953323488,
+      "stop" : 1617953323488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+    "status" : "failed",
+    "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "   at BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 414",
+    "steps" : [ {
+      "name" : "TooManyFailedAttemptsOnFirstTry",
+      "time" : {
+        "start" : 1617953277826,
+        "stop" : 1617953323489,
+        "duration" : 45663
+      },
+      "status" : "failed",
+      "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.",
+      "statusTrace" : "   at BOEM_Tests.Tests.LogOn.TooManyFailedAttemptsOnFirstTry() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 414",
+      "steps" : [ {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1617953279879,
+          "stop" : 1617953322657,
+          "duration" : 42778
+        },
+        "status" : "failed",
+        "statusMessage" : "unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=89.0.4389.114)",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 64\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_w_0(Object[] )\r\n   at BOEM_Tests.PageObjects.LoginPage.OpenLoginPage() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 66\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_Login_100665464_o(String username, String password) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 118\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_Login_100665464_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1617953279880,
+            "stop" : 1617953322657,
+            "duration" : 42777
+          },
+          "status" : "failed",
+          "statusMessage" : "unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=89.0.4389.114)",
+          "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 64\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : true,
+          "attachmentsCount" : 0,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617953322658,
+          "stop" : 1617953323058,
+          "duration" : 400
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "307c41d6f1bcc5b8",
+          "name" : "Attachment Title",
+          "source" : "307c41d6f1bcc5b8.png",
+          "type" : "image/png",
+          "size" : 16140
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "317c555e4f13c536",
+        "name" : "Console Output",
+        "source" : "317c555e4f13c536.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617953323488,
+      "stop" : 1617953323488,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "TooManyFailedAttemptsOnFirstTry"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.14",
+    "url" : "https://jira.com/browse/LOGON.14",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9ce98aaebaf92a1.json",
+  "parameterValues" : [ ]
+}

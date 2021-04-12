@@ -1,0 +1,178 @@
+{
+  "uid" : "3236f1bf2264f2f",
+  "name" : "Log_On_Valid_User_Name_Valid_Password_Is_Accepted",
+  "fullName" : "BOEM_Tests.Tests.LogOn.Log_On_Valid_User_Name_Valid_Password_Is_Accepted",
+  "historyId" : "BOEM_Tests.Tests.LogOn.Log_On_Valid_User_Name_Valid_Password_Is_Accepted",
+  "time" : {
+    "start" : 1617952906644,
+    "stop" : 1617952952351,
+    "duration" : 45707
+  },
+  "description" : "Log On valid user name, valid password is accepted\n",
+  "descriptionHtml" : "<p>Log On valid user name, valid password is accepted</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.",
+  "statusTrace" : "   at BOEM_Tests.Tests.LogOn.Log_On_Valid_User_Name_Valid_Password_Is_Accepted() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 174",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1617952952349,
+      "stop" : 1617952952349,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1617952952349,
+      "stop" : 1617952952349,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Log On valid user name, valid password is accepted\n",
+    "status" : "failed",
+    "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.",
+    "statusTrace" : "   at BOEM_Tests.Tests.LogOn.Log_On_Valid_User_Name_Valid_Password_Is_Accepted() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 174",
+    "steps" : [ {
+      "name" : "Log_On_Valid_User_Name_Valid_Password_Is_Accepted",
+      "time" : {
+        "start" : 1617952906644,
+        "stop" : 1617952952350,
+        "duration" : 45706
+      },
+      "status" : "failed",
+      "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.",
+      "statusTrace" : "   at BOEM_Tests.Tests.LogOn.Log_On_Valid_User_Name_Valid_Password_Is_Accepted() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 174",
+      "steps" : [ {
+        "name" : "Open login page",
+        "time" : {
+          "start" : 1617952908602,
+          "stop" : 1617952951542,
+          "duration" : 42940
+        },
+        "status" : "failed",
+        "statusMessage" : "unknown error: net::ERR_CONNECTION_TIMED_OUT\n  (Session info: chrome=89.0.4389.114)",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Login\\LoginPage.cs:line 64\r\n   at BOEM_Tests.PageObjects.LoginPage.__a$_around_OpenLoginPage_100665456_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1617952951544,
+          "stop" : 1617952951929,
+          "duration" : 385
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9305a3b161d5e563",
+          "name" : "Attachment Title",
+          "source" : "9305a3b161d5e563.png",
+          "type" : "image/png",
+          "size" : 16140
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "c573c841cc6d0836",
+        "name" : "Console Output",
+        "source" : "c573c841cc6d0836.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1617952952349,
+      "stop" : 1617952952349,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "Log_On_Valid_User_Name_Valid_Password_Is_Accepted"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.5",
+    "url" : "https://jira.com/browse/LOGON.5",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3236f1bf2264f2f.json",
+  "parameterValues" : [ ]
+}
