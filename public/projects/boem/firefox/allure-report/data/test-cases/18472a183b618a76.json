@@ -1,0 +1,417 @@
+{
+  "uid" : "18472a183b618a76",
+  "name" : "CheckAdminAccess_JobQueueProjectMaps",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps",
+  "time" : {
+    "start" : 1618272900302,
+    "stop" : 1618272937556,
+    "duration" : 37254
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1248",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618272937556,
+      "stop" : 1618272937556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1618272937556,
+      "stop" : 1618272937556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1248",
+    "steps" : [ {
+      "name" : "CheckAdminAccess_JobQueueProjectMaps",
+      "time" : {
+        "start" : 1618272900302,
+        "stop" : 1618272937556,
+        "duration" : 37254
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.CheckAdminAccess_JobQueueProjectMaps() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1248",
+      "steps" : [ {
+        "name" : "Access relative URL /JobQueueProjectMaps",
+        "time" : {
+          "start" : 1618272921324,
+          "stop" : 1618272926563,
+          "duration" : 5239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1618272926563,
+          "stop" : 1618272926569,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618272926569,
+          "stop" : 1618272936589,
+          "duration" : 10020
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1618272936570,
+            "stop" : 1618272936589,
+            "duration" : 19
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618272936592,
+          "stop" : 1618272936653,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f3dceb36ccb824dc",
+          "name" : "Attachment Title",
+          "source" : "f3dceb36ccb824dc.png",
+          "type" : "image/png",
+          "size" : 52548
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "ed189788864ca44",
+        "name" : "Console Output",
+        "source" : "ed189788864ca44.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618272937556,
+      "stop" : 1618272937556,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAdminAccess_JobQueueProjectMaps"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.39"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 24,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 29
+      },
+      "items" : [ {
+        "uid" : "4b27ac340c0179ba",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618026723152,
+          "stop" : 1618026759841,
+          "duration" : 36689
+        }
+      }, {
+        "uid" : "ac6d19bf32064288",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617925891602,
+          "stop" : 1617925928685,
+          "duration" : 37083
+        }
+      }, {
+        "uid" : "b252f11cf3cb9458",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617842578771,
+          "stop" : 1617842614184,
+          "duration" : 35413
+        }
+      }, {
+        "uid" : "313665c7b1847b4",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617750131286,
+          "stop" : 1617750167599,
+          "duration" : 36313
+        }
+      }, {
+        "uid" : "a590b0210d6656fe",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617674474429,
+          "stop" : 1617674525456,
+          "duration" : 51027
+        }
+      }, {
+        "uid" : "7e865577314ba142",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617328659043,
+          "stop" : 1617328717077,
+          "duration" : 58034
+        }
+      }, {
+        "uid" : "fa14bad129828b39",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617152033464,
+          "stop" : 1617152083989,
+          "duration" : 50525
+        }
+      }, {
+        "uid" : "355ae3b0e83da51b",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1617067132469,
+          "stop" : 1617067168540,
+          "duration" : 36071
+        }
+      }, {
+        "uid" : "9ef0aa6149be3815",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1616820055782,
+          "stop" : 1616820122536,
+          "duration" : 66754
+        }
+      }, {
+        "uid" : "cc6fdc117faeee2f",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1616721332603,
+          "stop" : 1616721372533,
+          "duration" : 39930
+        }
+      }, {
+        "uid" : "ef8aafd07115f525",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616457426654,
+          "stop" : 1616457477645,
+          "duration" : 50991
+        }
+      }, {
+        "uid" : "854a01b9c2d5e594",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616211800005,
+          "stop" : 1616211865489,
+          "duration" : 65484
+        }
+      }, {
+        "uid" : "38fcec86f9090c50",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616119263083,
+          "stop" : 1616119330618,
+          "duration" : 67535
+        }
+      }, {
+        "uid" : "1902a7f7982a6c18",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1616028103995,
+          "stop" : 1616028154762,
+          "duration" : 50767
+        }
+      }, {
+        "uid" : "86d7da1781970045",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615948411948,
+          "stop" : 1615948477822,
+          "duration" : 65874
+        }
+      }, {
+        "uid" : "c860c508f1d6f071",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615857155140,
+          "stop" : 1615857202811,
+          "duration" : 47671
+        }
+      }, {
+        "uid" : "6fc7a14d005a0ca9",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615654569666,
+          "stop" : 1615654619263,
+          "duration" : 49597
+        }
+      }, {
+        "uid" : "23af442d4d3e082b",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615320568355,
+          "stop" : 1615320648498,
+          "duration" : 80143
+        }
+      }, {
+        "uid" : "cb606859a5aa74d8",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615438547508,
+          "stop" : 1615438604749,
+          "duration" : 57241
+        }
+      }, {
+        "uid" : "a41e7eba9d12f1a0",
+        "status" : "failed",
+        "statusDetails" : "  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1615320568355,
+          "stop" : 1615320648498,
+          "duration" : 80143
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.39" ]
+  },
+  "source" : "18472a183b618a76.json",
+  "parameterValues" : [ ]
+}

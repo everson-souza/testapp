@@ -1,0 +1,224 @@
+{
+  "uid" : "2a715b19c3c0ad7a",
+  "name" : "URL_11",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_11",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_11",
+  "time" : {
+    "start" : 1618303161463,
+    "stop" : 1618303183775,
+    "duration" : 22312
+  },
+  "description" : "Try to access the url: '/Input/NavReleasePointApportionment/Pntsite'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/Input/NavReleasePointApportionment/Pntsite'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_11() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 340",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618303183774,
+      "stop" : 1618303183774,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1618303183775,
+      "stop" : 1618303183775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/Input/NavReleasePointApportionment/Pntsite'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_11() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 340",
+    "steps" : [ {
+      "name" : "URL_11",
+      "time" : {
+        "start" : 1618303161463,
+        "stop" : 1618303183775,
+        "duration" : 22312
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_11() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 340",
+      "steps" : [ {
+        "name" : "Access relative url /Input/NavReleasePointApportionment/Pntsite",
+        "time" : {
+          "start" : 1618303161464,
+          "stop" : 1618303173684,
+          "duration" : 12220
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618303173684,
+          "stop" : 1618303183702,
+          "duration" : 10018
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666089_o(String titleText, By uniqueElement) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 89\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666089_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1618303183694,
+            "stop" : 1618303183701,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618303183702,
+          "stop" : 1618303183773,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "daed35a7196dde6b",
+          "name" : "Attachment Title",
+          "source" : "daed35a7196dde6b.png",
+          "type" : "image/png",
+          "size" : 51763
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "ca83132ff19351e9",
+        "name" : "Console Output",
+        "source" : "ca83132ff19351e9.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618303183775,
+      "stop" : 1618303183775,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618303183775,
+      "stop" : 1618303183775,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_11"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.11"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "URL.11" ]
+  },
+  "source" : "2a715b19c3c0ad7a.json",
+  "parameterValues" : [ ]
+}

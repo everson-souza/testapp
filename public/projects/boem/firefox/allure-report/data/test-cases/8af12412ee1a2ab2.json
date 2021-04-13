@@ -1,0 +1,417 @@
+{
+  "uid" : "8af12412ee1a2ab2",
+  "name" : "VerifyNoDataAvailable",
+  "fullName" : "BOEM_Tests.Tests.ChangeHistory.VerifyNoDataAvailable",
+  "historyId" : "BOEM_Tests.Tests.ChangeHistory.VerifyNoDataAvailable",
+  "time" : {
+    "start" : 1618274009739,
+    "stop" : 1618274045487,
+    "duration" : 35748
+  },
+  "description" : "Select 'All Inventories', 'Last 7 Days' and Verify if table does not say 'no data available'\n",
+  "descriptionHtml" : "<p>Select 'All Inventories', 'Last 7 Days' and Verify if table does not say 'no data available'</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+  "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyNoDataAvailable() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 95",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618274045487,
+      "stop" : 1618274045487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1618274045487,
+      "stop" : 1618274045487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Select 'All Inventories', 'Last 7 Days' and Verify if table does not say 'no data available'\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+    "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyNoDataAvailable() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 95",
+    "steps" : [ {
+      "name" : "VerifyNoDataAvailable",
+      "time" : {
+        "start" : 1618274009739,
+        "stop" : 1618274045487,
+        "duration" : 35748
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+      "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.VerifyNoDataAvailable() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 95",
+      "steps" : [ {
+        "name" : "Click on settings on top menu",
+        "time" : {
+          "start" : 1618274032649,
+          "stop" : 1618274035675,
+          "duration" : 3026
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on auditing menu",
+        "time" : {
+          "start" : 1618274035675,
+          "stop" : 1618274038685,
+          "duration" : 3010
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on change history",
+        "time" : {
+          "start" : 1618274038686,
+          "stop" : 1618274041697,
+          "duration" : 3011
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Select inventory All inventories",
+        "time" : {
+          "start" : 1618274041697,
+          "stop" : 1618274044716,
+          "duration" : 3019
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.Id: inventory_button",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.Internal.IWrapsElement.get_WrappedElement()\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ConvertObjectToJavaScriptObject(Object arg)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ConvertArgumentsToJavaScriptObjects(Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)\r\n   at BOEM_Tests.PageObjects.SettingsPage.__a$_around_ClickAndSelectInventory_100666026_o(String inventory) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Settings\\SettingsPage.cs:line 261\r\n   at BOEM_Tests.PageObjects.SettingsPage.__a$_around_ClickAndSelectInventory_100666026_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618274044716,
+          "stop" : 1618274044777,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "90b2ab9fc03348dc",
+          "name" : "Attachment Title",
+          "source" : "90b2ab9fc03348dc.png",
+          "type" : "image/png",
+          "size" : 56538
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "10eb154d69ef8c1",
+        "name" : "Console Output",
+        "source" : "10eb154d69ef8c1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618274045487,
+      "stop" : 1618274045487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "testMethod",
+    "value" : "VerifyNoDataAvailable"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "tag",
+    "value" : "CHANGEHISTORY.1"
+  }, {
+    "name" : "suite",
+    "value" : "ChangeHistory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 22,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "ee76e1d119851fc6",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+        "time" : {
+          "start" : 1618027824447,
+          "stop" : 1618027861878,
+          "duration" : 37431
+        }
+      }, {
+        "uid" : "9a5c095ff5f20dc5",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+        "time" : {
+          "start" : 1617926994460,
+          "stop" : 1617927031770,
+          "duration" : 37310
+        }
+      }, {
+        "uid" : "f4b44a62f2312cf0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617843671761,
+          "stop" : 1617843766526,
+          "duration" : 94765
+        }
+      }, {
+        "uid" : "e4b465d30d976d43",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+        "time" : {
+          "start" : 1617751231674,
+          "stop" : 1617751267375,
+          "duration" : 35701
+        }
+      }, {
+        "uid" : "f97ee057768a55ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617676054924,
+          "stop" : 1617676178179,
+          "duration" : 123255
+        }
+      }, {
+        "uid" : "215a565b8a32625b",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1617330276285,
+          "stop" : 1617330383273,
+          "duration" : 106988
+        }
+      }, {
+        "uid" : "9c5e71614978560",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1617153653829,
+          "stop" : 1617153745764,
+          "duration" : 91935
+        }
+      }, {
+        "uid" : "1f0a59943b66b68d",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1617068674680,
+          "stop" : 1617068766919,
+          "duration" : 92239
+        }
+      }, {
+        "uid" : "daeabe05bf7069bc",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1616821692431,
+          "stop" : 1616821784392,
+          "duration" : 91961
+        }
+      }, {
+        "uid" : "6cd5d7fe7fc381d",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1616722925112,
+          "stop" : 1616723003443,
+          "duration" : 78331
+        }
+      }, {
+        "uid" : "67afc13883b6a040",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1616459012576,
+          "stop" : 1616459104354,
+          "duration" : 91778
+        }
+      }, {
+        "uid" : "26a94ecb7590133b",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1616213458006,
+          "stop" : 1616213550137,
+          "duration" : 92131
+        }
+      }, {
+        "uid" : "4ab2ebc885c88893",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1616120920355,
+          "stop" : 1616121012694,
+          "duration" : 92339
+        }
+      }, {
+        "uid" : "c09ddb20f276c7c6",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1616029742747,
+          "stop" : 1616029849803,
+          "duration" : 107056
+        }
+      }, {
+        "uid" : "866c079476bf076c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1615949920619,
+          "stop" : 1615949997978,
+          "duration" : 77359
+        }
+      }, {
+        "uid" : "fbf9aefdcfbc3aa",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1615858624823,
+          "stop" : 1615858715900,
+          "duration" : 91077
+        }
+      }, {
+        "uid" : "7f3f3e38eb1d31c6",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+        "time" : {
+          "start" : 1615656099174,
+          "stop" : 1615656148693,
+          "duration" : 49519
+        }
+      }, {
+        "uid" : "cc372d3f7674efd1",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+        "time" : {
+          "start" : 1615357140655,
+          "stop" : 1615357253264,
+          "duration" : 112609
+        }
+      }, {
+        "uid" : "8f929b0886916ff3",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: reportrange",
+        "time" : {
+          "start" : 1615440048450,
+          "stop" : 1615440138422,
+          "duration" : 89972
+        }
+      }, {
+        "uid" : "d1efb091a579b093",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: inventory_button",
+        "time" : {
+          "start" : 1615357140655,
+          "stop" : 1615357253264,
+          "duration" : 112609
+        }
+      } ]
+    },
+    "tags" : [ "CHANGEHISTORY.1" ]
+  },
+  "source" : "8af12412ee1a2ab2.json",
+  "parameterValues" : [ ]
+}
