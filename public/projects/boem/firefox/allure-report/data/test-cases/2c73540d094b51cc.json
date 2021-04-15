@@ -1,0 +1,372 @@
+{
+  "uid" : "2c73540d094b51cc",
+  "name" : "EditReleasePointsInPlatformEmissions",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.EditReleasePointsInPlatformEmissions",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.EditReleasePointsInPlatformEmissions",
+  "time" : {
+    "start" : 1618452901938,
+    "stop" : 1618452938302,
+    "duration" : 36364
+  },
+  "description" : "Ensure access denied to edit Release Points in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to edit Release Points in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618452938302,
+      "stop" : 1618452938302,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1618452938302,
+      "stop" : 1618452938302,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to edit Release Points in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "EditReleasePointsInPlatformEmissions",
+      "time" : {
+        "start" : 1618452901938,
+        "stop" : 1618452938302,
+        "duration" : 36364
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1618452905613,
+          "stop" : 1618452923591,
+          "duration" : 17978
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1618452923593,
+          "stop" : 1618452929098,
+          "duration" : 5505
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissrelease/Edit/12786",
+        "time" : {
+          "start" : 1618452932135,
+          "stop" : 1618452937349,
+          "duration" : 5214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618452937356,
+          "stop" : 1618452937444,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3f05a57c3d545e16",
+          "name" : "Attachment Title",
+          "source" : "3f05a57c3d545e16.png",
+          "type" : "image/png",
+          "size" : 53283
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "ca3b03df135981b9",
+        "name" : "Console Output",
+        "source" : "ca3b03df135981b9.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618452938302,
+      "stop" : 1618452938302,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "EditReleasePointsInPlatformEmissions"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.10"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 30,
+        "unknown" : 0,
+        "total" : 31
+      },
+      "items" : [ {
+        "uid" : "79ed5bf6474b959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618361186639,
+          "stop" : 1618361221302,
+          "duration" : 34663
+        }
+      }, {
+        "uid" : "c599cf121374b215",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618267599616,
+          "stop" : 1618267631077,
+          "duration" : 31461
+        }
+      }, {
+        "uid" : "e6a62d7f07137edd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618021424860,
+          "stop" : 1618021455793,
+          "duration" : 30933
+        }
+      }, {
+        "uid" : "422ed6860b3b8757",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617920614750,
+          "stop" : 1617920646180,
+          "duration" : 31430
+        }
+      }, {
+        "uid" : "2f6e12cfbdae9afe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617837286272,
+          "stop" : 1617837320491,
+          "duration" : 34219
+        }
+      }, {
+        "uid" : "e02fe54e26a14104",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617745002442,
+          "stop" : 1617745035731,
+          "duration" : 33289
+        }
+      }, {
+        "uid" : "d9a9a235b4258909",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617667386489,
+          "stop" : 1617667432312,
+          "duration" : 45823
+        }
+      }, {
+        "uid" : "9054f7af91001609",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617321661352,
+          "stop" : 1617321722508,
+          "duration" : 61156
+        }
+      }, {
+        "uid" : "abcf847116d9019d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617144975128,
+          "stop" : 1617145009332,
+          "duration" : 34204
+        }
+      }, {
+        "uid" : "c4b6a1947924547c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617060619193,
+          "stop" : 1617060679481,
+          "duration" : 60288
+        }
+      }, {
+        "uid" : "825faa7c3de33bd0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616813508113,
+          "stop" : 1616813550603,
+          "duration" : 42490
+        }
+      }, {
+        "uid" : "b21db3ba0332066d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616714546072,
+          "stop" : 1616714607679,
+          "duration" : 61607
+        }
+      }, {
+        "uid" : "3cffd37748b06254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616450514205,
+          "stop" : 1616450575043,
+          "duration" : 60838
+        }
+      }, {
+        "uid" : "b486523a537f25ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616205218693,
+          "stop" : 1616205279435,
+          "duration" : 60742
+        }
+      }, {
+        "uid" : "615b665ed1f58299",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616112452552,
+          "stop" : 1616112512973,
+          "duration" : 60421
+        }
+      }, {
+        "uid" : "6d41e15498ef797a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616021079719,
+          "stop" : 1616021140097,
+          "duration" : 60378
+        }
+      }, {
+        "uid" : "23d3d83a2a8ad034",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615941386680,
+          "stop" : 1615941447179,
+          "duration" : 60499
+        }
+      }, {
+        "uid" : "8f636bb45f731aed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615850188193,
+          "stop" : 1615850249739,
+          "duration" : 61546
+        }
+      }, {
+        "uid" : "1d35fad0b805c150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615647836243,
+          "stop" : 1615647895953,
+          "duration" : 59710
+        }
+      }, {
+        "uid" : "67600fc78dc4ac39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615353742029,
+          "stop" : 1615353804478,
+          "duration" : 62449
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.10" ]
+  },
+  "source" : "2c73540d094b51cc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,218 @@
+{
+  "uid" : "1fb28d93b639bace",
+  "name" : "FACILITYPROFILE_02",
+  "fullName" : "BOEM_Tests.Tests.FacilityProfile.FACILITYPROFILE_02",
+  "historyId" : "BOEM_Tests.Tests.FacilityProfile.FACILITYPROFILE_02",
+  "time" : {
+    "start" : 1618476583988,
+    "stop" : 1618476592900,
+    "duration" : 8912
+  },
+  "description" : "Verify search for 'No Such Facility' does not return list\n",
+  "descriptionHtml" : "<p>Verify search for 'No Such Facility' does not return list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618476592900,
+      "stop" : 1618476592900,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1618476592900,
+      "stop" : 1618476592900,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify search for 'No Such Facility' does not return list\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "FACILITYPROFILE_02",
+      "time" : {
+        "start" : 1618476583988,
+        "stop" : 1618476592900,
+        "duration" : 8912
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open facility dashboard page",
+        "time" : {
+          "start" : 1618476583988,
+          "stop" : 1618476586546,
+          "duration" : 2558
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Set search input to No Such Facility",
+        "time" : {
+          "start" : 1618476586546,
+          "stop" : 1618476590796,
+          "duration" : 4250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if facility dropdown is displayed",
+        "time" : {
+          "start" : 1618476590796,
+          "stop" : 1618476592820,
+          "duration" : 2024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618476592820,
+          "stop" : 1618476592899,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4d67444c04cdcd81",
+          "name" : "Attachment Title",
+          "source" : "4d67444c04cdcd81.png",
+          "type" : "image/png",
+          "size" : 140081
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "3e62fff1ebbf98c3",
+        "name" : "Console Output",
+        "source" : "3e62fff1ebbf98c3.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618476592900,
+      "stop" : 1618476592900,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618476592900,
+      "stop" : 1618476592900,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.FacilityProfile"
+  }, {
+    "name" : "testMethod",
+    "value" : "FACILITYPROFILE_02"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.FacilityProfile"
+  }, {
+    "name" : "tag",
+    "value" : "FACILITYPROFILE.2"
+  }, {
+    "name" : "suite",
+    "value" : "FacilityProfile"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "FACILITYPROFILE.2" ]
+  },
+  "source" : "1fb28d93b639bace.json",
+  "parameterValues" : [ ]
+}

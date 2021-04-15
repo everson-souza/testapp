@@ -1,0 +1,337 @@
+{
+  "uid" : "dda70389f4c800c8",
+  "name" : "DASHBOARDPORTAL_1",
+  "fullName" : "BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_1",
+  "historyId" : "BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_1",
+  "time" : {
+    "start" : 1618460134536,
+    "stop" : 1618460188515,
+    "duration" : 53979
+  },
+  "description" : "Verify that submit facility generates QA Error for incomplete facility\n",
+  "descriptionHtml" : "<p>Verify that submit facility generates QA Error for incomplete facility</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+  "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_1() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 85",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618460188515,
+      "stop" : 1618460188515,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1618460188515,
+      "stop" : 1618460188515,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify that submit facility generates QA Error for incomplete facility\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+    "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_1() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 85",
+    "steps" : [ {
+      "name" : "DASHBOARDPORTAL_1",
+      "time" : {
+        "start" : 1618460134537,
+        "stop" : 1618460188515,
+        "duration" : 53978
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+      "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_1() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 85",
+      "steps" : [ {
+        "name" : "Click on dashboard on top menu",
+        "time" : {
+          "start" : 1618460160898,
+          "stop" : 1618460164488,
+          "duration" : 3590
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Clicking on Operator Submittal menu",
+        "time" : {
+          "start" : 1618460164488,
+          "stop" : 1618460166502,
+          "duration" : 2014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Submit information 20075-1 - FF, Notice To Submit, Point",
+        "time" : {
+          "start" : 1618460166502,
+          "stop" : 1618460180604,
+          "duration" : 14102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if danger alert is displayed",
+        "time" : {
+          "start" : 1618460180604,
+          "stop" : 1618460185633,
+          "duration" : 5029
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_FindDangerAlertInDialog_100664556_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\DshBrdMain\\DshBrdMainPage.cs:line 684\r\n   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_FindDangerAlertInDialog_100664556_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618460185633,
+          "stop" : 1618460185706,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "89e1b8352e5215c2",
+          "name" : "Attachment Title",
+          "source" : "89e1b8352e5215c2.png",
+          "type" : "image/png",
+          "size" : 64039
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "Click on cancel button",
+        "time" : {
+          "start" : 1618460185707,
+          "stop" : 1618460187750,
+          "duration" : 2043
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "4698a9433753ae2c",
+        "name" : "Console Output",
+        "source" : "4698a9433753ae2c.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618460188515,
+      "stop" : 1618460188515,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.DashboardPortal"
+  }, {
+    "name" : "testMethod",
+    "value" : "DASHBOARDPORTAL_1"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.DashboardPortal"
+  }, {
+    "name" : "tag",
+    "value" : "DASHBOARD.PORTAL.1"
+  }, {
+    "name" : "suite",
+    "value" : "Dashboard.Portal"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "7d0ab81729c9a500",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618368128304,
+          "stop" : 1618368242739,
+          "duration" : 114435
+        }
+      }, {
+        "uid" : "c1cc33b44c087708",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618325276314,
+          "stop" : 1618325390086,
+          "duration" : 113772
+        }
+      }, {
+        "uid" : "e2a0fedd9de5dcd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618233955036,
+          "stop" : 1618234013204,
+          "duration" : 58168
+        }
+      }, {
+        "uid" : "fb2ab28298ae965f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617972484218,
+          "stop" : 1617972540686,
+          "duration" : 56468
+        }
+      }, {
+        "uid" : "def7d5c295ce18a6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+        "time" : {
+          "start" : 1617843955289,
+          "stop" : 1617844053722,
+          "duration" : 98433
+        }
+      }, {
+        "uid" : "a8ca4eb4ec30c26e",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: #lkDialogFrame",
+        "time" : {
+          "start" : 1617797843314,
+          "stop" : 1617797926847,
+          "duration" : 83533
+        }
+      }, {
+        "uid" : "3c7d3b3d7a3cad46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617676411116,
+          "stop" : 1617676539574,
+          "duration" : 128458
+        }
+      }, {
+        "uid" : "9aba84de48705d44",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Danger Alert Message' was NOT displayed.",
+        "time" : {
+          "start" : 1617330559232,
+          "stop" : 1617330666614,
+          "duration" : 107382
+        }
+      }, {
+        "uid" : "68ce3f78069ea8de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617153929875,
+          "stop" : 1617154047691,
+          "duration" : 117816
+        }
+      }, {
+        "uid" : "441727730171ea21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617068951576,
+          "stop" : 1617069070026,
+          "duration" : 118450
+        }
+      } ]
+    },
+    "tags" : [ "DASHBOARD.PORTAL.1" ]
+  },
+  "source" : "dda70389f4c800c8.json",
+  "parameterValues" : [ ]
+}

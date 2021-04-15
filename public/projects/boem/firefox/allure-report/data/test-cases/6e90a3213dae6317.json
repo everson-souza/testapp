@@ -1,0 +1,227 @@
+{
+  "uid" : "6e90a3213dae6317",
+  "name" : "URL_23",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_23",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_23",
+  "time" : {
+    "start" : 1618488867093,
+    "stop" : 1618488922209,
+    "duration" : 55116
+  },
+  "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/AdminSettings'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : No message provided",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_23() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 660",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618488922209,
+      "stop" : 1618488922209,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1618488922209,
+      "stop" : 1618488922209,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : No message provided",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_23() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 660",
+    "steps" : [ {
+      "name" : "URL_23",
+      "time" : {
+        "start" : 1618488867093,
+        "stop" : 1618488922209,
+        "duration" : 55116
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : No message provided",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_23() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 660",
+      "steps" : [ {
+        "name" : "Access relative url /HelpConfig",
+        "time" : {
+          "start" : 1618488870115,
+          "stop" : 1618488922145,
+          "duration" : 52030
+        },
+        "status" : "failed",
+        "statusMessage" : "",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_AccessRelativeUrl_100666119_o(String relativeUrl) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 37\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_AccessRelativeUrl_100666119_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618488922145,
+          "stop" : 1618488922208,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "108a73a7dcdfe56d",
+          "name" : "Attachment Title",
+          "source" : "108a73a7dcdfe56d.png",
+          "type" : "image/png",
+          "size" : 73401
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "87fd67153a1cfd29",
+        "name" : "Console Output",
+        "source" : "87fd67153a1cfd29.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618488922209,
+      "stop" : 1618488922209,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618488922209,
+      "stop" : 1618488922209,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_23"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.23"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "2e8f303fd5dab7a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618405275247,
+          "stop" : 1618405300865,
+          "duration" : 25618
+        }
+      }, {
+        "uid" : "d16b8de36f123a77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618323616999,
+          "stop" : 1618323642773,
+          "duration" : 25774
+        }
+      } ]
+    },
+    "tags" : [ "URL.23" ]
+  },
+  "source" : "6e90a3213dae6317.json",
+  "parameterValues" : [ ]
+}
