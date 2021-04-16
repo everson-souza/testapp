@@ -1,0 +1,269 @@
+{
+  "uid" : "b87209d8b2e9292",
+  "name" : "REPORTS_06",
+  "fullName" : "BOEM_Tests.Tests.Reports.REPORTS_06",
+  "historyId" : "BOEM_Tests.Tests.Reports.REPORTS_06",
+  "time" : {
+    "start" : 1618582411800,
+    "stop" : 1618582457322,
+    "duration" : 45522
+  },
+  "description" : "Generate Report tests using Complex QA\n",
+  "descriptionHtml" : "<p>Generate Report tests using Complex QA</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gbox_grid_SelectPOLLUTANT",
+  "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_06() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 301",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618582457312,
+      "stop" : 1618582457312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1618582457312,
+      "stop" : 1618582457312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Generate Report tests using Complex QA\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gbox_grid_SelectPOLLUTANT",
+    "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_06() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 301",
+    "steps" : [ {
+      "name" : "REPORTS_06",
+      "time" : {
+        "start" : 1618582411801,
+        "stop" : 1618582457318,
+        "duration" : 45517
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gbox_grid_SelectPOLLUTANT",
+      "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_06() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 301",
+      "steps" : [ {
+        "name" : "Open reports page",
+        "time" : {
+          "start" : 1618582411805,
+          "stop" : 1618582412050,
+          "duration" : 245
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on general menu",
+        "time" : {
+          "start" : 1618582412051,
+          "stop" : 1618582417079,
+          "duration" : 5028
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on all reports",
+        "time" : {
+          "start" : 1618582417079,
+          "stop" : 1618582422095,
+          "duration" : 5016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on emission reports menu",
+        "time" : {
+          "start" : 1618582422096,
+          "stop" : 1618582427124,
+          "duration" : 5028
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on pollutant totals",
+        "time" : {
+          "start" : 1618582427125,
+          "stop" : 1618582432141,
+          "duration" : 5016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Selct pollutants",
+        "time" : {
+          "start" : 1618582432142,
+          "stop" : 1618582457196,
+          "duration" : 25054
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.Id: gbox_grid_SelectPOLLUTANT",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.ISearchContext.FindElement(By by)\r\n   at BOEM_Tests.PageObjects.ReportsPage.GetTotalPages(IWebElement grid, String idString) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Reports\\ReportsPage.cs:line 862\r\n   at BOEM_Tests.PageObjects.ReportsPage.__a$_around_SelectPollutants_100665787_o(List`1 pollutants) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Reports\\ReportsPage.cs:line 1111\r\n   at BOEM_Tests.PageObjects.ReportsPage.__a$_around_SelectPollutants_100665787_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618582457197,
+          "stop" : 1618582457271,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9cd4edee5b0ee097",
+          "name" : "Attachment Title",
+          "source" : "9cd4edee5b0ee097.png",
+          "type" : "image/png",
+          "size" : 30495
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "99bf11e85d5ebd95",
+        "name" : "Console Output",
+        "source" : "99bf11e85d5ebd95.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618582457312,
+      "stop" : 1618582457312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618582457313,
+      "stop" : 1618582457313,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "testMethod",
+    "value" : "REPORTS_06"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "tag",
+    "value" : "REPORTS.6"
+  }, {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "REPORTS.6" ]
+  },
+  "source" : "b87209d8b2e9292.json",
+  "parameterValues" : [ ]
+}

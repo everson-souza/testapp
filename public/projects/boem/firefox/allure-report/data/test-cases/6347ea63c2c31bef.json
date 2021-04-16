@@ -1,0 +1,393 @@
+{
+  "uid" : "6347ea63c2c31bef",
+  "name" : "EIQuestionnaireLO_24",
+  "fullName" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_24",
+  "historyId" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_24",
+  "time" : {
+    "start" : 1618548318560,
+    "stop" : 1618548425653,
+    "duration" : 107093
+  },
+  "description" : "verify result grid shows only periods covered by move on/move off date for full year when calculating emissions\n",
+  "descriptionHtml" : "<p>verify result grid shows only periods covered by move on/move off date for full year when calculating emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618548425653,
+      "stop" : 1618548425653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1618548425653,
+      "stop" : 1618548425653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "verify result grid shows only periods covered by move on/move off date for full year when calculating emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "EIQuestionnaireLO_24",
+      "time" : {
+        "start" : 1618548318560,
+        "stop" : 1618548425653,
+        "duration" : 107093
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open lease operations emissions manager page",
+        "time" : {
+          "start" : 1618548344696,
+          "stop" : 1618548344959,
+          "duration" : 263
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Select lease OCS-P-00001",
+        "time" : {
+          "start" : 1618548344959,
+          "stop" : 1618548374598,
+          "duration" : 29639
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Set search input to OCS-P-00001",
+          "time" : {
+            "start" : 1618548354975,
+            "stop" : 1618548358258,
+            "duration" : 3283
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Select lease sources CSV-PC-EY - FUG-PC",
+        "time" : {
+          "start" : 1618548374598,
+          "stop" : 1618548400958,
+          "duration" : 26360
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on recalculate button",
+        "time" : {
+          "start" : 1618548400958,
+          "stop" : 1618548413989,
+          "duration" : 13031
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check emissions period dropdown",
+        "time" : {
+          "start" : 1618548413989,
+          "stop" : 1618548424744,
+          "duration" : 10755
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618548424744,
+          "stop" : 1618548424809,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5182d4e043b4e86f",
+          "name" : "Attachment Title",
+          "source" : "5182d4e043b4e86f.png",
+          "type" : "image/png",
+          "size" : 73438
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "d93d6f7c837fd442",
+        "name" : "Console Output",
+        "source" : "d93d6f7c837fd442.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618548425653,
+      "stop" : 1618548425653,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "testMethod",
+    "value" : "EIQuestionnaireLO_24"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "tag",
+    "value" : "EIQUESTIONNAIRE.LO.24"
+  }, {
+    "name" : "suite",
+    "value" : "EIQuestionnaire.LO"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "9d6b79e2d1ae367e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618468111071,
+          "stop" : 1618468219997,
+          "duration" : 108926
+        }
+      }, {
+        "uid" : "3381c7097a3a5dd7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618376111293,
+          "stop" : 1618376218701,
+          "duration" : 107408
+        }
+      }, {
+        "uid" : "4c595a7387b726c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618281780524,
+          "stop" : 1618281885574,
+          "duration" : 105050
+        }
+      }, {
+        "uid" : "408867c392944472",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618035618061,
+          "stop" : 1618035723145,
+          "duration" : 105084
+        }
+      }, {
+        "uid" : "33ed45649a538b5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617934862077,
+          "stop" : 1617935013180,
+          "duration" : 151103
+        }
+      }, {
+        "uid" : "4aacb3359d6beb1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617851501005,
+          "stop" : 1617851605070,
+          "duration" : 104065
+        }
+      }, {
+        "uid" : "486cc91488bfe609",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617758931556,
+          "stop" : 1617759035508,
+          "duration" : 103952
+        }
+      }, {
+        "uid" : "34d0ef7edeaff8b8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617685637942,
+          "stop" : 1617685756534,
+          "duration" : 118592
+        }
+      }, {
+        "uid" : "89a627a0d9870e43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617339565377,
+          "stop" : 1617339683327,
+          "duration" : 117950
+        }
+      }, {
+        "uid" : "3454eb9cd7f2ce70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617163136835,
+          "stop" : 1617163255275,
+          "duration" : 118440
+        }
+      }, {
+        "uid" : "15042bce2a153348",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617077618601,
+          "stop" : 1617077737498,
+          "duration" : 118897
+        }
+      }, {
+        "uid" : "de68420557ed9153",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616830992218,
+          "stop" : 1616831156464,
+          "duration" : 164246
+        }
+      }, {
+        "uid" : "f095aeeca2437bbc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616732022701,
+          "stop" : 1616732126403,
+          "duration" : 103702
+        }
+      }, {
+        "uid" : "2dd1e58a52282818",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616468160732,
+          "stop" : 1616468294445,
+          "duration" : 133713
+        }
+      }, {
+        "uid" : "c3ef4cc3851af619",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616222769491,
+          "stop" : 1616222890106,
+          "duration" : 120615
+        }
+      }, {
+        "uid" : "b566c1e8ed7caecb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616130137561,
+          "stop" : 1616130256193,
+          "duration" : 118632
+        }
+      }, {
+        "uid" : "7bd36355d32210b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616038869689,
+          "stop" : 1616039002831,
+          "duration" : 133142
+        }
+      } ]
+    },
+    "tags" : [ "EIQUESTIONNAIRE.LO.24" ]
+  },
+  "source" : "6347ea63c2c31bef.json",
+  "parameterValues" : [ ]
+}
