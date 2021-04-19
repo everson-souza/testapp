@@ -1,0 +1,271 @@
+{
+  "uid" : "c4ba47c40c46c609",
+  "name" : "URL_24",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_24",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_24",
+  "time" : {
+    "start" : 1618832611942,
+    "stop" : 1618832660327,
+    "duration" : 48385
+  },
+  "description" : "Try to access the url: '/Toaster/AdminSettings'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/Toaster/AdminSettings'. Should fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618832660327,
+      "stop" : 1618832660327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1618832660327,
+      "stop" : 1618832660327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/Toaster/AdminSettings'. Should fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL_24",
+      "time" : {
+        "start" : 1618832611942,
+        "stop" : 1618832660327,
+        "duration" : 48385
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Access relative url /Toaster/AdminSettings",
+        "time" : {
+          "start" : 1618832637070,
+          "stop" : 1618832650228,
+          "duration" : 13158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618832650228,
+          "stop" : 1618832660264,
+          "duration" : 10036
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1618832660238,
+            "stop" : 1618832660256,
+            "duration" : 18
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618832660268,
+          "stop" : 1618832660327,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b29792d74d17aebf",
+          "name" : "Attachment Title",
+          "source" : "b29792d74d17aebf.png",
+          "type" : "image/png",
+          "size" : 57576
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "c137fa50b1deeb72",
+        "name" : "Console Output",
+        "source" : "c137fa50b1deeb72.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618832660327,
+      "stop" : 1618832660327,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618832660327,
+      "stop" : 1618832660327,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_24"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.24"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb8040583fc81702",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : No message provided",
+      "time" : {
+        "start" : 1618654191935,
+        "stop" : 1618654244037,
+        "duration" : 52102
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "bde9632431586557",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618577781308,
+          "stop" : 1618577803700,
+          "duration" : 22392
+        }
+      }, {
+        "uid" : "4ab86fb6efd8cd33",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : No message provided",
+        "time" : {
+          "start" : 1618488922214,
+          "stop" : 1618488974319,
+          "duration" : 52105
+        }
+      }, {
+        "uid" : "f3e527a6c860611a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618405300869,
+          "stop" : 1618405323193,
+          "duration" : 22324
+        }
+      }, {
+        "uid" : "3f77cade52c348e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618323642776,
+          "stop" : 1618323665191,
+          "duration" : 22415
+        }
+      } ]
+    },
+    "tags" : [ "URL.24" ]
+  },
+  "source" : "c4ba47c40c46c609.json",
+  "parameterValues" : [ ]
+}

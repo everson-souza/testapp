@@ -1,0 +1,461 @@
+{
+  "uid" : "c5a1bcd6becd77df",
+  "name" : "EIQuestionnaireLO_8",
+  "fullName" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_8",
+  "historyId" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_8",
+  "time" : {
+    "start" : 1618628297567,
+    "stop" : 1618628473696,
+    "duration" : 176129
+  },
+  "description" : "Verify Access Right - Tab Control not visible\n",
+  "descriptionHtml" : "<p>Verify Access Right - Tab Control not visible</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+  "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_8() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 383",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618628473696,
+      "stop" : 1618628473696,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1618628473696,
+      "stop" : 1618628473696,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify Access Right - Tab Control not visible\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+    "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_8() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 383",
+    "steps" : [ {
+      "name" : "EIQuestionnaireLO_8",
+      "time" : {
+        "start" : 1618628297567,
+        "stop" : 1618628473696,
+        "duration" : 176129
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+      "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_8() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 383",
+      "steps" : [ {
+        "name" : "Open AdminAccessRights page",
+        "time" : {
+          "start" : 1618628323936,
+          "stop" : 1618628329484,
+          "duration" : 5548
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Filter Object type using Questionnaire - LO",
+        "time" : {
+          "start" : 1618628329484,
+          "stop" : 1618628339753,
+          "duration" : 10269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Open lease operations emissions manager page",
+        "time" : {
+          "start" : 1618628395214,
+          "stop" : 1618628396025,
+          "duration" : 811
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Select lease OCS-P-00001",
+        "time" : {
+          "start" : 1618628396025,
+          "stop" : 1618628425916,
+          "duration" : 29891
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Set search input to OCS-P-00001",
+          "time" : {
+            "start" : 1618628406038,
+            "stop" : 1618628409359,
+            "duration" : 3321
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check tab control",
+        "time" : {
+          "start" : 1618628425916,
+          "stop" : 1618628435937,
+          "duration" : 10021
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.EmissionsLeaseOperationsPage.__a$_around_CheckTabControl_100664728_o(Boolean AccessIsEnabled) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Emissions\\EmissionsLeaseOperationsPage.cs:line 557\r\n   at BOEM_Tests.PageObjects.EmissionsLeaseOperationsPage.__a$_around_CheckTabControl_100664728_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618628435937,
+          "stop" : 1618628436008,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8e6a568f158c2144",
+          "name" : "Attachment Title",
+          "source" : "8e6a568f158c2144.png",
+          "type" : "image/png",
+          "size" : 74327
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "Open AdminAccessRights page",
+        "time" : {
+          "start" : 1618628436008,
+          "stop" : 1618628441504,
+          "duration" : 5496
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Filter Object type using Questionnaire - LO",
+        "time" : {
+          "start" : 1618628441504,
+          "stop" : 1618628451759,
+          "duration" : 10255
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "3da210a7d535688b",
+        "name" : "Console Output",
+        "source" : "3da210a7d535688b.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618628473696,
+      "stop" : 1618628473696,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "testMethod",
+    "value" : "EIQuestionnaireLO_8"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "tag",
+    "value" : "EIQUESTIONNAIRE.LO.8"
+  }, {
+    "name" : "suite",
+    "value" : "EIQuestionnaire.LO"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 19,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "1451fa30990ff9",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1618545434850,
+          "stop" : 1618545610220,
+          "duration" : 175370
+        }
+      }, {
+        "uid" : "b536e4162a18066b",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1618465219479,
+          "stop" : 1618465397683,
+          "duration" : 178204
+        }
+      }, {
+        "uid" : "54ce7fd18ebceb11",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1618373236243,
+          "stop" : 1618373412498,
+          "duration" : 176255
+        }
+      }, {
+        "uid" : "c44ad1c77055d392",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1618278974477,
+          "stop" : 1618279146976,
+          "duration" : 172499
+        }
+      }, {
+        "uid" : "ca792e9ab32c504b",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1618032792210,
+          "stop" : 1618032965747,
+          "duration" : 173537
+        }
+      }, {
+        "uid" : "4f90722e04ec9d0c",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617932063827,
+          "stop" : 1617932236578,
+          "duration" : 172751
+        }
+      }, {
+        "uid" : "b85be1b25f150433",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617848598966,
+          "stop" : 1617848771473,
+          "duration" : 172507
+        }
+      }, {
+        "uid" : "820431270d7d0025",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617756130205,
+          "stop" : 1617756302695,
+          "duration" : 172490
+        }
+      }, {
+        "uid" : "337e8bf81ed468e9",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617682489640,
+          "stop" : 1617682676880,
+          "duration" : 187240
+        }
+      }, {
+        "uid" : "145cf13d700ee308",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617336559895,
+          "stop" : 1617336747187,
+          "duration" : 187292
+        }
+      }, {
+        "uid" : "168056871415b398",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617160107594,
+          "stop" : 1617160291701,
+          "duration" : 184107
+        }
+      }, {
+        "uid" : "80d841f7eb6390d9",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1617074600501,
+          "stop" : 1617074801853,
+          "duration" : 201352
+        }
+      }, {
+        "uid" : "5bb8e8f7a3bbec0",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1616827886421,
+          "stop" : 1616828088249,
+          "duration" : 201828
+        }
+      }, {
+        "uid" : "63d5de43c79b8dfa",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1616729003926,
+          "stop" : 1616729178840,
+          "duration" : 174914
+        }
+      }, {
+        "uid" : "8929d0eed621c629",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1616465083708,
+          "stop" : 1616465270938,
+          "duration" : 187230
+        }
+      }, {
+        "uid" : "3faecf2fe430b9c6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1616219646203,
+          "stop" : 1616219827233,
+          "duration" : 181030
+        }
+      }, {
+        "uid" : "3c7ce169cf2b9e1d",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1616126993695,
+          "stop" : 1616127195574,
+          "duration" : 201879
+        }
+      }, {
+        "uid" : "f38098a6d30e7199",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Tab Control Request' element is visible and enabled!",
+        "time" : {
+          "start" : 1616035853228,
+          "stop" : 1616036040672,
+          "duration" : 187444
+        }
+      } ]
+    },
+    "tags" : [ "EIQUESTIONNAIRE.LO.8" ]
+  },
+  "source" : "c5a1bcd6becd77df.json",
+  "parameterValues" : [ ]
+}

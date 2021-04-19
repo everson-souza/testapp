@@ -1,0 +1,329 @@
+{
+  "uid" : "9b558c154dc5a862",
+  "name" : "INVENTORYCFG_03",
+  "fullName" : "BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03",
+  "historyId" : "BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03",
+  "time" : {
+    "start" : 1618641963017,
+    "stop" : 1618642121683,
+    "duration" : 158666
+  },
+  "description" : "Try to transfer resources to a new inventory. Should fail if can't create a new inventory.\n",
+  "descriptionHtml" : "<p>Try to transfer resources to a new inventory. Should fail if can't create a new inventory.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_PNTSITE_entitiesGridData_Selected\" name=\"PNTSITE_entitiesGridData_Selected\" type=\"text\"> is not reachable by keyboard",
+  "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 174\r\n--ElementNotInteractableException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618642121683,
+      "stop" : 1618642121683,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1618642121683,
+      "stop" : 1618642121683,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to transfer resources to a new inventory. Should fail if can't create a new inventory.\n",
+    "status" : "failed",
+    "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_PNTSITE_entitiesGridData_Selected\" name=\"PNTSITE_entitiesGridData_Selected\" type=\"text\"> is not reachable by keyboard",
+    "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 174\r\n--ElementNotInteractableException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)",
+    "steps" : [ {
+      "name" : "INVENTORYCFG_03",
+      "time" : {
+        "start" : 1618641963017,
+        "stop" : 1618642121683,
+        "duration" : 158666
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_PNTSITE_entitiesGridData_Selected\" name=\"PNTSITE_entitiesGridData_Selected\" type=\"text\"> is not reachable by keyboard",
+      "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 174\r\n--ElementNotInteractableException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)",
+      "steps" : [ {
+        "name" : "Click on inventory",
+        "time" : {
+          "start" : 1618641966047,
+          "stop" : 1618641969356,
+          "duration" : 3309
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on transfer sources button",
+        "time" : {
+          "start" : 1618641969356,
+          "stop" : 1618642007626,
+          "duration" : 38270
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click transfering to new inventory checkbox",
+        "time" : {
+          "start" : 1618642007626,
+          "stop" : 1618642045881,
+          "duration" : 38255
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on next button",
+        "time" : {
+          "start" : 1618642045881,
+          "stop" : 1618642054122,
+          "duration" : 8241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Set year box to 2017",
+        "time" : {
+          "start" : 1618642054122,
+          "stop" : 1618642054140,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Set description box to 2017 - Test Transfer New",
+        "time" : {
+          "start" : 1618642054141,
+          "stop" : 1618642054177,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on next button",
+        "time" : {
+          "start" : 1618642054177,
+          "stop" : 1618642062375,
+          "duration" : 8198
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on check all button",
+        "time" : {
+          "start" : 1618642062375,
+          "stop" : 1618642070620,
+          "duration" : 8245
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on next button",
+        "time" : {
+          "start" : 1618642070620,
+          "stop" : 1618642078898,
+          "duration" : 8278
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Set source box to 20537",
+        "time" : {
+          "start" : 1618642078898,
+          "stop" : 1618642117967,
+          "duration" : 39069
+        },
+        "status" : "failed",
+        "statusMessage" : "Exception has been thrown by the target of an invocation.",
+        "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SearchSource_100665903_o(String text) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 441\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SearchSource_100665903_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618642117967,
+          "stop" : 1618642118052,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "21a2768e034cf2ff",
+          "name" : "Attachment Title",
+          "source" : "21a2768e034cf2ff.png",
+          "type" : "image/png",
+          "size" : 74026
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "56b46bb34f1d7d4f",
+        "name" : "Console Output",
+        "source" : "56b46bb34f1d7d4f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618642121683,
+      "stop" : 1618642121683,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618642121683,
+      "stop" : 1618642121683,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "testMethod",
+    "value" : "INVENTORYCFG_03"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "tag",
+    "value" : "INVENTORYCFG.3"
+  }, {
+    "name" : "suite",
+    "value" : "InventoryCfg"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "INVENTORYCFG.3" ]
+  },
+  "source" : "9b558c154dc5a862.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,224 @@
+{
+  "uid" : "16accca5588a59ba",
+  "name" : "URL_20",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_20",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_20",
+  "time" : {
+    "start" : 1618653964778,
+    "stop" : 1618654005014,
+    "duration" : 40236
+  },
+  "description" : "Try to access the url: '/Activity/AllActivityList'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/Activity/AllActivityList'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (NoSuchElementException) The page didn't load properly.",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_20() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 563",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618654005013,
+      "stop" : 1618654005013,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1618654005013,
+      "stop" : 1618654005013,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/Activity/AllActivityList'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (NoSuchElementException) The page didn't load properly.",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_20() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 563",
+    "steps" : [ {
+      "name" : "URL_20",
+      "time" : {
+        "start" : 1618653964778,
+        "stop" : 1618654005014,
+        "duration" : 40236
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (NoSuchElementException) The page didn't load properly.",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_20() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 563",
+      "steps" : [ {
+        "name" : "Access relative url /AdminAccountActivity/AllActivityList",
+        "time" : {
+          "start" : 1618653982729,
+          "stop" : 1618653994921,
+          "duration" : 12192
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618653994921,
+          "stop" : 1618654004942,
+          "duration" : 10021
+        },
+        "status" : "failed",
+        "statusMessage" : "(NoSuchElementException) The page didn't load properly.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666134_o(String titleText, By uniqueElement) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 89\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666134_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1618654004935,
+            "stop" : 1618654004941,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618654004943,
+          "stop" : 1618654005013,
+          "duration" : 70
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c2ecaa523ee44a08",
+          "name" : "Attachment Title",
+          "source" : "c2ecaa523ee44a08.png",
+          "type" : "image/png",
+          "size" : 89114
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "1ea060675de7f913",
+        "name" : "Console Output",
+        "source" : "1ea060675de7f913.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618654005013,
+      "stop" : 1618654005013,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618654005013,
+      "stop" : 1618654005013,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_20"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.20"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "URL.20" ]
+  },
+  "source" : "16accca5588a59ba.json",
+  "parameterValues" : [ ]
+}

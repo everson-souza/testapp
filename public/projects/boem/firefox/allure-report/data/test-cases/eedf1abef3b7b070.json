@@ -1,0 +1,387 @@
+{
+  "uid" : "eedf1abef3b7b070",
+  "name" : "CheckAccess_WizShadowUser",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizShadowUser",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_WizShadowUser",
+  "time" : {
+    "start" : 1618621241738,
+    "stop" : 1618621275339,
+    "duration" : 33601
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618621275339,
+      "stop" : 1618621275339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1618621275339,
+      "stop" : 1618621275339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_WizShadowUser",
+      "time" : {
+        "start" : 1618621241738,
+        "stop" : 1618621275339,
+        "duration" : 33601
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Admin user",
+        "time" : {
+          "start" : 1618621245901,
+          "stop" : 1618621265210,
+          "duration" : 19309
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1618621265212,
+          "stop" : 1618621267228,
+          "duration" : 2016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Access relative URL /WizShadowUser",
+        "time" : {
+          "start" : 1618621267228,
+          "stop" : 1618621273231,
+          "duration" : 6003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1618621273232,
+          "stop" : 1618621274248,
+          "duration" : 1016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618621274248,
+          "stop" : 1618621274315,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c798908774e8e2e7",
+          "name" : "Attachment Title",
+          "source" : "c798908774e8e2e7.png",
+          "type" : "image/png",
+          "size" : 55370
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "c7c7ac7f56b782b3",
+        "name" : "Console Output",
+        "source" : "c7c7ac7f56b782b3.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618621275339,
+      "stop" : 1618621275339,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_WizShadowUser"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.11"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 33,
+        "unknown" : 0,
+        "total" : 33
+      },
+      "items" : [ {
+        "uid" : "25804cb8d0dc14bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618537848170,
+          "stop" : 1618537879817,
+          "duration" : 31647
+        }
+      }, {
+        "uid" : "bc3976efb8a0a00a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618457613403,
+          "stop" : 1618457649994,
+          "duration" : 36591
+        }
+      }, {
+        "uid" : "e2244bb983585852",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618365729985,
+          "stop" : 1618365761986,
+          "duration" : 32001
+        }
+      }, {
+        "uid" : "b18127c7adbfa3bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618271942177,
+          "stop" : 1618271970678,
+          "duration" : 28501
+        }
+      }, {
+        "uid" : "88a2d22552103533",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618025766845,
+          "stop" : 1618025795717,
+          "duration" : 28872
+        }
+      }, {
+        "uid" : "eb26d50585c6d1b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617924936690,
+          "stop" : 1617924965360,
+          "duration" : 28670
+        }
+      }, {
+        "uid" : "bb2aab735b5775d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617841677803,
+          "stop" : 1617841705790,
+          "duration" : 27987
+        }
+      }, {
+        "uid" : "53997a450b1f6aba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617749162798,
+          "stop" : 1617749191715,
+          "duration" : 28917
+        }
+      }, {
+        "uid" : "cc2b2ac779950d05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617673022296,
+          "stop" : 1617673055626,
+          "duration" : 33330
+        }
+      }, {
+        "uid" : "22b192af92a063cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617327243323,
+          "stop" : 1617327301813,
+          "duration" : 58490
+        }
+      }, {
+        "uid" : "c1448f3c0eb434ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617150634346,
+          "stop" : 1617150667555,
+          "duration" : 33209
+        }
+      }, {
+        "uid" : "9f4d9d8615916f9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617065834733,
+          "stop" : 1617065873444,
+          "duration" : 38711
+        }
+      }, {
+        "uid" : "8705d7f0cb20f36a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616818730602,
+          "stop" : 1616818789973,
+          "duration" : 59371
+        }
+      }, {
+        "uid" : "3e26b996d4171f6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616719920555,
+          "stop" : 1616719979067,
+          "duration" : 58512
+        }
+      }, {
+        "uid" : "353715e18843f82",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616455943160,
+          "stop" : 1616456001528,
+          "duration" : 58368
+        }
+      }, {
+        "uid" : "fe5df77a55963dce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616210417629,
+          "stop" : 1616210452901,
+          "duration" : 35272
+        }
+      }, {
+        "uid" : "becd256df901dd0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616117872658,
+          "stop" : 1616117931293,
+          "duration" : 58635
+        }
+      }, {
+        "uid" : "151b551ef729c659",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616026568432,
+          "stop" : 1616026620081,
+          "duration" : 51649
+        }
+      }, {
+        "uid" : "5ad8120f8aa0a423",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615946961310,
+          "stop" : 1615946989966,
+          "duration" : 28656
+        }
+      }, {
+        "uid" : "386a3178d59248f3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615855666161,
+          "stop" : 1615855708223,
+          "duration" : 42062
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.11" ]
+  },
+  "source" : "eedf1abef3b7b070.json",
+  "parameterValues" : [ ]
+}
