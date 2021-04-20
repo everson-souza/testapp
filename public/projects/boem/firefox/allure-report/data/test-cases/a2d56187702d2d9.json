@@ -1,0 +1,269 @@
+{
+  "uid" : "a2d56187702d2d9",
+  "name" : "URL_18",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_18",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_18",
+  "time" : {
+    "start" : 1618909487915,
+    "stop" : 1618909510920,
+    "duration" : 23005
+  },
+  "description" : "Try to access the url: '/AdminPasswordPolicy'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/AdminPasswordPolicy'. Should fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618909510919,
+      "stop" : 1618909510919,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1618909510919,
+      "stop" : 1618909510919,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/AdminPasswordPolicy'. Should fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL_18",
+      "time" : {
+        "start" : 1618909487915,
+        "stop" : 1618909510920,
+        "duration" : 23005
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Access relative url /AdminPasswordPolicy",
+        "time" : {
+          "start" : 1618909487926,
+          "stop" : 1618909500816,
+          "duration" : 12890
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618909500816,
+          "stop" : 1618909510840,
+          "duration" : 10024
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1618909510822,
+            "stop" : 1618909510831,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618909510840,
+          "stop" : 1618909510919,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "405fcaceea029bab",
+          "name" : "Attachment Title",
+          "source" : "405fcaceea029bab.png",
+          "type" : "image/png",
+          "size" : 56899
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "25af95d7af832985",
+        "name" : "Console Output",
+        "source" : "25af95d7af832985.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618909510919,
+      "stop" : 1618909510919,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618909510919,
+      "stop" : 1618909510919,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_18"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.18"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "49aa0fd940fddd7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618653919462,
+          "stop" : 1618653942080,
+          "duration" : 22618
+        }
+      }, {
+        "uid" : "8537c6ab1572ce80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618568827580,
+          "stop" : 1618568850139,
+          "duration" : 22559
+        }
+      }, {
+        "uid" : "11bc3872e2ce2774",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618488689342,
+          "stop" : 1618488711898,
+          "duration" : 22556
+        }
+      }, {
+        "uid" : "f3bbfa4229d11d88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618397546764,
+          "stop" : 1618397569449,
+          "duration" : 22685
+        }
+      }, {
+        "uid" : "e3324098021f2908",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618303318522,
+          "stop" : 1618303341077,
+          "duration" : 22555
+        }
+      } ]
+    },
+    "tags" : [ "URL.18" ]
+  },
+  "source" : "a2d56187702d2d9.json",
+  "parameterValues" : [ ]
+}

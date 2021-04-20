@@ -1,0 +1,377 @@
+{
+  "uid" : "43e93cab8e718dea",
+  "name" : "CheckAccess_AllActivityListCOSD",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckAccess_AllActivityListCOSD",
+  "time" : {
+    "start" : 1618879224782,
+    "stop" : 1618879272702,
+    "duration" : 47920
+  },
+  "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects the grid show no values\n",
+  "descriptionHtml" : "<p>Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects the grid show no values</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618879272702,
+      "stop" : 1618879272702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1618879272702,
+      "stop" : 1618879272702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=COSD URL. It expects the grid show no values\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckAccess_AllActivityListCOSD",
+      "time" : {
+        "start" : 1618879224782,
+        "stop" : 1618879272702,
+        "duration" : 47920
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Access relative URL /AdminAccountActivity/AllActivityList?appKey=COSD",
+        "time" : {
+          "start" : 1618879250719,
+          "stop" : 1618879256630,
+          "duration" : 5911
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check application key equals 1",
+        "time" : {
+          "start" : 1618879256630,
+          "stop" : 1618879271688,
+          "duration" : 15058
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get OCS AQS version",
+          "time" : {
+            "start" : 1618879266635,
+            "stop" : 1618879271666,
+            "duration" : 5031
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618879271688,
+          "stop" : 1618879271760,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "90a01e824c8cc736",
+          "name" : "Attachment Title",
+          "source" : "90a01e824c8cc736.png",
+          "type" : "image/png",
+          "size" : 76750
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "208c2fbdd62207f9",
+        "name" : "Console Output",
+        "source" : "208c2fbdd62207f9.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618879272702,
+      "stop" : 1618879272702,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckAccess_AllActivityListCOSD"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.5"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 34
+      },
+      "items" : [ {
+        "uid" : "64c62b24f911c61a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618621034874,
+          "stop" : 1618621079516,
+          "duration" : 44642
+        }
+      }, {
+        "uid" : "b8d8333bcf83ac92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618537647340,
+          "stop" : 1618537691960,
+          "duration" : 44620
+        }
+      }, {
+        "uid" : "188aeedc59582c5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618457401630,
+          "stop" : 1618457446188,
+          "duration" : 44558
+        }
+      }, {
+        "uid" : "d2145250c1925675",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618365523692,
+          "stop" : 1618365569761,
+          "duration" : 46069
+        }
+      }, {
+        "uid" : "785d9374d657dd96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618271758128,
+          "stop" : 1618271799553,
+          "duration" : 41425
+        }
+      }, {
+        "uid" : "c9e275064efe7c71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618025582550,
+          "stop" : 1618025624392,
+          "duration" : 41842
+        }
+      }, {
+        "uid" : "c71bf1ca7d51e931",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617924764412,
+          "stop" : 1617924795355,
+          "duration" : 30943
+        }
+      }, {
+        "uid" : "ac79ca1cbf98934e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617841508538,
+          "stop" : 1617841539203,
+          "duration" : 30665
+        }
+      }, {
+        "uid" : "f2846f5297e36f86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617748990297,
+          "stop" : 1617749021156,
+          "duration" : 30859
+        }
+      }, {
+        "uid" : "5fbb8068b9d117d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617672757764,
+          "stop" : 1617672789894,
+          "duration" : 32130
+        }
+      }, {
+        "uid" : "d3b9f537d3527067",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617326947511,
+          "stop" : 1617327007968,
+          "duration" : 60457
+        }
+      }, {
+        "uid" : "e9475186f6a6a39d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617150339018,
+          "stop" : 1617150372857,
+          "duration" : 33839
+        }
+      }, {
+        "uid" : "4a27f4546f0803fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617065540399,
+          "stop" : 1617065600670,
+          "duration" : 60271
+        }
+      }, {
+        "uid" : "d8fc2d48efc976d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616818439496,
+          "stop" : 1616818499898,
+          "duration" : 60402
+        }
+      }, {
+        "uid" : "ec53004041ec524a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616719623395,
+          "stop" : 1616719683763,
+          "duration" : 60368
+        }
+      }, {
+        "uid" : "36389f0e524e1872",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1616455615658,
+          "stop" : 1616455674964,
+          "duration" : 59306
+        }
+      }, {
+        "uid" : "3b343c11bb62537",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1616210127040,
+          "stop" : 1616210172740,
+          "duration" : 45700
+        }
+      }, {
+        "uid" : "3bfac70c41891053",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1616117608575,
+          "stop" : 1616117669046,
+          "duration" : 60471
+        }
+      }, {
+        "uid" : "66aa933292b9be22",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1616026294387,
+          "stop" : 1616026331591,
+          "duration" : 37204
+        }
+      }, {
+        "uid" : "43e07183e45ed5af",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: grid_ActivityGrid",
+        "time" : {
+          "start" : 1615946669689,
+          "stop" : 1615946731344,
+          "duration" : 61655
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.5" ]
+  },
+  "source" : "43e93cab8e718dea.json",
+  "parameterValues" : [ ]
+}

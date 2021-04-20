@@ -1,0 +1,386 @@
+{
+  "uid" : "97827bb0ca4307e6",
+  "name" : "CheckUser_AccountActivity",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.CheckUser_AccountActivity",
+  "time" : {
+    "start" : 1618879059317,
+    "stop" : 1618879112284,
+    "duration" : 52967
+  },
+  "description" : "Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values\n",
+  "descriptionHtml" : "<p>Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618879112284,
+      "stop" : 1618879112284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1618879112284,
+      "stop" : 1618879112284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Select the admin user on Account Activity Page and check if there are values on grid. Should fail if there aren't values\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CheckUser_AccountActivity",
+      "time" : {
+        "start" : 1618879059317,
+        "stop" : 1618879112284,
+        "duration" : 52967
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Access relative URL /AdminAccountActivity/AllActivityList",
+        "time" : {
+          "start" : 1618879085468,
+          "stop" : 1618879091208,
+          "duration" : 5740
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select user QA_BOEMAdmin@weblakes.com",
+        "time" : {
+          "start" : 1618879091209,
+          "stop" : 1618879101460,
+          "duration" : 10251
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check values on activity grid",
+        "time" : {
+          "start" : 1618879101461,
+          "stop" : 1618879111478,
+          "duration" : 10017
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618879111478,
+          "stop" : 1618879111545,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4e3e1e8b7cf2c0cd",
+          "name" : "Attachment Title",
+          "source" : "4e3e1e8b7cf2c0cd.png",
+          "type" : "image/png",
+          "size" : 77450
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "9a969181578d32a7",
+        "name" : "Console Output",
+        "source" : "9a969181578d32a7.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618879112284,
+      "stop" : 1618879112284,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckUser_AccountActivity"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.1"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 23,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 34
+      },
+      "items" : [ {
+        "uid" : "c5179bec94c5949",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618620874950,
+          "stop" : 1618620924910,
+          "duration" : 49960
+        }
+      }, {
+        "uid" : "db8f230055d37c61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618537489274,
+          "stop" : 1618537539173,
+          "duration" : 49899
+        }
+      }, {
+        "uid" : "69c4607e2a472195",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618457242540,
+          "stop" : 1618457292915,
+          "duration" : 50375
+        }
+      }, {
+        "uid" : "fcdf25219a2d2722",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618365362585,
+          "stop" : 1618365413752,
+          "duration" : 51167
+        }
+      }, {
+        "uid" : "219a96bd0703415a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618271609326,
+          "stop" : 1618271656408,
+          "duration" : 47082
+        }
+      }, {
+        "uid" : "44e9fd979e40c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618025434703,
+          "stop" : 1618025482887,
+          "duration" : 48184
+        }
+      }, {
+        "uid" : "d067de1f9747a756",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617924631328,
+          "stop" : 1617924676012,
+          "duration" : 44684
+        }
+      }, {
+        "uid" : "e818f7f1d3c4c8ac",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617841376819,
+          "stop" : 1617841420566,
+          "duration" : 43747
+        }
+      }, {
+        "uid" : "c2d7c05414dccef6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617748856989,
+          "stop" : 1617748901944,
+          "duration" : 44955
+        }
+      }, {
+        "uid" : "94a471a29223214a",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617672541930,
+          "stop" : 1617672618237,
+          "duration" : 76307
+        }
+      }, {
+        "uid" : "571b150734e10279",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617326740816,
+          "stop" : 1617326815177,
+          "duration" : 74361
+        }
+      }, {
+        "uid" : "3bd9a1b177fc50d6",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617150102598,
+          "stop" : 1617150176719,
+          "duration" : 74121
+        }
+      }, {
+        "uid" : "5d17f993054539d3",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1617065373221,
+          "stop" : 1617065417469,
+          "duration" : 44248
+        }
+      }, {
+        "uid" : "d69de61a4898b81e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1616818261894,
+          "stop" : 1616818306174,
+          "duration" : 44280
+        }
+      }, {
+        "uid" : "f7d1cff18fcf3f26",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : Was redirected to Access denied page",
+        "time" : {
+          "start" : 1616719449196,
+          "stop" : 1616719508544,
+          "duration" : 59348
+        }
+      }, {
+        "uid" : "210d38140d959c7c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616455407734,
+          "stop" : 1616455453000,
+          "duration" : 45266
+        }
+      }, {
+        "uid" : "31007e8b579c52e8",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616209919242,
+          "stop" : 1616209978628,
+          "duration" : 59386
+        }
+      }, {
+        "uid" : "9e453988a7aced1c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616117403141,
+          "stop" : 1616117477036,
+          "duration" : 73895
+        }
+      }, {
+        "uid" : "8a560d59d6e14487",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1616026056586,
+          "stop" : 1616026130760,
+          "duration" : 74174
+        }
+      }, {
+        "uid" : "ad268325ace98d25",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: gs_username",
+        "time" : {
+          "start" : 1615946467754,
+          "stop" : 1615946512348,
+          "duration" : 44594
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.1" ]
+  },
+  "source" : "97827bb0ca4307e6.json",
+  "parameterValues" : [ ]
+}

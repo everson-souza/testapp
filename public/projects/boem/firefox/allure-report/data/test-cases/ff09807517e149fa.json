@@ -1,0 +1,286 @@
+{
+  "uid" : "ff09807517e149fa",
+  "name" : "URL_03",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_03",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_03",
+  "time" : {
+    "start" : 1618909157494,
+    "stop" : 1618909185516,
+    "duration" : 28022
+  },
+  "description" : "Visit /InputDetails/NavSourceConfig/DetailedEditor/Create/ and assure page loads\n",
+  "descriptionHtml" : "<p>Visit /InputDetails/NavSourceConfig/DetailedEditor/Create/ and assure page loads</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 141",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618909185516,
+      "stop" : 1618909185516,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1618909185516,
+      "stop" : 1618909185516,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Visit /InputDetails/NavSourceConfig/DetailedEditor/Create/ and assure page loads\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 141",
+    "steps" : [ {
+      "name" : "URL_03",
+      "time" : {
+        "start" : 1618909157494,
+        "stop" : 1618909185516,
+        "duration" : 28022
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 141",
+      "steps" : [ {
+        "name" : "Access relative url /InputDetails/NavSourceConfig/DetailedEditor/Create/",
+        "time" : {
+          "start" : 1618909160525,
+          "stop" : 1618909175443,
+          "duration" : 14918
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618909175443,
+          "stop" : 1618909185466,
+          "duration" : 10023
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666155_o(String titleText, By uniqueElement) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 89\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_DidPageLoad_100666155_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1618909185455,
+            "stop" : 1618909185464,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618909185466,
+          "stop" : 1618909185515,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5454d4dc89c76251",
+          "name" : "Attachment Title",
+          "source" : "5454d4dc89c76251.png",
+          "type" : "image/png",
+          "size" : 38589
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "54ce26eef3bb4aaf",
+        "name" : "Console Output",
+        "source" : "54ce26eef3bb4aaf.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618909185516,
+      "stop" : 1618909185516,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618909185516,
+      "stop" : 1618909185516,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_03"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.3"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "5e7366e5e2f67a82",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1618653589061,
+          "stop" : 1618653617284,
+          "duration" : 28223
+        }
+      }, {
+        "uid" : "3cc5961b13364b53",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1618577420360,
+          "stop" : 1618577468204,
+          "duration" : 47844
+        }
+      }, {
+        "uid" : "91f211199f3790aa",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1618488358795,
+          "stop" : 1618488387078,
+          "duration" : 28283
+        }
+      }, {
+        "uid" : "ede76f9032062b55",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1618397194882,
+          "stop" : 1618397222780,
+          "duration" : 27898
+        }
+      }, {
+        "uid" : "e5cabed629fb98b8",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was displayed an error. Please check the screenshot.",
+        "time" : {
+          "start" : 1618323067410,
+          "stop" : 1618323096890,
+          "duration" : 29480
+        }
+      } ]
+    },
+    "tags" : [ "URL.3" ]
+  },
+  "source" : "ff09807517e149fa.json",
+  "parameterValues" : [ ]
+}
