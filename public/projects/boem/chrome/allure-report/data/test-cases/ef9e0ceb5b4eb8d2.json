@@ -1,0 +1,227 @@
+{
+  "uid" : "ef9e0ceb5b4eb8d2",
+  "name" : "URL_23",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_23",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_23",
+  "time" : {
+    "start" : 1618926800182,
+    "stop" : 1618926865964,
+    "duration" : 65782
+  },
+  "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/AdminSettings'. Should fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618926865952,
+      "stop" : 1618926865952,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1618926865953,
+      "stop" : 1618926865953,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/AdminSettings'. Should fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL_23",
+      "time" : {
+        "start" : 1618926800183,
+        "stop" : 1618926865958,
+        "duration" : 65775
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Access relative url /HelpConfig",
+        "time" : {
+          "start" : 1618926841497,
+          "stop" : 1618926855378,
+          "duration" : 13881
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1618926855379,
+          "stop" : 1618926865505,
+          "duration" : 10126
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1618926865395,
+            "stop" : 1618926865476,
+            "duration" : 81
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618926865534,
+          "stop" : 1618926865948,
+          "duration" : 414
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d271f0d89882f55",
+          "name" : "Attachment Title",
+          "source" : "d271f0d89882f55.png",
+          "type" : "image/png",
+          "size" : 67015
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "2813b9582caadc0e",
+        "name" : "Console Output",
+        "source" : "2813b9582caadc0e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618926865953,
+      "stop" : 1618926865953,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618926865953,
+      "stop" : 1618926865953,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_23"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.23"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "884a3fecce88e8a",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: -0.040\n  (Session info: chrome=89.0.4389.128)",
+      "time" : {
+        "start" : 1618923692233,
+        "stop" : 1618923748169,
+        "duration" : 55936
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "URL.23" ]
+  },
+  "source" : "ef9e0ceb5b4eb8d2.json",
+  "parameterValues" : [ ]
+}

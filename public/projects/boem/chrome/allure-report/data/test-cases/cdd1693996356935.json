@@ -1,0 +1,353 @@
+{
+  "uid" : "cdd1693996356935",
+  "name" : "EIQuestionnaireLO_4",
+  "fullName" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_4",
+  "historyId" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_4",
+  "time" : {
+    "start" : 1618893217340,
+    "stop" : 1618893399450,
+    "duration" : 182110
+  },
+  "description" : "verify access right - calculator tab unchecked is not visible\n",
+  "descriptionHtml" : "<p>verify access right - calculator tab unchecked is not visible</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+  "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_4() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 215",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618893399449,
+      "stop" : 1618893399449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1618893399449,
+      "stop" : 1618893399449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "verify access right - calculator tab unchecked is not visible\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+    "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_4() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 215",
+    "steps" : [ {
+      "name" : "EIQuestionnaireLO_4",
+      "time" : {
+        "start" : 1618893217340,
+        "stop" : 1618893399450,
+        "duration" : 182110
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+      "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_4() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 215",
+      "steps" : [ {
+        "name" : "Open AdminAccessRights page",
+        "time" : {
+          "start" : 1618893255300,
+          "stop" : 1618893261856,
+          "duration" : 6556
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Filter Object type using Questionnaire - LO",
+        "time" : {
+          "start" : 1618893261856,
+          "stop" : 1618893272032,
+          "duration" : 10176
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Open lease operations emissions manager page",
+        "time" : {
+          "start" : 1618893317733,
+          "stop" : 1618893319497,
+          "duration" : 1764
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Select lease OCS-P-00001",
+        "time" : {
+          "start" : 1618893319497,
+          "stop" : 1618893350750,
+          "duration" : 31253
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Set search input to OCS-P-00001",
+          "time" : {
+            "start" : 1618893329526,
+            "stop" : 1618893332870,
+            "duration" : 3344
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check calculated emissions panel",
+        "time" : {
+          "start" : 1618893350750,
+          "stop" : 1618893360866,
+          "duration" : 10116
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.EmissionsLeaseOperationsPage.__a$_around_CheckCalculatedEmissionsPanel_100664753_o(Boolean AccessIsEnabled) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Emissions\\EmissionsLeaseOperationsPage.cs:line 502\r\n   at BOEM_Tests.PageObjects.EmissionsLeaseOperationsPage.__a$_around_CheckCalculatedEmissionsPanel_100664753_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618893360867,
+          "stop" : 1618893361221,
+          "duration" : 354
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "9b0e6920a5ceb2a9",
+          "name" : "Attachment Title",
+          "source" : "9b0e6920a5ceb2a9.png",
+          "type" : "image/png",
+          "size" : 78473
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "Open AdminAccessRights page",
+        "time" : {
+          "start" : 1618893361221,
+          "stop" : 1618893367588,
+          "duration" : 6367
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Filter Object type using Questionnaire - LO",
+        "time" : {
+          "start" : 1618893367589,
+          "stop" : 1618893377775,
+          "duration" : 10186
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "8ac6d21ac5232a17",
+        "name" : "Console Output",
+        "source" : "8ac6d21ac5232a17.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618893399449,
+      "stop" : 1618893399449,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "testMethod",
+    "value" : "EIQuestionnaireLO_4"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "tag",
+    "value" : "EIQUESTIONNAIRE.LO.4"
+  }, {
+    "name" : "suite",
+    "value" : "EIQuestionnaire.LO"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "2c2603e22e46de80",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "time" : {
+          "start" : 1617935173693,
+          "stop" : 1617935346769,
+          "duration" : 173076
+        }
+      }, {
+        "uid" : "1337d65f8d678a03",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "time" : {
+          "start" : 1617854077428,
+          "stop" : 1617854250558,
+          "duration" : 173130
+        }
+      }, {
+        "uid" : "24668d46db8d0f74",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "time" : {
+          "start" : 1617182159204,
+          "stop" : 1617182329550,
+          "duration" : 170346
+        }
+      }, {
+        "uid" : "2b9daaf6da5a3fe",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "time" : {
+          "start" : 1617073556283,
+          "stop" : 1617073745675,
+          "duration" : 189392
+        }
+      }, {
+        "uid" : "1917bc58e9eb4f45",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "time" : {
+          "start" : 1616559026483,
+          "stop" : 1616559197494,
+          "duration" : 171011
+        }
+      }, {
+        "uid" : "f98ce0c59e6e8c48",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Calculated Emissions Panel' element is visible and enabled!",
+        "time" : {
+          "start" : 1616052639675,
+          "stop" : 1616052835857,
+          "duration" : 196182
+        }
+      } ]
+    },
+    "tags" : [ "EIQUESTIONNAIRE.LO.4" ]
+  },
+  "source" : "cdd1693996356935.json",
+  "parameterValues" : [ ]
+}
