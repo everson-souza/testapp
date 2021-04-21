@@ -1,0 +1,275 @@
+{
+  "uid" : "5de1714e1382bc8c",
+  "name" : "ADMINUSERINVITE_10",
+  "fullName" : "BOEM_Tests.Tests.AdminUserInvite.ADMINUSERINVITE_10",
+  "historyId" : "BOEM_Tests.Tests.AdminUserInvite.ADMINUSERINVITE_10",
+  "time" : {
+    "start" : 1618881125061,
+    "stop" : 1618881177334,
+    "duration" : 52273
+  },
+  "description" : "User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com does not proceed without User Group\n",
+  "descriptionHtml" : "<p>User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com does not proceed without User Group</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'Pop-Up Error' element was NOT displayed! Please, check this test's screenshot.",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminUserInvite.ADMINUSERINVITE_10() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminUserInvite.cs:line 306",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618881177333,
+      "stop" : 1618881177333,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1618881177333,
+      "stop" : 1618881177333,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "User Invite, [Invites Users], Invitation to joe.inventory@weblakes.com does not proceed without User Group\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'Pop-Up Error' element was NOT displayed! Please, check this test's screenshot.",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminUserInvite.ADMINUSERINVITE_10() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminUserInvite.cs:line 306",
+    "steps" : [ {
+      "name" : "ADMINUSERINVITE_10",
+      "time" : {
+        "start" : 1618881125061,
+        "stop" : 1618881177334,
+        "duration" : 52273
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'Pop-Up Error' element was NOT displayed! Please, check this test's screenshot.",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminUserInvite.ADMINUSERINVITE_10() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminUserInvite.cs:line 306",
+      "steps" : [ {
+        "name" : "Open admin user invitations page",
+        "time" : {
+          "start" : 1618881146659,
+          "stop" : 1618881147129,
+          "duration" : 470
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on invite users button",
+        "time" : {
+          "start" : 1618881147129,
+          "stop" : 1618881152161,
+          "duration" : 5032
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Set user email text area to joe.inventory@weblakes.com",
+        "time" : {
+          "start" : 1618881152161,
+          "stop" : 1618881157202,
+          "duration" : 5041
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on next button",
+        "time" : {
+          "start" : 1618881157202,
+          "stop" : 1618881162220,
+          "duration" : 5018
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on next button",
+        "time" : {
+          "start" : 1618881162221,
+          "stop" : 1618881167253,
+          "duration" : 5032
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Get error pop up group",
+        "time" : {
+          "start" : 1618881167253,
+          "stop" : 1618881177272,
+          "duration" : 10019
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'Pop-Up Error' element was NOT displayed! Please, check this test's screenshot.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.AdminUserInvitationsPage.__a$_around_GetErrorPopUpGroup_100664265_o(Boolean expectedValue) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminUserInvite\\AdminUserInvitationsPage.cs:line 123\r\n   at BOEM_Tests.PageObjects.AdminUserInvitationsPage.__a$_around_GetErrorPopUpGroup_100664265_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618881177273,
+          "stop" : 1618881177332,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a04699ae0551e980",
+          "name" : "Attachment Title",
+          "source" : "a04699ae0551e980.png",
+          "type" : "image/png",
+          "size" : 61131
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f3ad4e044fb93890",
+        "name" : "Console Output",
+        "source" : "f3ad4e044fb93890.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618881177333,
+      "stop" : 1618881177333,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1618881177333,
+      "stop" : 1618881177333,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminUserInvite"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINUSERINVITE_10"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminUserInvite"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINUSERINVITE.10"
+  }, {
+    "name" : "suite",
+    "value" : "AdminUserInvite"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "ADMINUSERINVITE.10" ]
+  },
+  "source" : "5de1714e1382bc8c.json",
+  "parameterValues" : [ ]
+}
