@@ -1,0 +1,319 @@
+{
+  "uid" : "c12e241c6c13ea38",
+  "name" : "ACCESSRIGHTS_01",
+  "fullName" : "BOEM_Tests.Tests.AdminAccessRights.ACCESSRIGHTS_01",
+  "historyId" : "BOEM_Tests.Tests.AdminAccessRights.ACCESSRIGHTS_01",
+  "time" : {
+    "start" : 1619127860958,
+    "stop" : 1619127997918,
+    "duration" : 136960
+  },
+  "description" : "Remove all access rights from reports and verify only 'User-Defined Reports' is available in 'All Reports View' page.\n",
+  "descriptionHtml" : "<p>Remove all access rights from reports and verify only 'User-Defined Reports' is available in 'All Reports View' page.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminAccessRights.ACCESSRIGHTS_01() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 89",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619127997917,
+      "stop" : 1619127997917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619127997917,
+      "stop" : 1619127997917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Remove all access rights from reports and verify only 'User-Defined Reports' is available in 'All Reports View' page.\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminAccessRights.ACCESSRIGHTS_01() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 89",
+    "steps" : [ {
+      "name" : "ACCESSRIGHTS_01",
+      "time" : {
+        "start" : 1619127860958,
+        "stop" : 1619127997918,
+        "duration" : 136960
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminAccessRights.ACCESSRIGHTS_01() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminAccessRights.cs:line 89",
+      "steps" : [ {
+        "name" : "Open AdminAccessRights page",
+        "time" : {
+          "start" : 1619127883828,
+          "stop" : 1619127889395,
+          "duration" : 5567
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Change user group",
+        "time" : {
+          "start" : 1619127889396,
+          "stop" : 1619127910453,
+          "duration" : 21057
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Filter Object type using Report",
+        "time" : {
+          "start" : 1619127910453,
+          "stop" : 1619127920799,
+          "duration" : 10346
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Unchek all checkboxes",
+        "time" : {
+          "start" : 1619127920800,
+          "stop" : 1619127987467,
+          "duration" : 66667
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Open NavReporting page ",
+        "time" : {
+          "start" : 1619127987468,
+          "stop" : 1619127987803,
+          "duration" : 335
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1619127987803,
+          "stop" : 1619127992814,
+          "duration" : 5011
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Verify menu items",
+        "time" : {
+          "start" : 1619127992814,
+          "stop" : 1619127997838,
+          "duration" : 5024
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.NavReportingPage.__a$_around_VerifyMenuItemsAvailable_100665408_o(List`1 menuItemsTitles) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\NavReporting\\NavReportingPage.cs:line 73\r\n   at BOEM_Tests.PageObjects.NavReportingPage.__a$_around_VerifyMenuItemsAvailable_100665408_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619127997838,
+          "stop" : 1619127997914,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7da1684ee2648e0f",
+          "name" : "Attachment Title",
+          "source" : "7da1684ee2648e0f.png",
+          "type" : "image/png",
+          "size" : 36683
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "39876dbc6f1be5f1",
+        "name" : "Console Output",
+        "source" : "39876dbc6f1be5f1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 8,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 9,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619127997917,
+      "stop" : 1619127997917,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619127997917,
+      "stop" : 1619127997917,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminAccessRights"
+  }, {
+    "name" : "testMethod",
+    "value" : "ACCESSRIGHTS_01"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminAccessRights"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTS.1"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRights"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b20332bd6a82e660",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
+        "time" : {
+          "start" : 1618972235502,
+          "stop" : 1618972372513,
+          "duration" : 137011
+        }
+      }, {
+        "uid" : "f2ba2702ebc7294e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) EXPECTED: 1 menu item(s). BUT WAS: 0 menu item(s).",
+        "time" : {
+          "start" : 1618878457780,
+          "stop" : 1618878593903,
+          "duration" : 136123
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTS.1" ]
+  },
+  "source" : "c12e241c6c13ea38.json",
+  "parameterValues" : [ ]
+}

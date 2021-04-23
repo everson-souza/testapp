@@ -1,0 +1,280 @@
+{
+  "uid" : "78dbe5f15ca25594",
+  "name" : "ACCESSRIGHTSECURITY_31",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_31",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_31",
+  "time" : {
+    "start" : 1619126262670,
+    "stop" : 1619126285312,
+    "duration" : 22642
+  },
+  "description" : "Inventory Locked, Add Lease should give 'access denied' message\n",
+  "descriptionHtml" : "<p>Inventory Locked, Add Lease should give 'access denied' message</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'Add Lease' button could NOT be found in current page. Please check the test's screenshot",
+  "statusTrace" : "   at BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_31() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AccessRightSecurity.cs:line 1089",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619126285310,
+      "stop" : 1619126285310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619126285310,
+      "stop" : 1619126285310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Inventory Locked, Add Lease should give 'access denied' message\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'Add Lease' button could NOT be found in current page. Please check the test's screenshot",
+    "statusTrace" : "   at BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_31() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AccessRightSecurity.cs:line 1089",
+    "steps" : [ {
+      "name" : "ACCESSRIGHTSECURITY_31",
+      "time" : {
+        "start" : 1619126262670,
+        "stop" : 1619126285312,
+        "duration" : 22642
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'Add Lease' button could NOT be found in current page. Please check the test's screenshot",
+      "statusTrace" : "   at BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_31() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AccessRightSecurity.cs:line 1089",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1619126262683,
+          "stop" : 1619126262787,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1619126263214,
+          "stop" : 1619126265220,
+          "duration" : 2006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select inventory icon",
+        "time" : {
+          "start" : 1619126268247,
+          "stop" : 1619126271279,
+          "duration" : 3032
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative URL /Input/NavNPLOEmissionsManager/NploLease",
+        "time" : {
+          "start" : 1619126271279,
+          "stop" : 1619126276581,
+          "duration" : 5302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on add lease button",
+        "time" : {
+          "start" : 1619126276581,
+          "stop" : 1619126281591,
+          "duration" : 5010
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'Add Lease' button could NOT be found in current page. Please check the test's screenshot",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.AdminSecurityPage.__a$_around_ClickAddLease_100666016_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminSecurity\\AdminSecurityPage.cs:line 512\r\n   at BOEM_Tests.PageObjects.AdminSecurityPage.__a$_around_ClickAddLease_100666016_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619126281591,
+          "stop" : 1619126281664,
+          "duration" : 73
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c4ff3fa073945b9a",
+          "name" : "Attachment Title",
+          "source" : "c4ff3fa073945b9a.png",
+          "type" : "image/png",
+          "size" : 61308
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6c30a6b9ca2ec051",
+        "name" : "Console Output",
+        "source" : "6c30a6b9ca2ec051.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 6,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619126285310,
+      "stop" : 1619126285310,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619126285310,
+      "stop" : 1619126285310,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ACCESSRIGHTSECURITY_31"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.31"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f962019e69626a85",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'Add Lease' button could NOT be found in current page. Please check the test's screenshot",
+        "time" : {
+          "start" : 1618970414455,
+          "stop" : 1618970436518,
+          "duration" : 22063
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.31" ]
+  },
+  "source" : "78dbe5f15ca25594.json",
+  "parameterValues" : [ ]
+}
