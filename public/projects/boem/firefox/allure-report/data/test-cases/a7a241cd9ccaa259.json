@@ -1,0 +1,277 @@
+{
+  "uid" : "a7a241cd9ccaa259",
+  "name" : "FACILITYPROFILE_02",
+  "fullName" : "BOEM_Tests.Tests.FacilityProfile.FACILITYPROFILE_02",
+  "historyId" : "BOEM_Tests.Tests.FacilityProfile.FACILITYPROFILE_02",
+  "time" : {
+    "start" : 1619409553631,
+    "stop" : 1619409562521,
+    "duration" : 8890
+  },
+  "description" : "Verify search for 'No Such Facility' does not return list\n",
+  "descriptionHtml" : "<p>Verify search for 'No Such Facility' does not return list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619409562521,
+      "stop" : 1619409562521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619409562521,
+      "stop" : 1619409562521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify search for 'No Such Facility' does not return list\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "FACILITYPROFILE_02",
+      "time" : {
+        "start" : 1619409553631,
+        "stop" : 1619409562521,
+        "duration" : 8890
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open facility dashboard page",
+        "time" : {
+          "start" : 1619409553646,
+          "stop" : 1619409556190,
+          "duration" : 2544
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Set search input to No Such Facility",
+        "time" : {
+          "start" : 1619409556190,
+          "stop" : 1619409560428,
+          "duration" : 4238
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if facility dropdown is displayed",
+        "time" : {
+          "start" : 1619409560428,
+          "stop" : 1619409562444,
+          "duration" : 2016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619409562444,
+          "stop" : 1619409562521,
+          "duration" : 77
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "7ef41d663687f6fd",
+          "name" : "Attachment Title",
+          "source" : "7ef41d663687f6fd.png",
+          "type" : "image/png",
+          "size" : 140189
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "f644a58034e55989",
+        "name" : "Console Output",
+        "source" : "f644a58034e55989.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619409562521,
+      "stop" : 1619409562521,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619409562521,
+      "stop" : 1619409562521,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.FacilityProfile"
+  }, {
+    "name" : "testMethod",
+    "value" : "FACILITYPROFILE_02"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.FacilityProfile"
+  }, {
+    "name" : "tag",
+    "value" : "FACILITYPROFILE.2"
+  }, {
+    "name" : "suite",
+    "value" : "FacilityProfile"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "be30c1c1b3c8f43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619144451914,
+          "stop" : 1619144460884,
+          "duration" : 8970
+        }
+      }, {
+        "uid" : "7cf365bc5e919e7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618990769809,
+          "stop" : 1618990778764,
+          "duration" : 8955
+        }
+      }, {
+        "uid" : "af6a6cc50d0d71ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618896577951,
+          "stop" : 1618896586829,
+          "duration" : 8878
+        }
+      }, {
+        "uid" : "d89572174e719488",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618639814045,
+          "stop" : 1618639823068,
+          "duration" : 9023
+        }
+      }, {
+        "uid" : "855db1a87c7c4297",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618556763083,
+          "stop" : 1618556771979,
+          "duration" : 8896
+        }
+      }, {
+        "uid" : "1fb28d93b639bace",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618476583988,
+          "stop" : 1618476592900,
+          "duration" : 8912
+        }
+      } ]
+    },
+    "tags" : [ "FACILITYPROFILE.2" ]
+  },
+  "source" : "a7a241cd9ccaa259.json",
+  "parameterValues" : [ ]
+}

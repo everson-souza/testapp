@@ -1,0 +1,282 @@
+{
+  "uid" : "15222097bede8533",
+  "name" : "URL_21",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_21",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_21",
+  "time" : {
+    "start" : 1619426319337,
+    "stop" : 1619426396447,
+    "duration" : 77110
+  },
+  "description" : "Try to access the url: '/AdminChangeLog'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/AdminChangeLog'. Should fail if page doesn't load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+  "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_21() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 594",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619426396446,
+      "stop" : 1619426396446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1619426396446,
+      "stop" : 1619426396446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/AdminChangeLog'. Should fail if page doesn't load\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+    "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_21() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 594",
+    "steps" : [ {
+      "name" : "URL_21",
+      "time" : {
+        "start" : 1619426319337,
+        "stop" : 1619426396447,
+        "duration" : 77110
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+      "statusTrace" : "   at BOEM_Tests.Tests.Url.URL_21() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Url.cs:line 594",
+      "steps" : [ {
+        "name" : "Access relative url /AdminChangeLog",
+        "time" : {
+          "start" : 1619426344360,
+          "stop" : 1619426396366,
+          "duration" : 52006
+        },
+        "status" : "failed",
+        "statusMessage" : "",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_AccessRelativeUrl_100666161_o(String relativeUrl) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Url\\UrlPage.cs:line 37\r\n   at BOEM_Tests.PageObjects.UrlPage.__a$_around_AccessRelativeUrl_100666161_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619426396366,
+          "stop" : 1619426396446,
+          "duration" : 80
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3ed46378c69fc103",
+          "name" : "Attachment Title",
+          "source" : "3ed46378c69fc103.png",
+          "type" : "image/png",
+          "size" : 142998
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "6bb8aff95f25a2f8",
+        "name" : "Console Output",
+        "source" : "6bb8aff95f25a2f8.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619426396446,
+      "stop" : 1619426396446,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619426396446,
+      "stop" : 1619426396446,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_21"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.21"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "92c82dc0bd05aac5",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1619161129876,
+          "stop" : 1619161207075,
+          "duration" : 77199
+        }
+      }, {
+        "uid" : "137bf21178c7a347",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618997928775,
+          "stop" : 1618997991703,
+          "duration" : 62928
+        }
+      }, {
+        "uid" : "8d732093fe6e37fb",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1618909578595,
+          "stop" : 1618909655397,
+          "duration" : 76802
+        }
+      }, {
+        "uid" : "2a5e482aa5ae7d4c",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1618654005015,
+          "stop" : 1618654081642,
+          "duration" : 76627
+        }
+      }, {
+        "uid" : "11060f1c4599381a",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1618568912914,
+          "stop" : 1618568986079,
+          "duration" : 73165
+        }
+      }, {
+        "uid" : "ac96565f67d42e60",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1618488756866,
+          "stop" : 1618488811972,
+          "duration" : 55106
+        }
+      }, {
+        "uid" : "f5f123fde2eb92",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1618397614429,
+          "stop" : 1618397669521,
+          "duration" : 55092
+        }
+      }, {
+        "uid" : "ac7279e87962fc4",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1618324410348,
+          "stop" : 1618324465605,
+          "duration" : 55257
+        }
+      } ]
+    },
+    "tags" : [ "URL.21" ]
+  },
+  "source" : "15222097bede8533.json",
+  "parameterValues" : [ ]
+}

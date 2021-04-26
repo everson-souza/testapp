@@ -1,0 +1,273 @@
+{
+  "uid" : "f002e411e229e02c",
+  "name" : "LOGON_14",
+  "fullName" : "BOEM_Tests.Tests.LogOn.LOGON_14",
+  "historyId" : "BOEM_Tests.Tests.LogOn.LOGON_14",
+  "time" : {
+    "start" : 1619415336632,
+    "stop" : 1619415375659,
+    "duration" : 39027
+  },
+  "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+  "descriptionHtml" : "<p>Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.LogOn.LOGON_14() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 422",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619415375658,
+      "stop" : 1619415375658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619415375658,
+      "stop" : 1619415375658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access BOEM with a wrong login/password after too many failed attempts. Expected to redirect to page 'too many failed attempts' on first try\n",
+    "status" : "failed",
+    "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.LogOn.LOGON_14() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 422",
+    "steps" : [ {
+      "name" : "LOGON_14",
+      "time" : {
+        "start" : 1619415336632,
+        "stop" : 1619415375659,
+        "duration" : 39027
+      },
+      "status" : "failed",
+      "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.LogOn.LOGON_14() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 422",
+      "steps" : [ {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1619415336636,
+          "stop" : 1619415361317,
+          "duration" : 24681
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619415361319,
+          "stop" : 1619415361395,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "42e24f7ebd6fbd92",
+          "name" : "Attachment Title",
+          "source" : "42e24f7ebd6fbd92.png",
+          "type" : "image/png",
+          "size" : 89320
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "c3a53bd52eed3f2b",
+        "name" : "Console Output",
+        "source" : "c3a53bd52eed3f2b.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619415375658,
+      "stop" : 1619415375658,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619415375658,
+      "stop" : 1619415375658,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOGON_14"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.14",
+    "url" : "https://jira.com/browse/LOGON.14",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "f28d628069f730a",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1619150147803,
+          "stop" : 1619150186692,
+          "duration" : 38889
+        }
+      }, {
+        "uid" : "31e1c5b409cddb3d",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618996900143,
+          "stop" : 1618996939047,
+          "duration" : 38904
+        }
+      }, {
+        "uid" : "66982272916c49a2",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618901601489,
+          "stop" : 1618901637962,
+          "duration" : 36473
+        }
+      }, {
+        "uid" : "1b930b6e5616752f",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618644864231,
+          "stop" : 1618644900014,
+          "duration" : 35783
+        }
+      }, {
+        "uid" : "2ef8c09db3da2077",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618561434999,
+          "stop" : 1618561471319,
+          "duration" : 36320
+        }
+      }, {
+        "uid" : "d87390e76b056359",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618481149020,
+          "stop" : 1618481184765,
+          "duration" : 35745
+        }
+      }, {
+        "uid" : "3394e42486643c14",
+        "status" : "failed",
+        "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618389972972,
+          "stop" : 1618390008777,
+          "duration" : 35805
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f002e411e229e02c.json",
+  "parameterValues" : [ ]
+}
