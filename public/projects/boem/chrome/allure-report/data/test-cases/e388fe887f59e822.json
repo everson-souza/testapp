@@ -1,0 +1,253 @@
+{
+  "uid" : "e388fe887f59e822",
+  "name" : "LOGON_08",
+  "fullName" : "BOEM_Tests.Tests.LogOn.LOGON_08",
+  "historyId" : "BOEM_Tests.Tests.LogOn.LOGON_08",
+  "time" : {
+    "start" : 1619224730487,
+    "stop" : 1619224740302,
+    "duration" : 9815
+  },
+  "description" : "Forgot Password to email that is not a valid account does not reveal valid or invalid account\n",
+  "descriptionHtml" : "<p>Forgot Password to email that is not a valid account does not reveal valid or invalid account</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619224740301,
+      "stop" : 1619224740301,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619224740301,
+      "stop" : 1619224740301,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Forgot Password to email that is not a valid account does not reveal valid or invalid account\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LOGON_08",
+      "time" : {
+        "start" : 1619224730487,
+        "stop" : 1619224740301,
+        "duration" : 9814
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on forgot password link",
+        "time" : {
+          "start" : 1619224733587,
+          "stop" : 1619224733769,
+          "duration" : 182
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Set recovery email address to abc@example.com",
+        "time" : {
+          "start" : 1619224733769,
+          "stop" : 1619224733830,
+          "duration" : 61
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on send request button",
+        "time" : {
+          "start" : 1619224733830,
+          "stop" : 1619224734048,
+          "duration" : 218
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if email was sent",
+        "time" : {
+          "start" : 1619224734049,
+          "stop" : 1619224737070,
+          "duration" : 3021
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619224737070,
+          "stop" : 1619224737154,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "bd4ccb9ab00a5f4d",
+          "name" : "Attachment Title",
+          "source" : "bd4ccb9ab00a5f4d.png",
+          "type" : "image/png",
+          "size" : 33820
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "a90f204f7fb93202",
+        "name" : "Console Output",
+        "source" : "a90f204f7fb93202.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619224740301,
+      "stop" : 1619224740301,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619224740301,
+      "stop" : 1619224740301,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOGON_08"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.8",
+    "url" : "https://jira.com/browse/LOGON.8",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ba4b513ae3837a5d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618911100905,
+          "stop" : 1618911113656,
+          "duration" : 12751
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e388fe887f59e822.json",
+  "parameterValues" : [ ]
+}

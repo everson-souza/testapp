@@ -1,0 +1,297 @@
+{
+  "uid" : "f877ae5ec6b115ce",
+  "name" : "EISQuestionnaire_2",
+  "fullName" : "BOEM_Tests.Tests.EISQuestionnaire.EISQuestionnaire_2",
+  "historyId" : "BOEM_Tests.Tests.EISQuestionnaire.EISQuestionnaire_2",
+  "time" : {
+    "start" : 1619213408447,
+    "stop" : 1619213435226,
+    "duration" : 26779
+  },
+  "description" : "Enter the name, select and verify facilities from the grid. Should be fail if falicity id is not correct\n",
+  "descriptionHtml" : "<p>Enter the name, select and verify facilities from the grid. Should be fail if falicity id is not correct</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='3']/td[3]/a\"}\n  (Session info: chrome=90.0.4430.85)",
+  "statusTrace" : "   at BOEM_Tests.Tests.EISQuestionnaire.EISQuestionnaire_2() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EISQuestionnaire.cs:line 157",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619213435225,
+      "stop" : 1619213435225,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619213435225,
+      "stop" : 1619213435225,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Enter the name, select and verify facilities from the grid. Should be fail if falicity id is not correct\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='3']/td[3]/a\"}\n  (Session info: chrome=90.0.4430.85)",
+    "statusTrace" : "   at BOEM_Tests.Tests.EISQuestionnaire.EISQuestionnaire_2() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EISQuestionnaire.cs:line 157",
+    "steps" : [ {
+      "name" : "EISQuestionnaire_2",
+      "time" : {
+        "start" : 1619213408447,
+        "stop" : 1619213435226,
+        "duration" : 26779
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='3']/td[3]/a\"}\n  (Session info: chrome=90.0.4430.85)",
+      "statusTrace" : "   at BOEM_Tests.Tests.EISQuestionnaire.EISQuestionnaire_2() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EISQuestionnaire.cs:line 157",
+      "steps" : [ {
+        "name" : "Click on emissions on top menu",
+        "time" : {
+          "start" : 1619213411536,
+          "stop" : 1619213414788,
+          "duration" : 3252
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on Activity & Emissions Manager",
+        "time" : {
+          "start" : 1619213414788,
+          "stop" : 1619213430123,
+          "duration" : 15335
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Go to questionnaire details page",
+        "time" : {
+          "start" : 1619213430123,
+          "stop" : 1619213435140,
+          "duration" : 5017
+        },
+        "status" : "failed",
+        "statusMessage" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id='3']/td[3]/a\"}\n  (Session info: chrome=90.0.4430.85)",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at BOEM_Tests.PageObjects.EISQuestionnairePage.__a$_around_GoToQuestionnaireDetailsPage_100665028_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Emissions\\EISQuestionnairePage.cs:line 383\r\n   at BOEM_Tests.PageObjects.EISQuestionnairePage.__a$_around_GoToQuestionnaireDetailsPage_100665028_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619213435140,
+          "stop" : 1619213435225,
+          "duration" : 85
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1fd2d9a81623647f",
+          "name" : "Attachment Title",
+          "source" : "1fd2d9a81623647f.png",
+          "type" : "image/png",
+          "size" : 57754
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "f8f3a946c555fec2",
+        "name" : "Console Output",
+        "source" : "f8f3a946c555fec2.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619213435225,
+      "stop" : 1619213435225,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619213435225,
+      "stop" : 1619213435225,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EISQuestionnaire"
+  }, {
+    "name" : "testMethod",
+    "value" : "EISQuestionnaire_2"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EISQuestionnaire"
+  }, {
+    "name" : "tag",
+    "value" : "EISQUESTIONNAIRE.2"
+  }, {
+    "name" : "suite",
+    "value" : "EISQuestionnaire"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "907eb87847b7e8cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618897649046,
+          "stop" : 1618897839020,
+          "duration" : 189974
+        }
+      }, {
+        "uid" : "23a829ae598e5b5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617939568510,
+          "stop" : 1617939755081,
+          "duration" : 186571
+        }
+      }, {
+        "uid" : "33336f6ea8bcb692",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617858287465,
+          "stop" : 1617858469955,
+          "duration" : 182490
+        }
+      }, {
+        "uid" : "442845dd24bcfa5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617187464034,
+          "stop" : 1617187658987,
+          "duration" : 194953
+        }
+      }, {
+        "uid" : "d01f29654b8771d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617078166478,
+          "stop" : 1617078378880,
+          "duration" : 212402
+        }
+      }, {
+        "uid" : "e9f2b2c78a7694b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616563546022,
+          "stop" : 1616563727201,
+          "duration" : 181179
+        }
+      }, {
+        "uid" : "c43f17ed2ea408a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616057545673,
+          "stop" : 1616057740828,
+          "duration" : 195155
+        }
+      } ]
+    },
+    "tags" : [ "EISQUESTIONNAIRE.2" ]
+  },
+  "source" : "f877ae5ec6b115ce.json",
+  "parameterValues" : [ ]
+}

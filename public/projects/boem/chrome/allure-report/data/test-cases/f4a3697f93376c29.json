@@ -1,0 +1,290 @@
+{
+  "uid" : "f4a3697f93376c29",
+  "name" : "ADMINSECURITY_38",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38",
+  "time" : {
+    "start" : 1619453112625,
+    "stop" : 1619453152230,
+    "duration" : 39605
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1223",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619453152221,
+      "stop" : 1619453152221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1619453152221,
+      "stop" : 1619453152221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1223",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_38",
+      "time" : {
+        "start" : 1619453112626,
+        "stop" : 1619453152226,
+        "duration" : 39600
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1223",
+      "steps" : [ {
+        "name" : "Access relative URL /ProjectMappingAdmin",
+        "time" : {
+          "start" : 1619453135651,
+          "stop" : 1619453140955,
+          "duration" : 5304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1619453140956,
+          "stop" : 1619453141970,
+          "duration" : 1014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1619453141970,
+          "stop" : 1619453152024,
+          "duration" : 10054
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1619453151981,
+            "stop" : 1619453152024,
+            "duration" : 43
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619453152085,
+          "stop" : 1619453152214,
+          "duration" : 129
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a3c49e47b46a76e9",
+          "name" : "Attachment Title",
+          "source" : "a3c49e47b46a76e9.png",
+          "type" : "image/png",
+          "size" : 59494
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b9d54721a7a8858",
+        "name" : "Console Output",
+        "source" : "b9d54721a7a8858.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619453152221,
+      "stop" : 1619453152221,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619453152221,
+      "stop" : 1619453152221,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_38"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.38"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "499a052e2147e0e6",
+      "status" : "failed",
+      "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+      "time" : {
+        "start" : 1619452851377,
+        "stop" : 1619452891200,
+        "duration" : 39823
+      }
+    }, {
+      "uid" : "a535d8f3e4ceb873",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: -0.005\n  (Session info: chrome=90.0.4430.85)",
+      "time" : {
+        "start" : 1619452373765,
+        "stop" : 1619452426954,
+        "duration" : 53189
+      }
+    }, {
+      "uid" : "fcb3c2cc6ec1a468",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : timeout: Timed out receiving message from renderer: -0.009\n  (Session info: chrome=90.0.4430.85)",
+      "time" : {
+        "start" : 1619204484461,
+        "stop" : 1619204537596,
+        "duration" : 53135
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "cc584473b4d4f971",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618887506542,
+          "stop" : 1618887550814,
+          "duration" : 44272
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.38" ]
+  },
+  "source" : "f4a3697f93376c29.json",
+  "parameterValues" : [ ]
+}

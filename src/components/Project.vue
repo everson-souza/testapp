@@ -165,7 +165,7 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '03/24/2021',
+                        time: '03/26/2021',
                         color: 'light-blue lighten-1',
                         },
                         {
