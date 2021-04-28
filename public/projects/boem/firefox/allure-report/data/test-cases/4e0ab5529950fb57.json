@@ -1,0 +1,294 @@
+{
+  "uid" : "4e0ab5529950fb57",
+  "name" : "LOGON_03",
+  "fullName" : "BOEM_Tests.Tests.LogOn.LOGON_03",
+  "historyId" : "BOEM_Tests.Tests.LogOn.LOGON_03",
+  "time" : {
+    "start" : 1619582158270,
+    "stop" : 1619582167995,
+    "duration" : 9725
+  },
+  "description" : "Sign with valid username, no password is rejected\n",
+  "descriptionHtml" : "<p>Sign with valid username, no password is rejected</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619582167994,
+      "stop" : 1619582167994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619582167994,
+      "stop" : 1619582167994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Sign with valid username, no password is rejected\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LOGON_03",
+      "time" : {
+        "start" : 1619582158270,
+        "stop" : 1619582167995,
+        "duration" : 9725
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Open login page",
+        "time" : {
+          "start" : 1619582158275,
+          "stop" : 1619582161432,
+          "duration" : 3157
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Set username to qa_boem@weblakes.com",
+        "time" : {
+          "start" : 1619582161432,
+          "stop" : 1619582161480,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on login button",
+        "time" : {
+          "start" : 1619582161480,
+          "stop" : 1619582164741,
+          "duration" : 3261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619582164763,
+          "stop" : 1619582164825,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b8606efee9ce5989",
+          "name" : "Attachment Title",
+          "source" : "b8606efee9ce5989.png",
+          "type" : "image/png",
+          "size" : 88774
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "b274229778f04502",
+        "name" : "Console Output",
+        "source" : "b274229778f04502.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619582167994,
+      "stop" : 1619582167994,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619582167994,
+      "stop" : 1619582167994,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOGON_03"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.3",
+    "url" : "https://jira.com/browse/LOGON.3",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "abe286dddd97ed74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619414013980,
+          "stop" : 1619414023691,
+          "duration" : 9711
+        }
+      }, {
+        "uid" : "52a2eede2390641f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619148825708,
+          "stop" : 1619148835483,
+          "duration" : 9775
+        }
+      }, {
+        "uid" : "5084bed5a5dfb29e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618995578812,
+          "stop" : 1618995588512,
+          "duration" : 9700
+        }
+      }, {
+        "uid" : "367f330a36a00ae2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618900292835,
+          "stop" : 1618900302819,
+          "duration" : 9984
+        }
+      }, {
+        "uid" : "1c3b1dfa984956cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618643555849,
+          "stop" : 1618643565661,
+          "duration" : 9812
+        }
+      }, {
+        "uid" : "f5208d6e474ffa91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618560132191,
+          "stop" : 1618560141952,
+          "duration" : 9761
+        }
+      }, {
+        "uid" : "3bc1ff402523dd58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618479846963,
+          "stop" : 1618479856643,
+          "duration" : 9680
+        }
+      }, {
+        "uid" : "607a0582e1f99466",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618388669302,
+          "stop" : 1618388679120,
+          "duration" : 9818
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e0ab5529950fb57.json",
+  "parameterValues" : [ ]
+}

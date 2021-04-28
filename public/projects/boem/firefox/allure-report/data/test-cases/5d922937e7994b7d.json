@@ -1,0 +1,316 @@
+{
+  "uid" : "5d922937e7994b7d",
+  "name" : "URL_17",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_17",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_17",
+  "time" : {
+    "start" : 1619594447352,
+    "stop" : 1619594469853,
+    "duration" : 22501
+  },
+  "description" : "Try to access the url: '/Toaster/NotificationList'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/Toaster/NotificationList'. Should fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619594469853,
+      "stop" : 1619594469853,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1619594469853,
+      "stop" : 1619594469853,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/Toaster/NotificationList'. Should fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL_17",
+      "time" : {
+        "start" : 1619594447352,
+        "stop" : 1619594469853,
+        "duration" : 22501
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1619594447357,
+          "stop" : 1619594447375,
+          "duration" : 18
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative url /Toaster/NotificationList",
+        "time" : {
+          "start" : 1619594447375,
+          "stop" : 1619594459695,
+          "duration" : 12320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1619594459695,
+          "stop" : 1619594469744,
+          "duration" : 10049
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1619594469706,
+            "stop" : 1619594469731,
+            "duration" : 25
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619594469744,
+          "stop" : 1619594469853,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b2ec983488502b71",
+          "name" : "Attachment Title",
+          "source" : "b2ec983488502b71.png",
+          "type" : "image/png",
+          "size" : 75787
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "adc2e36f4002ceae",
+        "name" : "Console Output",
+        "source" : "adc2e36f4002ceae.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 5,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619594469853,
+      "stop" : 1619594469853,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619594469853,
+      "stop" : 1619594469853,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_17"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.17"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "4f75a5cc030ec2cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619426205944,
+          "stop" : 1619426228444,
+          "duration" : 22500
+        }
+      }, {
+        "uid" : "a4a9ad7ec5e43ae9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619161015342,
+          "stop" : 1619161037851,
+          "duration" : 22509
+        }
+      }, {
+        "uid" : "822bf750678aef11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618997816428,
+          "stop" : 1618997838894,
+          "duration" : 22466
+        }
+      }, {
+        "uid" : "6923ddc537ac64a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618909465499,
+          "stop" : 1618909487912,
+          "duration" : 22413
+        }
+      }, {
+        "uid" : "b790fa6471954742",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618653897032,
+          "stop" : 1618653919461,
+          "duration" : 22429
+        }
+      }, {
+        "uid" : "970a2c0cad47f04b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618568805183,
+          "stop" : 1618568827578,
+          "duration" : 22395
+        }
+      }, {
+        "uid" : "1eedb227751a5a60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618488666917,
+          "stop" : 1618488689337,
+          "duration" : 22420
+        }
+      }, {
+        "uid" : "7391b8cc9cf70c02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618397524360,
+          "stop" : 1618397546761,
+          "duration" : 22401
+        }
+      }, {
+        "uid" : "4599735565388e32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618303296196,
+          "stop" : 1618303318518,
+          "duration" : 22322
+        }
+      } ]
+    },
+    "tags" : [ "URL.17" ]
+  },
+  "source" : "5d922937e7994b7d.json",
+  "parameterValues" : [ ]
+}

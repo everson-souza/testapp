@@ -1,0 +1,273 @@
+{
+  "uid" : "c3ce3423e4151fa",
+  "name" : "DASHBOARDPORTAL_04",
+  "fullName" : "BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04",
+  "historyId" : "BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04",
+  "time" : {
+    "start" : 1619565477802,
+    "stop" : 1619565539462,
+    "duration" : 61660
+  },
+  "description" : "Verify submit from corrective action\n",
+  "descriptionHtml" : "<p>Verify submit from corrective action</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //*[@id='wrapper']/div[1]/nav/div/ul/li[6]/a",
+  "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 258",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619565539461,
+      "stop" : 1619565539461,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619565539461,
+      "stop" : 1619565539461,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify submit from corrective action\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //*[@id='wrapper']/div[1]/nav/div/ul/li[6]/a",
+    "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 258",
+    "steps" : [ {
+      "name" : "DASHBOARDPORTAL_04",
+      "time" : {
+        "start" : 1619565477802,
+        "stop" : 1619565539462,
+        "duration" : 61660
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //*[@id='wrapper']/div[1]/nav/div/ul/li[6]/a",
+      "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 258",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1619565477805,
+          "stop" : 1619565477815,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+        "time" : {
+          "start" : 1619565477815,
+          "stop" : 1619565480832,
+          "duration" : 3017
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Open Select Inventory page",
+        "time" : {
+          "start" : 1619565480832,
+          "stop" : 1619565491124,
+          "duration" : 10292
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select inventory 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+        "time" : {
+          "start" : 1619565491124,
+          "stop" : 1619565531382,
+          "duration" : 40258
+        },
+        "status" : "failed",
+        "statusMessage" : "Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665953_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 770\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665953_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665953_w_0(Object[] )\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.PopulateInventorySearch(String searchText)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665920_o(String description) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 219\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665920_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Set copy inventory search to 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+          "time" : {
+            "start" : 1619565521131,
+            "stop" : 1619565531382,
+            "duration" : 10251
+          },
+          "status" : "failed",
+          "statusMessage" : "Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+          "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665953_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 770\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665953_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "stepsCount" : 0,
+          "hasContent" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 1,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619565531382,
+          "stop" : 1619565531444,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2f45899aaecd9760",
+          "name" : "Attachment Title",
+          "source" : "2f45899aaecd9760.png",
+          "type" : "image/png",
+          "size" : 63117
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on Admin Submittal menu",
+        "time" : {
+          "start" : 1619565531444,
+          "stop" : 1619565539461,
+          "duration" : 8017
+        },
+        "status" : "failed",
+        "statusMessage" : "Unable to locate element: //*[@id='wrapper']/div[1]/nav/div/ul/li[6]/a",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_ClickOnAdminSubmittalsMenu_100664589_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\DshBrdMain\\DshBrdMainPage.cs:line 493\r\n   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_ClickOnAdminSubmittalsMenu_100664589_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "38711233f9521f9e",
+        "name" : "Console Output",
+        "source" : "38711233f9521f9e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619565539461,
+      "stop" : 1619565539461,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619565539461,
+      "stop" : 1619565539461,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.DashboardPortal"
+  }, {
+    "name" : "testMethod",
+    "value" : "DASHBOARDPORTAL_04"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.DashboardPortal"
+  }, {
+    "name" : "tag",
+    "value" : "DASHBOARD.PORTAL.4"
+  }, {
+    "name" : "suite",
+    "value" : "Dashboard.Portal"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "DASHBOARD.PORTAL.4" ]
+  },
+  "source" : "c3ce3423e4151fa.json",
+  "parameterValues" : [ ]
+}
