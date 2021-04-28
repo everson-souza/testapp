@@ -1,0 +1,263 @@
+{
+  "uid" : "a701f2f30251428e",
+  "name" : "ADMINSECURITY_39",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_39",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_39",
+  "time" : {
+    "start" : 1619538931833,
+    "stop" : 1619538948846,
+    "duration" : 17013
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_39() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1257",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619538948844,
+      "stop" : 1619538948844,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1619538948844,
+      "stop" : 1619538948844,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/JobQueueProjectMaps' URL. It expects normal page load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_39() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1257",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_39",
+      "time" : {
+        "start" : 1619538931833,
+        "stop" : 1619538948845,
+        "duration" : 17012
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_39() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1257",
+      "steps" : [ {
+        "name" : "Access relative URL /JobQueueProjectMaps",
+        "time" : {
+          "start" : 1619538931870,
+          "stop" : 1619538937637,
+          "duration" : 5767
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1619538937637,
+          "stop" : 1619538938652,
+          "duration" : 1015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1619538938652,
+          "stop" : 1619538948714,
+          "duration" : 10062
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1619538948656,
+            "stop" : 1619538948714,
+            "duration" : 58
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619538948724,
+          "stop" : 1619538948843,
+          "duration" : 119
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "cb939a4e1ad957e2",
+          "name" : "Attachment Title",
+          "source" : "cb939a4e1ad957e2.png",
+          "type" : "image/png",
+          "size" : 58384
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "45c47bbcc9b20f10",
+        "name" : "Console Output",
+        "source" : "45c47bbcc9b20f10.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 5
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619538948844,
+      "stop" : 1619538948844,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619538948844,
+      "stop" : 1619538948844,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_39"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.39"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "31215284ac8dd4ba",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618887550816,
+          "stop" : 1618887568433,
+          "duration" : 17617
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.39" ]
+  },
+  "source" : "a701f2f30251428e.json",
+  "parameterValues" : [ ]
+}

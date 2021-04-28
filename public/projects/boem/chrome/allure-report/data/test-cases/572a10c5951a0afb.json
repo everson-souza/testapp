@@ -1,0 +1,269 @@
+{
+  "uid" : "572a10c5951a0afb",
+  "name" : "ADMINGROUPS_05",
+  "fullName" : "BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_05",
+  "historyId" : "BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_05",
+  "time" : {
+    "start" : 1619538076346,
+    "stop" : 1619538099608,
+    "duration" : 23262
+  },
+  "description" : "Admin/Groups/[AddGroup], Add Groups called SuperExtraSpecialGroup with Description SuperExtraSpecialGSuperExtraSpecialGroup\n",
+  "descriptionHtml" : "<p>Admin/Groups/[AddGroup], Add Groups called SuperExtraSpecialGroup with Description SuperExtraSpecialGSuperExtraSpecialGroup</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: GROUPDESC",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_05() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminGroups.cs:line 206",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619538099608,
+      "stop" : 1619538099608,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619538099608,
+      "stop" : 1619538099608,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Admin/Groups/[AddGroup], Add Groups called SuperExtraSpecialGroup with Description SuperExtraSpecialGSuperExtraSpecialGroup\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: GROUPDESC",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_05() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminGroups.cs:line 206",
+    "steps" : [ {
+      "name" : "ADMINGROUPS_05",
+      "time" : {
+        "start" : 1619538076346,
+        "stop" : 1619538099608,
+        "duration" : 23262
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.Id: GROUPDESC",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_05() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminGroups.cs:line 206",
+      "steps" : [ {
+        "name" : "Open admin group page",
+        "time" : {
+          "start" : 1619538076406,
+          "stop" : 1619538077243,
+          "duration" : 837
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on add group button",
+        "time" : {
+          "start" : 1619538077243,
+          "stop" : 1619538088174,
+          "duration" : 10931
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Set group name to SuperExtraSpecialGroup",
+        "time" : {
+          "start" : 1619538088174,
+          "stop" : 1619538090271,
+          "duration" : 2097
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Set group description to SuperExtraSpecialGSuperExtraSpecialGroup",
+        "time" : {
+          "start" : 1619538090271,
+          "stop" : 1619538092456,
+          "duration" : 2185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Click on save group changes button",
+        "time" : {
+          "start" : 1619538092457,
+          "stop" : 1619538097396,
+          "duration" : 4939
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Get group details field",
+        "time" : {
+          "start" : 1619538097396,
+          "stop" : 1619538099439,
+          "duration" : 2043
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.Id: GROUPDESC",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.get_Text()\r\n   at BOEM_Tests.PageObjects.AdminGroupsViewPage.__a$_around_GetGroupDescriptionField_100664177_o() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminGroup\\AdminGroupsViewPage.cs:line 38\r\n   at BOEM_Tests.PageObjects.AdminGroupsViewPage.__a$_around_GetGroupDescriptionField_100664177_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619538099441,
+          "stop" : 1619538099607,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8ae54f39815174ef",
+          "name" : "Attachment Title",
+          "source" : "8ae54f39815174ef.png",
+          "type" : "image/png",
+          "size" : 70271
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "819efc654c6a442f",
+        "name" : "Console Output",
+        "source" : "819efc654c6a442f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 7
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619538099608,
+      "stop" : 1619538099608,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619538099608,
+      "stop" : 1619538099608,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminGroups"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINGROUPS_05"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminGroups"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINGROUPS.5"
+  }, {
+    "name" : "suite",
+    "value" : "AdminGroups"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ADMINGROUPS.5" ]
+  },
+  "source" : "572a10c5951a0afb.json",
+  "parameterValues" : [ ]
+}

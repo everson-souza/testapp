@@ -1,0 +1,237 @@
+{
+  "uid" : "b076562f0f351313",
+  "name" : "URL_06",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_06",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_06",
+  "time" : {
+    "start" : 1619570990168,
+    "stop" : 1619571013194,
+    "duration" : 23026
+  },
+  "description" : "Try to access the url: '/Nav/Module/Documents/DOCUMENTS'. Should be fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/Nav/Module/Documents/DOCUMENTS'. Should be fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619571013193,
+      "stop" : 1619571013193,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1619571013193,
+      "stop" : 1619571013193,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/Nav/Module/Documents/DOCUMENTS'. Should be fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL_06",
+      "time" : {
+        "start" : 1619570990168,
+        "stop" : 1619571013194,
+        "duration" : 23026
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Access relative url /Nav/Module/Documents/DOCUMENTS",
+        "time" : {
+          "start" : 1619570990206,
+          "stop" : 1619571002965,
+          "duration" : 12759
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1619571002965,
+          "stop" : 1619571013071,
+          "duration" : 10106
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1619571012979,
+            "stop" : 1619571013042,
+            "duration" : 63
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619571013071,
+          "stop" : 1619571013193,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "50909b98ee9dc6ad",
+          "name" : "Attachment Title",
+          "source" : "50909b98ee9dc6ad.png",
+          "type" : "image/png",
+          "size" : 57704
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "6bc73c2f27a050e7",
+        "name" : "Console Output",
+        "source" : "6bc73c2f27a050e7.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619571013193,
+      "stop" : 1619571013193,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619571013193,
+      "stop" : 1619571013193,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_06"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.6"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "57d2915ba3d648ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618923159959,
+          "stop" : 1618923183347,
+          "duration" : 23388
+        }
+      } ]
+    },
+    "tags" : [ "URL.6" ]
+  },
+  "source" : "b076562f0f351313.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,218 @@
+{
+  "uid" : "5f4cdf81180e704a",
+  "name" : "ACCESSRIGHTSECURITY_21",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_21",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_21",
+  "time" : {
+    "start" : 1618970170383,
+    "stop" : 1618970184646,
+    "duration" : 14263
+  },
+  "description" : "Ensure access denied to delete Emissions Period in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to delete Emissions Period in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1618970184644,
+      "stop" : 1618970184644,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1618970184644,
+      "stop" : 1618970184644,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to delete Emissions Period in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ACCESSRIGHTSECURITY_21",
+      "time" : {
+        "start" : 1618970170383,
+        "stop" : 1618970184646,
+        "duration" : 14263
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1618970170390,
+          "stop" : 1618970170493,
+          "duration" : 103
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1618970170772,
+          "stop" : 1618970172788,
+          "duration" : 2016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissperiod/Delete/262939",
+        "time" : {
+          "start" : 1618970175808,
+          "stop" : 1618970181007,
+          "duration" : 5199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1618970181026,
+          "stop" : 1618970181090,
+          "duration" : 64
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "82db1f91a2d7a699",
+          "name" : "Attachment Title",
+          "source" : "82db1f91a2d7a699.png",
+          "type" : "image/png",
+          "size" : 53602
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "704479ffbf3d1fbd",
+        "name" : "Console Output",
+        "source" : "704479ffbf3d1fbd.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1618970184644,
+      "stop" : 1618970184644,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1618970184644,
+      "stop" : 1618970184644,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ACCESSRIGHTSECURITY_21"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.21"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ACCESSRIGHTSECURITY.21" ]
+  },
+  "source" : "5f4cdf81180e704a.json",
+  "parameterValues" : [ ]
+}
