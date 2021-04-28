@@ -1,0 +1,220 @@
+{
+  "uid" : "a2d972ba0e3c2af8",
+  "name" : "CHANGEHISTORY_02",
+  "fullName" : "BOEM_Tests.Tests.ChangeHistory.CHANGEHISTORY_02",
+  "historyId" : "BOEM_Tests.Tests.ChangeHistory.CHANGEHISTORY_02",
+  "time" : {
+    "start" : 1619205586827,
+    "stop" : 1619205643032,
+    "duration" : 56205
+  },
+  "description" : "Select '2000 - 2000 Complete Inventory', 'Last Month' and Verify if table does not say 'no data found'\n",
+  "descriptionHtml" : "<p>Select '2000 - 2000 Complete Inventory', 'Last Month' and Verify if table does not say 'no data found'</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : (TEST FAILED) Page took too long to load. Please, check the failed step and test's screenshot",
+  "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.CHANGEHISTORY_02() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 141",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619205643031,
+      "stop" : 1619205643031,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619205643031,
+      "stop" : 1619205643031,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Select '2000 - 2000 Complete Inventory', 'Last Month' and Verify if table does not say 'no data found'\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : (TEST FAILED) Page took too long to load. Please, check the failed step and test's screenshot",
+    "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.CHANGEHISTORY_02() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 141",
+    "steps" : [ {
+      "name" : "CHANGEHISTORY_02",
+      "time" : {
+        "start" : 1619205586827,
+        "stop" : 1619205643032,
+        "duration" : 56205
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : (TEST FAILED) Page took too long to load. Please, check the failed step and test's screenshot",
+      "statusTrace" : "   at BOEM_Tests.Tests.ChangeHistory.CHANGEHISTORY_02() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\ChangeHistory.cs:line 141",
+      "steps" : [ {
+        "name" : "Click on settings on top menu",
+        "time" : {
+          "start" : 1619205589894,
+          "stop" : 1619205642932,
+          "duration" : 53038
+        },
+        "status" : "failed",
+        "statusMessage" : "timeout: Timed out receiving message from renderer: 50.000\n  (Session info: chrome=90.0.4430.85)",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScriptCommand(String script, String commandName, Object[] args)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.ExecuteScript(String script, Object[] args)\r\n   at BOEM_Tests.PageObjects.SettingsPage.__a$_around_ClickOnSettingsBtn_100666090_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Settings\\SettingsPage.cs:line 135\r\n   at BOEM_Tests.PageObjects.SettingsPage.__a$_around_ClickOnSettingsBtn_100666090_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619205642933,
+          "stop" : 1619205643031,
+          "duration" : 98
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "22a4dc55cda2a18f",
+          "name" : "Attachment Title",
+          "source" : "22a4dc55cda2a18f.png",
+          "type" : "image/png",
+          "size" : 58083
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "399948c6e3d07acb",
+        "name" : "Console Output",
+        "source" : "399948c6e3d07acb.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619205643031,
+      "stop" : 1619205643031,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619205643031,
+      "stop" : 1619205643031,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "testMethod",
+    "value" : "CHANGEHISTORY_02"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.ChangeHistory"
+  }, {
+    "name" : "tag",
+    "value" : "CHANGEHISTORY.2"
+  }, {
+    "name" : "suite",
+    "value" : "ChangeHistory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "fdbcdf0100409758",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : (TEST FAILED) Page took too long to load. Please, check the failed step and test's screenshot",
+        "time" : {
+          "start" : 1618888512793,
+          "stop" : 1618888569359,
+          "duration" : 56566
+        }
+      } ]
+    },
+    "tags" : [ "CHANGEHISTORY.2" ]
+  },
+  "source" : "a2d972ba0e3c2af8.json",
+  "parameterValues" : [ ]
+}

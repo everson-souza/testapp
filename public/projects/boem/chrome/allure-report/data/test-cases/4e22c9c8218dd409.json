@@ -1,0 +1,238 @@
+{
+  "uid" : "4e22c9c8218dd409",
+  "name" : "LOGON_06",
+  "fullName" : "BOEM_Tests.Tests.LogOn.LOGON_06",
+  "historyId" : "BOEM_Tests.Tests.LogOn.LOGON_06",
+  "time" : {
+    "start" : 1619224678908,
+    "stop" : 1619224724092,
+    "duration" : 45184
+  },
+  "description" : "Log On with Valid Username/Passowrd, Log Off, returns to Logon Page\n",
+  "descriptionHtml" : "<p>Log On with Valid Username/Passowrd, Log Off, returns to Logon Page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619224724091,
+      "stop" : 1619224724091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619224724091,
+      "stop" : 1619224724091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Log On with Valid Username/Passowrd, Log Off, returns to Logon Page\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LOGON_06",
+      "time" : {
+        "start" : 1619224678908,
+        "stop" : 1619224724092,
+        "duration" : 45184
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log off",
+        "time" : {
+          "start" : 1619224687174,
+          "stop" : 1619224720880,
+          "duration" : 33706
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Click on usernamne",
+          "time" : {
+            "start" : 1619224696188,
+            "stop" : 1619224699233,
+            "duration" : 3045
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Click on log off button",
+          "time" : {
+            "start" : 1619224708241,
+            "stop" : 1619224711879,
+            "duration" : 3638
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 2,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619224720884,
+          "stop" : 1619224720972,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "683aa5a164c60a5",
+          "name" : "Attachment Title",
+          "source" : "683aa5a164c60a5.png",
+          "type" : "image/png",
+          "size" : 81698
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "6518c1d269bc9138",
+        "name" : "Console Output",
+        "source" : "6518c1d269bc9138.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619224724091,
+      "stop" : 1619224724091,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619224724091,
+      "stop" : 1619224724091,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOGON_06"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.6",
+    "url" : "https://jira.com/browse/LOGON.6",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f75855aa5c000dde",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618911042223,
+          "stop" : 1618911092527,
+          "duration" : 50304
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4e22c9c8218dd409.json",
+  "parameterValues" : [ ]
+}

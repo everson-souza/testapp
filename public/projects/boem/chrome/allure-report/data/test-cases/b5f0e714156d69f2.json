@@ -1,0 +1,250 @@
+{
+  "uid" : "b5f0e714156d69f2",
+  "name" : "ADMINSHADOWUSER_01",
+  "fullName" : "BOEM_Tests.Tests.AdminShadowUser.ADMINSHADOWUSER_01",
+  "historyId" : "BOEM_Tests.Tests.AdminShadowUser.ADMINSHADOWUSER_01",
+  "time" : {
+    "start" : 1619204923233,
+    "stop" : 1619204960377,
+    "duration" : 37144
+  },
+  "description" : "Show User, Unable to Select Account with status <Not Available>\n",
+  "descriptionHtml" : "<p>Show User, Unable to Select Account with status <Not Available></p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.ADMINSHADOWUSER_01() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 84",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619204960377,
+      "stop" : 1619204960377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619204960377,
+      "stop" : 1619204960377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Show User, Unable to Select Account with status <Not Available>\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.ADMINSHADOWUSER_01() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 84",
+    "steps" : [ {
+      "name" : "ADMINSHADOWUSER_01",
+      "time" : {
+        "start" : 1619204923233,
+        "stop" : 1619204960377,
+        "duration" : 37144
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminShadowUser.ADMINSHADOWUSER_01() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminShadowUser.cs:line 84",
+      "steps" : [ {
+        "name" : "Open admin shadow user page",
+        "time" : {
+          "start" : 1619204946204,
+          "stop" : 1619204947131,
+          "duration" : 927
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Set search to Not Available",
+        "time" : {
+          "start" : 1619204947132,
+          "stop" : 1619204952269,
+          "duration" : 5137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select user in first row",
+        "time" : {
+          "start" : 1619204952269,
+          "stop" : 1619204960292,
+          "duration" : 8023
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.AdminShadowUserPage.__a$_around_SelectUserRow_100664224_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminShadowUser\\AdminShadowUserPage.cs:line 70\r\n   at BOEM_Tests.PageObjects.AdminShadowUserPage.__a$_around_SelectUserRow_100664224_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619204960293,
+          "stop" : 1619204960376,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3a45be1fed4c2a35",
+          "name" : "Attachment Title",
+          "source" : "3a45be1fed4c2a35.png",
+          "type" : "image/png",
+          "size" : 64714
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "bc2028dbd1f2d6cb",
+        "name" : "Console Output",
+        "source" : "bc2028dbd1f2d6cb.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619204960377,
+      "stop" : 1619204960377,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619204960377,
+      "stop" : 1619204960377,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminShadowUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSHADOWUSER_01"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminShadowUser"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSHADOWUSER.1"
+  }, {
+    "name" : "suite",
+    "value" : "AdminShadowUser"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5ac25b295cbac035",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) The 'User row' element was not found in the Shadow user's table.",
+        "time" : {
+          "start" : 1618887706612,
+          "stop" : 1618887753387,
+          "duration" : 46775
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSHADOWUSER.1" ]
+  },
+  "source" : "b5f0e714156d69f2.json",
+  "parameterValues" : [ ]
+}
