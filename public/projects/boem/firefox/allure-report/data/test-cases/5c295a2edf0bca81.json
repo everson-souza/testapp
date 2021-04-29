@@ -1,0 +1,436 @@
+{
+  "uid" : "5c295a2edf0bca81",
+  "name" : "EIQuestionnaireLO_21",
+  "fullName" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_21",
+  "historyId" : "BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_21",
+  "time" : {
+    "start" : 1619659870515,
+    "stop" : 1619659924858,
+    "duration" : 54343
+  },
+  "description" : "Verify result grid shows only periods covered by move on/move off date for single when calculating emissions\n",
+  "descriptionHtml" : "<p>Verify result grid shows only periods covered by move on/move off date for single when calculating emissions</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+  "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_21() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 954",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619659924857,
+      "stop" : 1619659924857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619659924857,
+      "stop" : 1619659924857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify result grid shows only periods covered by move on/move off date for single when calculating emissions\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+    "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_21() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 954",
+    "steps" : [ {
+      "name" : "EIQuestionnaireLO_21",
+      "time" : {
+        "start" : 1619659870515,
+        "stop" : 1619659924858,
+        "duration" : 54343
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+      "statusTrace" : "   at BOEM_Tests.Tests.EIQuestionnaireLO.EIQuestionnaireLO_21() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\EIQuestionnaire.LO.cs:line 954",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1619659870522,
+          "stop" : 1619659870532,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check inventory 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+        "time" : {
+          "start" : 1619659870532,
+          "stop" : 1619659873555,
+          "duration" : 3023
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Open Select Inventory page",
+        "time" : {
+          "start" : 1619659873555,
+          "stop" : 1619659883802,
+          "duration" : 10247
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select inventory 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+        "time" : {
+          "start" : 1619659883802,
+          "stop" : 1619659924791,
+          "duration" : 40989
+        },
+        "status" : "failed",
+        "statusMessage" : "Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 785\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_w_0(Object[] )\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.PopulateInventorySearch(String searchText)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_o(String description) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 233\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Set copy inventory search to 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+          "time" : {
+            "start" : 1619659913817,
+            "stop" : 1619659924791,
+            "duration" : 10974
+          },
+          "status" : "failed",
+          "statusMessage" : "Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+          "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 785\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619659924792,
+          "stop" : 1619659924857,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d8c5ac53eebb1140",
+          "name" : "Attachment Title",
+          "source" : "d8c5ac53eebb1140.png",
+          "type" : "image/png",
+          "size" : 77060
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "d6bd453d8534d679",
+        "name" : "Console Output",
+        "source" : "d6bd453d8534d679.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 6
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619659924857,
+      "stop" : 1619659924857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619659924857,
+      "stop" : 1619659924857,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "testMethod",
+    "value" : "EIQuestionnaireLO_21"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.EIQuestionnaireLO"
+  }, {
+    "name" : "tag",
+    "value" : "EIQUESTIONNAIRE.LO.21"
+  }, {
+    "name" : "suite",
+    "value" : "EIQuestionnaire.LO"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "9aa706c117e8152f",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+        "time" : {
+          "start" : 1619571214214,
+          "stop" : 1619571354579,
+          "duration" : 140365
+        }
+      }, {
+        "uid" : "3ce00e24d487e222",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+        "time" : {
+          "start" : 1619402394699,
+          "stop" : 1619402448334,
+          "duration" : 53635
+        }
+      }, {
+        "uid" : "2f6ab4b4ef11d29a",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+        "time" : {
+          "start" : 1619137286327,
+          "stop" : 1619137339946,
+          "duration" : 53619
+        }
+      }, {
+        "uid" : "64b946090150396e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618981522421,
+          "stop" : 1618981754461,
+          "duration" : 232040
+        }
+      }, {
+        "uid" : "7c386712de0a26a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618887927675,
+          "stop" : 1618888142021,
+          "duration" : 214346
+        }
+      }, {
+        "uid" : "70e4197907d58a86",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618630779111,
+          "stop" : 1618630981932,
+          "duration" : 202821
+        }
+      }, {
+        "uid" : "c66cb9c7ec42dd02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618547926553,
+          "stop" : 1618548104853,
+          "duration" : 178300
+        }
+      }, {
+        "uid" : "22a31baf5d0b3c98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618467730948,
+          "stop" : 1618467894736,
+          "duration" : 163788
+        }
+      }, {
+        "uid" : "605baa19f0c32b31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618375728590,
+          "stop" : 1618375895207,
+          "duration" : 166617
+        }
+      }, {
+        "uid" : "2745e598bf8a665d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618281412485,
+          "stop" : 1618281571784,
+          "duration" : 159299
+        }
+      }, {
+        "uid" : "8d8d24ff8e411dd8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618035244593,
+          "stop" : 1618035406089,
+          "duration" : 161496
+        }
+      }, {
+        "uid" : "498e9c482fe05927",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617934503196,
+          "stop" : 1617934654329,
+          "duration" : 151133
+        }
+      }, {
+        "uid" : "835cb3943df4b160",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617851139828,
+          "stop" : 1617851292235,
+          "duration" : 152407
+        }
+      }, {
+        "uid" : "86a9d14fe3e5ba94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617758570011,
+          "stop" : 1617758721630,
+          "duration" : 151619
+        }
+      }, {
+        "uid" : "f23eacc98b861e9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617685218389,
+          "stop" : 1617685385235,
+          "duration" : 166846
+        }
+      }, {
+        "uid" : "1c13f2bf40de1ff2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617339147995,
+          "stop" : 1617339314182,
+          "duration" : 166187
+        }
+      }, {
+        "uid" : "7e72249dfb458eae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617162721725,
+          "stop" : 1617162887888,
+          "duration" : 166163
+        }
+      }, {
+        "uid" : "c59ceec1fdcf1a19",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617077209749,
+          "stop" : 1617077391426,
+          "duration" : 181677
+        }
+      }, {
+        "uid" : "83e699281d52d329",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616830544970,
+          "stop" : 1616830705083,
+          "duration" : 160113
+        }
+      }, {
+        "uid" : "cacfc527d163cdce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616731589265,
+          "stop" : 1616731771034,
+          "duration" : 181769
+        }
+      } ]
+    },
+    "tags" : [ "EIQUESTIONNAIRE.LO.21" ]
+  },
+  "source" : "5c295a2edf0bca81.json",
+  "parameterValues" : [ ]
+}

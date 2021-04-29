@@ -1,0 +1,350 @@
+{
+  "uid" : "28830f02c681faf3",
+  "name" : "INVENTORYCFG_06",
+  "fullName" : "BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_06",
+  "historyId" : "BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_06",
+  "time" : {
+    "start" : 1619669737494,
+    "stop" : 1619669791797,
+    "duration" : 54303
+  },
+  "description" : "Verify transfer facility to empty inventory\n",
+  "descriptionHtml" : "<p>Verify transfer facility to empty inventory</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+  "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_06() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 322",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619669791797,
+      "stop" : 1619669791797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619669791797,
+      "stop" : 1619669791797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Verify transfer facility to empty inventory\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+    "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_06() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 322",
+    "steps" : [ {
+      "name" : "INVENTORYCFG_06",
+      "time" : {
+        "start" : 1619669737494,
+        "stop" : 1619669791797,
+        "duration" : 54303
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+      "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_06() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 322",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1619669737499,
+          "stop" : 1619669737508,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check inventory 2017 - InventoryWithNoSources",
+        "time" : {
+          "start" : 1619669737508,
+          "stop" : 1619669740520,
+          "duration" : 3012
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Open Select Inventory page",
+        "time" : {
+          "start" : 1619669740520,
+          "stop" : 1619669750750,
+          "duration" : 10230
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Select inventory 2017 - InventoryWithNoSources",
+        "time" : {
+          "start" : 1619669750750,
+          "stop" : 1619669791731,
+          "duration" : 40981
+        },
+        "status" : "failed",
+        "statusMessage" : "Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 785\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_w_0(Object[] )\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.PopulateInventorySearch(String searchText)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_o(String description) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 233\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Set copy inventory search to 2017 - InventoryWithNoSources",
+          "time" : {
+            "start" : 1619669780754,
+            "stop" : 1619669791731,
+            "duration" : 10977
+          },
+          "status" : "failed",
+          "statusMessage" : "Element <input id=\"gs_Inventory\" name=\"Inventory\" type=\"text\"> is not reachable by keyboard",
+          "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 785\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665943_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true,
+          "hasContent" : true,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619669791731,
+          "stop" : 1619669791796,
+          "duration" : 65
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "63c8700cb7fcb3c9",
+          "name" : "Attachment Title",
+          "source" : "63c8700cb7fcb3c9.png",
+          "type" : "image/png",
+          "size" : 77203
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "16263a6d0406abbd",
+        "name" : "Console Output",
+        "source" : "16263a6d0406abbd.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 6
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1619669791797,
+      "stop" : 1619669791797,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619669791797,
+      "stop" : 1619669791797,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "testMethod",
+    "value" : "INVENTORYCFG_06"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "tag",
+    "value" : "INVENTORYCFG.6"
+  }, {
+    "name" : "suite",
+    "value" : "InventoryCfg"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "673f3ffccdad82af",
+        "status" : "failed",
+        "statusDetails" : "  List of facilities is not empty - first verification\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619617234881,
+          "stop" : 1619617413533,
+          "duration" : 178652
+        }
+      }, {
+        "uid" : "800f1ba06095db7",
+        "status" : "failed",
+        "statusDetails" : "  List of facilities is not empty - first verification\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619412825165,
+          "stop" : 1619413011685,
+          "duration" : 186520
+        }
+      }, {
+        "uid" : "f9a3faa7ef7df9d6",
+        "status" : "failed",
+        "statusDetails" : "  List of facilities is not empty - first verification\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619177235553,
+          "stop" : 1619177417610,
+          "duration" : 182057
+        }
+      }, {
+        "uid" : "465baeb0535d5ef1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618994043794,
+          "stop" : 1618994551892,
+          "duration" : 508098
+        }
+      }, {
+        "uid" : "654b214523210032",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.NoSuchElementException : Unable to locate element: //*[@id='emptyTextDiv_PNTSITE']/div",
+        "time" : {
+          "start" : 1618922987618,
+          "stop" : 1618923015979,
+          "duration" : 28361
+        }
+      }, {
+        "uid" : "a5725672ed2a19c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618833929035,
+          "stop" : 1618834342903,
+          "duration" : 413868
+        }
+      }, {
+        "uid" : "b4f1fb0ebc9efcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618579248194,
+          "stop" : 1618579567670,
+          "duration" : 319476
+        }
+      }, {
+        "uid" : "9acb279945892f74",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+        "time" : {
+          "start" : 1618478974664,
+          "stop" : 1618479017746,
+          "duration" : 43082
+        }
+      }, {
+        "uid" : "da4d41904efc177f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618406894657,
+          "stop" : 1618407167338,
+          "duration" : 272681
+        }
+      } ]
+    },
+    "tags" : [ "INVENTORYCFG.6" ]
+  },
+  "source" : "28830f02c681faf3.json",
+  "parameterValues" : [ ]
+}
