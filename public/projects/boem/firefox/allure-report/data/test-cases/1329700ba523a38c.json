@@ -1,0 +1,224 @@
+{
+  "uid" : "1329700ba523a38c",
+  "name" : "INVENTORYCFG_03",
+  "fullName" : "BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03",
+  "historyId" : "BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03",
+  "time" : {
+    "start" : 1619697200215,
+    "stop" : 1619697206358,
+    "duration" : 6143
+  },
+  "description" : "Try to transfer resources to a new inventory. Should fail if can't create a new inventory.\n",
+  "descriptionHtml" : "<p>Try to transfer resources to a new inventory. Should fail if can't create a new inventory.</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementClickInterceptedException : Element <a href=\"/BOEM/SelectInventory\"> is not clickable at point (1222,80) because another element <a id=\"lkBlockDialogClose\" class=\"blockUI-close\"> obscures it",
+  "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 172\r\n--ElementClickInterceptedException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619697206357,
+      "stop" : 1619697206357,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1619697206357,
+      "stop" : 1619697206357,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Try to transfer resources to a new inventory. Should fail if can't create a new inventory.\n",
+    "status" : "failed",
+    "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementClickInterceptedException : Element <a href=\"/BOEM/SelectInventory\"> is not clickable at point (1222,80) because another element <a id=\"lkBlockDialogClose\" class=\"blockUI-close\"> obscures it",
+    "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 172\r\n--ElementClickInterceptedException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()",
+    "steps" : [ {
+      "name" : "INVENTORYCFG_03",
+      "time" : {
+        "start" : 1619697200215,
+        "stop" : 1619697206358,
+        "duration" : 6143
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.\r\n  ----> OpenQA.Selenium.ElementClickInterceptedException : Element <a href=\"/BOEM/SelectInventory\"> is not clickable at point (1222,80) because another element <a id=\"lkBlockDialogClose\" class=\"blockUI-close\"> obscures it",
+      "statusTrace" : "   at BOEM_Tests.Tests.InventoryCfg.INVENTORYCFG_03() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\InventoryCfg.cs:line 172\r\n--ElementClickInterceptedException\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1619697200220,
+          "stop" : 1619697200237,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1619697200237,
+          "stop" : 1619697203261,
+          "duration" : 3024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on inventory",
+        "time" : {
+          "start" : 1619697203262,
+          "stop" : 1619697206284,
+          "duration" : 3022
+        },
+        "status" : "failed",
+        "statusMessage" : "Exception has been thrown by the target of an invocation.",
+        "statusTrace" : "   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)\r\n   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)\r\n   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n   at SeleniumExtras.PageObjects.WebDriverObjectProxy.InvokeMethod(IMethodCallMessage msg, Object representedValue)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.Click()\r\n   at BOEM_Tests.PageObjects.Toolbar.__a$_around_ClickOnInventory_100666130_o() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Toolbar\\Toolbar.cs:line 96\r\n   at BOEM_Tests.PageObjects.Toolbar.__a$_around_ClickOnInventory_100666130_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619697206284,
+          "stop" : 1619697206355,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "acd86b78d3f8a256",
+          "name" : "Attachment Title",
+          "source" : "acd86b78d3f8a256.png",
+          "type" : "image/png",
+          "size" : 77507
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "4a7e6eaecdd754d9",
+        "name" : "Console Output",
+        "source" : "4a7e6eaecdd754d9.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown_Test",
+    "time" : {
+      "start" : 1619697206357,
+      "stop" : 1619697206357,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619697206357,
+      "stop" : 1619697206357,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "testMethod",
+    "value" : "INVENTORYCFG_03"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.InventoryCfg"
+  }, {
+    "name" : "tag",
+    "value" : "INVENTORYCFG.3"
+  }, {
+    "name" : "suite",
+    "value" : "InventoryCfg"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "INVENTORYCFG.3" ]
+  },
+  "source" : "1329700ba523a38c.json",
+  "parameterValues" : [ ]
+}
