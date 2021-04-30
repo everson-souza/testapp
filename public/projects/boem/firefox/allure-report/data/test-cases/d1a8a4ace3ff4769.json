@@ -1,0 +1,374 @@
+{
+  "uid" : "d1a8a4ace3ff4769",
+  "name" : "ADMINSECURITY_38",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38",
+  "time" : {
+    "start" : 1619740264308,
+    "stop" : 1619740333904,
+    "duration" : 69596
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1232",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619740333903,
+      "stop" : 1619740333903,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1619740333903,
+      "stop" : 1619740333903,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/ProjectMappingAdmin' URL. It expects normal page load\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1232",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_38",
+      "time" : {
+        "start" : 1619740264308,
+        "stop" : 1619740333904,
+        "duration" : 69596
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_38() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1232",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1619740264310,
+          "stop" : 1619740317581,
+          "duration" : 53271
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1619740299506,
+            "stop" : 1619740302663,
+            "duration" : 3157
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set username to QA_BOEMAdmin@weblakes.com",
+          "time" : {
+            "start" : 1619740302663,
+            "stop" : 1619740302709,
+            "duration" : 46
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set password to 23M8BScKKXGUa5525",
+          "time" : {
+            "start" : 1619740302709,
+            "stop" : 1619740302736,
+            "duration" : 27
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1619740302736,
+            "stop" : 1619740307576,
+            "duration" : 4840
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 4
+      }, {
+        "name" : "Access relative URL /ProjectMappingAdmin",
+        "time" : {
+          "start" : 1619740317581,
+          "stop" : 1619740322821,
+          "duration" : 5240
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1619740322821,
+          "stop" : 1619740323833,
+          "duration" : 1012
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1619740323833,
+          "stop" : 1619740333842,
+          "duration" : 10009
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1619740333834,
+            "stop" : 1619740333842,
+            "duration" : 8
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 1
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619740333845,
+          "stop" : 1619740333903,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "db59030be0c472d",
+          "name" : "Attachment Title",
+          "source" : "db59030be0c472d.png",
+          "type" : "image/png",
+          "size" : 53248
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "69c0927415aee46f",
+        "name" : "Console Output",
+        "source" : "69c0927415aee46f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619740333903,
+      "stop" : 1619740333903,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619740333903,
+      "stop" : 1619740333903,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_38"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.38"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "6b8fd7965424855a",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1619652097495,
+          "stop" : 1619652135468,
+          "duration" : 37973
+        }
+      }, {
+        "uid" : "5477c9febb654dc4",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1619646255107,
+          "stop" : 1619646296968,
+          "duration" : 41861
+        }
+      }, {
+        "uid" : "b60a5572dcd5a05f",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1619394226749,
+          "stop" : 1619394264690,
+          "duration" : 37941
+        }
+      }, {
+        "uid" : "e6a3e27878e4de12",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1619129113623,
+          "stop" : 1619129151560,
+          "duration" : 37937
+        }
+      }, {
+        "uid" : "e0dd015e5fd3b48d",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) Was redirected to Access denied page\r\n\r\n  1)   Page did not load correctly\r\n  Expected: True\r\n  But was:  False\r\n\r\n",
+        "time" : {
+          "start" : 1618973475659,
+          "stop" : 1618973513504,
+          "duration" : 37845
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.38" ]
+  },
+  "source" : "d1a8a4ace3ff4769.json",
+  "parameterValues" : [ ]
+}
