@@ -1,0 +1,377 @@
+{
+  "uid" : "798a635da1675985",
+  "name" : "ADMINSECURITY_13",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_13",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_13",
+  "time" : {
+    "start" : 1620049758700,
+    "stop" : 1620049798420,
+    "duration" : 39720
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "failed",
+  "statusMessage" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_13() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 434\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620049798419,
+      "stop" : 1620049798419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620049798419,
+      "stop" : 1620049798419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "failed",
+    "statusMessage" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_13() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 434\r\n",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_13",
+      "time" : {
+        "start" : 1620049758700,
+        "stop" : 1620049798420,
+        "duration" : 39720
+      },
+      "status" : "failed",
+      "statusMessage" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_13() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 434\r\n",
+      "steps" : [ {
+        "name" : "Log in using QA Not Admin user",
+        "time" : {
+          "start" : 1620049758703,
+          "stop" : 1620049781330,
+          "duration" : 22627
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620049763652,
+            "stop" : 1620049766860,
+            "duration" : 3208
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set username to qa_boemNotAdmin@weblakes.com",
+          "time" : {
+            "start" : 1620049766860,
+            "stop" : 1620049766914,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Set password to GQ7aKj7r*M9gy5",
+          "time" : {
+            "start" : 1620049766914,
+            "stop" : 1620049766949,
+            "duration" : 35
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620049766949,
+            "stop" : 1620049771321,
+            "duration" : 4372
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0,
+          "hasContent" : false,
+          "stepsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 4
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1620049781332,
+          "stop" : 1620049791821,
+          "duration" : 10489
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Access relative URL /WizInviteUsers",
+        "time" : {
+          "start" : 1620049791821,
+          "stop" : 1620049797334,
+          "duration" : 5513
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1620049797334,
+          "stop" : 1620049798348,
+          "duration" : 1014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620049798352,
+          "stop" : 1620049798419,
+          "duration" : 67
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2a1f07d17c338c77",
+          "name" : "Attachment Title",
+          "source" : "2a1f07d17c338c77.png",
+          "type" : "image/png",
+          "size" : 44425
+        } ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "b1d784f9d1e7219d",
+        "name" : "Console Output",
+        "source" : "b1d784f9d1e7219d.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 9
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "hasContent" : true,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620049798419,
+      "stop" : 1620049798419,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620049798419,
+      "stop" : 1620049798419,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_13"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.13"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "be2d2eae3cd3f8aa",
+      "status" : "failed",
+      "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+      "time" : {
+        "start" : 1619822311410,
+        "stop" : 1619822319933,
+        "duration" : 8523
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "46ad002995913554",
+        "status" : "failed",
+        "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619739803725,
+          "stop" : 1619739812257,
+          "duration" : 8532
+        }
+      }, {
+        "uid" : "f5ec8d5e1298fbb1",
+        "status" : "failed",
+        "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619651612475,
+          "stop" : 1619651621001,
+          "duration" : 8526
+        }
+      }, {
+        "uid" : "b35f2e9601a21a21",
+        "status" : "failed",
+        "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619623918989,
+          "stop" : 1619623954116,
+          "duration" : 35127
+        }
+      }, {
+        "uid" : "37bd6479d6e8b740",
+        "status" : "failed",
+        "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619393832576,
+          "stop" : 1619393841160,
+          "duration" : 8584
+        }
+      }, {
+        "uid" : "7dfbd005ee3b4ae8",
+        "status" : "failed",
+        "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1619128716125,
+          "stop" : 1619128724659,
+          "duration" : 8534
+        }
+      }, {
+        "uid" : "31422b6332028ac0",
+        "status" : "failed",
+        "statusDetails" : "  (TEST FAILED) Was not redirected to Acess Denied\r\n  Expected: True\r\n  But was:  False\r\n",
+        "time" : {
+          "start" : 1618973082467,
+          "stop" : 1618973090997,
+          "duration" : 8530
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.13" ]
+  },
+  "source" : "798a635da1675985.json",
+  "parameterValues" : [ ]
+}
