@@ -1,0 +1,394 @@
+{
+  "uid" : "2550fa54461c43fe",
+  "name" : "LOCKEDINVENTORY_05",
+  "fullName" : "BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_05",
+  "historyId" : "BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_05",
+  "time" : {
+    "start" : 1620187865618,
+    "stop" : 1620187891762,
+    "duration" : 26144
+  },
+  "description" : "Verify Drilling Rig Data Import for Locked Inventory\n",
+  "descriptionHtml" : "<p>Verify Drilling Rig Data Import for Locked Inventory</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+  "statusTrace" : "   at BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_05() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LockedInventory.cs:line 227",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620187891761,
+      "stop" : 1620187891761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620187891761,
+      "stop" : 1620187891761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify Drilling Rig Data Import for Locked Inventory\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+    "statusTrace" : "   at BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_05() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LockedInventory.cs:line 227",
+    "steps" : [ {
+      "name" : "LOCKEDINVENTORY_05",
+      "time" : {
+        "start" : 1620187865619,
+        "stop" : 1620187891762,
+        "duration" : 26143
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+      "statusTrace" : "   at BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_05() in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LockedInventory.cs:line 227",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620187865636,
+          "stop" : 1620187865698,
+          "duration" : 62
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check inventory 2014 - 2014 Complete Inventory",
+        "time" : {
+          "start" : 1620187865698,
+          "stop" : 1620187868753,
+          "duration" : 3055
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on emissions on top menu",
+        "time" : {
+          "start" : 1620187868753,
+          "stop" : 1620187873061,
+          "duration" : 4308
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Platform QA menu",
+        "time" : {
+          "start" : 1620187873061,
+          "stop" : 1620187875107,
+          "duration" : 2046
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on drilling dig data import/export",
+        "time" : {
+          "start" : 1620187875107,
+          "stop" : 1620187877152,
+          "duration" : 2045
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Find danger alert",
+        "time" : {
+          "start" : 1620187877152,
+          "stop" : 1620187887225,
+          "duration" : 10073
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.EmissionsToolsPage.__a$_around_FindDangerAlert_100665311_o(Boolean expectedValue) in C:\\Users\\evers\\Documents\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\Emissions\\EmissionsToolsPage.cs:line 774\r\n   at BOEM_Tests.PageObjects.EmissionsToolsPage.__a$_around_FindDangerAlert_100665311_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620187887231,
+          "stop" : 1620187887327,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "ef6983ca485f05b7",
+          "name" : "Attachment Title",
+          "source" : "ef6983ca485f05b7.png",
+          "type" : "image/png",
+          "size" : 56307
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "4273b46c64fc93b1",
+        "name" : "Console Output",
+        "source" : "4273b46c64fc93b1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620187891761,
+      "stop" : 1620187891761,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620187891761,
+      "stop" : 1620187891761,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOCKEDINVENTORY_05"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "tag",
+    "value" : "LOCKEDINVENTORY.5"
+  }, {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "4ac0f0812a3fc159",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1620050054253,
+          "stop" : 1620050228720,
+          "duration" : 174467
+        }
+      }, {
+        "uid" : "69198157b03b8924",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1619758686630,
+          "stop" : 1619758710728,
+          "duration" : 24098
+        }
+      }, {
+        "uid" : "36f9a0829ec9f7fc",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1619670241627,
+          "stop" : 1619670265751,
+          "duration" : 24124
+        }
+      }, {
+        "uid" : "e652548c1a56eb76",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1619622326556,
+          "stop" : 1619622494900,
+          "duration" : 168344
+        }
+      }, {
+        "uid" : "21e2c4e2679d31e9",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1619413396788,
+          "stop" : 1619413421187,
+          "duration" : 24399
+        }
+      }, {
+        "uid" : "6d98744d084a8815",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1619148209002,
+          "stop" : 1619148233017,
+          "duration" : 24015
+        }
+      }, {
+        "uid" : "f99f040ac42c0959",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1619018395322,
+          "stop" : 1619018416603,
+          "duration" : 21281
+        }
+      }, {
+        "uid" : "a5e789aa61da6f3e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1618899728125,
+          "stop" : 1618899749178,
+          "duration" : 21053
+        }
+      }, {
+        "uid" : "a5b6134bec14c245",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1618642993866,
+          "stop" : 1618643015096,
+          "duration" : 21230
+        }
+      }, {
+        "uid" : "e7b50bdc47c7f03e",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1618584300061,
+          "stop" : 1618584320969,
+          "duration" : 20908
+        }
+      }, {
+        "uid" : "83436349751cd96b",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1618479275495,
+          "stop" : 1618479296355,
+          "duration" : 20860
+        }
+      }, {
+        "uid" : "537fc7f1fa516b03",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) A 'Danger Alert' was NOT displayed! Please, check this test's screenshot.",
+        "time" : {
+          "start" : 1618405875711,
+          "stop" : 1618405896901,
+          "duration" : 21190
+        }
+      } ]
+    },
+    "tags" : [ "LOCKEDINVENTORY.5" ]
+  },
+  "source" : "2550fa54461c43fe.json",
+  "parameterValues" : [ ]
+}

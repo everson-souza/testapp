@@ -1,0 +1,330 @@
+{
+  "uid" : "90ec28e5b0b7be49",
+  "name" : "ADMINSECURITY_44",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_44",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_44",
+  "time" : {
+    "start" : 1620169520717,
+    "stop" : 1620169541558,
+    "duration" : 20841
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/WizSyncInventory' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/WizSyncInventory' URL. It expects normal page load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620169541557,
+      "stop" : 1620169541557,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620169541557,
+      "stop" : 1620169541557,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/WizSyncInventory' URL. It expects normal page load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_44",
+      "time" : {
+        "start" : 1620169520717,
+        "stop" : 1620169541558,
+        "duration" : 20841
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620169520720,
+          "stop" : 1620169520747,
+          "duration" : 27
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /WizSyncInventory",
+        "time" : {
+          "start" : 1620169520747,
+          "stop" : 1620169530365,
+          "duration" : 9618
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1620169530365,
+          "stop" : 1620169531386,
+          "duration" : 1021
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1620169531386,
+          "stop" : 1620169541455,
+          "duration" : 10069
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1620169541393,
+            "stop" : 1620169541424,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Check access denied displayed",
+          "time" : {
+            "start" : 1620169541424,
+            "stop" : 1620169541433,
+            "duration" : 9
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620169541455,
+          "stop" : 1620169541557,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "8d59df84f10dff12",
+          "name" : "Attachment Title",
+          "source" : "8d59df84f10dff12.png",
+          "type" : "image/png",
+          "size" : 63261
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "84a3c395cca0bcaf",
+        "name" : "Console Output",
+        "source" : "84a3c395cca0bcaf.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620169541557,
+      "stop" : 1620169541557,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620169541557,
+      "stop" : 1620169541557,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_44"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.44"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "d3b35469e6853b0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619822945834,
+          "stop" : 1619822964881,
+          "duration" : 19047
+        }
+      }, {
+        "uid" : "1bffe1ce97ed1fc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619740438394,
+          "stop" : 1619740457770,
+          "duration" : 19376
+        }
+      }, {
+        "uid" : "9630564a69af1845",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619652242193,
+          "stop" : 1619652263371,
+          "duration" : 21178
+        }
+      }, {
+        "uid" : "1c3983d869197042",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619564376943,
+          "stop" : 1619564396202,
+          "duration" : 19259
+        }
+      }, {
+        "uid" : "a5b510176d5d6a46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619394369006,
+          "stop" : 1619394388038,
+          "duration" : 19032
+        }
+      }, {
+        "uid" : "bb1c02b1b0d9ec5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619129256004,
+          "stop" : 1619129275229,
+          "duration" : 19225
+        }
+      }, {
+        "uid" : "27e62472abf5152",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618973617686,
+          "stop" : 1618973636718,
+          "duration" : 19032
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.44" ]
+  },
+  "source" : "90ec28e5b0b7be49.json",
+  "parameterValues" : [ ]
+}

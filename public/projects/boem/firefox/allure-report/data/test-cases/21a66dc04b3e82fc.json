@@ -1,0 +1,300 @@
+{
+  "uid" : "21a66dc04b3e82fc",
+  "name" : "ADMINSECURITY_10",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_10",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_10",
+  "time" : {
+    "start" : 1620168892251,
+    "stop" : 1620168901972,
+    "duration" : 9721
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620168901972,
+      "stop" : 1620168901972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620168901972,
+      "stop" : 1620168901972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_10",
+      "time" : {
+        "start" : 1620168892251,
+        "stop" : 1620168901972,
+        "duration" : 9721
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Admin user",
+        "time" : {
+          "start" : 1620168892253,
+          "stop" : 1620168892268,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1620168892269,
+          "stop" : 1620168894298,
+          "duration" : 2029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /GroupMembership",
+        "time" : {
+          "start" : 1620168894298,
+          "stop" : 1620168900861,
+          "duration" : 6563
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1620168900861,
+          "stop" : 1620168901875,
+          "duration" : 1014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620168901875,
+          "stop" : 1620168901972,
+          "duration" : 97
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3b55354b35a4174f",
+          "name" : "Attachment Title",
+          "source" : "3b55354b35a4174f.png",
+          "type" : "image/png",
+          "size" : 52680
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "38c421dd84e0cfea",
+        "name" : "Console Output",
+        "source" : "38c421dd84e0cfea.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620168901972,
+      "stop" : 1620168901972,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620168901972,
+      "stop" : 1620168901972,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_10"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.10"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "96809bbad9a563a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619822285272,
+          "stop" : 1619822293821,
+          "duration" : 8549
+        }
+      }, {
+        "uid" : "79dcfff9580412fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619739777581,
+          "stop" : 1619739786118,
+          "duration" : 8537
+        }
+      }, {
+        "uid" : "f2278c46eea185e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619651586212,
+          "stop" : 1619651594733,
+          "duration" : 8521
+        }
+      }, {
+        "uid" : "887c92e6de44a0e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619563652214,
+          "stop" : 1619563660780,
+          "duration" : 8566
+        }
+      }, {
+        "uid" : "ac09349a0b84e48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619393806455,
+          "stop" : 1619393814980,
+          "duration" : 8525
+        }
+      }, {
+        "uid" : "7d9df59e0dbf820",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619128689721,
+          "stop" : 1619128698246,
+          "duration" : 8525
+        }
+      }, {
+        "uid" : "74d191d40f6dea7c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618973056307,
+          "stop" : 1618973064810,
+          "duration" : 8503
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.10" ]
+  },
+  "source" : "21a66dc04b3e82fc.json",
+  "parameterValues" : [ ]
+}

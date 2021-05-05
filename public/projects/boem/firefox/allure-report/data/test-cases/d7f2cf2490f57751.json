@@ -1,0 +1,300 @@
+{
+  "uid" : "d7f2cf2490f57751",
+  "name" : "ACCESSRIGHTSECURITY_14",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_14",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_14",
+  "time" : {
+    "start" : 1620165823133,
+    "stop" : 1620165839252,
+    "duration" : 16119
+  },
+  "description" : "Ensure access denied to edit Emissions Period in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to edit Emissions Period in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620165839250,
+      "stop" : 1620165839250,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620165839250,
+      "stop" : 1620165839250,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to edit Emissions Period in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ACCESSRIGHTSECURITY_14",
+      "time" : {
+        "start" : 1620165823133,
+        "stop" : 1620165839252,
+        "duration" : 16119
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1620165823154,
+          "stop" : 1620165823213,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1620165823239,
+          "stop" : 1620165825258,
+          "duration" : 2019
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620165825258,
+          "stop" : 1620165828320,
+          "duration" : 3062
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissperiod/Edit/262939",
+        "time" : {
+          "start" : 1620165828320,
+          "stop" : 1620165834566,
+          "duration" : 6246
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620165834571,
+          "stop" : 1620165834693,
+          "duration" : 122
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6a8bf661565b7968",
+          "name" : "Attachment Title",
+          "source" : "6a8bf661565b7968.png",
+          "type" : "image/png",
+          "size" : 53276
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "40b32b1a3f41ee87",
+        "name" : "Console Output",
+        "source" : "40b32b1a3f41ee87.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620165839250,
+      "stop" : 1620165839250,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620165839250,
+      "stop" : 1620165839250,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-I9CRH2D"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ACCESSRIGHTSECURITY_14"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.14"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "98cc37cc6d0b6333",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619819408476,
+          "stop" : 1619819422707,
+          "duration" : 14231
+        }
+      }, {
+        "uid" : "2d0ea6554301fa09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619736777549,
+          "stop" : 1619736791976,
+          "duration" : 14427
+        }
+      }, {
+        "uid" : "4e882dd1b4d91ed3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619648710331,
+          "stop" : 1619648724660,
+          "duration" : 14329
+        }
+      }, {
+        "uid" : "57b29937ed1f9f01",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619560873976,
+          "stop" : 1619560888290,
+          "duration" : 14314
+        }
+      }, {
+        "uid" : "f4d88fa7e42fde13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619391055608,
+          "stop" : 1619391075010,
+          "duration" : 19402
+        }
+      }, {
+        "uid" : "518f43f4dcf48213",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619125915327,
+          "stop" : 1619125929796,
+          "duration" : 14469
+        }
+      }, {
+        "uid" : "e55dc1fdc5166adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618970070894,
+          "stop" : 1618970085217,
+          "duration" : 14323
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.14" ]
+  },
+  "source" : "d7f2cf2490f57751.json",
+  "parameterValues" : [ ]
+}
