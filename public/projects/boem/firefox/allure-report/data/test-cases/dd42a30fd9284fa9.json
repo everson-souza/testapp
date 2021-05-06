@@ -1,0 +1,341 @@
+{
+  "uid" : "dd42a30fd9284fa9",
+  "name" : "ADMINSECURITY_36",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36",
+  "time" : {
+    "start" : 1620270101312,
+    "stop" : 1620270117901,
+    "duration" : 16589
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620270117901,
+      "stop" : 1620270117901,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620270117901,
+      "stop" : 1620270117901,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_36",
+      "time" : {
+        "start" : 1620270101312,
+        "stop" : 1620270117901,
+        "duration" : 16589
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620270101313,
+          "stop" : 1620270101322,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative URL /AdminChangeLog",
+        "time" : {
+          "start" : 1620270101322,
+          "stop" : 1620270106816,
+          "duration" : 5494
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1620270106816,
+          "stop" : 1620270107828,
+          "duration" : 1012
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1620270107828,
+          "stop" : 1620270117849,
+          "duration" : 10021
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check server error displayed",
+          "time" : {
+            "start" : 1620270117833,
+            "stop" : 1620270117840,
+            "duration" : 7
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        }, {
+          "name" : "Check access denied displayed",
+          "time" : {
+            "start" : 1620270117840,
+            "stop" : 1620270117842,
+            "duration" : 2
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "stepsCount" : 0,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 2,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620270117849,
+          "stop" : 1620270117901,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "fa53f0e60fb3a1bb",
+          "name" : "Attachment Title",
+          "source" : "fa53f0e60fb3a1bb.png",
+          "type" : "image/png",
+          "size" : 45961
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e4a35f71c4c21543",
+        "name" : "Console Output",
+        "source" : "e4a35f71c4c21543.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620270117901,
+      "stop" : 1620270117901,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620270117901,
+      "stop" : 1620270117901,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_36"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.36"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "44920b82fc3b3e84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169327306,
+          "stop" : 1620169344802,
+          "duration" : 17496
+        }
+      }, {
+        "uid" : "ff347aa9c3bec0f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620049812706,
+          "stop" : 1620049861194,
+          "duration" : 48488
+        }
+      }, {
+        "uid" : "13d005a21009e8dd",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1619740164010,
+          "stop" : 1619740219850,
+          "duration" : 55840
+        }
+      }, {
+        "uid" : "c31ceb1145d0a9ca",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1619651973513,
+          "stop" : 1619652029396,
+          "duration" : 55883
+        }
+      }, {
+        "uid" : "6af3cfb0d0f86329",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page took too long to load",
+        "time" : {
+          "start" : 1619623965358,
+          "stop" : 1619624042479,
+          "duration" : 77121
+        }
+      }, {
+        "uid" : "48ac16792115fc3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619394193541,
+          "stop" : 1619394210120,
+          "duration" : 16579
+        }
+      }, {
+        "uid" : "27980ed4895b6093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619129076391,
+          "stop" : 1619129096743,
+          "duration" : 20352
+        }
+      }, {
+        "uid" : "334ce8692bf70e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618973442543,
+          "stop" : 1618973459119,
+          "duration" : 16576
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.36" ]
+  },
+  "source" : "dd42a30fd9284fa9.json",
+  "parameterValues" : [ ]
+}
