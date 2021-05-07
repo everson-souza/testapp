@@ -1,0 +1,391 @@
+{
+  "uid" : "4873755aafbb7226",
+  "name" : "ACCESSRIGHTSECURITY_38",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_38",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_38",
+  "time" : {
+    "start" : 1620339669946,
+    "stop" : 1620339707369,
+    "duration" : 37423
+  },
+  "description" : "Inventory Locked, OGOR Data Import should give 'access denied' message\n",
+  "descriptionHtml" : "<p>Inventory Locked, OGOR Data Import should give 'access denied' message</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620339707368,
+      "stop" : 1620339707368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620339707368,
+      "stop" : 1620339707368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Inventory Locked, OGOR Data Import should give 'access denied' message\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ACCESSRIGHTSECURITY_38",
+      "time" : {
+        "start" : 1620339669946,
+        "stop" : 1620339707369,
+        "duration" : 37423
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1620339669956,
+          "stop" : 1620339670025,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1620339670028,
+          "stop" : 1620339672043,
+          "duration" : 2015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620339672043,
+          "stop" : 1620339675070,
+          "duration" : 3027
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Select inventory icon",
+        "time" : {
+          "start" : 1620339675070,
+          "stop" : 1620339678090,
+          "duration" : 3020
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative URL /OgorJobExecutionResult",
+        "time" : {
+          "start" : 1620339678090,
+          "stop" : 1620339683313,
+          "duration" : 5223
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Click on import OGOR data button",
+        "time" : {
+          "start" : 1620339683313,
+          "stop" : 1620339688364,
+          "duration" : 5051
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check modal header text equals Step 1/1: OGOR Data Import",
+        "time" : {
+          "start" : 1620339688364,
+          "stop" : 1620339693385,
+          "duration" : 5021
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check modal error equals Access Denied: - Cannot perform this operation when the inventory is locked",
+        "time" : {
+          "start" : 1620339693385,
+          "stop" : 1620339698405,
+          "duration" : 5020
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620339698405,
+          "stop" : 1620339698461,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "70e08e4322f2c62d",
+          "name" : "Attachment Title",
+          "source" : "70e08e4322f2c62d.png",
+          "type" : "image/png",
+          "size" : 46008
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Access relative URL /Nav/Module/EI/EICALC",
+        "time" : {
+          "start" : 1620339698461,
+          "stop" : 1620339703765,
+          "duration" : 5304
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "463e0d123aeb2f1a",
+        "name" : "Console Output",
+        "source" : "463e0d123aeb2f1a.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 10,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 11,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620339707368,
+      "stop" : 1620339707368,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620339707368,
+      "stop" : 1620339707368,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ACCESSRIGHTSECURITY_38"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.38"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "19c9d5bed94b5a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620267494801,
+          "stop" : 1620267532550,
+          "duration" : 37749
+        }
+      }, {
+        "uid" : "b5ca4d40cebb746a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620166388976,
+          "stop" : 1620166428907,
+          "duration" : 39931
+        }
+      }, {
+        "uid" : "8682d83a6fe9085e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619819933821,
+          "stop" : 1619819971615,
+          "duration" : 37794
+        }
+      }, {
+        "uid" : "4baae73641bf0f6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619737300674,
+          "stop" : 1619737338459,
+          "duration" : 37785
+        }
+      }, {
+        "uid" : "83f06a3a7d532eeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619649233060,
+          "stop" : 1619649270786,
+          "duration" : 37726
+        }
+      }, {
+        "uid" : "9a2320dd60024b5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619561410339,
+          "stop" : 1619561448024,
+          "duration" : 37685
+        }
+      }, {
+        "uid" : "60f88be1a3e08d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619391583441,
+          "stop" : 1619391621123,
+          "duration" : 37682
+        }
+      }, {
+        "uid" : "43ec45c03415f866",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619126445917,
+          "stop" : 1619126483970,
+          "duration" : 38053
+        }
+      }, {
+        "uid" : "793bc31b82735b41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618970595339,
+          "stop" : 1618970633276,
+          "duration" : 37937
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.38" ]
+  },
+  "source" : "4873755aafbb7226.json",
+  "parameterValues" : [ ]
+}

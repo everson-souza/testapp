@@ -1,0 +1,341 @@
+{
+  "uid" : "b2ae2c36f6de0bcf",
+  "name" : "LOCKEDINVENTORY_17",
+  "fullName" : "BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_17",
+  "historyId" : "BOEM_Tests.Tests.LockedInventory.LOCKEDINVENTORY_17",
+  "time" : {
+    "start" : 1620364329758,
+    "stop" : 1620364341679,
+    "duration" : 11921
+  },
+  "description" : "Ensure access denied to delete Release Points in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to delete Release Points in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620364341678,
+      "stop" : 1620364341678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620364341678,
+      "stop" : 1620364341678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to delete Release Points in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LOCKEDINVENTORY_17",
+      "time" : {
+        "start" : 1620364329758,
+        "stop" : 1620364341679,
+        "duration" : 11921
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620364329766,
+          "stop" : 1620364329842,
+          "duration" : 76
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2014 - 2014 Complete Inventory",
+        "time" : {
+          "start" : 1620364329842,
+          "stop" : 1620364332863,
+          "duration" : 3021
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissrelease/Delete/12786",
+        "time" : {
+          "start" : 1620364332863,
+          "stop" : 1620364338046,
+          "duration" : 5183
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620364338058,
+          "stop" : 1620364338129,
+          "duration" : 71
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "2525bffec949eed7",
+          "name" : "Attachment Title",
+          "source" : "2525bffec949eed7.png",
+          "type" : "image/png",
+          "size" : 51944
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ccc17971cf25a2d1",
+        "name" : "Console Output",
+        "source" : "ccc17971cf25a2d1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620364341678,
+      "stop" : 1620364341678,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620364341678,
+      "stop" : 1620364341678,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOCKEDINVENTORY_17"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LockedInventory"
+  }, {
+    "name" : "tag",
+    "value" : "LOCKEDINVENTORY.17"
+  }, {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "cdd9fef1a9169ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620292119056,
+          "stop" : 1620292131058,
+          "duration" : 12002
+        }
+      }, {
+        "uid" : "16b588154a470dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620188433777,
+          "stop" : 1620188447607,
+          "duration" : 13830
+        }
+      }, {
+        "uid" : "cc2bdc4af1182ef1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619841637479,
+          "stop" : 1619841649628,
+          "duration" : 12149
+        }
+      }, {
+        "uid" : "5be55aa6b81bb19b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619759208580,
+          "stop" : 1619759220570,
+          "duration" : 11990
+        }
+      }, {
+        "uid" : "bf157a112d47ee31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619670764450,
+          "stop" : 1619670776381,
+          "duration" : 11931
+        }
+      }, {
+        "uid" : "cfc187acfbbaf856",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619582011031,
+          "stop" : 1619582022983,
+          "duration" : 11952
+        }
+      }, {
+        "uid" : "9ab48fd5a0687a3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619413920091,
+          "stop" : 1619413932093,
+          "duration" : 12002
+        }
+      }, {
+        "uid" : "ba6d579f5a21cbc0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619148731699,
+          "stop" : 1619148743636,
+          "duration" : 11937
+        }
+      }, {
+        "uid" : "5eb719dee2cd0563",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618995503507,
+          "stop" : 1618995512424,
+          "duration" : 8917
+        }
+      }, {
+        "uid" : "44bacd182eee59da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618900215022,
+          "stop" : 1618900224171,
+          "duration" : 9149
+        }
+      }, {
+        "uid" : "9d110e3c9a232d8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618643479924,
+          "stop" : 1618643488835,
+          "duration" : 8911
+        }
+      }, {
+        "uid" : "fdb4aa1b00b04954",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618560055693,
+          "stop" : 1618560064630,
+          "duration" : 8937
+        }
+      }, {
+        "uid" : "be6ffdae8af772b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618479771721,
+          "stop" : 1618479780608,
+          "duration" : 8887
+        }
+      }, {
+        "uid" : "396809bf0ee6fc3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618388592326,
+          "stop" : 1618388601294,
+          "duration" : 8968
+        }
+      } ]
+    },
+    "tags" : [ "LOCKEDINVENTORY.17" ]
+  },
+  "source" : "b2ae2c36f6de0bcf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,379 @@
+{
+  "uid" : "ecff883afc4a0da4",
+  "name" : "DASHBOARDPORTAL_04",
+  "fullName" : "BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04",
+  "historyId" : "BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04",
+  "time" : {
+    "start" : 1620389328597,
+    "stop" : 1620389472598,
+    "duration" : 144001
+  },
+  "description" : "Verify submit from corrective action\n",
+  "descriptionHtml" : "<p>Verify submit from corrective action</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.Exception : (TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Submitted type: Point",
+  "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 258",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620389472598,
+      "stop" : 1620389472598,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1620389472598,
+      "stop" : 1620389472598,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Verify submit from corrective action\n",
+    "status" : "failed",
+    "statusMessage" : "System.Exception : (TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Submitted type: Point",
+    "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 258",
+    "steps" : [ {
+      "name" : "DASHBOARDPORTAL_04",
+      "time" : {
+        "start" : 1620389328597,
+        "stop" : 1620389472598,
+        "duration" : 144001
+      },
+      "status" : "failed",
+      "statusMessage" : "System.Exception : (TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Submitted type: Point",
+      "statusTrace" : "   at BOEM_Tests.Tests.DashboardPortal.DASHBOARDPORTAL_04() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\DashboardPortal.cs:line 258",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1620389328600,
+          "stop" : 1620389328614,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Check inventory 2017 - QA - single facility - Cantium - FF - Ready to Submit",
+        "time" : {
+          "start" : 1620389328614,
+          "stop" : 1620389331631,
+          "duration" : 3017
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Clicking on Admin Submittal menu",
+        "time" : {
+          "start" : 1620389331631,
+          "stop" : 1620389339646,
+          "duration" : 8015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Override information QA - single facility - Cantium - FF - Ready to Submit, 1-1 - FF - cantium - Notice To Submit - Point",
+        "time" : {
+          "start" : 1620389339646,
+          "stop" : 1620389402059,
+          "duration" : 62413
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Notice To Submit type: Point",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_OverrideInformation_100664600_o(String inventory, String source, String status, String type) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\DshBrdMain\\DshBrdMainPage.cs:line 630\r\n   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_OverrideInformation_100664600_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620389402059,
+          "stop" : 1620389402128,
+          "duration" : 69
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c3ab6a4a0c5b55c1",
+          "name" : "Attachment Title",
+          "source" : "c3ab6a4a0c5b55c1.png",
+          "type" : "image/png",
+          "size" : 93990
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "Clicking on Admin Submittal menu",
+        "time" : {
+          "start" : 1620389402129,
+          "stop" : 1620389410143,
+          "duration" : 8014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "Override information QA - single facility - Cantium - FF - Ready to Submit, 1-1 - FF - cantium - Submitted - Point",
+        "time" : {
+          "start" : 1620389410143,
+          "stop" : 1620389472597,
+          "duration" : 62454
+        },
+        "status" : "failed",
+        "statusMessage" : "(TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Submitted type: Point",
+        "statusTrace" : "   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_OverrideInformation_100664600_o(String inventory, String source, String status, String type) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\DshBrdMain\\DshBrdMainPage.cs:line 630\r\n   at BOEM_Tests.PageObjects.DshBrdMainPage.__a$_around_OverrideInformation_100664600_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "625d470da76d2c9f",
+        "name" : "Console Output",
+        "source" : "625d470da76d2c9f.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620389472598,
+      "stop" : 1620389472598,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620389472598,
+      "stop" : 1620389472598,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.DashboardPortal"
+  }, {
+    "name" : "testMethod",
+    "value" : "DASHBOARDPORTAL_04"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.DashboardPortal"
+  }, {
+    "name" : "tag",
+    "value" : "DASHBOARD.PORTAL.4"
+  }, {
+    "name" : "suite",
+    "value" : "Dashboard.Portal"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "75e9edb7f2a1813a",
+      "status" : "failed",
+      "statusDetails" : "System.Exception : (TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Submitted type: Point",
+      "time" : {
+        "start" : 1620343775388,
+        "stop" : 1620344182923,
+        "duration" : 407535
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "9efc2f1bf52e3ef4",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : (TEST FAILED) It was NOT found the inventory to Override Information! EXPECTED VALUES -> inventory: QA - single facility - Cantium - FF - Ready to Submit source: 1-1 - FF - cantium status: Submitted type: Point",
+        "time" : {
+          "start" : 1620271416768,
+          "stop" : 1620271824212,
+          "duration" : 407444
+        }
+      }, {
+        "uid" : "9ac448ecd9589322",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620222107662,
+          "stop" : 1620222660874,
+          "duration" : 553212
+        }
+      }, {
+        "uid" : "68640569b064cb5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619824044025,
+          "stop" : 1619824587238,
+          "duration" : 543213
+        }
+      }, {
+        "uid" : "1266903c1a1d3cfb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619741584984,
+          "stop" : 1619742128038,
+          "duration" : 543054
+        }
+      }, {
+        "uid" : "8d844273363ae09e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619653351809,
+          "stop" : 1619653895050,
+          "duration" : 543241
+        }
+      }, {
+        "uid" : "d526e91b9339d150",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619621057572,
+          "stop" : 1619621478847,
+          "duration" : 421275
+        }
+      }, {
+        "uid" : "248250c8eb0f74ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619395939156,
+          "stop" : 1619396388790,
+          "duration" : 449634
+        }
+      }, {
+        "uid" : "721d629e25ebd65d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619130768549,
+          "stop" : 1619131217132,
+          "duration" : 448583
+        }
+      }, {
+        "uid" : "9ab47abb8963a0ec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619005395410,
+          "stop" : 1619005816653,
+          "duration" : 421243
+        }
+      }, {
+        "uid" : "7651f6971c23eec0",
+        "status" : "failed",
+        "statusDetails" : "System.Exception : The test's cleanUp failed!",
+        "time" : {
+          "start" : 1618919837410,
+          "stop" : 1618919890072,
+          "duration" : 52662
+        }
+      } ]
+    },
+    "tags" : [ "DASHBOARD.PORTAL.4" ]
+  },
+  "source" : "ecff883afc4a0da4.json",
+  "parameterValues" : [ ]
+}
