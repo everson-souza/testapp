@@ -1,0 +1,339 @@
+{
+  "uid" : "7dcb5b767437b72f",
+  "name" : "ADMINSECURITY_33",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_33",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_33",
+  "time" : {
+    "start" : 1620427975297,
+    "stop" : 1620428007147,
+    "duration" : 31850
+  },
+  "description" : "Test with admin user to show access is permitted. Try to access the url: '/WizInviteUsers'. Should fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Try to access the url: '/WizInviteUsers'. Should fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620428007147,
+      "stop" : 1620428007147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620428007147,
+      "stop" : 1620428007147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Try to access the url: '/WizInviteUsers'. Should fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_33",
+      "time" : {
+        "start" : 1620427975297,
+        "stop" : 1620428007147,
+        "duration" : 31850
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620427975299,
+          "stop" : 1620427975318,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /ReviewInvitations",
+        "time" : {
+          "start" : 1620427975318,
+          "stop" : 1620427980786,
+          "duration" : 5468
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on element By.Id: btnInvite",
+        "time" : {
+          "start" : 1620427980787,
+          "stop" : 1620428001051,
+          "duration" : 20264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1620428001051,
+          "stop" : 1620428002060,
+          "duration" : 1009
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if popup loaed correctly",
+        "time" : {
+          "start" : 1620428002061,
+          "stop" : 1620428007084,
+          "duration" : 5023
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620428007084,
+          "stop" : 1620428007147,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1d728144d5f95964",
+          "name" : "Attachment Title",
+          "source" : "1d728144d5f95964.png",
+          "type" : "image/png",
+          "size" : 61099
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "13c03efd3d92b1bd",
+        "name" : "Console Output",
+        "source" : "13c03efd3d92b1bd.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620428007147,
+      "stop" : 1620428007147,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620428007147,
+      "stop" : 1620428007147,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_33"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.33"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "a501c024d6800515",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620342371026,
+          "stop" : 1620342402868,
+          "duration" : 31842
+        }
+      }, {
+        "uid" : "ec0188f348f5db98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620270036081,
+          "stop" : 1620270067915,
+          "duration" : 31834
+        }
+      }, {
+        "uid" : "5d9a80eb828cade9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169259542,
+          "stop" : 1620169292288,
+          "duration" : 32746
+        }
+      }, {
+        "uid" : "c1d38f57e1021025",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619822606645,
+          "stop" : 1619822638512,
+          "duration" : 31867
+        }
+      }, {
+        "uid" : "1bd34205bff6c430",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619740098348,
+          "stop" : 1619740130252,
+          "duration" : 31904
+        }
+      }, {
+        "uid" : "fd34bee32ebd5f8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619651908085,
+          "stop" : 1619651939947,
+          "duration" : 31862
+        }
+      }, {
+        "uid" : "3f868ada410f6b4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619563973652,
+          "stop" : 1619564005488,
+          "duration" : 31836
+        }
+      }, {
+        "uid" : "990d53fcb7018ad3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619394127808,
+          "stop" : 1619394159656,
+          "duration" : 31848
+        }
+      }, {
+        "uid" : "ecfdef9c8f0ec660",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619129010784,
+          "stop" : 1619129042636,
+          "duration" : 31852
+        }
+      }, {
+        "uid" : "aa364bc3d2d82d0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618973376772,
+          "stop" : 1618973408582,
+          "duration" : 31810
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.33" ]
+  },
+  "source" : "7dcb5b767437b72f.json",
+  "parameterValues" : [ ]
+}

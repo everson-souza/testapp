@@ -1,0 +1,254 @@
+{
+  "uid" : "62c804282f32c993",
+  "name" : "REPORTS_36",
+  "fullName" : "BOEM_Tests.Tests.Reports.REPORTS_36",
+  "historyId" : "BOEM_Tests.Tests.Reports.REPORTS_36",
+  "time" : {
+    "start" : 1620658784697,
+    "stop" : 1620658909651,
+    "duration" : 124954
+  },
+  "description" : "Generate a report about 'Inventories by Submission Status - Ready' and verify the current page\n",
+  "descriptionHtml" : "<p>Generate a report about 'Inventories by Submission Status - Ready' and verify the current page</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <a href=\"javascript:selectProject(2)\"> could not be scrolled into view",
+  "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_36() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1611",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620658909650,
+      "stop" : 1620658909650,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620658909650,
+      "stop" : 1620658909650,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Generate a report about 'Inventories by Submission Status - Ready' and verify the current page\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <a href=\"javascript:selectProject(2)\"> could not be scrolled into view",
+    "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_36() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1611",
+    "steps" : [ {
+      "name" : "REPORTS_36",
+      "time" : {
+        "start" : 1620658784697,
+        "stop" : 1620658909651,
+        "duration" : 124954
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <a href=\"javascript:selectProject(2)\"> could not be scrolled into view",
+      "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_36() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1611",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1620658784700,
+          "stop" : 1620658784711,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620658784711,
+          "stop" : 1620658787725,
+          "duration" : 3014
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Open Select Inventory page",
+        "time" : {
+          "start" : 1620658787726,
+          "stop" : 1620658798194,
+          "duration" : 10468
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Select inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620658798194,
+          "stop" : 1620658909640,
+          "duration" : 111446
+        },
+        "status" : "failed",
+        "statusMessage" : "Element <a href=\"javascript:selectProject(2)\"> could not be scrolled into view",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_o(String description) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 234\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Set copy inventory search to 2017 - 2017 Complete Inventory",
+          "time" : {
+            "start" : 1620658828208,
+            "stop" : 1620658839546,
+            "duration" : 11338
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620658909640,
+          "stop" : 1620658909649,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3f79f007745d4405",
+          "name" : "Attachment Title",
+          "source" : "3f79f007745d4405.png",
+          "type" : "image/png",
+          "size" : 1582
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "143e7ccba6f7d2d7",
+        "name" : "Console Output",
+        "source" : "143e7ccba6f7d2d7.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620658909650,
+      "stop" : 1620658909650,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620658909650,
+      "stop" : 1620658909650,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "testMethod",
+    "value" : "REPORTS_36"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "tag",
+    "value" : "REPORTS.36"
+  }, {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "REPORTS.36" ]
+  },
+  "source" : "62c804282f32c993.json",
+  "parameterValues" : [ ]
+}

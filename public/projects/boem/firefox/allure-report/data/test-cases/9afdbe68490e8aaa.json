@@ -1,0 +1,324 @@
+{
+  "uid" : "9afdbe68490e8aaa",
+  "name" : "ADMINSECURITY_20",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_20",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_20",
+  "time" : {
+    "start" : 1620427738565,
+    "stop" : 1620427747123,
+    "duration" : 8558
+  },
+  "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+  "descriptionHtml" : "<p>An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620427747122,
+      "stop" : 1620427747122,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620427747122,
+      "stop" : 1620427747122,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "An user (without permissions) sign in and try to access an admin URL. It expects to redirect to /error/accessdenied\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_20",
+      "time" : {
+        "start" : 1620427738565,
+        "stop" : 1620427747122,
+        "duration" : 8557
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Admin user",
+        "time" : {
+          "start" : 1620427738566,
+          "stop" : 1620427738574,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1620427738575,
+          "stop" : 1620427740591,
+          "duration" : 2016
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /AdminRefTables",
+        "time" : {
+          "start" : 1620427740591,
+          "stop" : 1620427746055,
+          "duration" : 5464
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check if URL ends with /Error/AccessDenied",
+        "time" : {
+          "start" : 1620427746055,
+          "stop" : 1620427747070,
+          "duration" : 1015
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620427747070,
+          "stop" : 1620427747122,
+          "duration" : 52
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "65debcbb290559d2",
+          "name" : "Attachment Title",
+          "source" : "65debcbb290559d2.png",
+          "type" : "image/png",
+          "size" : 52659
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "954b70b518652ec4",
+        "name" : "Console Output",
+        "source" : "954b70b518652ec4.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620427747122,
+      "stop" : 1620427747122,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620427747122,
+      "stop" : 1620427747122,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_20"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.20"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "de09ca9f9084b3b4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620342135327,
+          "stop" : 1620342143883,
+          "duration" : 8556
+        }
+      }, {
+        "uid" : "a189dad3b4ddcf5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620269800469,
+          "stop" : 1620269809050,
+          "duration" : 8581
+        }
+      }, {
+        "uid" : "3a9f3a8329afaaea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168990814,
+          "stop" : 1620169000899,
+          "duration" : 10085
+        }
+      }, {
+        "uid" : "357a01de0717801",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619822370072,
+          "stop" : 1619822378651,
+          "duration" : 8579
+        }
+      }, {
+        "uid" : "66fc18fd544d02d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619739862455,
+          "stop" : 1619739871046,
+          "duration" : 8591
+        }
+      }, {
+        "uid" : "a7a6d7291542af61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619651671250,
+          "stop" : 1619651679834,
+          "duration" : 8584
+        }
+      }, {
+        "uid" : "6d29f9e871e8cd4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619563737277,
+          "stop" : 1619563745869,
+          "duration" : 8592
+        }
+      }, {
+        "uid" : "5c9ce00e118cab47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619393891328,
+          "stop" : 1619393899883,
+          "duration" : 8555
+        }
+      }, {
+        "uid" : "7948d7524ae60fc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619128774932,
+          "stop" : 1619128783495,
+          "duration" : 8563
+        }
+      }, {
+        "uid" : "57f0b94a4588d6a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618973141178,
+          "stop" : 1618973149729,
+          "duration" : 8551
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.20" ]
+  },
+  "source" : "9afdbe68490e8aaa.json",
+  "parameterValues" : [ ]
+}

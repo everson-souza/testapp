@@ -1,0 +1,384 @@
+{
+  "uid" : "f46b3c24edb8064b",
+  "name" : "ADMINSECURITY_04",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_04",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_04",
+  "time" : {
+    "start" : 1620427531364,
+    "stop" : 1620427573752,
+    "duration" : 42388
+  },
+  "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects the grid show no values\n",
+  "descriptionHtml" : "<p>Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects the grid show no values</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620427573752,
+      "stop" : 1620427573752,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620427573752,
+      "stop" : 1620427573752,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Admin user sign in and try to access /Activity/AllActivityList?appKey=MapleLeafs URL. It expects the grid show no values\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_04",
+      "time" : {
+        "start" : 1620427531364,
+        "stop" : 1620427573752,
+        "duration" : 42388
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1620427531366,
+          "stop" : 1620427552965,
+          "duration" : 21599
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620427534977,
+            "stop" : 1620427538116,
+            "duration" : 3139
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Set username to QA_BOEMAdmin@weblakes.com",
+          "time" : {
+            "start" : 1620427538116,
+            "stop" : 1620427538173,
+            "duration" : 57
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Set password to 23M8BScKKXGUa5525",
+          "time" : {
+            "start" : 1620427538173,
+            "stop" : 1620427538201,
+            "duration" : 28
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620427538201,
+            "stop" : 1620427542964,
+            "duration" : 4763
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /AdminAccountActivity/AllActivityList?appKey=MapleLeafs",
+        "time" : {
+          "start" : 1620427552965,
+          "stop" : 1620427558644,
+          "duration" : 5679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check application key equals 1",
+        "time" : {
+          "start" : 1620427558645,
+          "stop" : 1620427573688,
+          "duration" : 15043
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get OCS AQS version",
+          "time" : {
+            "start" : 1620427568657,
+            "stop" : 1620427573675,
+            "duration" : 5018
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620427573689,
+          "stop" : 1620427573752,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b6be55601ad766e6",
+          "name" : "Attachment Title",
+          "source" : "b6be55601ad766e6.png",
+          "type" : "image/png",
+          "size" : 77745
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "27e020845ed29556",
+        "name" : "Console Output",
+        "source" : "27e020845ed29556.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620427573752,
+      "stop" : 1620427573752,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620427573752,
+      "stop" : 1620427573752,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_04"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.4"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "e3c2d5a0f442fb21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620341929267,
+          "stop" : 1620341971617,
+          "duration" : 42350
+        }
+      }, {
+        "uid" : "5201a017668af66f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620269594391,
+          "stop" : 1620269636813,
+          "duration" : 42422
+        }
+      }, {
+        "uid" : "141cb0d77a6dd63e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620168751896,
+          "stop" : 1620168802751,
+          "duration" : 50855
+        }
+      }, {
+        "uid" : "797caf6462beef0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619822164011,
+          "stop" : 1619822206411,
+          "duration" : 42400
+        }
+      }, {
+        "uid" : "7be6ef997217a6a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619739655919,
+          "stop" : 1619739698433,
+          "duration" : 42514
+        }
+      }, {
+        "uid" : "149205257468aefe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619651462853,
+          "stop" : 1619651505331,
+          "duration" : 42478
+        }
+      }, {
+        "uid" : "becaff518a9f540f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619563530690,
+          "stop" : 1619563573188,
+          "duration" : 42498
+        }
+      }, {
+        "uid" : "48211678e20bbca9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619393685259,
+          "stop" : 1619393727593,
+          "duration" : 42334
+        }
+      }, {
+        "uid" : "21f47ec8a1fb413d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619128568071,
+          "stop" : 1619128610647,
+          "duration" : 42576
+        }
+      }, {
+        "uid" : "e38427cf784c8752",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618972935251,
+          "stop" : 1618972977534,
+          "duration" : 42283
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.4" ]
+  },
+  "source" : "f46b3c24edb8064b.json",
+  "parameterValues" : [ ]
+}

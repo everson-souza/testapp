@@ -1,0 +1,310 @@
+{
+  "uid" : "81b15304a2c48716",
+  "name" : "ADMINSECURITY_36",
+  "fullName" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36",
+  "historyId" : "BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36",
+  "time" : {
+    "start" : 1620428041008,
+    "stop" : 1620428096857,
+    "duration" : 55849
+  },
+  "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load\n",
+  "descriptionHtml" : "<p>Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1153",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620428096857,
+      "stop" : 1620428096857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "SetUp_Test",
+    "time" : {
+      "start" : 1620428096857,
+      "stop" : 1620428096857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test with admin user to show access is permitted. Admin user sign in and try to access '/AdminChangeLog' URL. It expects normal page load\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1153",
+    "steps" : [ {
+      "name" : "ADMINSECURITY_36",
+      "time" : {
+        "start" : 1620428041008,
+        "stop" : 1620428096857,
+        "duration" : 55849
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminSecurity.ADMINSECURITY_36() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminSecurity.cs:line 1153",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620428041010,
+          "stop" : 1620428041029,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Access relative URL /AdminChangeLog",
+        "time" : {
+          "start" : 1620428041029,
+          "stop" : 1620428096044,
+          "duration" : 55015
+        },
+        "status" : "failed",
+        "statusMessage" : "",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.set_Url(String value)\r\n   at OpenQA.Selenium.Remote.RemoteNavigator.GoToUrl(String url)\r\n   at BOEM_Tests.PageObjects.AdminSecurityPage.__a$_around_AccessRelativeUrl_100665994_o(String relativeUrl) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminSecurity\\AdminSecurityPage.cs:line 171\r\n   at BOEM_Tests.PageObjects.AdminSecurityPage.__a$_around_AccessRelativeUrl_100665994_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620428096044,
+          "stop" : 1620428096100,
+          "duration" : 56
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c4d6635cf6f6cda8",
+          "name" : "Attachment Title",
+          "source" : "c4d6635cf6f6cda8.png",
+          "type" : "image/png",
+          "size" : 57005
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "189cdb1983c6aad4",
+        "name" : "Console Output",
+        "source" : "189cdb1983c6aad4.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620428096857,
+      "stop" : 1620428096857,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620428096857,
+      "stop" : 1620428096857,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINSECURITY_36"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINSECURITY.36"
+  }, {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "d65190626511f41d",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1620392602650,
+          "stop" : 1620392682380,
+          "duration" : 79730
+        }
+      }, {
+        "uid" : "dd42a30fd9284fa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620270101312,
+          "stop" : 1620270117901,
+          "duration" : 16589
+        }
+      }, {
+        "uid" : "44920b82fc3b3e84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620169327306,
+          "stop" : 1620169344802,
+          "duration" : 17496
+        }
+      }, {
+        "uid" : "ff347aa9c3bec0f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620049812706,
+          "stop" : 1620049861194,
+          "duration" : 48488
+        }
+      }, {
+        "uid" : "13d005a21009e8dd",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1619740164010,
+          "stop" : 1619740219850,
+          "duration" : 55840
+        }
+      }, {
+        "uid" : "c31ceb1145d0a9ca",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page is taking too long to load",
+        "time" : {
+          "start" : 1619651973513,
+          "stop" : 1619652029396,
+          "duration" : 55883
+        }
+      }, {
+        "uid" : "6af3cfb0d0f86329",
+        "status" : "failed",
+        "statusDetails" : "OpenQA.Selenium.WebDriverTimeoutException : Page took too long to load",
+        "time" : {
+          "start" : 1619623965358,
+          "stop" : 1619624042479,
+          "duration" : 77121
+        }
+      }, {
+        "uid" : "48ac16792115fc3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619394193541,
+          "stop" : 1619394210120,
+          "duration" : 16579
+        }
+      }, {
+        "uid" : "27980ed4895b6093",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619129076391,
+          "stop" : 1619129096743,
+          "duration" : 20352
+        }
+      }, {
+        "uid" : "334ce8692bf70e73",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618973442543,
+          "stop" : 1618973459119,
+          "duration" : 16576
+        }
+      } ]
+    },
+    "tags" : [ "ADMINSECURITY.36" ]
+  },
+  "source" : "81b15304a2c48716.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,256 @@
+{
+  "uid" : "f7914358fdee962b",
+  "name" : "REPORTS_34",
+  "fullName" : "BOEM_Tests.Tests.Reports.REPORTS_34",
+  "historyId" : "BOEM_Tests.Tests.Reports.REPORTS_34",
+  "time" : {
+    "start" : 1620658729828,
+    "stop" : 1620658784691,
+    "duration" : 54863
+  },
+  "description" : "Generate a report about 'Flare Gas Volume by Facility' and verify the current pages\n",
+  "descriptionHtml" : "<p>Generate a report about 'Flare Gas Volume by Facility' and verify the current pages</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+  "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_34() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1570",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620658784691,
+      "stop" : 1620658784691,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620658784691,
+      "stop" : 1620658784691,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Generate a report about 'Flare Gas Volume by Facility' and verify the current pages\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+    "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_34() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1570",
+    "steps" : [ {
+      "name" : "REPORTS_34",
+      "time" : {
+        "start" : 1620658729828,
+        "stop" : 1620658784691,
+        "duration" : 54863
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.ElementNotInteractableException : Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+      "statusTrace" : "   at BOEM_Tests.Tests.Reports.REPORTS_34() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\Reports.cs:line 1570",
+      "steps" : [ {
+        "name" : "Log in using QA Admin user",
+        "time" : {
+          "start" : 1620658729830,
+          "stop" : 1620658729845,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620658729846,
+          "stop" : 1620658732870,
+          "duration" : 3024
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Open Select Inventory page",
+        "time" : {
+          "start" : 1620658732870,
+          "stop" : 1620658743419,
+          "duration" : 10549
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Select inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620658743419,
+          "stop" : 1620658784683,
+          "duration" : 41264
+        },
+        "status" : "failed",
+        "statusMessage" : "Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+        "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665944_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 825\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665944_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665944_w_0(Object[] )\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.PopulateInventorySearch(String searchText)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_o(String description) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 234\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_SelectInventory_100665910_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ {
+          "name" : "Set copy inventory search to 2017 - 2017 Complete Inventory",
+          "time" : {
+            "start" : 1620658773428,
+            "stop" : 1620658784682,
+            "duration" : 11254
+          },
+          "status" : "failed",
+          "statusMessage" : "Element <input id=\"gs___ANY_COLUMN\" name=\"__ANY_COLUMN\" type=\"text\"> is not reachable by keyboard",
+          "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665944_o(String searchText) in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\SelectInventory\\SelectInventoryPage.cs:line 825\r\n   at BOEM_Tests.PageObjects.SelectInventoryPage.__a$_around_PopulateInventorySearch_100665944_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : true
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620658784683,
+          "stop" : 1620658784691,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "de1f0fd83d2848e2",
+          "name" : "Attachment Title",
+          "source" : "de1f0fd83d2848e2.png",
+          "type" : "image/png",
+          "size" : 1948
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "71dfc84da788c308",
+        "name" : "Console Output",
+        "source" : "71dfc84da788c308.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620658784691,
+      "stop" : 1620658784691,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620658784691,
+      "stop" : 1620658784691,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "testMethod",
+    "value" : "REPORTS_34"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Reports"
+  }, {
+    "name" : "tag",
+    "value" : "REPORTS.34"
+  }, {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "REPORTS.34" ]
+  },
+  "source" : "f7914358fdee962b.json",
+  "parameterValues" : [ ]
+}
