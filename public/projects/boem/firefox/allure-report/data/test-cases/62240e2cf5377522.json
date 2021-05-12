@@ -1,0 +1,332 @@
+{
+  "uid" : "62240e2cf5377522",
+  "name" : "ACCESSRIGHTSECURITY_12",
+  "fullName" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_12",
+  "historyId" : "BOEM_Tests.Tests.AccessRightSecurity.ACCESSRIGHTSECURITY_12",
+  "time" : {
+    "start" : 1620778964003,
+    "stop" : 1620778975011,
+    "duration" : 11008
+  },
+  "description" : "Ensure access denied to edit Emission Process in Platform & Emissions\n",
+  "descriptionHtml" : "<p>Ensure access denied to edit Emission Process in Platform &amp; Emissions</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620778975008,
+      "stop" : 1620778975008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620778975008,
+      "stop" : 1620778975008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Ensure access denied to edit Emission Process in Platform & Emissions\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "ACCESSRIGHTSECURITY_12",
+      "time" : {
+        "start" : 1620778964003,
+        "stop" : 1620778975011,
+        "duration" : 11008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA Not Edit user",
+        "time" : {
+          "start" : 1620778964010,
+          "stop" : 1620778964069,
+          "duration" : 59
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check and select correct project FAT_BOEM_GOM",
+        "time" : {
+          "start" : 1620778964113,
+          "stop" : 1620778966132,
+          "duration" : 2019
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check inventory 2017 - 2017 Complete Inventory",
+        "time" : {
+          "start" : 1620778966132,
+          "stop" : 1620778966154,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Access relative URL /Input/NavPointsources/Pntemissprocess/Edit/24528",
+        "time" : {
+          "start" : 1620778966154,
+          "stop" : 1620778971339,
+          "duration" : 5185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620778971351,
+          "stop" : 1620778971414,
+          "duration" : 63
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "4175739c67b92214",
+          "name" : "Attachment Title",
+          "source" : "4175739c67b92214.png",
+          "type" : "image/png",
+          "size" : 52780
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "877bcef488605819",
+        "name" : "Console Output",
+        "source" : "877bcef488605819.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620778975008,
+      "stop" : 1620778975008,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620778975008,
+      "stop" : 1620778975008,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "testMethod",
+    "value" : "ACCESSRIGHTSECURITY_12"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AccessRightSecurity"
+  }, {
+    "name" : "tag",
+    "value" : "ACCESSRIGHTSECURITY.12"
+  }, {
+    "name" : "suite",
+    "value" : "AccessRightSecurity"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "5c9b0cc274b755e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620424832489,
+          "stop" : 1620424846425,
+          "duration" : 13936
+        }
+      }, {
+        "uid" : "a2d8683d63b04d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620339117741,
+          "stop" : 1620339131994,
+          "duration" : 14253
+        }
+      }, {
+        "uid" : "c1551df9fca7775",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620266940431,
+          "stop" : 1620266954782,
+          "duration" : 14351
+        }
+      }, {
+        "uid" : "8739bdda3c23e040",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620165790602,
+          "stop" : 1620165806889,
+          "duration" : 16287
+        }
+      }, {
+        "uid" : "bcfeb089347ccaea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619819380212,
+          "stop" : 1619819394501,
+          "duration" : 14289
+        }
+      }, {
+        "uid" : "ae3ffa243685d647",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619736749019,
+          "stop" : 1619736763376,
+          "duration" : 14357
+        }
+      }, {
+        "uid" : "33315612f807f0e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619648681725,
+          "stop" : 1619648696070,
+          "duration" : 14345
+        }
+      }, {
+        "uid" : "999d79e6b13e8b0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619560845286,
+          "stop" : 1619560859602,
+          "duration" : 14316
+        }
+      }, {
+        "uid" : "162d2ad925b7ce7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619391026945,
+          "stop" : 1619391041290,
+          "duration" : 14345
+        }
+      }, {
+        "uid" : "65cd8d8a8d11f918",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619125887042,
+          "stop" : 1619125901207,
+          "duration" : 14165
+        }
+      }, {
+        "uid" : "ced8d34d0bb40263",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618970042527,
+          "stop" : 1618970056824,
+          "duration" : 14297
+        }
+      } ]
+    },
+    "tags" : [ "ACCESSRIGHTSECURITY.12" ]
+  },
+  "source" : "62240e2cf5377522.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,380 @@
+{
+  "uid" : "a6c132b61fc27dbe",
+  "name" : "URL_10",
+  "fullName" : "BOEM_Tests.Tests.Url.URL_10",
+  "historyId" : "BOEM_Tests.Tests.Url.URL_10",
+  "time" : {
+    "start" : 1620810676972,
+    "stop" : 1620810699431,
+    "duration" : 22459
+  },
+  "description" : "Try to access the url: '/ViewerMap'. Should be fail if page doesn't load\n",
+  "descriptionHtml" : "<p>Try to access the url: '/ViewerMap'. Should be fail if page doesn't load</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620810699431,
+      "stop" : 1620810699431,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "SetUpTest",
+    "time" : {
+      "start" : 1620810699431,
+      "stop" : 1620810699431,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access the url: '/ViewerMap'. Should be fail if page doesn't load\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "URL_10",
+      "time" : {
+        "start" : 1620810676972,
+        "stop" : 1620810699431,
+        "duration" : 22459
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Log in using QA user",
+        "time" : {
+          "start" : 1620810676974,
+          "stop" : 1620810676982,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Access relative url /ViewerMap",
+        "time" : {
+          "start" : 1620810676982,
+          "stop" : 1620810689303,
+          "duration" : 12321
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Check if page loaded correctly",
+        "time" : {
+          "start" : 1620810689303,
+          "stop" : 1620810699330,
+          "duration" : 10027
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Check if got server error message",
+          "time" : {
+            "start" : 1620810699312,
+            "stop" : 1620810699322,
+            "duration" : 10
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620810699330,
+          "stop" : 1620810699431,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3ee627ec6d5a5890",
+          "name" : "Attachment Title",
+          "source" : "3ee627ec6d5a5890.png",
+          "type" : "image/png",
+          "size" : 341416
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "9b3caf3f9958db2c",
+        "name" : "Console Output",
+        "source" : "9b3caf3f9958db2c.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620810699431,
+      "stop" : 1620810699431,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620810699431,
+      "stop" : 1620810699431,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "testMethod",
+    "value" : "URL_10"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.Url"
+  }, {
+    "name" : "tag",
+    "value" : "URL.10"
+  }, {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 18,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "9c62caced811ce3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620452039519,
+          "stop" : 1620452061962,
+          "duration" : 22443
+        }
+      }, {
+        "uid" : "9c72451b8c686f6a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620376040153,
+          "stop" : 1620376062581,
+          "duration" : 22428
+        }
+      }, {
+        "uid" : "eb39bb9e59701e8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620304236901,
+          "stop" : 1620304259331,
+          "duration" : 22430
+        }
+      }, {
+        "uid" : "958c9707ce6062ad",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620200817810,
+          "stop" : 1620200841035,
+          "duration" : 23225
+        }
+      }, {
+        "uid" : "30ad1299241753b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619853771147,
+          "stop" : 1619853793676,
+          "duration" : 22529
+        }
+      }, {
+        "uid" : "c06297bc2e915fbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619771341439,
+          "stop" : 1619771363864,
+          "duration" : 22425
+        }
+      }, {
+        "uid" : "a575e6671d47a38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619682891047,
+          "stop" : 1619682913887,
+          "duration" : 22840
+        }
+      }, {
+        "uid" : "bff7dfad460e1821",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619594289130,
+          "stop" : 1619594311945,
+          "duration" : 22815
+        }
+      }, {
+        "uid" : "e24ed266e7d06995",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619426048566,
+          "stop" : 1619426071031,
+          "duration" : 22465
+        }
+      }, {
+        "uid" : "848806761abb080f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619160857948,
+          "stop" : 1619160880363,
+          "duration" : 22415
+        }
+      }, {
+        "uid" : "692398f04aefe0da",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618997651342,
+          "stop" : 1618997680948,
+          "duration" : 29606
+        }
+      }, {
+        "uid" : "3dbf740a0c79ef99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618909308783,
+          "stop" : 1618909331176,
+          "duration" : 22393
+        }
+      }, {
+        "uid" : "36643ecff6b2c8cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618653739728,
+          "stop" : 1618653762139,
+          "duration" : 22411
+        }
+      }, {
+        "uid" : "c104ff2d2ef67146",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618577468269,
+          "stop" : 1618577490691,
+          "duration" : 22422
+        }
+      }, {
+        "uid" : "e41979640f7f4ff1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618488509640,
+          "stop" : 1618488532054,
+          "duration" : 22414
+        }
+      }, {
+        "uid" : "70a19e92cfb976a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618397366907,
+          "stop" : 1618397389385,
+          "duration" : 22478
+        }
+      }, {
+        "uid" : "5b086c45849a1fc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618303139084,
+          "stop" : 1618303161459,
+          "duration" : 22375
+        }
+      } ]
+    },
+    "tags" : [ "URL.10" ]
+  },
+  "source" : "a6c132b61fc27dbe.json",
+  "parameterValues" : [ ]
+}

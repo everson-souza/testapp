@@ -1,0 +1,782 @@
+{
+  "uid" : "1c29c5580714704e",
+  "name" : "LOGON_13",
+  "fullName" : "BOEM_Tests.Tests.LogOn.LOGON_13",
+  "historyId" : "BOEM_Tests.Tests.LogOn.LOGON_13",
+  "time" : {
+    "start" : 1620841090236,
+    "stop" : 1620841143489,
+    "duration" : 53253
+  },
+  "description" : "Try to access BOEM with a wrong login/password. Expected to redirect to page 'too many failed attempts'\n",
+  "descriptionHtml" : "<p>Try to access BOEM with a wrong login/password. Expected to redirect to page 'too many failed attempts'</p>\n",
+  "status" : "failed",
+  "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+  "statusTrace" : "   at BOEM_Tests.Tests.LogOn.LOGON_13() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 406",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1620841143489,
+      "stop" : 1620841143489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "Setup_Test",
+    "time" : {
+      "start" : 1620841143489,
+      "stop" : 1620841143489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Try to access BOEM with a wrong login/password. Expected to redirect to page 'too many failed attempts'\n",
+    "status" : "failed",
+    "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+    "statusTrace" : "   at BOEM_Tests.Tests.LogOn.LOGON_13() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 406",
+    "steps" : [ {
+      "name" : "LOGON_13",
+      "time" : {
+        "start" : 1620841090236,
+        "stop" : 1620841143489,
+        "duration" : 53253
+      },
+      "status" : "failed",
+      "statusMessage" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+      "statusTrace" : "   at BOEM_Tests.Tests.LogOn.LOGON_13() in C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\LogOn.cs:line 406",
+      "steps" : [ {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1620841090242,
+          "stop" : 1620841092819,
+          "duration" : 2577
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620841090974,
+            "stop" : 1620841091198,
+            "duration" : 224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1620841091198,
+            "stop" : 1620841091299,
+            "duration" : 101
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1620841091299,
+            "stop" : 1620841091348,
+            "duration" : 49
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620841091348,
+            "stop" : 1620841092819,
+            "duration" : 1471
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1620841092819,
+          "stop" : 1620841097830,
+          "duration" : 5011
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1620841097830,
+          "stop" : 1620841100651,
+          "duration" : 2821
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620841098020,
+            "stop" : 1620841098206,
+            "duration" : 186
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1620841098206,
+            "stop" : 1620841098284,
+            "duration" : 78
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1620841098284,
+            "stop" : 1620841098338,
+            "duration" : 54
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620841098338,
+            "stop" : 1620841100651,
+            "duration" : 2313
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1620841100651,
+          "stop" : 1620841105663,
+          "duration" : 5012
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1620841105663,
+          "stop" : 1620841110534,
+          "duration" : 4871
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620841105892,
+            "stop" : 1620841106089,
+            "duration" : 197
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1620841106089,
+            "stop" : 1620841106173,
+            "duration" : 84
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1620841106173,
+            "stop" : 1620841106233,
+            "duration" : 60
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620841106233,
+            "stop" : 1620841110534,
+            "duration" : 4301
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1620841110534,
+          "stop" : 1620841115545,
+          "duration" : 5011
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1620841115545,
+          "stop" : 1620841121404,
+          "duration" : 5859
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620841115749,
+            "stop" : 1620841115951,
+            "duration" : 202
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1620841115951,
+            "stop" : 1620841116061,
+            "duration" : 110
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1620841116061,
+            "stop" : 1620841116142,
+            "duration" : 81
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620841116142,
+            "stop" : 1620841121404,
+            "duration" : 5262
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1620841121404,
+          "stop" : 1620841126412,
+          "duration" : 5008
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Log in using ImNotARealUser@hackers.den user",
+        "time" : {
+          "start" : 1620841126412,
+          "stop" : 1620841132163,
+          "duration" : 5751
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Open login page",
+          "time" : {
+            "start" : 1620841126581,
+            "stop" : 1620841126759,
+            "duration" : 178
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set username to ImNotARealUser@hackers.den",
+          "time" : {
+            "start" : 1620841126759,
+            "stop" : 1620841126842,
+            "duration" : 83
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Set password to MyHax0rPasword",
+          "time" : {
+            "start" : 1620841126842,
+            "stop" : 1620841126886,
+            "duration" : 44
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "Click on login button",
+          "time" : {
+            "start" : 1620841126886,
+            "stop" : 1620841132163,
+            "duration" : 5277
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Wait 5000 ms",
+        "time" : {
+          "start" : 1620841132163,
+          "stop" : 1620841137166,
+          "duration" : 5003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1620841137191,
+          "stop" : 1620841137265,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "c4d6817744365055",
+          "name" : "Attachment Title",
+          "source" : "c4d6817744365055.png",
+          "type" : "image/png",
+          "size" : 89320
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      } ],
+      "attachments" : [ {
+        "uid" : "ed3f43cd938b8886",
+        "name" : "Console Output",
+        "source" : "ed3f43cd938b8886.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 31,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 32,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1620841143489,
+      "stop" : 1620841143489,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1620841143489,
+      "stop" : 1620841143489,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "QAB01"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "testMethod",
+    "value" : "LOGON_13"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.LogOn"
+  }, {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "LOGON.13",
+    "url" : "https://jira.com/browse/LOGON.13",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f1c8b68eea095a08",
+      "status" : "failed",
+      "statusDetails" : "System.NullReferenceException : Object reference not set to an instance of an object.\r\n\r\n  1)   Expected: True\r\n  But was:  False\r\n\r\n",
+      "time" : {
+        "start" : 1620800823996,
+        "stop" : 1620800877114,
+        "duration" : 53118
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 16,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "2a3e8765e5395bed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620450698997,
+          "stop" : 1620450842737,
+          "duration" : 143740
+        }
+      }, {
+        "uid" : "91f15605e3da0c70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620365601101,
+          "stop" : 1620365745046,
+          "duration" : 143945
+        }
+      }, {
+        "uid" : "fb39e8e807cd4c47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620293391414,
+          "stop" : 1620293534932,
+          "duration" : 143518
+        }
+      }, {
+        "uid" : "ba104cb76128d359",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620189778279,
+          "stop" : 1620189932660,
+          "duration" : 154381
+        }
+      }, {
+        "uid" : "60901d4523808101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620050360927,
+          "stop" : 1620050505249,
+          "duration" : 144322
+        }
+      }, {
+        "uid" : "df5d8037d4ce61b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619760481382,
+          "stop" : 1619760624867,
+          "duration" : 143485
+        }
+      }, {
+        "uid" : "822370f3e32a1673",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619672037960,
+          "stop" : 1619672181811,
+          "duration" : 143851
+        }
+      }, {
+        "uid" : "a0a3648a49e045e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619583339629,
+          "stop" : 1619583483125,
+          "duration" : 143496
+        }
+      }, {
+        "uid" : "458a1c8e5674bc99",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619415192564,
+          "stop" : 1619415336629,
+          "duration" : 144065
+        }
+      }, {
+        "uid" : "f50c101c9ee1a5d0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619150004100,
+          "stop" : 1619150147800,
+          "duration" : 143700
+        }
+      }, {
+        "uid" : "a67119cc3e31fdec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618996756456,
+          "stop" : 1618996900130,
+          "duration" : 143674
+        }
+      }, {
+        "uid" : "8ed5203c4d9ca0f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618901473265,
+          "stop" : 1618901601477,
+          "duration" : 128212
+        }
+      }, {
+        "uid" : "2eb4d75f2aed6b12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618644735780,
+          "stop" : 1618644864220,
+          "duration" : 128440
+        }
+      }, {
+        "uid" : "2b90833290549a72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618561307315,
+          "stop" : 1618561434997,
+          "duration" : 127682
+        }
+      }, {
+        "uid" : "7d9ed06bcbc1c452",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618481021318,
+          "stop" : 1618481149017,
+          "duration" : 127699
+        }
+      }, {
+        "uid" : "7228407780b11b2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618389844789,
+          "stop" : 1618389972968,
+          "duration" : 128179
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1c29c5580714704e.json",
+  "parameterValues" : [ ]
+}
