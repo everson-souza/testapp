@@ -211,7 +211,7 @@
                         {
                         from: 'Chrome',            
                         icon:'fab fa-chrome',
-                        time: '04/01/2020',
+                        time: '05/21/2020',
                         color: 'light-blue lighten-1',
                         },
                         {
