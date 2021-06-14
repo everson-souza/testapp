@@ -1,0 +1,224 @@
+{
+  "uid" : "6c7554fe59eb31a7",
+  "name" : "ADMINGROUPS_08",
+  "fullName" : "BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_08",
+  "historyId" : "BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_08",
+  "time" : {
+    "start" : 1619538184040,
+    "stop" : 1619538196298,
+    "duration" : 12258
+  },
+  "description" : "Admin/Groups/delete Verify that you cannot delete the administators group because it has members\n",
+  "descriptionHtml" : "<p>Admin/Groups/delete Verify that you cannot delete the administators group because it has members</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: (//input[@value=''])[2]",
+  "statusTrace" : "   at BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_08() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminGroups.cs:line 286",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "PrepareResultsDir",
+    "time" : {
+      "start" : 1619538196296,
+      "stop" : 1619538196296,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "Setup",
+    "time" : {
+      "start" : 1619538196296,
+      "stop" : 1619538196296,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Admin/Groups/delete Verify that you cannot delete the administators group because it has members\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: (//input[@value=''])[2]",
+    "statusTrace" : "   at BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_08() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminGroups.cs:line 286",
+    "steps" : [ {
+      "name" : "ADMINGROUPS_08",
+      "time" : {
+        "start" : 1619538184040,
+        "stop" : 1619538196297,
+        "duration" : 12257
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: (//input[@value=''])[2]",
+      "statusTrace" : "   at BOEM_Tests.Tests.AdminGroups.ADMINGROUPS_08() in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\Tests\\AdminGroups.cs:line 286",
+      "steps" : [ {
+        "name" : "Open admin group page",
+        "time" : {
+          "start" : 1619538184115,
+          "stop" : 1619538185081,
+          "duration" : 966
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "Set search input to Administrators",
+        "time" : {
+          "start" : 1619538185081,
+          "stop" : 1619538190235,
+          "duration" : 5154
+        },
+        "status" : "failed",
+        "statusMessage" : "Could not find element by: By.XPath: (//input[@value=''])[2]",
+        "statusTrace" : "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\r\n   at SeleniumExtras.PageObjects.WebElementProxy.get_Element()\r\n   at SeleniumExtras.PageObjects.WebElementProxy.Invoke(IMessage msg)\r\n   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)\r\n   at OpenQA.Selenium.IWebElement.SendKeys(String text)\r\n   at BOEM_Tests.PageObjects.AdminGroupsPage.__a$_around_PopulateSearchInput_100664165_o(String searchText) in C:\\Users\\galen\\OneDrive\\Documentos\\GitHub\\Lakes\\BOEM_Tests\\BOEM\\BOEM_Tests\\PageObjects\\AdminGroup\\AdminGroupsPage.cs:line 158\r\n   at BOEM_Tests.PageObjects.AdminGroupsPage.__a$_around_PopulateSearchInput_100664165_u(Object[] )\r\n   at NUnit.Allure.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Taking Screenshot",
+        "time" : {
+          "start" : 1619538190236,
+          "stop" : 1619538190373,
+          "duration" : 137
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "72b2c95e47553e36",
+          "name" : "Attachment Title",
+          "source" : "72b2c95e47553e36.png",
+          "type" : "image/png",
+          "size" : 49940
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Open admin group page",
+        "time" : {
+          "start" : 1619538190373,
+          "stop" : 1619538191206,
+          "duration" : 833
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "3bbaa8aa0b8302c2",
+        "name" : "Console Output",
+        "source" : "3bbaa8aa0b8302c2.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "TearDown",
+    "time" : {
+      "start" : 1619538196296,
+      "stop" : 1619538196296,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "OneTimeTearDown",
+    "time" : {
+      "start" : 1619538196296,
+      "stop" : 1619538196296,
+      "duration" : 0
+    },
+    "status" : "unknown",
+    "statusMessage" : "It's not possible to get status of OneTimeTearDown",
+    "statusTrace" : "See Allure.NUnit wiki",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "SPEEDBYTES-HP"
+  }, {
+    "name" : "testClass",
+    "value" : "BOEM_Tests.Tests.AdminGroups"
+  }, {
+    "name" : "testMethod",
+    "value" : "ADMINGROUPS_08"
+  }, {
+    "name" : "package",
+    "value" : "BOEM_Tests.Tests.AdminGroups"
+  }, {
+    "name" : "tag",
+    "value" : "ADMINGROUPS.8"
+  }, {
+    "name" : "suite",
+    "value" : "AdminGroups"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ADMINGROUPS.8" ]
+  },
+  "source" : "6c7554fe59eb31a7.json",
+  "parameterValues" : [ ]
+}
