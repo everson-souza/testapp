@@ -1,0 +1,803 @@
+{
+  "uid" : "407573f93d7900fa",
+  "name" : "Reports_03",
+  "fullName" : "Reports_03",
+  "historyId" : "4d291dbcdc284b395d70eb17a3c18eb3",
+  "time" : {
+    "start" : 1624388394992,
+    "stop" : 1624388456635,
+    "duration" : 61643
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.then()` timed out after waiting `30000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\nfunction ($frame) { return __awaiter(_this, void 0, void 0, function () {\n        var contentWindow, hasNavigated, loadLog;\n        var _a, _b;\n        return __generator(this, function (_c) {\n            switch (_c.label) {\n                case 0:\n                    (_a = log) === null || _a === void 0 ? void 0 : _a.set('$el', $frame);\n                    if ($frame.length !== 1) {\n                        throw new Error(\"cypress-iframe commands can only be applied to exactly one iframe at a time.  Instead found \" + $frame.length);\n                    }\n                    contentWindow = $frame.prop('contentWindow');\n                    hasNavigated = fullOpts.url\n                        ? function () {\n                            var _a;\n                            return typeof fullOpts.url === 'string'\n                                ? contentWindow.location.toString().includes(fullOpts.url)\n                                : (_a = fullOpts.url) === null || _a === void 0 ? void 0 : _a.test(contentWindow.location.toString());\n                        }\n                        : function () { return contentWindow.location.toString() !== 'about:blank'; };\n                    _c.label = 1;\n                case 1:\n                    if (!!hasNavigated()) return [3, 3];\n                    return [4, sleep(100)];\n                case 2:\n                    _c.sent();\n                    return [3, 1];\n                case 3:\n                    if (contentWindow.document.readyState === 'complete') {\n                        return [2, $frame];\n                    }\n                    loadLog = Cypress.log({\n                        name: 'Frame Load',\n                        message: [contentWindow.location.toString()],\n                        event: true,\n                    }).snapshot();\n                    return [4, new Promise(function (resolve) {\n                            Cypress.$(contentWindow).on('load', resolve);\n                        })];\n                case 4:\n                    _c.sent();\n                    loadLog.end();\n                    (_b = log) === null || _b === void 0 ? void 0 : _b.finish();\n                    return [2, $frame];\n            }\n        });\n    }); }\n\nhttps://on.cypress.io/then",
+  "statusTrace" : "CypressError: `cy.then()` timed out after waiting `30000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\nfunction ($frame) { return __awaiter(_this, void 0, void 0, function () {\n        var contentWindow, hasNavigated, loadLog;\n        var _a, _b;\n        return __generator(this, function (_c) {\n            switch (_c.label) {\n                case 0:\n                    (_a = log) === null || _a === void 0 ? void 0 : _a.set('$el', $frame);\n                    if ($frame.length !== 1) {\n                        throw new Error(\"cypress-iframe commands can only be applied to exactly one iframe at a time.  Instead found \" + $frame.length);\n                    }\n                    contentWindow = $frame.prop('contentWindow');\n                    hasNavigated = fullOpts.url\n                        ? function () {\n                            var _a;\n                            return typeof fullOpts.url === 'string'\n                                ? contentWindow.location.toString().includes(fullOpts.url)\n                                : (_a = fullOpts.url) === null || _a === void 0 ? void 0 : _a.test(contentWindow.location.toString());\n                        }\n                        : function () { return contentWindow.location.toString() !== 'about:blank'; };\n                    _c.label = 1;\n                case 1:\n                    if (!!hasNavigated()) return [3, 3];\n                    return [4, sleep(100)];\n                case 2:\n                    _c.sent();\n                    return [3, 1];\n                case 3:\n                    if (contentWindow.document.readyState === 'complete') {\n                        return [2, $frame];\n                    }\n                    loadLog = Cypress.log({\n                        name: 'Frame Load',\n                        message: [contentWindow.location.toString()],\n                        event: true,\n                    }).snapshot();\n                    return [4, new Promise(function (resolve) {\n                            Cypress.$(contentWindow).on('load', resolve);\n                        })];\n                case 4:\n                    _c.sent();\n                    loadLog.end();\n                    (_b = log) === null || _b === void 0 ? void 0 : _b.finish();\n                    return [2, $frame];\n            }\n        });\n    }); }\n\nhttps://on.cypress.io/then\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:136187:24\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5920:41\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Context.frameLoaded (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\support\\index.js:11800:45)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.then()` timed out after waiting `30000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\nfunction ($frame) { return __awaiter(_this, void 0, void 0, function () {\n        var contentWindow, hasNavigated, loadLog;\n        var _a, _b;\n        return __generator(this, function (_c) {\n            switch (_c.label) {\n                case 0:\n                    (_a = log) === null || _a === void 0 ? void 0 : _a.set('$el', $frame);\n                    if ($frame.length !== 1) {\n                        throw new Error(\"cypress-iframe commands can only be applied to exactly one iframe at a time.  Instead found \" + $frame.length);\n                    }\n                    contentWindow = $frame.prop('contentWindow');\n                    hasNavigated = fullOpts.url\n                        ? function () {\n                            var _a;\n                            return typeof fullOpts.url === 'string'\n                                ? contentWindow.location.toString().includes(fullOpts.url)\n                                : (_a = fullOpts.url) === null || _a === void 0 ? void 0 : _a.test(contentWindow.location.toString());\n                        }\n                        : function () { return contentWindow.location.toString() !== 'about:blank'; };\n                    _c.label = 1;\n                case 1:\n                    if (!!hasNavigated()) return [3, 3];\n                    return [4, sleep(100)];\n                case 2:\n                    _c.sent();\n                    return [3, 1];\n                case 3:\n                    if (contentWindow.document.readyState === 'complete') {\n                        return [2, $frame];\n                    }\n                    loadLog = Cypress.log({\n                        name: 'Frame Load',\n                        message: [contentWindow.location.toString()],\n                        event: true,\n                    }).snapshot();\n                    return [4, new Promise(function (resolve) {\n                            Cypress.$(contentWindow).on('load', resolve);\n                        })];\n                case 4:\n                    _c.sent();\n                    loadLog.end();\n                    (_b = log) === null || _b === void 0 ? void 0 : _b.finish();\n                    return [2, $frame];\n            }\n        });\n    }); }\n\nhttps://on.cypress.io/then",
+    "statusTrace" : "CypressError: `cy.then()` timed out after waiting `30000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\nfunction ($frame) { return __awaiter(_this, void 0, void 0, function () {\n        var contentWindow, hasNavigated, loadLog;\n        var _a, _b;\n        return __generator(this, function (_c) {\n            switch (_c.label) {\n                case 0:\n                    (_a = log) === null || _a === void 0 ? void 0 : _a.set('$el', $frame);\n                    if ($frame.length !== 1) {\n                        throw new Error(\"cypress-iframe commands can only be applied to exactly one iframe at a time.  Instead found \" + $frame.length);\n                    }\n                    contentWindow = $frame.prop('contentWindow');\n                    hasNavigated = fullOpts.url\n                        ? function () {\n                            var _a;\n                            return typeof fullOpts.url === 'string'\n                                ? contentWindow.location.toString().includes(fullOpts.url)\n                                : (_a = fullOpts.url) === null || _a === void 0 ? void 0 : _a.test(contentWindow.location.toString());\n                        }\n                        : function () { return contentWindow.location.toString() !== 'about:blank'; };\n                    _c.label = 1;\n                case 1:\n                    if (!!hasNavigated()) return [3, 3];\n                    return [4, sleep(100)];\n                case 2:\n                    _c.sent();\n                    return [3, 1];\n                case 3:\n                    if (contentWindow.document.readyState === 'complete') {\n                        return [2, $frame];\n                    }\n                    loadLog = Cypress.log({\n                        name: 'Frame Load',\n                        message: [contentWindow.location.toString()],\n                        event: true,\n                    }).snapshot();\n                    return [4, new Promise(function (resolve) {\n                            Cypress.$(contentWindow).on('load', resolve);\n                        })];\n                case 4:\n                    _c.sent();\n                    loadLog.end();\n                    (_b = log) === null || _b === void 0 ? void 0 : _b.finish();\n                    return [2, $frame];\n            }\n        });\n    }); }\n\nhttps://on.cypress.io/then\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:136187:24\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5920:41\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Context.frameLoaded (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\support\\index.js:11800:45)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1624388394992,
+        "stop" : 1624388402929,
+        "duration" : 7937
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Account/LogIn\")",
+        "time" : {
+          "start" : 1624388395024,
+          "stop" : 1624388395942,
+          "duration" : 918
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#UserName\")",
+        "time" : {
+          "start" : 1624388395942,
+          "stop" : 1624388395946,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"QA_BOEMAdmin@weblakes.com\")",
+        "time" : {
+          "start" : 1624388395946,
+          "stop" : 1624388396365,
+          "duration" : 419
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#Password\")",
+        "time" : {
+          "start" : 1624388396365,
+          "stop" : 1624388396368,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"23M8BScKKXGUa5525\")",
+        "time" : {
+          "start" : 1624388396368,
+          "stop" : 1624388396720,
+          "duration" : 352
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "contains (\"Log In\")",
+        "time" : {
+          "start" : 1624388396720,
+          "stop" : 1624388396726,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1624388396726,
+          "stop" : 1624388396813,
+          "duration" : 87
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--submitting form-- form sub",
+        "time" : {
+          "start" : 1624388396813,
+          "stop" : 1624388396813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1624388396813,
+          "stop" : 1624388396813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "wait (\"1000\")",
+        "time" : {
+          "start" : 1624388396813,
+          "stop" : 1624388401793,
+          "duration" : 4980
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/UpdateGrid?anEnableHorizontalScroll=True&Context_Bootstrap_Flag=true&_=1624388400676",
+        "time" : {
+          "start" : 1624388401791,
+          "stop" : 1624388401791,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "1000 wait",
+        "time" : {
+          "start" : 1624388401791,
+          "stop" : 1624388401791,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1624388400677",
+        "time" : {
+          "start" : 1624388401791,
+          "stop" : 1624388401791,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1624388400678",
+        "time" : {
+          "start" : 1624388401791,
+          "stop" : 1624388401791,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624388400679",
+        "time" : {
+          "start" : 1624388401792,
+          "stop" : 1624388401792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624388400680",
+        "time" : {
+          "start" : 1624388401792,
+          "stop" : 1624388401792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624388400681",
+        "time" : {
+          "start" : 1624388401792,
+          "stop" : 1624388401792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=23&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624388400682",
+        "time" : {
+          "start" : 1624388401792,
+          "stop" : 1624388401792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1624388401111&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1624388400683",
+        "time" : {
+          "start" : 1624388401792,
+          "stop" : 1624388401792,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1624388400684",
+        "time" : {
+          "start" : 1624388401793,
+          "stop" : 1624388401793,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\".project-label > a\")",
+        "time" : {
+          "start" : 1624388401793,
+          "stop" : 1624388401806,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Nav/Module/Reports/REPORTS\")",
+        "time" : {
+          "start" : 1624388401807,
+          "stop" : 1624388402928,
+          "duration" : 1121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 22
+    }, {
+      "name" : "contains (\"General\")",
+      "time" : {
+        "start" : 1624388402930,
+        "stop" : 1624388402945,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1624388402945,
+        "stop" : 1624388403061,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1624388403061,
+        "stop" : 1624388403061,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"All Reports\")",
+      "time" : {
+        "start" : 1624388403061,
+        "stop" : 1624388404411,
+        "duration" : 1350
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "https://fat.ei.weblakes.com/BOEM/Nav/Module/REPORTS/REPORTS new url",
+      "time" : {
+        "start" : 1624388404410,
+        "stop" : 1624388404410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "All Reports contains",
+      "time" : {
+        "start" : 1624388404410,
+        "stop" : 1624388404410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1624388404411,
+        "stop" : 1624388404536,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1624388404536,
+        "stop" : 1624388404536,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"4. Facility Emission Units\")",
+      "time" : {
+        "start" : 1624388404536,
+        "stop" : 1624388405161,
+        "duration" : 625
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "4. Facility Emission Units contains",
+      "time" : {
+        "start" : 1624388405161,
+        "stop" : 1624388405161,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click (\"[object Object]\")",
+      "time" : {
+        "start" : 1624388405161,
+        "stop" : 1624388405229,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1624388405229,
+        "stop" : 1624388405229,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"5000\")",
+      "time" : {
+        "start" : 1624388405229,
+        "stop" : 1624388410853,
+        "duration" : 5624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "5000 wait",
+      "time" : {
+        "start" : 1624388410836,
+        "stop" : 1624388410836,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1624388405800",
+      "time" : {
+        "start" : 1624388410853,
+        "stop" : 1624388410853,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter (\"#lkDialogFrame\")",
+      "time" : {
+        "start" : 1624388410853,
+        "stop" : 1624388410867,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "find (\"#\\32 18 > td:nth-child(3) > input[type=checkbox]\")",
+      "time" : {
+        "start" : 1624388410867,
+        "stop" : 1624388410882,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1624388410882,
+        "stop" : 1624388411013,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"Finish\")",
+      "time" : {
+        "start" : 1624388411014,
+        "stop" : 1624388411034,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1624388411034,
+        "stop" : 1624388411155,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"15000\")",
+      "time" : {
+        "start" : 1624388411155,
+        "stop" : 1624388426158,
+        "duration" : 15003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "enter (\"#ifrmReport\")",
+      "time" : {
+        "start" : 1624388426158,
+        "stop" : 1624388456634,
+        "duration" : 30476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "{timeout: 30000}, function(){} then",
+      "time" : {
+        "start" : 1624388456634,
+        "stop" : 1624388456634,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1624388456640,
+        "stop" : 1624388456641,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3c158a11fc986bb9",
+      "name" : "BOEM_Tests/Reports.js:2021-06-22T19:00:56.209Z",
+      "source" : "3c158a11fc986bb9.png",
+      "type" : "image/png",
+      "size" : 271921
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 47
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Reports"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "a714f04445aac8f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623680325703,
+          "stop" : 1623680350229,
+          "duration" : 24526
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "407573f93d7900fa.json",
+  "parameterValues" : [ ]
+}
