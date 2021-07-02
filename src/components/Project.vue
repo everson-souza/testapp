@@ -25,7 +25,9 @@
             ></v-progress-linear>
         </template>
     
-        <v-card-title>{{project.name}}</v-card-title>
+        <v-card-title>
+           {{project.name}}            
+        </v-card-title>
     
         <v-card-text>
             <div>{{project.text}}</div>
@@ -58,63 +60,100 @@
             </v-timeline>
         </v-card-text> 
         <v-card-actions>   
-        <div
-            v-for="browser in project.browsers"
-            :key="browser.time"   
-        >
-                <v-btn
-                    :color="browser.color"                                
-                    text
-                    :disabled="browser.disabled"                
-                    @click.stop="browser.dialog = true"                    
-                    >
-                    {{browser.from}} 
-                    </v-btn>
+            <v-btn  
+                class="ma-2"    
+                color="error"
+                text
+                @click.stop="project.run = true"> 
+                New run
 
-                    <v-dialog
-                    v-model="browser.dialog"
+                <v-dialog
+                    v-model="project.run"
                     max-width="400"
-                    >
+                >
                     <v-card>
-                        <v-card-title class="headline">
-                            {{browser.from}}
+                        <v-card-title>
+                            {{project.name}}
                         </v-card-title>
 
                         <v-card-text>
-                            What you wanna do?
+                            Select an option to <b>generate a new report</b>
                         </v-card-text>
 
                         <v-card-actions>
-                        <v-spacer></v-spacer>
-
-                        <v-btn
-                            :color="browser.color"
-                            text
-                            @click="reserve(project.name.toLowerCase(), browser.from.toLowerCase())"
-                        >
-                            Allure reports
-                        </v-btn>
-
-                        <v-btn
-                            :color="browser.color"
-                            text
-                            @click="downloadImages(project.name.toLowerCase(), browser.from.toLowerCase())"
-                        >
-                            Test images
-                        </v-btn>
+                            <v-spacer></v-spacer>
+                            <div
+                                v-for="browser in project.browsers"
+                                :key="browser.time"   
+                            >
+                                <v-btn
+                                    :color="browser.color"                            
+                                    text
+                                    @click="runBat(project.name.toLowerCase(), browser.from.toLowerCase())"
+                                >
+                                    {{browser.from}}
+                                </v-btn>
+                            </div>
+                            <v-btn
+                                v-for="option in project.otherOptions"
+                                :key="option.time"   
+                                :color="option.color"                                
+                                text
+                                :disabled="option.disabled"
+                                @click="download(project.name.toLowerCase())">
+                                {{option.from}}             
+                            </v-btn>
                         </v-card-actions>
                     </v-card>
-                </v-dialog>            
-            </div>
-             <v-btn
-                v-for="option in project.otherOptions"
-                :key="option.time"   
-                :color="option.color"                                
-                text
-                :disabled="option.disabled"
-                @click="download(project.name.toLowerCase())">
-                {{option.from}}             
-            </v-btn>  
+                </v-dialog>
+            </v-btn>
+
+            <v-btn  
+                class="ma-2"
+                color="primary"
+                @click.stop="project.report = true">
+                Latest reports
+
+                <v-dialog
+                    v-model="project.report"
+                    max-width="400"
+                >
+                    <v-card>
+                        <v-card-title>
+                            {{project.name}}
+                        </v-card-title>
+
+                        <v-card-text>
+                            Select an option to <b>get the last</b> generated report
+                        </v-card-text>
+
+                        <v-card-actions>
+                            <v-spacer></v-spacer>
+                            <div
+                                v-for="browser in project.browsers"
+                                :key="browser.time"   
+                            >
+                                <v-btn
+                                    :color="browser.color"                            
+                                    text
+                                    @click="reserve(project.name.toLowerCase(), browser.from.toLowerCase())"
+                                >
+                                    {{browser.from}}
+                                </v-btn>                                
+                            </div>
+                            <v-btn
+                                v-for="option in project.otherOptions"
+                                :key="option.time"   
+                                :color="option.color"                                
+                                text
+                                :disabled="option.disabled"
+                                @click="download(project.name.toLowerCase())">
+                                {{option.from}}             
+                            </v-btn>
+                        </v-card-actions>
+                    </v-card>
+                </v-dialog>
+            </v-btn>
         </v-card-actions>
         </v-card>        
     </v-col>    
@@ -126,6 +165,7 @@
 <script>
     import axios from "axios";    
     import configFile from '../tests.json'
+    import { getProjects, runBat } from '../services/ProjectService'
 
     export default {
         name: 'Project',                
@@ -135,119 +175,44 @@
             selection: 1,
             snackbar: false,
             text: 'Sorry, this is not yet available',
-            projects: [
-                {
-                    name: 'BOEM',
-                    text: 'Outer Continental Shelf (OCS) Air Quality System',
-                    browsers: [
-                        {
-                        from: 'Chrome',                                    
-                        color: 'light-blue lighten-1',
-                        type: '1',
-                        dialog: false,
-                        },
-                        {
-                        from: 'Firefox',                        
-                        color: 'orange',
-                        type: '1',
-                        dialog: false,
-                        }
-                        
-                    ],
-                    otherOptions: [
-                        {
-                        from: '508',                        
-                        color: 'green',
-                        type: '2',
-                        }
-                    ],
-                    timeline: [
-                        {
-                        from: 'Chrome',            
-                        icon:'fab fa-chrome',
-                        time: '06/14/2021',
-                        color: 'light-blue lighten-1',
-                        },
-                        {
-                        from: 'Firefox',
-                        icon:'fab fa-firefox-browser',
-                        time: '05/12/2021',
-                        color: 'orange',
-                        },
-                        {
-                        from: '508',
-                        icon:'',
-                        time: '02:52pm 01/29/2021',
-                        color: 'green',
-                        }
-                    ]
-                },  
-                {
-                    name: 'COSD',
-                    text: 'San Diego APCD - Emissions Inventory System (EIS)',
-                    browsers: [
-                        {
-                        from: 'Chrome',                                    
-                        color: 'light-blue lighten-1',
-                        type: '1',
-                        dialog: false,
-                        },
-                        {
-                        from: 'Firefox',
-                        color: 'orange',
-                        type: '1',                                                
-                        dialog: false,
-                        },                                                               
-                    ],
-                    otherOptions: [
-                        {
-                        from: '508',                        
-                        color: 'green',
-                        type: '2',
-                        disabled: true
-                        },
-                    ],
-                    timeline: [
-                        {
-                        from: 'Chrome',            
-                        icon:'fab fa-chrome',
-                        time: '05/21/2020',
-                        color: 'light-blue lighten-1',
-                        },
-                        {
-                        from: 'Firefox',
-                        icon:'fab fa-firefox-browser',
-                        time: '04/01/2020',
-                        color: 'orange',
-                        },
-                        {
-                        from: '508',
-                        icon:'',
-                        time: '',
-                        color: 'green',
-                        }
-                    ]
-                }                  
-            ],
+            projects: [],
             
         }),
-        methods: {                        
-            reserve (project, browser) {        
-               
+        created() {
+            getProjects().then(response => {
+                    console.log(response)
+                    this.projects = response                    
+            })
+        },
+        methods: {             
+            runBat(project, browser) {
+                const payload = {
+                    project: project,
+                    browser: browser                    
+                }
+
+                console.log('data:::', payload)
+
+                runBat(payload).then(response => {
+                    console.log(response); 
+                });
+            },
+
+            reserve (project, browser) {                       
                 window.open(
                     'projects/'+project+'/'+browser+'/allure-report/index.html',
                     '_blank' // <- This is what makes it open in a new window.
-                ); 
-                
+                );                 
             },
+
             downloadImages (project, browser) {                        
-                 window.open(
-                        './../projects/'+project+'/'+browser+'/test-images.zip',
-                        '_blank' // <- This is what makes it open in a new window.
-                    );        
+                window.open(
+                    './../projects/'+project+'/'+browser+'/test-images.zip',
+                    '_blank' // <- This is what makes it open in a new window.
+                );        
             },
-            download(project){                                
-                                
+
+            download(project){                                                                
                 try{                    
                     window.open(
                         './../projects/'+project+'/508/508.zip',
@@ -255,9 +220,9 @@
                     );
                 }catch(err){
                     console.log("erro");
-                }
-                
+                }                
             }
+
         }  
     }
 </script>  
