@@ -30,14 +30,23 @@
         </v-card-title>
     
         <v-card-text>
+            <v-alert
+            v-show="project.running"
+            dense
+            outlined
+            text
+            type="warning"
+            class="alert-message">
+            Test is currently running on the QA machine!
+            </v-alert>
             <div>{{project.text}}</div>
         </v-card-text>
         
-        <v-card-text>
+        <v-card-text class="timeline">
             <div class="font-weight-bold ml-8 mb-2">
                 Browsers
             </div>
-            <v-timeline                
+            <v-timeline                 
                 dense
             >
                 <v-timeline-item
@@ -81,7 +90,6 @@
                         </v-card-text>
 
                         <v-card-actions>
-                            <v-spacer></v-spacer>
                             <div
                                 v-for="browser in project.browsers"
                                 :key="browser.time"   
@@ -89,6 +97,7 @@
                                 <v-btn
                                     :color="browser.color"                            
                                     text
+                                    :disabled="project.running"
                                     @click="runBat(project.name.toLowerCase(), browser.from.toLowerCase())"
                                 >
                                     {{browser.from}}
@@ -135,7 +144,7 @@
                             >
                                 <v-btn
                                     :color="browser.color"                            
-                                    text
+                                    text                                    
                                     @click="reserve(project.name.toLowerCase(), browser.from.toLowerCase())"
                                 >
                                     {{browser.from}}
@@ -186,6 +195,9 @@
         },
         methods: {             
             runBat(project, browser) {
+                this.projects[project].running = true;
+                
+                console.log(this.projects[project].running)
                 const payload = {
                     project: project,
                     browser: browser                    
@@ -194,7 +206,13 @@
                 console.log('data:::', payload)
 
                 runBat(payload).then(response => {
-                    console.log(response); 
+                    console.log(response);
+                    
+                    //Update project
+                    getProjects().then(response => {
+                        //console.log(response)
+                        this.projects = response                    
+                    }) 
                 });
             },
 
@@ -203,13 +221,6 @@
                     'projects/'+project+'/'+browser+'/allure-report/index.html',
                     '_blank' // <- This is what makes it open in a new window.
                 );                 
-            },
-
-            downloadImages (project, browser) {                        
-                window.open(
-                    './../projects/'+project+'/'+browser+'/test-images.zip',
-                    '_blank' // <- This is what makes it open in a new window.
-                );        
             },
 
             download(project){                                                                
@@ -231,4 +242,21 @@
         color: '';
         text-decoration: none;
     }   
+
+    .v-timeline {
+        padding-top: 18px !important;
+    }
+
+    .v-timeline-item {
+        padding-bottom: 20px !important;
+    }
+
+    .timeline{
+        padding-top:0 !important;
+        padding-bottom:0 !important;
+    }
+
+    .alert-message{
+        font-size:12px !important;
+    }
 </style>

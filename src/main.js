@@ -4,8 +4,6 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify';
 import axios from 'axios'
 import VueAxios from 'vue-axios'
-import 'material-design-icons-iconfont/dist/material-design-icons.css'
-import '@mdi/font/css/materialdesignicons.css'
 
 Vue.use(VueAxios, axios)
 
