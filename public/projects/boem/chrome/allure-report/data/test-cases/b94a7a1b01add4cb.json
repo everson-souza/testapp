@@ -1,0 +1,610 @@
+{
+  "uid" : "b94a7a1b01add4cb",
+  "name" : "Url_03",
+  "fullName" : "Url_03",
+  "historyId" : "f4dfc54b6304a90e9b98715b1b1b6839",
+  "time" : {
+    "start" : 1624919844416,
+    "stop" : 1624919851591,
+    "duration" : 7175
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138889:25\n    at visitFailedByErr (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138264:12)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138869:13\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Utilities.accessRelativeUrl (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\Url.js:940:8)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\Url.js:160:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+    "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138889:25\n    at visitFailedByErr (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138264:12)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138869:13\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Utilities.accessRelativeUrl (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\Url.js:940:8)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\Url.js:160:24)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1624919844416,
+        "stop" : 1624919846993,
+        "duration" : 2577
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Account/LogIn\")",
+        "time" : {
+          "start" : 1624919844433,
+          "stop" : 1624919844540,
+          "duration" : 107
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#UserName\")",
+        "time" : {
+          "start" : 1624919844540,
+          "stop" : 1624919844543,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"qa_boem@weblakes.com\")",
+        "time" : {
+          "start" : 1624919844543,
+          "stop" : 1624919844895,
+          "duration" : 352
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#Password\")",
+        "time" : {
+          "start" : 1624919844895,
+          "stop" : 1624919844899,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"e45eT%0n^SpXdsb2\")",
+        "time" : {
+          "start" : 1624919844899,
+          "stop" : 1624919845241,
+          "duration" : 342
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "contains (\"Log In\")",
+        "time" : {
+          "start" : 1624919845241,
+          "stop" : 1624919845246,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1624919845246,
+          "stop" : 1624919845338,
+          "duration" : 92
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--submitting form-- form sub",
+        "time" : {
+          "start" : 1624919845338,
+          "stop" : 1624919845338,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1624919845338,
+          "stop" : 1624919845338,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 9
+    }, {
+      "name" : "visit (\"/DshBrdMain\")",
+      "time" : {
+        "start" : 1624919846994,
+        "stop" : 1624919847700,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1624919846934",
+      "time" : {
+        "start" : 1624919847699,
+        "stop" : 1624919847699,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1624919846935",
+      "time" : {
+        "start" : 1624919847699,
+        "stop" : 1624919847699,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1624919847076&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1624919846936",
+      "time" : {
+        "start" : 1624919847699,
+        "stop" : 1624919847699,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919846937",
+      "time" : {
+        "start" : 1624919847700,
+        "stop" : 1624919847700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919846938",
+      "time" : {
+        "start" : 1624919847700,
+        "stop" : 1624919847700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919846939",
+      "time" : {
+        "start" : 1624919847700,
+        "stop" : 1624919847700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=23&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919846940",
+      "time" : {
+        "start" : 1624919847700,
+        "stop" : 1624919847700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/UpdateGrid?anEnableHorizontalScroll=True&Context_Bootstrap_Flag=true&_=1624919847639",
+      "time" : {
+        "start" : 1624919847700,
+        "stop" : 1624919847700,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1624919847701,
+        "stop" : 1624919848764,
+        "duration" : 1063
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1624919847640",
+      "time" : {
+        "start" : 1624919848761,
+        "stop" : 1624919848761,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1624919847641",
+      "time" : {
+        "start" : 1624919848761,
+        "stop" : 1624919848761,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1624919847793&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1624919847642",
+      "time" : {
+        "start" : 1624919848763,
+        "stop" : 1624919848763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919847643",
+      "time" : {
+        "start" : 1624919848763,
+        "stop" : 1624919848763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919847644",
+      "time" : {
+        "start" : 1624919848763,
+        "stop" : 1624919848763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919847645",
+      "time" : {
+        "start" : 1624919848763,
+        "stop" : 1624919848763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=23&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624919847646",
+      "time" : {
+        "start" : 1624919848763,
+        "stop" : 1624919848763,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1624919847647",
+      "time" : {
+        "start" : 1624919848764,
+        "stop" : 1624919848764,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".project-label > a\")",
+      "time" : {
+        "start" : 1624919848764,
+        "stop" : 1624919848777,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"/InputDetails/NavSourceConfig/DetailedEditor/Create/\")",
+      "time" : {
+        "start" : 1624919848778,
+        "stop" : 1624919851590,
+        "duration" : 2812
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1624919851593,
+        "stop" : 1624919851593,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "fcd313a806866c2d",
+      "name" : "BOEM_Tests/Url.js:2021-06-28T22:37:31.191Z",
+      "source" : "fcd313a806866c2d.png",
+      "type" : "image/png",
+      "size" : 205565
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 31
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Url"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "cd888550e86cab76",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1624890217924,
+          "stop" : 1624890233582,
+          "duration" : 15658
+        }
+      }, {
+        "uid" : "a61c9236fb0dd869",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1624496487146,
+          "stop" : 1624496499996,
+          "duration" : 12850
+        }
+      }, {
+        "uid" : "95fd465021473cf2",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1624408554447,
+          "stop" : 1624408567678,
+          "duration" : 13231
+        }
+      }, {
+        "uid" : "59db44aed5c10ed6",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1624389818532,
+          "stop" : 1624389831622,
+          "duration" : 13090
+        }
+      }, {
+        "uid" : "2bcef6b1e3e382ab",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1623681423707,
+          "stop" : 1623681430287,
+          "duration" : 6580
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b94a7a1b01add4cb.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,466 @@
+{
+  "uid" : "60b4a4fec6ef27b9",
+  "name" : "AccountActivity_21",
+  "fullName" : "AccountActivity_21",
+  "historyId" : "55bd8a2c0297f71ce3ae443bc93ccd7b",
+  "time" : {
+    "start" : 1624912555416,
+    "stop" : 1624912589605,
+    "duration" : 34189
+  },
+  "status" : "failed",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/AdminChangeLog\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/AdminChangeLog\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138905:23\n    at visitFailedByErr (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138264:12)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138904:11\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Utilities.accessRelativeUrl (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccountActivity.js:2100:8)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccountActivity.js:523:24)\n\nFrom Node.js Internals:\n  Error: ESOCKETTIMEDOUT\n      at ClientRequest.<anonymous> (C:\\Users\\QAOperator\\AppData\\Local\\Cypress\\Cache\\7.5.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\@cypress\\request\\request.js:816:19)\n      at Object.onceWrapper (events.js:421:28)\n      at ClientRequest.emit (events.js:315:20)\n      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)\n      at Object.onceWrapper (events.js:421:28)\n      at TLSSocket.emit (events.js:327:22)\n      at TLSSocket.Socket._onTimeout (net.js:483:8)\n      at listOnTimeout (internal/timers.js:554:17)\n      at processTimers (internal/timers.js:497:7)\n  ",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/AdminChangeLog\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+    "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/AdminChangeLog\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138905:23\n    at visitFailedByErr (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138264:12)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:138904:11\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8911:18)\n    at _drainQueueStep (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5505:12)\n    at _drainQueue (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5498:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5514:5)\n    at Async.drainQueues (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:5384:14)\nFrom Your Spec Code:\n    at Utilities.accessRelativeUrl (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccountActivity.js:2100:8)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccountActivity.js:523:24)\n\nFrom Node.js Internals:\n  Error: ESOCKETTIMEDOUT\n      at ClientRequest.<anonymous> (C:\\Users\\QAOperator\\AppData\\Local\\Cypress\\Cache\\7.5.0\\Cypress\\resources\\app\\packages\\server\\node_modules\\@cypress\\request\\request.js:816:19)\n      at Object.onceWrapper (events.js:421:28)\n      at ClientRequest.emit (events.js:315:20)\n      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)\n      at Object.onceWrapper (events.js:421:28)\n      at TLSSocket.emit (events.js:327:22)\n      at TLSSocket.Socket._onTimeout (net.js:483:8)\n      at listOnTimeout (internal/timers.js:554:17)\n      at processTimers (internal/timers.js:497:7)\n  ",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1624912555416,
+        "stop" : 1624912558082,
+        "duration" : 2666
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Account/LogIn\")",
+        "time" : {
+          "start" : 1624912555471,
+          "stop" : 1624912555587,
+          "duration" : 116
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#UserName\")",
+        "time" : {
+          "start" : 1624912555587,
+          "stop" : 1624912555591,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"qa_boem@weblakes.com\")",
+        "time" : {
+          "start" : 1624912555591,
+          "stop" : 1624912555948,
+          "duration" : 357
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#Password\")",
+        "time" : {
+          "start" : 1624912555948,
+          "stop" : 1624912555952,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"e45eT%0n^SpXdsb2\")",
+        "time" : {
+          "start" : 1624912555952,
+          "stop" : 1624912556297,
+          "duration" : 345
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "contains (\"Log In\")",
+        "time" : {
+          "start" : 1624912556297,
+          "stop" : 1624912556303,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1624912556303,
+          "stop" : 1624912556396,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--submitting form-- form sub",
+        "time" : {
+          "start" : 1624912556396,
+          "stop" : 1624912556396,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1624912556396,
+          "stop" : 1624912556396,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 9
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1624912558083,
+        "stop" : 1624912559147,
+        "duration" : 1064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1624912557978",
+      "time" : {
+        "start" : 1624912559145,
+        "stop" : 1624912559145,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1624912557979",
+      "time" : {
+        "start" : 1624912559146,
+        "stop" : 1624912559146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1624912558232&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1624912557980",
+      "time" : {
+        "start" : 1624912559146,
+        "stop" : 1624912559146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624912557981",
+      "time" : {
+        "start" : 1624912559146,
+        "stop" : 1624912559146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624912557982",
+      "time" : {
+        "start" : 1624912559146,
+        "stop" : 1624912559146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624912557983",
+      "time" : {
+        "start" : 1624912559146,
+        "stop" : 1624912559146,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=23&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1624912557984",
+      "time" : {
+        "start" : 1624912559147,
+        "stop" : 1624912559147,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1624912557985",
+      "time" : {
+        "start" : 1624912559147,
+        "stop" : 1624912559147,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".project-label > a\")",
+      "time" : {
+        "start" : 1624912559147,
+        "stop" : 1624912559189,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"/AdminChangeLog\")",
+      "time" : {
+        "start" : 1624912559189,
+        "stop" : 1624912589604,
+        "duration" : 30415
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1624912557986",
+      "time" : {
+        "start" : 1624912589604,
+        "stop" : 1624912589604,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1624912589607,
+        "stop" : 1624912589607,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "808f792719b760c1",
+      "name" : "BOEM_Tests/AccountActivity.js:2021-06-28T20:36:29.224Z",
+      "source" : "808f792719b760c1.png",
+      "type" : "image/png",
+      "size" : 225950
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 23
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "AccountActivity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "bd74f1f319def10a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624856104099,
+          "stop" : 1624856114296,
+          "duration" : 10197
+        }
+      }, {
+        "uid" : "71015068b4eb7227",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/AdminChangeLog\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+        "time" : {
+          "start" : 1624487241496,
+          "stop" : 1624487277503,
+          "duration" : 36007
+        }
+      }, {
+        "uid" : "732bafdb2428d497",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624399545332,
+          "stop" : 1624399564671,
+          "duration" : 19339
+        }
+      }, {
+        "uid" : "5090416bcb977dbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624380866220,
+          "stop" : 1624380879001,
+          "duration" : 12781
+        }
+      }, {
+        "uid" : "f003851968eda40e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623677680315,
+          "stop" : 1623677687193,
+          "duration" : 6878
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "60b4a4fec6ef27b9.json",
+  "parameterValues" : [ ]
+}
