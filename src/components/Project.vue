@@ -184,7 +184,121 @@
             selection: 1,
             snackbar: false,
             text: 'Sorry, this is not yet available',
-            projects: [],
+            projects : 
+            {
+                "boem": 
+                {
+                    name: 'BOEM',
+                    text: 'Outer Continental Shelf (OCS) Air Quality System',
+                    report: false,
+                    run: false,
+                    running: false,
+                    browsers:
+                    {
+                        "chrome": 
+                        {
+                            from: 'Chrome',                                    
+                            color: 'light-blue lighten-1',
+                            type: '1'
+                        },
+                        "firefox": 
+                        {
+                            from: 'Firefox',                        
+                            color: 'orange',
+                            type: '1',
+                        }
+                    },
+                    otherOptions:
+                    {
+                        "508": {
+                            from: '508',                        
+                            color: 'green',
+                            type: '2',
+                        }
+                    },
+                    timeline: 
+                    {
+                        "chrome": 
+                        {
+                            from: 'Chrome',            
+                            icon:'fab fa-chrome',
+                            time: '06/14/2021',
+                            color: 'light-blue lighten-1',
+                        },
+                        "firefox": 
+                        {
+                            from: 'Firefox',
+                            icon:'fab fa-firefox-browser',
+                            time: '05/12/2021',
+                            color: 'orange',
+                        },
+                        "508": 
+                        {
+                            from: '508',
+                            icon:'',
+                            time: '01/29/2021',
+                            color: 'green',
+                        }
+                    } 
+                },
+                "cosd": 
+                {
+                    name: 'COSD',
+                    text: 'San Diego APCD - Emissions Inventory System (EIS)',
+                    report: false,
+                    run: false,
+                    running: false,
+                    browsers: 
+                    {
+                        "chrome":
+                        {
+                            from: 'Chrome',                                    
+                            color: 'light-blue lighten-1',
+                            type: '1',
+                            },
+                        "firefox":
+                        {
+                            from: 'Firefox',
+                            color: 'orange',
+                            type: '1',                                                
+                        }
+                    },                                                               
+                    otherOptions:
+                    {
+                        "508":
+                        {
+                            from: '508',                        
+                            color: 'green',
+                            type: '2',
+                            disabled: true
+                        }
+                    },
+                    timeline: 
+                    {
+                        "chrome": 
+                        {
+                            from: 'Chrome',            
+                            icon:'fab fa-chrome',
+                            time: '05/21/2020',
+                            color: 'light-blue lighten-1',
+                        },
+                        "firefox": 
+                        {
+                            from: 'Firefox',
+                            icon:'fab fa-firefox-browser',
+                            time: '04/01/2020',
+                            color: 'orange',
+                        },
+                        "508": 
+                        {
+                            from: '508',
+                            icon:'',
+                            time: 'never',
+                            color: 'green',
+                        }
+                    }            
+                }   
+            },
             
         }),
         created() {
