@@ -73,7 +73,7 @@
                 class="ma-2"    
                 color="error"
                 text
-                :disabled="runnable"
+                :disabled="!runnable"
                 @click.stop="project.run = true"> 
                 New run
 
@@ -307,7 +307,7 @@
             getProjects().then(response => {
                     console.log(response)
                     this.projects = response? response : this.projects         
-                    this.runnable = response? false : true           
+                    this.runnable = response? true : false           
             })
         },
         methods: {             
