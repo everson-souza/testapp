@@ -73,6 +73,7 @@
                 class="ma-2"    
                 color="error"
                 text
+                :disabled="runnable"
                 @click.stop="project.run = true"> 
                 New run
 
@@ -183,6 +184,7 @@
             loading: false,
             selection: 1,
             snackbar: false,
+            runnable: false,
             text: 'Sorry, this is not yet available',
             projects : 
             {
@@ -304,7 +306,8 @@
         created() {
             getProjects().then(response => {
                     console.log(response)
-                    this.projects = response? response : this.projects                    
+                    this.projects = response? response : this.projects         
+                    this.runnable = response? false : true           
             })
         },
         methods: {             
@@ -325,7 +328,7 @@
                     //Update project
                     getProjects().then(response => {
                         //console.log(response)
-                        this.projects = response? response : this.projects                    
+                        this.projects = response? response : this.projects                        
                     }) 
                 });
             },
