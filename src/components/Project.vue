@@ -51,7 +51,7 @@
             >
                 <v-timeline-item
                 v-for="item in project.timeline"
-                :key="item.time"
+                :key="item.from"
                 :color="item.color"    
                 class="browser"            
                 small
