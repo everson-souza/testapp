@@ -372,7 +372,7 @@
                     getProjects().then(response => {
                         //console.log(response)
                         this.projects = response? response : this.projects       
-                        this.$router.reload()                 
+                        location.reload()                 
                     }) 
                 });
             },
