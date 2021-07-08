@@ -366,7 +366,7 @@
                     getProjects().then(response => {
                         //console.log(response)
                         this.projects = response? response : this.projects       
-                        console.log(response)
+                        console.log("Response:"+response)
                         console.log(this.projects)
                         
                     }) 
