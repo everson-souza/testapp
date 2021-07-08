@@ -175,8 +175,12 @@
 <script>
     import axios from "axios";    
     import configFile from '../tests.json'
+    import Vue from 'vue'
+    import VueRouter from 'vue-router'
     import { getProjects, runBat } from '../services/ProjectService'
 
+    Vue.use(VueRouter)
+    
     export default {
         name: 'Project',                
         data: () => ({
@@ -367,7 +371,8 @@
                     //Update project
                     getProjects().then(response => {
                         //console.log(response)
-                        this.projects = response? response : this.projects                        
+                        this.projects = response? response : this.projects       
+                        this.$router.reload()                 
                     }) 
                 });
             },
