@@ -1,0 +1,564 @@
+{
+  "uid" : "85ead8ce4ba5fed4",
+  "name" : "Public.MonitoringStations_02",
+  "fullName" : "Public.MonitoringStations_02",
+  "historyId" : "e78e4565f77543ff9e096126f41233e0",
+  "time" : {
+    "start" : 1626205598527,
+    "stop" : 1626205602861,
+    "duration" : 4334
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1626205598527,
+        "stop" : 1626205598544,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"/DshBrdStation/Index/19\")",
+      "time" : {
+        "start" : 1626205598545,
+        "stop" : 1626205599707,
+        "duration" : 1162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#graphParameter\")",
+      "time" : {
+        "start" : 1626205599707,
+        "stop" : 1626205599714,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "select (\"NO\")",
+      "time" : {
+        "start" : 1626205599714,
+        "stop" : 1626205600231,
+        "duration" : 517
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1626205599548",
+      "time" : {
+        "start" : 1626205600229,
+        "stop" : 1626205600229,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1626205599549",
+      "time" : {
+        "start" : 1626205600229,
+        "stop" : 1626205600229,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/GridData?aStationKey=19&aPeriodKey=1&aParameterKey=3&gridId=DshBrdStationGrid&Context_Bootstrap_Flag=true&_search=false&nd=1626205599816&rows=15&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626205599550",
+      "time" : {
+        "start" : 1626205600229,
+        "stop" : 1626205600229,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/TSChartData?aStationKey=19&aPeriodKey=1&aParameterKey=3&fChartType=timeseries&MaxLegendEntries=12&IsStack=False&IsCategory=False&fTSShape=line&Context_Bootstrap_Flag=true&_=1626205599551",
+      "time" : {
+        "start" : 1626205600230,
+        "stop" : 1626205600230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/AverageChartData?aStationKey=19&aPeriodKey=1&aParameterKey=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1626205599552",
+      "time" : {
+        "start" : 1626205600230,
+        "stop" : 1626205600230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseChartData?aStationKey=19&aPeriodKey=1&aParameterKey=3&fChartType=windrose&WindRoseLayers=16&MaxLegendEntries=-1&Context_Bootstrap_Flag=true&_=1626205599553",
+      "time" : {
+        "start" : 1626205600230,
+        "stop" : 1626205600230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseLegendData?aStationKey=19&aParameterKey=3&aPeriodKey=1&Context_Bootstrap_Flag=true&_=1626205599554",
+      "time" : {
+        "start" : 1626205600230,
+        "stop" : 1626205600230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/AverageChartData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1626205599555",
+      "time" : {
+        "start" : 1626205600230,
+        "stop" : 1626205600230,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/TSChartData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&fChartType=timeseries&MaxLegendEntries=12&IsStack=False&IsCategory=False&fTSShape=line&Context_Bootstrap_Flag=true&_=1626205599556",
+      "time" : {
+        "start" : 1626205600231,
+        "stop" : 1626205600231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/GridData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&gridId=DshBrdStationGrid&Context_Bootstrap_Flag=true&_search=false&nd=1626205600222&rows=15&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626205599557",
+      "time" : {
+        "start" : 1626205600231,
+        "stop" : 1626205600231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseChartData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&fChartType=windrose&WindRoseLayers=16&MaxLegendEntries=-1&Context_Bootstrap_Flag=true&_=1626205599558",
+      "time" : {
+        "start" : 1626205600231,
+        "stop" : 1626205600231,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#graphPeriod\")",
+      "time" : {
+        "start" : 1626205600231,
+        "stop" : 1626205600244,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "select (\"24 hours\")",
+      "time" : {
+        "start" : 1626205600244,
+        "stop" : 1626205600569,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseLegendData?aStationKey=19&aParameterKey=2128&aPeriodKey=1&Context_Bootstrap_Flag=true&_=1626205599559",
+      "time" : {
+        "start" : 1626205600568,
+        "stop" : 1626205600568,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/AverageChartData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1626205599560",
+      "time" : {
+        "start" : 1626205600568,
+        "stop" : 1626205600568,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/TSChartData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&fChartType=timeseries&MaxLegendEntries=12&IsStack=False&IsCategory=False&fTSShape=line&Context_Bootstrap_Flag=true&_=1626205599561",
+      "time" : {
+        "start" : 1626205600568,
+        "stop" : 1626205600568,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/GridData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&gridId=DshBrdStationGrid&Context_Bootstrap_Flag=true&_search=false&nd=1626205600561&rows=15&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626205599562",
+      "time" : {
+        "start" : 1626205600569,
+        "stop" : 1626205600569,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseChartData?aStationKey=19&aPeriodKey=1&aParameterKey=2128&fChartType=windrose&WindRoseLayers=16&MaxLegendEntries=-1&Context_Bootstrap_Flag=true&_=1626205599563",
+      "time" : {
+        "start" : 1626205600569,
+        "stop" : 1626205600569,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1626205600569,
+        "stop" : 1626205602572,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseLegendData?aStationKey=19&aParameterKey=2128&aPeriodKey=1&Context_Bootstrap_Flag=true&_=1626205599564",
+      "time" : {
+        "start" : 1626205602572,
+        "stop" : 1626205602572,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626205599565",
+      "time" : {
+        "start" : 1626205602572,
+        "stop" : 1626205602572,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#grid_DshBrdStationGrid > tbody > tr:nth-child(n) > td:nth-child(4)\")",
+      "time" : {
+        "start" : 1626205602572,
+        "stop" : 1626205602681,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"N/A\")",
+      "time" : {
+        "start" : 1626205602681,
+        "stop" : 1626205602689,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".WRTabControl\")",
+      "time" : {
+        "start" : 1626205602689,
+        "stop" : 1626205602698,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626205602698,
+        "stop" : 1626205602844,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#monitorStationWindRoseGraph\")",
+      "time" : {
+        "start" : 1626205602844,
+        "stop" : 1626205602853,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"No Data Available\")",
+      "time" : {
+        "start" : 1626205602853,
+        "stop" : 1626205602861,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1626205602866,
+        "stop" : 1626205602866,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 32
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Public.MonitoringStations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "12c6ba98c71a7f85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626204935881,
+          "stop" : 1626204939708,
+          "duration" : 3827
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "85ead8ce4ba5fed4.json",
+  "parameterValues" : [ ]
+}
