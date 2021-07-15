@@ -4,39 +4,73 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Timed out retrying after 4000ms: expected '<div.modal-body>' to contain text 'O3', but the text was '\\n\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\tGood0CO\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\tGood9NO2\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\tInsufficient Datan/aOzone\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\tGood21PM-10\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\tInsufficient Datan/aPM-2.5\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\tInsufficient Datan/aSO2\\n\\t\\t\\t\\t\\t\\t\\n\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\n\\t\\t\\t'",
+      "name" : "Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.",
       "children" : [ {
-        "name" : "Public.AQI_03",
-        "uid" : "85127fa776e2ba27",
-        "parentUid" : "f0fed8683a89466b26a9e9f89d3e44bb",
+        "name" : "Public.AQI_02",
+        "uid" : "d8299d73de2a491b",
+        "parentUid" : "145f4a611027f5faab0718f502c0eaf7",
         "status" : "failed",
         "time" : {
-          "start" : 1626204829495,
-          "stop" : 1626204839108,
-          "duration" : 9613
+          "start" : 1626365865359,
+          "stop" : 1626365874216,
+          "duration" : 8857
         },
         "flaky" : false,
-        "newFailed" : false,
+        "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "f0fed8683a89466b26a9e9f89d3e44bb"
+      "uid" : "145f4a611027f5faab0718f502c0eaf7"
+    }, {
+      "name" : "Timed out retrying after 4000ms: expected '<span>' to contain text '14-Jul-2021, 24:00:00', but the text was '14-Jul-2021, 12:00:00'",
+      "children" : [ {
+        "name" : "Public.AQI_06",
+        "uid" : "43d00d11b5f3605e",
+        "parentUid" : "8db74e9409ee6202173e68e7c8b76adb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626365894993,
+          "stop" : 1626365905533,
+          "duration" : 10540
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8db74e9409ee6202173e68e7c8b76adb"
     }, {
       "name" : "Timed out retrying after 4000ms: expected '<h1#Bootstrap_TitleDisplay_ID>' to contain text 'Frequently Asked Questions (FAQs)', but the text was '  \\n\\n  AQI Dashboard\\n\\n  '",
       "children" : [ {
         "name" : "Public.FAQ_02",
-        "uid" : "23c68b56cebc5a27",
+        "uid" : "7fc800de65ef046e",
         "parentUid" : "17f0f6ed5de8e2f3ec9b555c61350b70",
         "status" : "failed",
         "time" : {
-          "start" : 1626204895496,
-          "stop" : 1626204902176,
-          "duration" : 6680
+          "start" : 1626365949713,
+          "stop" : 1626365957382,
+          "duration" : 7669
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "17f0f6ed5de8e2f3ec9b555c61350b70"
+    }, {
+      "name" : "The following error originated from your application code, not from Cypress.\n\n  > Cannot read property 'Proj' of undefined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+      "children" : [ {
+        "name" : "Public.MonitoringStations_04",
+        "uid" : "7980f553d16a656e",
+        "parentUid" : "7be18dc575e51a9b6ea633fd329f7e2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1626366015082,
+          "stop" : 1626366016948,
+          "duration" : 1866
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7be18dc575e51a9b6ea633fd329f7e2b"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
