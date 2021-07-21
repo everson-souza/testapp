@@ -1,0 +1,1631 @@
+{
+  "uid" : "f1539acfdf4e462b",
+  "name" : "Public.AQI_02",
+  "fullName" : "Public.AQI_02",
+  "historyId" : "0eec1933055ca9436e97d1abe67d67ff",
+  "time" : {
+    "start" : 1626890843984,
+    "stop" : 1626890854049,
+    "duration" : 10065
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.\n    at eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\RTT_Tests\\Public.AQI.js:323:44)\nat Array.forEach (<anonymous>)\n    at AQIPage.checkPollutants (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\RTT_Tests\\Public.AQI.js:323:16)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\RTT_Tests\\Public.AQI.js:149:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.\n    at eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\RTT_Tests\\Public.AQI.js:323:44)\nat Array.forEach (<anonymous>)\n    at AQIPage.checkPollutants (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\RTT_Tests\\Public.AQI.js:323:16)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\RTT_Tests\\Public.AQI.js:149:22)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1626890843986,
+        "stop" : 1626890844213,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "visit (\"/RTTPublic/DshBrdAQI\")",
+      "time" : {
+        "start" : 1626890844216,
+        "stop" : 1626890846977,
+        "duration" : 2761
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartDataForecastPeriod?StationKey=16&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844918",
+      "time" : {
+        "start" : 1626890846963,
+        "stop" : 1626890846963,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1626890844919",
+      "time" : {
+        "start" : 1626890846964,
+        "stop" : 1626890846964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1626890844920",
+      "time" : {
+        "start" : 1626890846964,
+        "stop" : 1626890846964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamGridData?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&gridId=StationGrid_16&Context_Bootstrap_Flag=true&_search=false&nd=1626890845146&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626890844921",
+      "time" : {
+        "start" : 1626890846964,
+        "stop" : 1626890846964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100018&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844922",
+      "time" : {
+        "start" : 1626890846964,
+        "stop" : 1626890846964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100020&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844923",
+      "time" : {
+        "start" : 1626890846964,
+        "stop" : 1626890846964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100015&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844924",
+      "time" : {
+        "start" : 1626890846964,
+        "stop" : 1626890846964,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100016&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844925",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100017&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844926",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100019&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844927",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100018&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844928",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100020&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844929",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100015&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844930",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100016&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844931",
+      "time" : {
+        "start" : 1626890846965,
+        "stop" : 1626890846965,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100017&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844932",
+      "time" : {
+        "start" : 1626890846966,
+        "stop" : 1626890846966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100019&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844933",
+      "time" : {
+        "start" : 1626890846966,
+        "stop" : 1626890846966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetOverallData?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844934",
+      "time" : {
+        "start" : 1626890846966,
+        "stop" : 1626890846966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetTomorrowForecastData?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844935",
+      "time" : {
+        "start" : 1626890846966,
+        "stop" : 1626890846966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetHealthEffects?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844936",
+      "time" : {
+        "start" : 1626890846966,
+        "stop" : 1626890846966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100018&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844937",
+      "time" : {
+        "start" : 1626890846966,
+        "stop" : 1626890846966,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100020&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844938",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100015&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844939",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100016&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844940",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100017&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844941",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=16&ParameterKey=100019&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844942",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100018&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844943",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100020&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844944",
+      "time" : {
+        "start" : 1626890846967,
+        "stop" : 1626890846967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100015&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844945",
+      "time" : {
+        "start" : 1626890846968,
+        "stop" : 1626890846968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100016&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844946",
+      "time" : {
+        "start" : 1626890846968,
+        "stop" : 1626890846968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100017&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844947",
+      "time" : {
+        "start" : 1626890846968,
+        "stop" : 1626890846968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=16&ParameterKey=100019&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844948",
+      "time" : {
+        "start" : 1626890846968,
+        "stop" : 1626890846968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetOverallData?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844949",
+      "time" : {
+        "start" : 1626890846968,
+        "stop" : 1626890846968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetHealthEffects?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844950",
+      "time" : {
+        "start" : 1626890846968,
+        "stop" : 1626890846968,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartData?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&fChartType=timeseries&MaxLegendEntries=12&IsStack=True&IsCategory=False&fTSShape=bar&Context_Bootstrap_Flag=true&_=1626890844951",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartDataForecastPeriod?StationKey=19&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844952",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamGridData?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&gridId=StationGrid_19&Context_Bootstrap_Flag=true&_search=false&nd=1626890845293&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626890844953",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100018&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844954",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100020&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844955",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100015&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844956",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100016&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844957",
+      "time" : {
+        "start" : 1626890846969,
+        "stop" : 1626890846969,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100017&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844958",
+      "time" : {
+        "start" : 1626890846970,
+        "stop" : 1626890846970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100019&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844959",
+      "time" : {
+        "start" : 1626890846970,
+        "stop" : 1626890846970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100018&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844960",
+      "time" : {
+        "start" : 1626890846970,
+        "stop" : 1626890846970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100020&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844961",
+      "time" : {
+        "start" : 1626890846970,
+        "stop" : 1626890846970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100015&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844962",
+      "time" : {
+        "start" : 1626890846970,
+        "stop" : 1626890846970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100016&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844963",
+      "time" : {
+        "start" : 1626890846970,
+        "stop" : 1626890846970,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100017&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844964",
+      "time" : {
+        "start" : 1626890846971,
+        "stop" : 1626890846971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100019&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844965",
+      "time" : {
+        "start" : 1626890846971,
+        "stop" : 1626890846971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetOverallData?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844966",
+      "time" : {
+        "start" : 1626890846971,
+        "stop" : 1626890846971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetTomorrowForecastData?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844967",
+      "time" : {
+        "start" : 1626890846971,
+        "stop" : 1626890846971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetHealthEffects?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844968",
+      "time" : {
+        "start" : 1626890846971,
+        "stop" : 1626890846971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100018&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844969",
+      "time" : {
+        "start" : 1626890846971,
+        "stop" : 1626890846971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100020&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844970",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100015&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844971",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100016&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844972",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100017&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844973",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=19&ParameterKey=100019&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844974",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100018&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844975",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100020&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844976",
+      "time" : {
+        "start" : 1626890846972,
+        "stop" : 1626890846972,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100015&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844977",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100016&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844978",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100017&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844979",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartTomorrowData?StationKey=19&ParameterKey=100019&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844980",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetOverallData?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844981",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetHealthEffects?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844982",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartData?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&fChartType=timeseries&MaxLegendEntries=12&IsStack=True&IsCategory=False&fTSShape=bar&Context_Bootstrap_Flag=true&_=1626890844983",
+      "time" : {
+        "start" : 1626890846973,
+        "stop" : 1626890846973,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartDataForecastPeriod?StationKey=47&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844984",
+      "time" : {
+        "start" : 1626890846974,
+        "stop" : 1626890846974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamGridData?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&gridId=StationGrid_47&Context_Bootstrap_Flag=true&_search=false&nd=1626890845456&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626890844985",
+      "time" : {
+        "start" : 1626890846974,
+        "stop" : 1626890846974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100018&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844986",
+      "time" : {
+        "start" : 1626890846974,
+        "stop" : 1626890846974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100020&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844987",
+      "time" : {
+        "start" : 1626890846974,
+        "stop" : 1626890846974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100015&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844988",
+      "time" : {
+        "start" : 1626890846974,
+        "stop" : 1626890846974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100016&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844989",
+      "time" : {
+        "start" : 1626890846974,
+        "stop" : 1626890846974,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100017&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844990",
+      "time" : {
+        "start" : 1626890846975,
+        "stop" : 1626890846975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100019&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844991",
+      "time" : {
+        "start" : 1626890846975,
+        "stop" : 1626890846975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetOverallData?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844992",
+      "time" : {
+        "start" : 1626890846975,
+        "stop" : 1626890846975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetTomorrowForecastData?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844993",
+      "time" : {
+        "start" : 1626890846975,
+        "stop" : 1626890846975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetHealthEffects?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844994",
+      "time" : {
+        "start" : 1626890846975,
+        "stop" : 1626890846975,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100018&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844995",
+      "time" : {
+        "start" : 1626890846976,
+        "stop" : 1626890846976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100020&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844996",
+      "time" : {
+        "start" : 1626890846976,
+        "stop" : 1626890846976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100015&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844997",
+      "time" : {
+        "start" : 1626890846976,
+        "stop" : 1626890846976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100016&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844998",
+      "time" : {
+        "start" : 1626890846976,
+        "stop" : 1626890846976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100017&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890844999",
+      "time" : {
+        "start" : 1626890846976,
+        "stop" : 1626890846976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetParamChartData?StationKey=47&ParameterKey=100019&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890845000",
+      "time" : {
+        "start" : 1626890846976,
+        "stop" : 1626890846976,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetOverallData?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890845001",
+      "time" : {
+        "start" : 1626890846977,
+        "stop" : 1626890846977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetHealthEffects?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&Context_Bootstrap_Flag=true&_=1626890845002",
+      "time" : {
+        "start" : 1626890846977,
+        "stop" : 1626890846977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartData?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&fChartType=timeseries&MaxLegendEntries=12&IsStack=True&IsCategory=False&fTSShape=bar&Context_Bootstrap_Flag=true&_=1626890845003",
+      "time" : {
+        "start" : 1626890846977,
+        "stop" : 1626890846977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartData?StationKey=16&HistoricalDate=2015,10,13,0,0&IndexType=current&fChartType=timeseries&MaxLegendEntries=12&IsStack=True&IsCategory=False&fTSShape=bar&Context_Bootstrap_Flag=true&_=1626890845004",
+      "time" : {
+        "start" : 1626890846977,
+        "stop" : 1626890846977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartData?StationKey=19&HistoricalDate=2015,10,12,0,0&IndexType=current&fChartType=timeseries&MaxLegendEntries=12&IsStack=True&IsCategory=False&fTSShape=bar&Context_Bootstrap_Flag=true&_=1626890845005",
+      "time" : {
+        "start" : 1626890846977,
+        "stop" : 1626890846977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdAQIContent/GetVariationParamChartData?StationKey=47&HistoricalDate=2019,11,1,0,0&IndexType=current&fChartType=timeseries&MaxLegendEntries=12&IsStack=True&IsCategory=False&fTSShape=bar&Context_Bootstrap_Flag=true&_=1626890845006",
+      "time" : {
+        "start" : 1626890846977,
+        "stop" : 1626890846977,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1626890846978,
+        "stop" : 1626890848006,
+        "duration" : 1028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626890845007",
+      "time" : {
+        "start" : 1626890848005,
+        "stop" : 1626890848005,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#HealthEffectAQILink_16\")",
+      "time" : {
+        "start" : 1626890848006,
+        "stop" : 1626890848041,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626890848041,
+        "stop" : 1626890848336,
+        "duration" : 295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1626890848336,
+        "stop" : 1626890849354,
+        "duration" : 1018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626890845008",
+      "time" : {
+        "start" : 1626890849353,
+        "stop" : 1626890849353,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"#healthEffectsAQI16 > tr:nth-child(1) > th:nth-child(1)\"; \"CO\")",
+      "time" : {
+        "start" : 1626890849354,
+        "stop" : 1626890849427,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"#healthEffectsAQI16 > tr:nth-child(2) > th:nth-child(1)\"; \"NO2\")",
+      "time" : {
+        "start" : 1626890849427,
+        "stop" : 1626890849479,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)\"; \"Ozone\")",
+      "time" : {
+        "start" : 1626890849479,
+        "stop" : 1626890854049,
+        "duration" : 4570
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1626890854051,
+        "stop" : 1626890854052,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "40bf5b7e39773b1d",
+      "name" : "RTT_Tests/Public.AQI.js:2021-07-21T18:07:33.556Z",
+      "source" : "40bf5b7e39773b1d.png",
+      "type" : "image/png",
+      "size" : 474295
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 101,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Public.AQI"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c215467d1e4cfc98",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.",
+        "time" : {
+          "start" : 1626888462751,
+          "stop" : 1626888471897,
+          "duration" : 9146
+        }
+      }, {
+        "uid" : "d8299d73de2a491b",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Ozone' within the selector: '#healthEffectsAQI16 > tr:nth-child(3) > th:nth-child(1)' but never did.",
+        "time" : {
+          "start" : 1626365865359,
+          "stop" : 1626365874216,
+          "duration" : 8857
+        }
+      }, {
+        "uid" : "646b9584659b4800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626204824474,
+          "stop" : 1626204829420,
+          "duration" : 4946
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f1539acfdf4e462b.json",
+  "parameterValues" : [ ]
+}

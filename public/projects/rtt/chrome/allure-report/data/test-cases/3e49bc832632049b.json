@@ -1,0 +1,400 @@
+{
+  "uid" : "3e49bc832632049b",
+  "name" : "Public.MonitoringStations_03",
+  "fullName" : "Public.MonitoringStations_03",
+  "historyId" : "ce3697189f8f2d79b0cc3852d34c5367",
+  "time" : {
+    "start" : 1626891028820,
+    "stop" : 1626891032006,
+    "duration" : 3186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1626891028820,
+        "stop" : 1626891028904,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "visit (\"/RTTPublic/DshBrdStation/Index/16\")",
+      "time" : {
+        "start" : 1626891028906,
+        "stop" : 1626891029598,
+        "duration" : 692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1626891029598,
+        "stop" : 1626891031602,
+        "duration" : 2004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1626891029525",
+      "time" : {
+        "start" : 1626891031601,
+        "stop" : 1626891031601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1626891029526",
+      "time" : {
+        "start" : 1626891031601,
+        "stop" : 1626891031601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/GridData?aStationKey=16&aPeriodKey=1&aParameterKey=3&gridId=DshBrdStationGrid&Context_Bootstrap_Flag=true&_search=false&nd=1626891029768&rows=15&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626891029527",
+      "time" : {
+        "start" : 1626891031601,
+        "stop" : 1626891031601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/TSChartData?aStationKey=16&aPeriodKey=1&aParameterKey=3&fChartType=timeseries&MaxLegendEntries=12&IsStack=False&IsCategory=False&fTSShape=line&Context_Bootstrap_Flag=true&_=1626891029528",
+      "time" : {
+        "start" : 1626891031601,
+        "stop" : 1626891031601,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/AverageChartData?aStationKey=16&aPeriodKey=1&aParameterKey=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1626891029529",
+      "time" : {
+        "start" : 1626891031602,
+        "stop" : 1626891031602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseChartData?aStationKey=16&aPeriodKey=1&aParameterKey=3&fChartType=windrose&WindRoseLayers=16&MaxLegendEntries=-1&Context_Bootstrap_Flag=true&_=1626891029530",
+      "time" : {
+        "start" : 1626891031602,
+        "stop" : 1626891031602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/DshBrdStation/WindRoseLegendData?aStationKey=16&aParameterKey=3&aPeriodKey=1&Context_Bootstrap_Flag=true&_=1626891029531",
+      "time" : {
+        "start" : 1626891031602,
+        "stop" : 1626891031602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/RTTPublic/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626891029532",
+      "time" : {
+        "start" : 1626891031602,
+        "stop" : 1626891031602,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#btnViewerPluginSceneManagerTool\")",
+      "time" : {
+        "start" : 1626891031602,
+        "stop" : 1626891031621,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626891031621,
+        "stop" : 1626891031859,
+        "duration" : 238
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".ui-dialog-title\")",
+      "time" : {
+        "start" : 1626891031859,
+        "stop" : 1626891031882,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Layer Control\")",
+      "time" : {
+        "start" : 1626891031882,
+        "stop" : 1626891031908,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scenesSelection > div.lkv-scenes-menu-container > ul\")",
+      "time" : {
+        "start" : 1626891031908,
+        "stop" : 1626891031929,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Base Layers\")",
+      "time" : {
+        "start" : 1626891031929,
+        "stop" : 1626891031954,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get (\"#scenesSelection > div.lkv-scenes-menu-container > ul\")",
+      "time" : {
+        "start" : 1626891031954,
+        "stop" : 1626891031977,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Ambient Monitor Station\")",
+      "time" : {
+        "start" : 1626891031977,
+        "stop" : 1626891032005,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1626891032042,
+        "stop" : 1626891032043,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 20,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Public.MonitoringStations"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1ae5b872d27df973",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626888630938,
+          "stop" : 1626888634510,
+          "duration" : 3572
+        }
+      }, {
+        "uid" : "ac95268f1583520a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626366012088,
+          "stop" : 1626366015062,
+          "duration" : 2974
+        }
+      }, {
+        "uid" : "1c250e403966b628",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626204939722,
+          "stop" : 1626204942555,
+          "duration" : 2833
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3e49bc832632049b.json",
+  "parameterValues" : [ ]
+}
