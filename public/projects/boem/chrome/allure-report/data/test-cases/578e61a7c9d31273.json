@@ -1,0 +1,545 @@
+{
+  "uid" : "578e61a7c9d31273",
+  "name" : "AdminSecurity_23",
+  "fullName" : "AdminSecurity_23",
+  "historyId" : "4766b47a226590773b44f9ad39f4ed42",
+  "time" : {
+    "start" : 1626961485367,
+    "stop" : 1626961495324,
+    "duration" : 9957
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/boem/TradeSecretReport' to include '/Error/AccessDenied'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/boem/TradeSecretReport' to include '/Error/AccessDenied'\n    at Utilities.checkPartialUrl (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AdminSecurity.js:987:14)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AdminSecurity.js:363:24)",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/boem/TradeSecretReport' to include '/Error/AccessDenied'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/boem/TradeSecretReport' to include '/Error/AccessDenied'\n    at Utilities.checkPartialUrl (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AdminSecurity.js:987:14)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AdminSecurity.js:363:24)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1626961485367,
+        "stop" : 1626961485684,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Account/LogIn\")",
+      "time" : {
+        "start" : 1626961485686,
+        "stop" : 1626961485830,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Diagnostics/Execute/29?admin=Admin&Context_Bootstrap_Flag=true&_=1626961480090",
+      "time" : {
+        "start" : 1626961485830,
+        "stop" : 1626961485830,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#UserName\")",
+      "time" : {
+        "start" : 1626961485830,
+        "stop" : 1626961485834,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"qa_boemnotadmin@weblakes.com\")",
+      "time" : {
+        "start" : 1626961485834,
+        "stop" : 1626961486296,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#Password\")",
+      "time" : {
+        "start" : 1626961486296,
+        "stop" : 1626961486300,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"GQ7aKj7r*M9gy5\")",
+      "time" : {
+        "start" : 1626961486300,
+        "stop" : 1626961486619,
+        "duration" : 319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"Log In\")",
+      "time" : {
+        "start" : 1626961486619,
+        "stop" : 1626961486623,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626961486623,
+        "stop" : 1626961486717,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1626961486717,
+        "stop" : 1626961486717,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1626961486717,
+        "stop" : 1626961486717,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1626961486717,
+        "stop" : 1626961490367,
+        "duration" : 3650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/UpdateGrid?anEnableHorizontalScroll=False&Context_Bootstrap_Flag=true&_=1626961488200",
+      "time" : {
+        "start" : 1626961490366,
+        "stop" : 1626961490366,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "2000 wait",
+      "time" : {
+        "start" : 1626961490366,
+        "stop" : 1626961490366,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1626961488684&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626961488201",
+      "time" : {
+        "start" : 1626961490367,
+        "stop" : 1626961490367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626961488202",
+      "time" : {
+        "start" : 1626961490367,
+        "stop" : 1626961490367,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"body\")",
+      "time" : {
+        "start" : 1626961490367,
+        "stop" : 1626961490369,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"/TradeSecretReport\")",
+      "time" : {
+        "start" : 1626961490369,
+        "stop" : 1626961490839,
+        "duration" : 470
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1626961490839,
+        "stop" : 1626961495324,
+        "duration" : 4485
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **https://fat.ei.weblakes.com/boem/TradeSecretReport** to include **/Error/AccessDenied** assert",
+      "time" : {
+        "start" : 1626961495323,
+        "stop" : 1626961495323,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/TradeSecretReport/GetGridData?aOption=None&aDateOption=RequestDate&aStart=07/15/2021 13:44:50&aEnd=07/22/2021 13:44:50&gridId=TradeSecret&Context_Bootstrap_Flag=true&_search=false&nd=1626961491042&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626961490787",
+      "time" : {
+        "start" : 1626961495324,
+        "stop" : 1626961495324,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626961490788",
+      "time" : {
+        "start" : 1626961495324,
+        "stop" : 1626961495324,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1626961495325,
+        "stop" : 1626961495326,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e4c41f24254e5264",
+      "name" : "BOEM_Tests/AdminSecurity.js:2021-07-22T13:44:54.850Z",
+      "source" : "e4c41f24254e5264.png",
+      "type" : "image/png",
+      "size" : 215282
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 23
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "AdminSecurity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "e26974ebaa3f18aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625687238641,
+          "stop" : 1625687243725,
+          "duration" : 5084
+        }
+      }, {
+        "uid" : "4603cb3b5b9bdda2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625594667582,
+          "stop" : 1625594672690,
+          "duration" : 5108
+        }
+      }, {
+        "uid" : "738b2642bea01ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625583878557,
+          "stop" : 1625583883722,
+          "duration" : 5165
+        }
+      }, {
+        "uid" : "f1051fcd3aa7c4b8",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/BOEM/Account/LogIn\n\nThe response we received from your web server was:\n\n  > 503: Service Unavailable\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1625577088454,
+          "stop" : 1625577088946,
+          "duration" : 492
+        }
+      }, {
+        "uid" : "1e30692562076fef",
+        "status" : "failed",
+        "statusDetails" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/BOEM/Account/LogIn\n\nThe response we received from your web server was:\n\n  > 503: Service Unavailable\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
+        "time" : {
+          "start" : 1625520226731,
+          "stop" : 1625520227140,
+          "duration" : 409
+        }
+      }, {
+        "uid" : "2f8a375f5ea3a695",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625440964793,
+          "stop" : 1625440969870,
+          "duration" : 5077
+        }
+      }, {
+        "uid" : "6db789c77552473c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624912835133,
+          "stop" : 1624912838507,
+          "duration" : 3374
+        }
+      }, {
+        "uid" : "6dbef0ed3dee4981",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624856625849,
+          "stop" : 1624856633921,
+          "duration" : 8072
+        }
+      }, {
+        "uid" : "3185c08017211baf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624487725277,
+          "stop" : 1624487732677,
+          "duration" : 7400
+        }
+      }, {
+        "uid" : "807186b96d8eba9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624400061643,
+          "stop" : 1624400067488,
+          "duration" : 5845
+        }
+      }, {
+        "uid" : "16b27733ad7244d1",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#grid_Projects > tbody > tr:nth-child(2) > td:nth-child(3) > a`, but never found it.",
+        "time" : {
+          "start" : 1624381431290,
+          "stop" : 1624381441758,
+          "duration" : 10468
+        }
+      }, {
+        "uid" : "1c2e72623cd4d0",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `#grid_Projects > tbody > tr:nth-child(2) > td:nth-child(3) > a`, but never found it.",
+        "time" : {
+          "start" : 1623677996314,
+          "stop" : 1623678003846,
+          "duration" : 7532
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "578e61a7c9d31273.json",
+  "parameterValues" : [ ]
+}

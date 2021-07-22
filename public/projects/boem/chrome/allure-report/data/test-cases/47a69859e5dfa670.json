@@ -1,0 +1,760 @@
+{
+  "uid" : "47a69859e5dfa670",
+  "name" : "AccessRights_02",
+  "fullName" : "AccessRights_02",
+  "historyId" : "8024427978303a3982ee123a8e9174fe",
+  "time" : {
+    "start" : 1626960398514,
+    "stop" : 1626960410599,
+    "duration" : 12085
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select",
+  "statusTrace" : "CypressError: Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select\n    at getOptions (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:135662:21)\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Function.Promise.attempt.Promise.try (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8072:29)\n    at retryOptions (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:135700:27)\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Function.Promise.attempt.Promise.try (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8072:29)\n    at tryFn (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:148807:21)\n    at whenStable (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:148845:12)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:148337:16\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8915:18)\n    at Promise._fulfill (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8859:18)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10473:46\nFrom Your Spec Code:\n    at AccessRightsManagerPage.uncheckAll (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccessRights.js:381:88)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccessRights.js:180:38)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select",
+    "statusTrace" : "CypressError: Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select\n    at getOptions (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:135662:21)\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Function.Promise.attempt.Promise.try (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8072:29)\n    at retryOptions (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:135700:27)\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Function.Promise.attempt.Promise.try (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8072:29)\n    at tryFn (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:148807:21)\n    at whenStable (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:148845:12)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:148337:16\n    at tryCatcher (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10798:23)\n    at Promise._settlePromiseFromHandler (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8733:31)\n    at Promise._settlePromise (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8790:18)\n    at Promise._settlePromise0 (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8835:10)\n    at Promise._settlePromises (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8915:18)\n    at Promise._fulfill (https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:8859:18)\n    at https://fat.ei.weblakes.com/__cypress/runner/cypress_runner.js:10473:46\nFrom Your Spec Code:\n    at AccessRightsManagerPage.uncheckAll (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccessRights.js:381:88)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\AccessRights.js:180:38)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1626960398516,
+        "stop" : 1626960402227,
+        "duration" : 3711
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Account/LogIn\")",
+        "time" : {
+          "start" : 1626960398555,
+          "stop" : 1626960399005,
+          "duration" : 450
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#UserName\")",
+        "time" : {
+          "start" : 1626960399005,
+          "stop" : 1626960399009,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"qa_boem@weblakes.com\")",
+        "time" : {
+          "start" : 1626960399009,
+          "stop" : 1626960399380,
+          "duration" : 371
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "get (\"#Password\")",
+        "time" : {
+          "start" : 1626960399380,
+          "stop" : 1626960399385,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "type (\"e45eT%0n^SpXdsb2\")",
+        "time" : {
+          "start" : 1626960399385,
+          "stop" : 1626960399735,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "contains (\"Log In\")",
+        "time" : {
+          "start" : 1626960399735,
+          "stop" : 1626960399740,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1626960399740,
+          "stop" : 1626960399849,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--submitting form-- form sub",
+        "time" : {
+          "start" : 1626960399849,
+          "stop" : 1626960399849,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1626960399849,
+          "stop" : 1626960399849,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 9
+    }, {
+      "name" : "get (\"#navbar\")",
+      "time" : {
+        "start" : 1626960402231,
+        "stop" : 1626960402249,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "find (\"li\")",
+      "time" : {
+        "start" : 1626960402249,
+        "stop" : 1626960402272,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"Admin\")",
+      "time" : {
+        "start" : 1626960402272,
+        "stop" : 1626960402288,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626960402288,
+        "stop" : 1626960402418,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1626960402418,
+        "stop" : 1626960402418,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#wrapper > div.navbar-default.navbar-static-side\")",
+      "time" : {
+        "start" : 1626960402418,
+        "stop" : 1626960402633,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "#wrapper > div.navbar-default.navbar-static-side get",
+      "time" : {
+        "start" : 1626960402633,
+        "stop" : 1626960402633,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "find (\"li\")",
+      "time" : {
+        "start" : 1626960402633,
+        "stop" : 1626960402649,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"User Management\")",
+      "time" : {
+        "start" : 1626960402649,
+        "stop" : 1626960402662,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626960402662,
+        "stop" : 1626960402785,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1626960402784,
+        "stop" : 1626960402784,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#page-wrapper > div.wrapper.wrapper-content\")",
+      "time" : {
+        "start" : 1626960402785,
+        "stop" : 1626960403030,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "#page-wrapper > div.wrapper.wrapper-content get",
+      "time" : {
+        "start" : 1626960403030,
+        "stop" : 1626960403030,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "find (\"h2\")",
+      "time" : {
+        "start" : 1626960403030,
+        "stop" : 1626960403051,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"Access Rights Manager\")",
+      "time" : {
+        "start" : 1626960403051,
+        "stop" : 1626960403066,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1626960403066,
+        "stop" : 1626960403202,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1626960403202,
+        "stop" : 1626960403202,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1626960403202,
+        "stop" : 1626960404937,
+        "duration" : 1735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "1000 wait",
+      "time" : {
+        "start" : 1626960404937,
+        "stop" : 1626960404937,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/AdminAccessRights/IndexGridData?groupId=1&gridId=Object&Context_Bootstrap_Flag=true&_search=false&nd=1626960403985&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1626960403857",
+      "time" : {
+        "start" : 1626960404937,
+        "stop" : 1626960404937,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1626960403858",
+      "time" : {
+        "start" : 1626960404937,
+        "stop" : 1626960404937,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#gs_OBJECTTYPE\")",
+      "time" : {
+        "start" : 1626960404937,
+        "stop" : 1626960404957,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "select (\"Report\")",
+      "time" : {
+        "start" : 1626960404957,
+        "stop" : 1626960405178,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/AdminAccessRights/IndexGridData?groupId=1&gridId=Object&Context_Bootstrap_Flag=true&_search=true&nd=1626960405174&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&filters={\"groupOp\":\"AND\",\"rules\":[{\"field\":\"OBJECTTYPE\",\"op\":\"eq\",\"data\":\"Report\"}]}&_=1626960403859",
+      "time" : {
+        "start" : 1626960405178,
+        "stop" : 1626960405178,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1626960405178,
+        "stop" : 1626960406181,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#gridpager_Object_center > table > tbody > tr > td:nth-child(8) > select\")",
+      "time" : {
+        "start" : 1626960406181,
+        "stop" : 1626960406200,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "select (\"80\")",
+      "time" : {
+        "start" : 1626960406200,
+        "stop" : 1626960410598,
+        "duration" : 4398
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1626960410612,
+        "stop" : 1626960410613,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6f99a0c691aedf7a",
+      "name" : "BOEM_Tests/AccessRights.js:2021-07-22T13:26:50.221Z",
+      "source" : "6f99a0c691aedf7a.png",
+      "type" : "image/png",
+      "size" : 244880
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 38
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "AccessRights"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 11,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "5ecd32eda448657a",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select",
+        "time" : {
+          "start" : 1625686293464,
+          "stop" : 1625686305371,
+          "duration" : 11907
+        }
+      }, {
+        "uid" : "64b5a21be53bdb10",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select",
+        "time" : {
+          "start" : 1625593804385,
+          "stop" : 1625593816058,
+          "duration" : 11673
+        }
+      }, {
+        "uid" : "24ad6b19e1d2e93d",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `80`\n\nhttps://on.cypress.io/select",
+        "time" : {
+          "start" : 1625582994297,
+          "stop" : 1625583006576,
+          "duration" : 12279
+        }
+      }, {
+        "uid" : "9d41ba57794bb327",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1625440131419,
+          "stop" : 1625440148847,
+          "duration" : 17428
+        }
+      }, {
+        "uid" : "e8dfbcfdad6b4cd5",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1624912104170,
+          "stop" : 1624912121859,
+          "duration" : 17689
+        }
+      }, {
+        "uid" : "34134adcd67530a",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1624855294093,
+          "stop" : 1624855318087,
+          "duration" : 23994
+        }
+      }, {
+        "uid" : "c2e6574695374fbf",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1624486472480,
+          "stop" : 1624486495069,
+          "duration" : 22589
+        }
+      }, {
+        "uid" : "20c3b3f137b070f",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1624398682665,
+          "stop" : 1624398711262,
+          "duration" : 28597
+        }
+      }, {
+        "uid" : "e6fcf88691da018c",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1624380053587,
+          "stop" : 1624380085950,
+          "duration" : 32363
+        }
+      }, {
+        "uid" : "5cf134374afdfe6d",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
+        "time" : {
+          "start" : 1623677294843,
+          "stop" : 1623677312213,
+          "duration" : 17370
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "47a69859e5dfa670.json",
+  "parameterValues" : [ ]
+}
