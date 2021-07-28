@@ -1,0 +1,251 @@
+{
+  "uid" : "c49d33af942efc38",
+  "name" : "LogOn_03",
+  "fullName" : "LogOn_03",
+  "historyId" : "04335f5273fe0c83e0ca4490670cc717",
+  "time" : {
+    "start" : 1627483848323,
+    "stop" : 1627483848972,
+    "duration" : 649
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1627483848324,
+        "stop" : 1627483848482,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://fat.ei.weblakes.com/COSD/Account/LogOn\")",
+        "time" : {
+          "start" : 1627483848338,
+          "stop" : 1627483848482,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"#UserName\")",
+      "time" : {
+        "start" : 1627483848484,
+        "stop" : 1627483848489,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "type (\"qa_cosd@weblakes.com\")",
+      "time" : {
+        "start" : 1627483848489,
+        "stop" : 1627483848855,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "contains (\"Log In\")",
+      "time" : {
+        "start" : 1627483848855,
+        "stop" : 1627483848860,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1627483848860,
+        "stop" : 1627483848962,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\":nth-child(2) > .inner-addon > .help-block > .text-danger\")",
+      "time" : {
+        "start" : 1627483848962,
+        "stop" : 1627483848972,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "expected **<span.text-danger>** to have text **The Password field is required.** assert",
+      "time" : {
+        "start" : 1627483848971,
+        "stop" : 1627483848971,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1627483848978,
+        "stop" : 1627483848978,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LogOn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "72e76e07e8fd62c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627064274383,
+          "stop" : 1627064275032,
+          "duration" : 649
+        }
+      }, {
+        "uid" : "edfc7b396839ce61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627049475854,
+          "stop" : 1627049476449,
+          "duration" : 595
+        }
+      }, {
+        "uid" : "5e67ce6e44d9a46b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624543198578,
+          "stop" : 1624543200011,
+          "duration" : 1433
+        }
+      }, {
+        "uid" : "ee64111ae0732a51",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621977439423,
+          "stop" : 1621977440325,
+          "duration" : 902
+        }
+      }, {
+        "uid" : "c8f55b33dd924865",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621630592128,
+          "stop" : 1621630593047,
+          "duration" : 919
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c49d33af942efc38.json",
+  "parameterValues" : [ ]
+}
