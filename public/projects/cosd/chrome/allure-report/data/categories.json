@@ -4,75 +4,49 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/COSD/Account/LogOn\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+      "name" : "Timed out retrying after 4000ms: Expected to find content: 'Tools & Auditing' within the element: [ <li.active>, 5 more... ] but never did.",
       "children" : [ {
         "name" : "AdminSecurity_01",
-        "uid" : "fdbef053fcb31cd",
-        "parentUid" : "299872e624e896e8b3ad7237d2def5f1",
+        "uid" : "263f276a72c91bd1",
+        "parentUid" : "459a12f939487208bce5ceede4ca57df",
         "status" : "failed",
         "time" : {
-          "start" : 1627483064676,
-          "stop" : 1627483095169,
-          "duration" : 30493
+          "start" : 1627583277703,
+          "stop" : 1627583325519,
+          "duration" : 47816
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "459a12f939487208bce5ceede4ca57df"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#grid_ActivityGrid > tbody > tr:nth-child(2) > td:nth-child(7)`, but never found it.",
+      "children" : [ {
+        "name" : "AdminSecurity_04",
+        "uid" : "6ee8e13f627841a2",
+        "parentUid" : "6c8fd14252c2b5da9abedf25aebc2459",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627583331346,
+          "stop" : 1627583338560,
+          "duration" : 7214
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "AdminSecurity_02",
-        "uid" : "b96f31ba9aef22ef",
-        "parentUid" : "299872e624e896e8b3ad7237d2def5f1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1627483095219,
-          "stop" : 1627483125681,
-          "duration" : 30462
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "AdminSecurity_03",
-        "uid" : "c2a8ad775d1a8549",
-        "parentUid" : "299872e624e896e8b3ad7237d2def5f1",
-        "status" : "failed",
-        "time" : {
-          "start" : 1627483125695,
-          "stop" : 1627483156191,
-          "duration" : 30496
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "299872e624e896e8b3ad7237d2def5f1"
-    }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `#grid_ActivityGrid > tbody > tr:nth-child(2) > td:nth-child(7)`, but never found it.",
-      "children" : [ {
-        "name" : "AdminSecurity_04",
-        "uid" : "6f340a1958d27a67",
-        "parentUid" : "6c8fd14252c2b5da9abedf25aebc2459",
-        "status" : "failed",
-        "time" : {
-          "start" : 1627483156202,
-          "stop" : 1627483187816,
-          "duration" : 31614
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
         "name" : "AdminSecurity_05",
-        "uid" : "c1eb1ff6fe195206",
+        "uid" : "705fd46bb98b91e1",
         "parentUid" : "6c8fd14252c2b5da9abedf25aebc2459",
         "status" : "failed",
         "time" : {
-          "start" : 1627483187831,
-          "stop" : 1627483195087,
-          "duration" : 7256
+          "start" : 1627583338576,
+          "stop" : 1627583345708,
+          "duration" : 7132
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "6c8fd14252c2b5da9abedf25aebc2459"
@@ -80,13 +54,13 @@
       "name" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/COSD/WizInviteUsers/Step' to include '/Error/AccessDenied'",
       "children" : [ {
         "name" : "AdminSecurity_13",
-        "uid" : "ea353eaec75291a0",
+        "uid" : "5b62cf14e46c7339",
         "parentUid" : "62f42197f423d23e62e7f67528d35432",
         "status" : "failed",
         "time" : {
-          "start" : 1627483216048,
-          "stop" : 1627483223007,
-          "duration" : 6959
+          "start" : 1627583361537,
+          "stop" : 1627583368235,
+          "duration" : 6698
         },
         "flaky" : false,
         "newFailed" : false,
@@ -97,13 +71,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `.ibox-title > .text-success`, but never found it.",
       "children" : [ {
         "name" : "AdminSecurity_31",
-        "uid" : "32da4609fd436b35",
+        "uid" : "6ba3bbd6ef45a9db",
         "parentUid" : "9a6a7cf73fa9260c337b1f9dd033ca9e",
         "status" : "failed",
         "time" : {
-          "start" : 1627483272737,
-          "stop" : 1627483279940,
-          "duration" : 7203
+          "start" : 1627583411502,
+          "stop" : 1627583418318,
+          "duration" : 6816
         },
         "flaky" : false,
         "newFailed" : false,
@@ -114,13 +88,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<div#page-wrapper.gray-bg>' not to contain text 'Error'",
       "children" : [ {
         "name" : "AdminSecurity_33",
-        "uid" : "1ecbf9a6bf6c98e6",
+        "uid" : "49d116d16e9c089d",
         "parentUid" : "b73de73aff0ad1e3fbcda8fee80ce9ff",
         "status" : "failed",
         "time" : {
-          "start" : 1627483282640,
-          "stop" : 1627483289689,
-          "duration" : 7049
+          "start" : 1627583423613,
+          "stop" : 1627583430212,
+          "duration" : 6599
         },
         "flaky" : false,
         "newFailed" : false,
@@ -131,13 +105,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<p.text-success.lkPanelHeaderText>' to contain text 'User-Defined Report', but the text was ' Access Rights Message'",
       "children" : [ {
         "name" : "AdminSecurity_37",
-        "uid" : "179c55ebfa25ec19",
+        "uid" : "608f4c8b0ba771b9",
         "parentUid" : "bf1d55a847d7ad52bfa402170aada432",
         "status" : "failed",
         "time" : {
-          "start" : 1627483300422,
-          "stop" : 1627483307219,
-          "duration" : 6797
+          "start" : 1627583438844,
+          "stop" : 1627583445520,
+          "duration" : 6676
         },
         "flaky" : false,
         "newFailed" : false,
@@ -148,13 +122,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<p.text-success.lkPanelHeaderText>' to contain text 'Project Maps', but the text was ' Access Rights Message'",
       "children" : [ {
         "name" : "AdminSecurity_38",
-        "uid" : "bb1e55aaa868af58",
+        "uid" : "2f73d7be2bc8175e",
         "parentUid" : "0543f0c0cd6baccf2305b84251680d27",
         "status" : "failed",
         "time" : {
-          "start" : 1627483307244,
-          "stop" : 1627483313877,
-          "duration" : 6633
+          "start" : 1627583445535,
+          "stop" : 1627583451888,
+          "duration" : 6353
         },
         "flaky" : false,
         "newFailed" : false,
@@ -165,117 +139,117 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Prioritization Device Distance Refinement' within the element: [ <h2.NavIconTitle>, 7 more... ] but never did.",
       "children" : [ {
         "name" : "HHRP.Distance_01",
-        "uid" : "89f4ee6d9325f111",
+        "uid" : "af5349d078d8ea07",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483571900,
-          "stop" : 1627483580360,
-          "duration" : 8460
+          "start" : 1627583697702,
+          "stop" : 1627583706388,
+          "duration" : 8686
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_02",
-        "uid" : "62208354fcff1eac",
+        "uid" : "74478c3ffab5e0c7",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483580405,
-          "stop" : 1627483587319,
-          "duration" : 6914
+          "start" : 1627583706440,
+          "stop" : 1627583713760,
+          "duration" : 7320
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_03",
-        "uid" : "88a0e8f9c63440dd",
+        "uid" : "18d52fcaa3dfb6c",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483587336,
-          "stop" : 1627483594178,
-          "duration" : 6842
+          "start" : 1627583713779,
+          "stop" : 1627583720624,
+          "duration" : 6845
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_04",
-        "uid" : "42af6de5650d35c9",
+        "uid" : "f6fe25358c7f905c",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483594210,
-          "stop" : 1627483601090,
-          "duration" : 6880
+          "start" : 1627583720638,
+          "stop" : 1627583727340,
+          "duration" : 6702
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_05",
-        "uid" : "853971f9349ed305",
+        "uid" : "f18592e7585ef87b",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483601107,
-          "stop" : 1627483608300,
-          "duration" : 7193
+          "start" : 1627583727360,
+          "stop" : 1627583734100,
+          "duration" : 6740
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_06",
-        "uid" : "a8330bc1f922aa66",
+        "uid" : "6163c85c0220ceb3",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483608315,
-          "stop" : 1627483615453,
-          "duration" : 7138
+          "start" : 1627583734116,
+          "stop" : 1627583741223,
+          "duration" : 7107
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_07",
-        "uid" : "a6290674028cb933",
+        "uid" : "d15ef9a54e33b3f9",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483615472,
-          "stop" : 1627483622187,
-          "duration" : 6715
+          "start" : 1627583741239,
+          "stop" : 1627583748047,
+          "duration" : 6808
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_08",
-        "uid" : "ffc7b131a1080f10",
+        "uid" : "80a29fa3b0168a3e",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483622203,
-          "stop" : 1627483629071,
-          "duration" : 6868
+          "start" : 1627583748063,
+          "stop" : 1627583754914,
+          "duration" : 6851
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Distance_09",
-        "uid" : "49c8cab2d31564f6",
+        "uid" : "49729cd44f61e1ea",
         "parentUid" : "86c428c4c99c4c3df83bb50609f8563b",
         "status" : "failed",
         "time" : {
-          "start" : 1627483629104,
-          "stop" : 1627483636107,
-          "duration" : 7003
+          "start" : 1627583754931,
+          "stop" : 1627583761823,
+          "duration" : 6892
         },
         "flaky" : false,
         "newFailed" : false,
@@ -286,13 +260,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<h1#TotalSiteCount.no-margins>' to contain text '5', but the text was '6'",
       "children" : [ {
         "name" : "HHRP.Management_01",
-        "uid" : "9b73dc210cb26265",
+        "uid" : "a338ca99e5951b0a",
         "parentUid" : "7a30949d615a2e5d26949ffc8a10498d",
         "status" : "failed",
         "time" : {
-          "start" : 1627483637746,
-          "stop" : 1627483652989,
-          "duration" : 15243
+          "start" : 1627583763573,
+          "stop" : 1627583797275,
+          "duration" : 33702
         },
         "flaky" : false,
         "newFailed" : false,
@@ -303,52 +277,52 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Prioritization Run Refinement' within the element: [ <h2.NavIconTitle>, 7 more... ] but never did.",
       "children" : [ {
         "name" : "HRRP.Refine_01",
-        "uid" : "9aff9e1c7a63de3c",
+        "uid" : "18543fcc04d0304",
         "parentUid" : "c5d5682bde8f612bb09da7c789b2b945",
         "status" : "failed",
         "time" : {
-          "start" : 1627483712772,
-          "stop" : 1627483721131,
-          "duration" : 8359
+          "start" : 1627583863300,
+          "stop" : 1627583871658,
+          "duration" : 8358
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HRRP.Refine_02",
-        "uid" : "4c27c8319b7a7250",
+        "uid" : "9d69070b70083a93",
         "parentUid" : "c5d5682bde8f612bb09da7c789b2b945",
         "status" : "failed",
         "time" : {
-          "start" : 1627483721171,
-          "stop" : 1627483728263,
-          "duration" : 7092
+          "start" : 1627583871711,
+          "stop" : 1627583879040,
+          "duration" : 7329
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HRRP.Refine_03",
-        "uid" : "913de527149e917f",
+        "uid" : "5f45d3ddee66dea0",
         "parentUid" : "c5d5682bde8f612bb09da7c789b2b945",
         "status" : "failed",
         "time" : {
-          "start" : 1627483728278,
-          "stop" : 1627483735007,
-          "duration" : 6729
+          "start" : 1627583879059,
+          "stop" : 1627583885989,
+          "duration" : 6930
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HRRP.Refine_04",
-        "uid" : "a6b42be8aa8d0bdd",
+        "uid" : "449c505e098bca54",
         "parentUid" : "c5d5682bde8f612bb09da7c789b2b945",
         "status" : "failed",
         "time" : {
-          "start" : 1627483735031,
-          "stop" : 1627483742002,
-          "duration" : 6971
+          "start" : 1627583886006,
+          "stop" : 1627583892968,
+          "duration" : 6962
         },
         "flaky" : false,
         "newFailed" : false,
@@ -356,50 +330,33 @@
       } ],
       "uid" : "c5d5682bde8f612bb09da7c789b2b945"
     }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `#grid_SelectRisk_ModelRP_Output_Tabular_ComplexId`, but never found it.",
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `.inventory-label > a`, but never found it.",
       "children" : [ {
-        "name" : "HHRP.Results_03",
-        "uid" : "91760ab362a89e21",
-        "parentUid" : "1d674b4548ee72b9010d33103c3e4803",
+        "name" : "HHRP.Results_01",
+        "uid" : "eb42eb83944db6ce",
+        "parentUid" : "e0d327301e035856b093a73d482d07a0",
         "status" : "failed",
         "time" : {
-          "start" : 1627483756038,
-          "stop" : 1627483764683,
-          "duration" : 8645
+          "start" : 1627583894480,
+          "stop" : 1627583902531,
+          "duration" : 8051
         },
         "flaky" : true,
         "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "1d674b4548ee72b9010d33103c3e4803"
-    }, {
-      "name" : "Timed out retrying after 4000ms: Not enough elements found. Found '2', expected '5'.",
-      "children" : [ {
-        "name" : "HHRP.Results_04",
-        "uid" : "406ef7f4fdb81dad",
-        "parentUid" : "a7fd5490d7b84a3d32f433f62700302b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1627483764756,
-          "stop" : 1627483773705,
-          "duration" : 8949
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a7fd5490d7b84a3d32f433f62700302b"
+      "uid" : "e0d327301e035856b093a73d482d07a0"
     }, {
       "name" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(2) > label > .icheckbox_square-blue`, but never found it.",
       "children" : [ {
         "name" : "HHRP.Run_01",
-        "uid" : "42d637440058eb38",
+        "uid" : "a598ec1c88dfea91",
         "parentUid" : "0217859579432b4328cccf55ba372b90",
         "status" : "failed",
         "time" : {
-          "start" : 1627483797477,
-          "stop" : 1627483806603,
-          "duration" : 9126
+          "start" : 1627583943541,
+          "stop" : 1627583952774,
+          "duration" : 9233
         },
         "flaky" : false,
         "newFailed" : false,
@@ -410,26 +367,26 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#Button2`, but never found it.",
       "children" : [ {
         "name" : "HHRP.Run_02",
-        "uid" : "3bcb0ebcbeeb978c",
+        "uid" : "a7f7ce26f087ab00",
         "parentUid" : "5405662d17981e1de9eca3ea9f4c305f",
         "status" : "failed",
         "time" : {
-          "start" : 1627483806654,
-          "stop" : 1627483814954,
-          "duration" : 8300
+          "start" : 1627583952846,
+          "stop" : 1627583960827,
+          "duration" : 7981
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Run_04",
-        "uid" : "885222918fce1a2c",
+        "uid" : "76b760592b4c33c8",
         "parentUid" : "5405662d17981e1de9eca3ea9f4c305f",
         "status" : "failed",
         "time" : {
-          "start" : 1627483822652,
-          "stop" : 1627483830123,
-          "duration" : 7471
+          "start" : 1627583968702,
+          "stop" : 1627583976315,
+          "duration" : 7613
         },
         "flaky" : false,
         "newFailed" : false,
@@ -440,13 +397,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#toxicity`, but never found it.",
       "children" : [ {
         "name" : "HHRP.Run_03",
-        "uid" : "376982e66c61dc79",
+        "uid" : "faa9b12b180fdf36",
         "parentUid" : "293305ea6d6be781cbc1415c1a64b746",
         "status" : "failed",
         "time" : {
-          "start" : 1627483814971,
-          "stop" : 1627483822613,
-          "duration" : 7642
+          "start" : 1627583960880,
+          "stop" : 1627583968685,
+          "duration" : 7805
         },
         "flaky" : false,
         "newFailed" : false,
@@ -457,26 +414,26 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#edNameS`, but never found it.",
       "children" : [ {
         "name" : "HHRP.Run_05",
-        "uid" : "3a82e5f24fab8b2b",
+        "uid" : "97073967f3c1351b",
         "parentUid" : "f22a0b94d8b239dd9d1d7dfb9222a8a6",
         "status" : "failed",
         "time" : {
-          "start" : 1627483830167,
-          "stop" : 1627483838034,
-          "duration" : 7867
+          "start" : 1627583976353,
+          "stop" : 1627583984341,
+          "duration" : 7988
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "HHRP.Run_06",
-        "uid" : "f88b2efaadd9ab7e",
+        "uid" : "a0cc0a157f217265",
         "parentUid" : "f22a0b94d8b239dd9d1d7dfb9222a8a6",
         "status" : "failed",
         "time" : {
-          "start" : 1627483838049,
-          "stop" : 1627483845718,
-          "duration" : 7669
+          "start" : 1627583984358,
+          "stop" : 1627583991932,
+          "duration" : 7574
         },
         "flaky" : false,
         "newFailed" : false,
@@ -487,13 +444,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#gs_activity`, but never found it.",
       "children" : [ {
         "name" : "LogOn_09",
-        "uid" : "c580ba6324ef145f",
+        "uid" : "fcb5b10e7047293d",
         "parentUid" : "8597fd5a7921b9e1fc63035d0a29dff4",
         "status" : "failed",
         "time" : {
-          "start" : 1627483856155,
-          "stop" : 1627483865769,
-          "duration" : 9614
+          "start" : 1627584002194,
+          "stop" : 1627584010110,
+          "duration" : 7916
         },
         "flaky" : false,
         "newFailed" : false,
@@ -504,13 +461,13 @@
       "name" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/COSD/DshBrdMainFacility' to equal 'https://fat.ei.weblakes.com/COSD/Account/SessionTimedOut'",
       "children" : [ {
         "name" : "LogOn_12",
-        "uid" : "bd3b11a309c05774",
+        "uid" : "36e290ce55d7d635",
         "parentUid" : "f1e5369476b9e13ad5a5b1c29fd2cf3a",
         "status" : "failed",
         "time" : {
-          "start" : 1627483870187,
-          "stop" : 1627484876787,
-          "duration" : 1006600
+          "start" : 1627584014174,
+          "stop" : 1627585020610,
+          "duration" : 1006436
         },
         "flaky" : false,
         "newFailed" : false,
@@ -521,16 +478,16 @@
       "name" : "Timed out retrying after 4000ms: Too many elements found. Found '6', expected '5'.",
       "children" : [ {
         "name" : "WFTrack.Dashboard_01",
-        "uid" : "2c78d6f49b771c4d",
+        "uid" : "75756816b1a67b4d",
         "parentUid" : "3701357c84be8027c0ab89c90870a8a3",
         "status" : "failed",
         "time" : {
-          "start" : 1627484945802,
-          "stop" : 1627484959249,
-          "duration" : 13447
+          "start" : 1627585090266,
+          "stop" : 1627585104186,
+          "duration" : 13920
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "3701357c84be8027c0ab89c90870a8a3"
@@ -538,43 +495,47 @@
       "name" : "Timed out retrying after 4000ms: Not enough elements found. Found '2', expected '3'.",
       "children" : [ {
         "name" : "WFTrack.Dashboard_02",
-        "uid" : "cd1daddd8aefa710",
+        "uid" : "25a6f8fcb5fb1a92",
         "parentUid" : "cd9bcf9ff48b26fe2d85387bc45ba177",
         "status" : "failed",
         "time" : {
-          "start" : 1627484959294,
-          "stop" : 1627484971264,
-          "duration" : 11970
+          "start" : 1627585104230,
+          "stop" : 1627585116019,
+          "duration" : 11789
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "cd9bcf9ff48b26fe2d85387bc45ba177"
     }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `#Btn_Apply`, but never found it.",
+      "name" : "The following error originated from your application code, not from Cypress.\n\n  > Cannot read property 'Proj' of undefined\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
       "children" : [ {
         "name" : "WFTrack.QuickUpdate_02",
-        "uid" : "53c37f4159e1dbca",
-        "parentUid" : "e0fc005525bab534078ca6a77c2d1c14",
+        "uid" : "8366d223c7413a22",
+        "parentUid" : "7be18dc575e51a9b6ea633fd329f7e2b",
         "status" : "failed",
         "time" : {
-          "start" : 1627484980069,
-          "stop" : 1627484990377,
-          "duration" : 10308
+          "start" : 1627585124218,
+          "stop" : 1627585126666,
+          "duration" : 2448
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
-      }, {
+      } ],
+      "uid" : "7be18dc575e51a9b6ea633fd329f7e2b"
+    }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#Btn_Apply`, but never found it.",
+      "children" : [ {
         "name" : "WFTrack.QuickUpdate_03",
-        "uid" : "849ff5358da8f4ad",
+        "uid" : "8dcf78773bcdbb02",
         "parentUid" : "e0fc005525bab534078ca6a77c2d1c14",
         "status" : "failed",
         "time" : {
-          "start" : 1627484990429,
-          "stop" : 1627485001444,
-          "duration" : 11015
+          "start" : 1627585126678,
+          "stop" : 1627585137576,
+          "duration" : 10898
         },
         "flaky" : false,
         "newFailed" : false,
@@ -585,13 +546,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Must select a workflow to update project' within the element: <div.validation-summary-valid.alert.alert-danger> but never did.",
       "children" : [ {
         "name" : "WFTrack.Setup_03",
-        "uid" : "6c3dabdd2a1e0186",
+        "uid" : "4c216513128d64f1",
         "parentUid" : "24d95dcc3a2b9d82e6df87de1d3dff24",
         "status" : "failed",
         "time" : {
-          "start" : 1627485023140,
-          "stop" : 1627485034182,
-          "duration" : 11042
+          "start" : 1627585155463,
+          "stop" : 1627585165369,
+          "duration" : 9906
         },
         "flaky" : false,
         "newFailed" : false,
@@ -602,13 +563,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#grid_GridTicketsCalendar > tbody > tr:nth-child(4) > td:nth-child(4) > span`, but never found it.",
       "children" : [ {
         "name" : "WFTrack.Setup_06",
-        "uid" : "a378125e27dd359e",
+        "uid" : "3f4f7b5f6da58cc0",
         "parentUid" : "4a87efc552541baecfb31693a7673082",
         "status" : "failed",
         "time" : {
-          "start" : 1627485047736,
-          "stop" : 1627485073953,
-          "duration" : 26217
+          "start" : 1627585176719,
+          "stop" : 1627585200260,
+          "duration" : 23541
         },
         "flaky" : false,
         "newFailed" : false,
@@ -616,33 +577,33 @@
       } ],
       "uid" : "4a87efc552541baecfb31693a7673082"
     }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find content: '2-Aug-2021' within the element: <table#grid_All_Tickets.ui-jqgrid-btable> but never did.",
+      "name" : "Timed out retrying after 4000ms: Expected to find content: '3-Aug-2021' within the element: <table#grid_All_Tickets.ui-jqgrid-btable> but never did.",
       "children" : [ {
         "name" : "WFTrack.Tickets_02",
-        "uid" : "acdc849d637ee431",
-        "parentUid" : "1c93a9dfd48101e01dd9c97553410fdc",
+        "uid" : "c788906c4c75f39a",
+        "parentUid" : "ab9cb7eb0903a6f653b4e842e328c959",
         "status" : "failed",
         "time" : {
-          "start" : 1627485098880,
-          "stop" : 1627485126069,
-          "duration" : 27189
+          "start" : 1627585220777,
+          "stop" : 1627585245575,
+          "duration" : 24798
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "1c93a9dfd48101e01dd9c97553410fdc"
+      "uid" : "ab9cb7eb0903a6f653b4e842e328c959"
     }, {
       "name" : "Timed out retrying after 4000ms: Expected to find content: '1' within the element: <td> but never did.",
       "children" : [ {
         "name" : "WFTrack.Tickets_05",
-        "uid" : "c29123c5dbf22e5b",
+        "uid" : "e661e7344112095b",
         "parentUid" : "538ade911ff87534711e969e2f89dbaa",
         "status" : "failed",
         "time" : {
-          "start" : 1627485180273,
-          "stop" : 1627485188611,
-          "duration" : 8338
+          "start" : 1627585294349,
+          "stop" : 1627585302058,
+          "duration" : 7709
         },
         "flaky" : false,
         "newFailed" : false,
