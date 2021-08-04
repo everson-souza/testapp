@@ -1,0 +1,898 @@
+{
+  "uid" : "89cbed33f61a9651",
+  "name" : "LockedInventory_05",
+  "fullName" : "LockedInventory_05",
+  "historyId" : "618d04af302acb2306c20f4dbc0099a4",
+  "time" : {
+    "start" : 1628094374735,
+    "stop" : 1628094383822,
+    "duration" : 9087
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'\n    at Utilities.findDangerAlert (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\LockedInventory.js:2345:29)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\LockedInventory.js:192:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'\n    at Utilities.findDangerAlert (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\LockedInventory.js:2345:29)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\LockedInventory.js:192:24)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1628094374736,
+        "stop" : 1628094378273,
+        "duration" : 3537
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit (\"https://fat.ei.weblakes.com/BOEM/Account/LogIn\")",
+        "time" : {
+          "start" : 1628094374761,
+          "stop" : 1628094374882,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"#UserName\")",
+        "time" : {
+          "start" : 1628094374882,
+          "stop" : 1628094374884,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"qa_boem@weblakes.com\")",
+        "time" : {
+          "start" : 1628094374884,
+          "stop" : 1628094375238,
+          "duration" : 354
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get (\"#Password\")",
+        "time" : {
+          "start" : 1628094375238,
+          "stop" : 1628094375240,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "type (\"e45eT%0n^SpXdsb2\")",
+        "time" : {
+          "start" : 1628094375240,
+          "stop" : 1628094375590,
+          "duration" : 350
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "contains (\"Log In\")",
+        "time" : {
+          "start" : 1628094375590,
+          "stop" : 1628094375594,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1628094375594,
+          "stop" : 1628094375700,
+          "duration" : 106
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "--submitting form-- form sub",
+        "time" : {
+          "start" : 1628094375700,
+          "stop" : 1628094375700,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "--waiting for new page to load-- page load",
+        "time" : {
+          "start" : 1628094375700,
+          "stop" : 1628094375700,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "wait (\"1000\")",
+        "time" : {
+          "start" : 1628094375700,
+          "stop" : 1628094378250,
+          "duration" : 2550
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/UpdateGrid?anEnableHorizontalScroll=True&Context_Bootstrap_Flag=true&_=1628094377115",
+        "time" : {
+          "start" : 1628094378248,
+          "stop" : 1628094378248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "1000 wait",
+        "time" : {
+          "start" : 1628094378248,
+          "stop" : 1628094378248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1628094377116",
+        "time" : {
+          "start" : 1628094378248,
+          "stop" : 1628094378248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1628094377117",
+        "time" : {
+          "start" : 1628094378249,
+          "stop" : 1628094378249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1628094377318&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1628094377118",
+        "time" : {
+          "start" : 1628094378249,
+          "stop" : 1628094378249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=1&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1628094377119",
+        "time" : {
+          "start" : 1628094378249,
+          "stop" : 1628094378249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1628094377120",
+        "time" : {
+          "start" : 1628094378249,
+          "stop" : 1628094378249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1628094377121",
+        "time" : {
+          "start" : 1628094378250,
+          "stop" : 1628094378250,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=7&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1628094377122",
+        "time" : {
+          "start" : 1628094378250,
+          "stop" : 1628094378250,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1628094377123",
+        "time" : {
+          "start" : 1628094378250,
+          "stop" : 1628094378250,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=10&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1628094377124",
+        "time" : {
+          "start" : 1628094378250,
+          "stop" : 1628094378250,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1628094377125",
+        "time" : {
+          "start" : 1628094378250,
+          "stop" : 1628094378250,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "get (\".inventory-label > a\")",
+        "time" : {
+          "start" : 1628094378250,
+          "stop" : 1628094378272,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 23,
+      "hasContent" : true
+    }, {
+      "name" : "get (\"#navbar\")",
+      "time" : {
+        "start" : 1628094378274,
+        "stop" : 1628094378293,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "find (\"li\")",
+      "time" : {
+        "start" : 1628094378293,
+        "stop" : 1628094378317,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Emissions\")",
+      "time" : {
+        "start" : 1628094378317,
+        "stop" : 1628094378333,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628094378333,
+        "stop" : 1628094378702,
+        "duration" : 369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1628094378702,
+        "stop" : 1628094378702,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Platform QA\")",
+      "time" : {
+        "start" : 1628094378702,
+        "stop" : 1628094378840,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Platform QA contains",
+      "time" : {
+        "start" : 1628094378840,
+        "stop" : 1628094378840,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628094378840,
+        "stop" : 1628094378978,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1628094378978,
+        "stop" : 1628094378978,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains (\"Drilling Rig Data Import/Export\")",
+      "time" : {
+        "start" : 1628094378978,
+        "stop" : 1628094379141,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Drilling Rig Data Import/Export contains",
+      "time" : {
+        "start" : 1628094379141,
+        "stop" : 1628094379141,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1628094379141,
+        "stop" : 1628094379271,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1628094379271,
+        "stop" : 1628094379271,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get (\".alert-danger\")",
+      "time" : {
+        "start" : 1628094379271,
+        "stop" : 1628094383821,
+        "duration" : 4550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : ".alert-danger get",
+      "time" : {
+        "start" : 1628094383821,
+        "stop" : 1628094383821,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "expected **<div.validation-summary-valid.alert.alert-danger>** to contain text **Current inventory is locked. Cannot import emissions at this time.**, but the text was **\\n** assert",
+      "time" : {
+        "start" : 1628094383821,
+        "stop" : 1628094383821,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "POST https://fat.ei.weblakes.com/BOEM/WizDrillrigImport/UpdateStepNumbering?Context_Bootstrap_Flag=true&WizUniqueId=419bd814-d5b1-4b10-9594-4b85d795bda8",
+      "time" : {
+        "start" : 1628094383821,
+        "stop" : 1628094383821,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&WizUniqueId=419bd814-d5b1-4b10-9594-4b85d795bda8&_=1628094379376",
+      "time" : {
+        "start" : 1628094383821,
+        "stop" : 1628094383821,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1628094383825,
+        "stop" : 1628094383825,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6f5bbe37fda75a54",
+      "name" : "BOEM_Tests/LockedInventory.js:2021-08-04T16:26:23.427Z",
+      "source" : "6f5bbe37fda75a54.png",
+      "type" : "image/png",
+      "size" : 257813
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 43,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "LockedInventory"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 18,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 18
+      },
+      "items" : [ {
+        "uid" : "a92507357d03aa9c",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1627663550610,
+          "stop" : 1627663559612,
+          "duration" : 9002
+        }
+      }, {
+        "uid" : "f517b43eeb77f09e",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1627596844542,
+          "stop" : 1627596853875,
+          "duration" : 9333
+        }
+      }, {
+        "uid" : "8df759fb35483488",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1627578745214,
+          "stop" : 1627578754919,
+          "duration" : 9705
+        }
+      }, {
+        "uid" : "762345dfc1009d7b",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1627422157285,
+          "stop" : 1627422166750,
+          "duration" : 9465
+        }
+      }, {
+        "uid" : "2e0c8c78b859b568",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1627402495536,
+          "stop" : 1627402504623,
+          "duration" : 9087
+        }
+      }, {
+        "uid" : "3ddb44765d3c8d17",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1627057489400,
+          "stop" : 1627057498653,
+          "duration" : 9253
+        }
+      }, {
+        "uid" : "a14c0a97553de1d6",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1626964636491,
+          "stop" : 1626964647082,
+          "duration" : 10591
+        }
+      }, {
+        "uid" : "3a0a2245b6e7fde4",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1625691108192,
+          "stop" : 1625691117348,
+          "duration" : 9156
+        }
+      }, {
+        "uid" : "908e3d77eb88106f",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1625598958510,
+          "stop" : 1625598968130,
+          "duration" : 9620
+        }
+      }, {
+        "uid" : "4d9fc45b78d80839",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1625587822842,
+          "stop" : 1625587835872,
+          "duration" : 13030
+        }
+      }, {
+        "uid" : "f5b42370abdcdb32",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1625444697533,
+          "stop" : 1625444706738,
+          "duration" : 9205
+        }
+      }, {
+        "uid" : "5cce54b2270cd5fb",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1624917346707,
+          "stop" : 1624917356191,
+          "duration" : 9484
+        }
+      }, {
+        "uid" : "139727077b2dfbd6",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1624863060170,
+          "stop" : 1624863075860,
+          "duration" : 15690
+        }
+      }, {
+        "uid" : "48b2a12fe2c3fc6a",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1624493404772,
+          "stop" : 1624493419935,
+          "duration" : 15163
+        }
+      }, {
+        "uid" : "9665f5293968d8a7",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1624405406842,
+          "stop" : 1624405422478,
+          "duration" : 15636
+        }
+      }, {
+        "uid" : "5981c35745d8c48f",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1624386763055,
+          "stop" : 1624386778256,
+          "duration" : 15201
+        }
+      }, {
+        "uid" : "1b354fc5b6f01c68",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
+        "time" : {
+          "start" : 1623678969865,
+          "stop" : 1623678978739,
+          "duration" : 8874
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "89cbed33f61a9651.json",
+  "parameterValues" : [ ]
+}
