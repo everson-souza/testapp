@@ -4,33 +4,33 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Timed out retrying after 4000ms: Expected to find content: 'User-Defined Reports' within the element: [ <li.active.current>, 70 more... ] but never did.",
+      "name" : "Timed out retrying after 4000ms: Expected to find content: 'User-Defined Reports' within the element: [ <li>, 70 more... ] but never did.",
       "children" : [ {
         "name" : "AccessRights_01",
-        "uid" : "aa210aa35451ce56",
-        "parentUid" : "02eab27a7fb5e816229ae2b85881acb0",
+        "uid" : "ca8dfdcf17b76732",
+        "parentUid" : "ee3ac920d050492366335a000a5bb3a4",
         "status" : "failed",
         "time" : {
-          "start" : 1629728910378,
-          "stop" : 1629728960017,
-          "duration" : 49639
+          "start" : 1629827580473,
+          "stop" : 1629827671124,
+          "duration" : 90651
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "02eab27a7fb5e816229ae2b85881acb0"
+      "uid" : "ee3ac920d050492366335a000a5bb3a4"
     }, {
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Facility List' within the element: <table#grid_Object.ui-jqgrid-btable> but never did.",
       "children" : [ {
         "name" : "AccessRights_02",
-        "uid" : "4e502efc712edb04",
+        "uid" : "344556e83f4081d7",
         "parentUid" : "cc56c09a10f8c549b30e3966e6034cfa",
         "status" : "failed",
         "time" : {
-          "start" : 1629728960255,
-          "stop" : 1629729003524,
-          "duration" : 43269
+          "start" : 1629827671266,
+          "stop" : 1629827712309,
+          "duration" : 41043
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Facility Ownership Transfer' but never did.",
       "children" : [ {
         "name" : "AccessRightSecurity_41",
-        "uid" : "782ee0c657cfd785",
+        "uid" : "590a3f5c23f28a11",
         "parentUid" : "364a9ef652878ee071ee1b333e6dc757",
         "status" : "failed",
         "time" : {
-          "start" : 1629729410345,
-          "stop" : 1629729419839,
-          "duration" : 9494
+          "start" : 1629828079992,
+          "stop" : 1629828089233,
+          "duration" : 9241
         },
         "flaky" : true,
         "newFailed" : false,
@@ -58,13 +58,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'View Inventory Access Rights - Index:-1' within the element: <table#grid_ActivityGrid.ui-jqgrid-btable> but never did.",
       "children" : [ {
         "name" : "AccountActivity_17",
-        "uid" : "f43beb6c517eef35",
+        "uid" : "bd5298d72f90d1f",
         "parentUid" : "1da574b70dcc1051c935737553b5f19b",
         "status" : "failed",
         "time" : {
-          "start" : 1629729587293,
-          "stop" : 1629729609336,
-          "duration" : 22043
+          "start" : 1629828235699,
+          "stop" : 1629828256846,
+          "duration" : 21147
         },
         "flaky" : false,
         "newFailed" : false,
@@ -72,16 +72,59 @@
       } ],
       "uid" : "1da574b70dcc1051c935737553b5f19b"
     }, {
+      "name" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/AdminChangeLog\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
+      "children" : [ {
+        "name" : "AccountActivity_21",
+        "uid" : "c0e3b1c276099c52",
+        "parentUid" : "6ed1783b42c05b1743571167aee27266",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629828290036,
+          "stop" : 1629828324234,
+          "duration" : 34198
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "AdminSecurity_36",
+        "uid" : "13283e984dce7a4c",
+        "parentUid" : "6ed1783b42c05b1743571167aee27266",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629828708420,
+          "stop" : 1629828741490,
+          "duration" : 33070
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Url_21",
+        "uid" : "bf0d4cedc3900d6a",
+        "parentUid" : "6ed1783b42c05b1743571167aee27266",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629842584696,
+          "stop" : 1629842618688,
+          "duration" : 33992
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6ed1783b42c05b1743571167aee27266"
+    }, {
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Application Logs - Index' within the element: <table#grid_ActivityGrid.ui-jqgrid-btable> but never did.",
       "children" : [ {
         "name" : "AccountActivity_23",
-        "uid" : "8c465512654b7f0b",
+        "uid" : "d2d56bf0be44f68e",
         "parentUid" : "0e365d28b160d0742541e3c53530fd87",
         "status" : "failed",
         "time" : {
-          "start" : 1629729665789,
-          "stop" : 1629729685017,
-          "duration" : 19228
+          "start" : 1629828332656,
+          "stop" : 1629828350682,
+          "duration" : 18026
         },
         "flaky" : true,
         "newFailed" : false,
@@ -89,33 +132,16 @@
       } ],
       "uid" : "0e365d28b160d0742541e3c53530fd87"
     }, {
-      "name" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/UserAccountActivity/ActivityList\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: ESOCKETTIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer",
-      "children" : [ {
-        "name" : "AccountActivity_24",
-        "uid" : "4981ab77df67534a",
-        "parentUid" : "5fdbfd00c452e236a30e978afb1fc2cc",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629729685049,
-          "stop" : 1629729720781,
-          "duration" : 35732
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5fdbfd00c452e236a30e978afb1fc2cc"
-    }, {
       "name" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/BOEM/WizInviteUsers/Step' to include '/Error/AccessDenied'",
       "children" : [ {
         "name" : "AdminSecurity_13",
-        "uid" : "421b6ab05687d3a1",
+        "uid" : "bc140d3fd16c541f",
         "parentUid" : "f9d8f0b5ab19d2e289dc8164c523e0db",
         "status" : "failed",
         "time" : {
-          "start" : 1629729963340,
-          "stop" : 1629729972647,
-          "duration" : 9307
+          "start" : 1629828597613,
+          "stop" : 1629828606883,
+          "duration" : 9270
         },
         "flaky" : false,
         "newFailed" : false,
@@ -126,13 +152,13 @@
       "name" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/BOEM/WizSyncInventory/Step' to include '/Error/AccessDenied'",
       "children" : [ {
         "name" : "AdminSecurity_24",
-        "uid" : "5a4098a659b34032",
+        "uid" : "683296955ea12983",
         "parentUid" : "b6dfbd910901b43e91858243000770c5",
         "status" : "failed",
         "time" : {
-          "start" : 1629730021905,
-          "stop" : 1629730033614,
-          "duration" : 11709
+          "start" : 1629828657673,
+          "stop" : 1629828669901,
+          "duration" : 12228
         },
         "flaky" : false,
         "newFailed" : false,
@@ -140,98 +166,141 @@
       } ],
       "uid" : "b6dfbd910901b43e91858243000770c5"
     }, {
-      "name" : "Timed out retrying after 4000ms: Expected not to find content: 'No data found' within the element: <div#activitylist.lk-panel.lk-bootstrap-panel.col-lg-12.> but continuously found it.",
+      "name" : "Timed out retrying after 4000ms: expected '<p.text-success.lkPanelHeaderText>' to contain text 'User-Defined Report', but the text was ' Access Rights Message'",
       "children" : [ {
-        "name" : "ChangeHistory_01",
-        "uid" : "67b7439d041dc10e",
-        "parentUid" : "2c4e3ede16f1ec955cd7f3c404452e88",
+        "name" : "AdminSecurity_37",
+        "uid" : "1af163bcfad874b2",
+        "parentUid" : "bf1d55a847d7ad52bfa402170aada432",
         "status" : "failed",
         "time" : {
-          "start" : 1629730204470,
-          "stop" : 1629730218573,
-          "duration" : 14103
+          "start" : 1629828741508,
+          "stop" : 1629828750452,
+          "duration" : 8944
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "Url_25",
+        "uid" : "afa377af2d531acc",
+        "parentUid" : "bf1d55a847d7ad52bfa402170aada432",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629842633156,
+          "stop" : 1629842640990,
+          "duration" : 7834
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bf1d55a847d7ad52bfa402170aada432"
+    }, {
+      "name" : "Timed out after waiting `100000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `100000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `C:\\Users\\QAOperator\\Documents\\GitHub\\BOEM_Tests\\BOEM\\cypress.json` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
+      "children" : [ {
+        "name" : "ChangeHistory_01",
+        "uid" : "ac0a4bf9e1b59c5",
+        "parentUid" : "16e71b450bdfb8f097ae949cb0a5de17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629828874845,
+          "stop" : 1629828980836,
+          "duration" : 105991
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ChangeHistory_03",
+        "uid" : "f25f53a055f1a15e",
+        "parentUid" : "16e71b450bdfb8f097ae949cb0a5de17",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629829000691,
+          "stop" : 1629829105097,
+          "duration" : 104406
         },
         "flaky" : true,
         "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "2c4e3ede16f1ec955cd7f3c404452e88"
+      "uid" : "16e71b450bdfb8f097ae949cb0a5de17"
     }, {
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#PNTSITE_DBLSG_H2S`, but never found it.",
       "children" : [ {
         "name" : "CompanyAndComplex_02",
-        "uid" : "986d6b45e53b1e22",
+        "uid" : "4e6c14c500526c8f",
         "parentUid" : "2fa54f600b8073b00be769cdbec951f0",
         "status" : "failed",
         "time" : {
-          "start" : 1629730243607,
-          "stop" : 1629730259031,
-          "duration" : 15424
+          "start" : 1629829114235,
+          "stop" : 1629829130300,
+          "duration" : 16065
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompanyAndComplex_04",
-        "uid" : "ce089edf645dc0b7",
+        "uid" : "3a840aba7bb0b427",
         "parentUid" : "2fa54f600b8073b00be769cdbec951f0",
         "status" : "failed",
         "time" : {
-          "start" : 1629730268007,
-          "stop" : 1629730276426,
-          "duration" : 8419
+          "start" : 1629829138816,
+          "stop" : 1629829147602,
+          "duration" : 8786
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompanyAndComplex_05",
-        "uid" : "fa453cc5a737ab64",
+        "uid" : "e59f5da25fd841c7",
         "parentUid" : "2fa54f600b8073b00be769cdbec951f0",
         "status" : "failed",
         "time" : {
-          "start" : 1629730276444,
-          "stop" : 1629730284896,
-          "duration" : 8452
+          "start" : 1629829147625,
+          "stop" : 1629829156179,
+          "duration" : 8554
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompanyAndComplex_06",
-        "uid" : "b63cdea0486a41af",
+        "uid" : "694d91bfdde11dbd",
         "parentUid" : "2fa54f600b8073b00be769cdbec951f0",
         "status" : "failed",
         "time" : {
-          "start" : 1629730284918,
-          "stop" : 1629730293379,
-          "duration" : 8461
+          "start" : 1629829156207,
+          "stop" : 1629829164829,
+          "duration" : 8622
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompanyAndComplex_07",
-        "uid" : "7fac49810109acdf",
+        "uid" : "9b9ed64fd03c4019",
         "parentUid" : "2fa54f600b8073b00be769cdbec951f0",
         "status" : "failed",
         "time" : {
-          "start" : 1629730293397,
-          "stop" : 1629730301984,
-          "duration" : 8587
+          "start" : 1629829164846,
+          "stop" : 1629829173548,
+          "duration" : 8702
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "CompanyAndComplex_08",
-        "uid" : "fe3ff49d6c2d8956",
+        "uid" : "9c32e8c4d974b96",
         "parentUid" : "2fa54f600b8073b00be769cdbec951f0",
         "status" : "failed",
         "time" : {
-          "start" : 1629730302005,
-          "stop" : 1629730310722,
-          "duration" : 8717
+          "start" : 1629829173573,
+          "stop" : 1629829182060,
+          "duration" : 8487
         },
         "flaky" : true,
         "newFailed" : false,
@@ -242,13 +311,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#PNTSITE_STRSTRUCTUREID`, but never found it.",
       "children" : [ {
         "name" : "CompanyAndComplex_03",
-        "uid" : "4e9203baf4d41288",
+        "uid" : "5e05858795d8ae6c",
         "parentUid" : "503673cbb51b73aa0b69e4570bd1591c",
         "status" : "failed",
         "time" : {
-          "start" : 1629730259090,
-          "stop" : 1629730267987,
-          "duration" : 8897
+          "start" : 1629829130358,
+          "stop" : 1629829138800,
+          "duration" : 8442
         },
         "flaky" : true,
         "newFailed" : false,
@@ -259,13 +328,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#BAND_PNTSITE_COMPLEX_ID > div > div > span > button`, but never found it.",
       "children" : [ {
         "name" : "CompanyAndComplex_09",
-        "uid" : "d5e67db7de9b95aa",
+        "uid" : "7e89ef3e17e67958",
         "parentUid" : "c5a7237f0e9f17b2ae0bfa1557be6777",
         "status" : "failed",
         "time" : {
-          "start" : 1629730310738,
-          "stop" : 1629730319369,
-          "duration" : 8631
+          "start" : 1629829182076,
+          "stop" : 1629829190765,
+          "duration" : 8689
         },
         "flaky" : true,
         "newFailed" : false,
@@ -276,52 +345,52 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Notice To Submit' within the element: <td> but never did.",
       "children" : [ {
         "name" : "DashboardPortal_03",
-        "uid" : "f607407f0eb9830b",
+        "uid" : "a557437c93477257",
         "parentUid" : "1fc65cc302e92d81840f8ea0004c1f30",
         "status" : "failed",
         "time" : {
-          "start" : 1629730355031,
-          "stop" : 1629730370391,
-          "duration" : 15360
+          "start" : 1629829233394,
+          "stop" : 1629829248712,
+          "duration" : 15318
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "DashboardPortal_04",
-        "uid" : "2e8f2e3b600932ec",
+        "uid" : "f35fd6736728b683",
         "parentUid" : "1fc65cc302e92d81840f8ea0004c1f30",
         "status" : "failed",
         "time" : {
-          "start" : 1629730370458,
-          "stop" : 1629730386455,
-          "duration" : 15997
+          "start" : 1629829248794,
+          "stop" : 1629829264407,
+          "duration" : 15613
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "DashboardPortal_05",
-        "uid" : "c427af277481aeea",
+        "uid" : "ac5019e7d52db272",
         "parentUid" : "1fc65cc302e92d81840f8ea0004c1f30",
         "status" : "failed",
         "time" : {
-          "start" : 1629730386488,
-          "stop" : 1629730397608,
-          "duration" : 11120
+          "start" : 1629829264442,
+          "stop" : 1629829275296,
+          "duration" : 10854
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "DashboardPortal_06",
-        "uid" : "5307eb4342aea746",
+        "uid" : "398480b1b155ed32",
         "parentUid" : "1fc65cc302e92d81840f8ea0004c1f30",
         "status" : "failed",
         "time" : {
-          "start" : 1629730397653,
-          "stop" : 1629730408519,
-          "duration" : 10866
+          "start" : 1629829275347,
+          "stop" : 1629829286254,
+          "duration" : 10907
         },
         "flaky" : true,
         "newFailed" : false,
@@ -329,16 +398,33 @@
       } ],
       "uid" : "1fc65cc302e92d81840f8ea0004c1f30"
     }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `.alert-danger`, but never found it.",
+      "children" : [ {
+        "name" : "DataEntry_03",
+        "uid" : "52bd5add68a9a55e",
+        "parentUid" : "f61ab4f31abd4916dddd5cba9f3f0063",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629829313573,
+          "stop" : 1629829327249,
+          "duration" : 13676
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f61ab4f31abd4916dddd5cba9f3f0063"
+    }, {
       "name" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `Zip Archive`\n\nhttps://on.cypress.io/select",
       "children" : [ {
         "name" : "DocumentBrowser_04",
-        "uid" : "9f7a617dad31d7df",
+        "uid" : "d83f9296c4d3e995",
         "parentUid" : "a18f1b8afa8ef4b8f1c449f8ac113c5d",
         "status" : "failed",
         "time" : {
-          "start" : 1629730527335,
-          "stop" : 1629730538876,
-          "duration" : 11541
+          "start" : 1629829413545,
+          "stop" : 1629829424870,
+          "duration" : 11325
         },
         "flaky" : false,
         "newFailed" : false,
@@ -349,65 +435,65 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#lkDialogFrame`, but never found it. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_03",
-        "uid" : "403228a657993b99",
+        "uid" : "eb60cb3d967885ad",
         "parentUid" : "848b7875fb0ea7873abf3017b9f2be17",
         "status" : "failed",
         "time" : {
-          "start" : 1629731070925,
-          "stop" : 1629731102165,
-          "duration" : 31240
+          "start" : 1629829950920,
+          "stop" : 1629829982139,
+          "duration" : 31219
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_51",
-        "uid" : "b59f3f93b84d5aff",
+        "uid" : "987a3dedee8d3933",
         "parentUid" : "848b7875fb0ea7873abf3017b9f2be17",
         "status" : "failed",
         "time" : {
-          "start" : 1629737616849,
-          "stop" : 1629737657950,
-          "duration" : 41101
+          "start" : 1629836469659,
+          "stop" : 1629836507692,
+          "duration" : 38033
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_62",
-        "uid" : "d936d811cf438f96",
+        "uid" : "78aa684a9e028ee8",
         "parentUid" : "848b7875fb0ea7873abf3017b9f2be17",
         "status" : "failed",
         "time" : {
-          "start" : 1629738087895,
-          "stop" : 1629738134770,
-          "duration" : 46875
+          "start" : 1629836891397,
+          "stop" : 1629836932549,
+          "duration" : 41152
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_69",
-        "uid" : "e863c86acf1304bf",
+        "uid" : "2a633329167230ac",
         "parentUid" : "848b7875fb0ea7873abf3017b9f2be17",
         "status" : "failed",
         "time" : {
-          "start" : 1629738416773,
-          "stop" : 1629738463138,
-          "duration" : 46365
+          "start" : 1629837186336,
+          "stop" : 1629837228553,
+          "duration" : 42217
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_70",
-        "uid" : "a21dcf35f4f3f307",
+        "uid" : "eb8f01aa1ff92505",
         "parentUid" : "848b7875fb0ea7873abf3017b9f2be17",
         "status" : "failed",
         "time" : {
-          "start" : 1629738463185,
-          "stop" : 1629738508701,
-          "duration" : 45516
+          "start" : 1629837228594,
+          "stop" : 1629837271532,
+          "duration" : 42938
         },
         "flaky" : false,
         "newFailed" : false,
@@ -415,16 +501,33 @@
       } ],
       "uid" : "848b7875fb0ea7873abf3017b9f2be17"
     }, {
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `#emptyTextDiv_BEC_Result_Grid > div`, but never found it. Queried from element: <body>",
+      "children" : [ {
+        "name" : "EISQuestionnaire_04",
+        "uid" : "455158c8779228a7",
+        "parentUid" : "60aac6768471943d3ac13f849f82b33c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629829982233,
+          "stop" : 1629830004226,
+          "duration" : 21993
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "60aac6768471943d3ac13f849f82b33c"
+    }, {
       "name" : "Timed out retrying after 4000ms: `cy.type()` failed because this element is `disabled`:\n\n`<input id=\"D\" name=\"D\" type=\"text\" class=\"form-control nvg-field-edit \" title=\"allowed range 0.0 <= value <= 31.0\" value=\"1\" disabled=\"\">`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
       "children" : [ {
         "name" : "EISQuestionnaire_07",
-        "uid" : "9d623cadabcd6c1",
+        "uid" : "2b2f3f1e6a3d5e92",
         "parentUid" : "48612b6bc39348114db641fc0e4408ce",
         "status" : "failed",
         "time" : {
-          "start" : 1629731157305,
-          "stop" : 1629731168650,
-          "duration" : 11345
+          "start" : 1629830042118,
+          "stop" : 1629830052456,
+          "duration" : 10338
         },
         "flaky" : false,
         "newFailed" : false,
@@ -435,26 +538,26 @@
       "name" : "_AEMFacilitiesPage.default.clickOnCheckMonthInIframe is not a function",
       "children" : [ {
         "name" : "EISQuestionnaire_09",
-        "uid" : "df31e9911f50799d",
+        "uid" : "1f0f8864172576a9",
         "parentUid" : "7e249d38c1091e8e1d0e3a3cbfafdfb6",
         "status" : "failed",
         "time" : {
-          "start" : 1629731192142,
-          "stop" : 1629731192665,
-          "duration" : 523
+          "start" : 1629830076377,
+          "stop" : 1629830076883,
+          "duration" : 506
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_10",
-        "uid" : "214c14cab70b9013",
+        "uid" : "f45d2b7a7b1cd98f",
         "parentUid" : "7e249d38c1091e8e1d0e3a3cbfafdfb6",
         "status" : "failed",
         "time" : {
-          "start" : 1629731192675,
-          "stop" : 1629731193226,
-          "duration" : 551
+          "start" : 1629830076895,
+          "stop" : 1629830077404,
+          "duration" : 509
         },
         "flaky" : false,
         "newFailed" : false,
@@ -465,13 +568,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#D`, but never found it. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_11",
-        "uid" : "8193d3f8c282f3b2",
+        "uid" : "10ea9ba77d51c985",
         "parentUid" : "d54e997c5dd5fab9e03726bd7271ad50",
         "status" : "failed",
         "time" : {
-          "start" : 1629731193235,
-          "stop" : 1629731220824,
-          "duration" : 27589
+          "start" : 1629830077414,
+          "stop" : 1629830104522,
+          "duration" : 27108
         },
         "flaky" : false,
         "newFailed" : false,
@@ -482,13 +585,13 @@
       "name" : "Timed out retrying after 4050ms: `cy.click()` failed because this element:\n\n`<td role=\"gridcell\" style=\"text-align:left;\" title=\"FCONg\" aria-describedby=\"grid_PNTEMISSUNIT_STRPROCESSID\">FCONg</td>`\n\nis being covered by another element:\n\n`<iframe src=\"/BOEM/WizEntityGraftCopy?CopyThemeId=26&amp;EntityParentKey=218&amp;IgnoredThemeId=33&amp;DialogAction=CustomFinishDialogWizard&amp;PredefinedEntityKey=2595\" id=\"lkDialogFrame\" scrolling=\"no\" frameborder=\"1\" style=\"position:absolute;border:0;left:0px;top:0px;width:100%;height:100%;\"></iframe>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
       "children" : [ {
         "name" : "EISQuestionnaire_13",
-        "uid" : "41580ad20485eccd",
+        "uid" : "74a05fc16cea01ce",
         "parentUid" : "0c52f85577b193767f3c6ef45181e1ae",
         "status" : "failed",
         "time" : {
-          "start" : 1629731238896,
-          "stop" : 1629731265335,
-          "duration" : 26439
+          "start" : 1629830122045,
+          "stop" : 1629830149085,
+          "duration" : 27040
         },
         "flaky" : true,
         "newFailed" : false,
@@ -499,26 +602,26 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#f`, but never found it. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_16",
-        "uid" : "f3b6ac435296fb6a",
+        "uid" : "9f32d02f22252fe3",
         "parentUid" : "5c701efd4e8092e7484f6d40380a3a7b",
         "status" : "failed",
         "time" : {
-          "start" : 1629731311516,
-          "stop" : 1629731322785,
-          "duration" : 11269
+          "start" : 1629830196545,
+          "stop" : 1629830206940,
+          "duration" : 10395
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_17",
-        "uid" : "f397f3bac89d9038",
+        "uid" : "9cc877cecdd5947c",
         "parentUid" : "5c701efd4e8092e7484f6d40380a3a7b",
         "status" : "failed",
         "time" : {
-          "start" : 1629731322822,
-          "stop" : 1629731333495,
-          "duration" : 10673
+          "start" : 1629830206959,
+          "stop" : 1629830217878,
+          "duration" : 10919
         },
         "flaky" : false,
         "newFailed" : false,
@@ -529,13 +632,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'GBG03' within the element: <a.actionsLink> but never did.",
       "children" : [ {
         "name" : "EISQuestionnaire_18",
-        "uid" : "4d736572c609f0dc",
+        "uid" : "7b917f985c3985fb",
         "parentUid" : "f984f1a04a98719b24fa43d4029329e9",
         "status" : "failed",
         "time" : {
-          "start" : 1629731333536,
-          "stop" : 1629731343897,
-          "duration" : 10361
+          "start" : 1629830217896,
+          "stop" : 1629830228089,
+          "duration" : 10193
         },
         "flaky" : false,
         "newFailed" : false,
@@ -546,13 +649,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'GBG04' within the element: <a.actionsLink> but never did.",
       "children" : [ {
         "name" : "EISQuestionnaire_19",
-        "uid" : "f3942754a6d5b958",
+        "uid" : "2bb176e7f6cf36bd",
         "parentUid" : "9f07e79c5aa058a9be714f16e59dc8fb",
         "status" : "failed",
         "time" : {
-          "start" : 1629731343940,
-          "stop" : 1629731355401,
-          "duration" : 11461
+          "start" : 1629830228108,
+          "stop" : 1629830238619,
+          "duration" : 10511
         },
         "flaky" : false,
         "newFailed" : false,
@@ -563,26 +666,26 @@
       "name" : "Timed out retrying after 4000ms: Expected <div#tblData.col-lg-12> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_21",
-        "uid" : "ccd43d030f5e3ec1",
+        "uid" : "62346f5aa9f74eb6",
         "parentUid" : "809b253c7768302ddad0e38c380f1816",
         "status" : "failed",
         "time" : {
-          "start" : 1629731422219,
-          "stop" : 1629731460750,
-          "duration" : 38531
+          "start" : 1629830283070,
+          "stop" : 1629830322450,
+          "duration" : 39380
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_04",
-        "uid" : "73b6146995d73973",
+        "uid" : "e9ec3150c02d5b31",
         "parentUid" : "809b253c7768302ddad0e38c380f1816",
         "status" : "failed",
         "time" : {
-          "start" : 1629735792623,
-          "stop" : 1629735824856,
-          "duration" : 32233
+          "start" : 1629834737981,
+          "stop" : 1629834769575,
+          "duration" : 31594
         },
         "flaky" : false,
         "newFailed" : false,
@@ -593,26 +696,26 @@
       "name" : "Timed out retrying after 4000ms: Expected <a#tab_controlVariable.nav-link> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_25",
-        "uid" : "2071650f32038039",
+        "uid" : "48cbf56f1c97b502",
         "parentUid" : "6516e2c7512da51bf6794704d7a07c0f",
         "status" : "failed",
         "time" : {
-          "start" : 1629731591573,
-          "stop" : 1629731632033,
-          "duration" : 40460
+          "start" : 1629830458660,
+          "stop" : 1629830500743,
+          "duration" : 42083
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_08",
-        "uid" : "2c8f14edaaa8cccf",
+        "uid" : "ba743d1e54a008dc",
         "parentUid" : "6516e2c7512da51bf6794704d7a07c0f",
         "status" : "failed",
         "time" : {
-          "start" : 1629735915917,
-          "stop" : 1629735957046,
-          "duration" : 41129
+          "start" : 1629834857226,
+          "stop" : 1629834897398,
+          "duration" : 40172
         },
         "flaky" : false,
         "newFailed" : false,
@@ -623,13 +726,13 @@
       "name" : "Timed out retrying after 4000ms: Expected <a#tab_dataRequest.nav-link.active> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_29",
-        "uid" : "aa71bbe708cc5c1a",
+        "uid" : "c8b33691bea75a77",
         "parentUid" : "3e7daa512d02542adbe35b0749f6836a",
         "status" : "failed",
         "time" : {
-          "start" : 1629731772074,
-          "stop" : 1629731814554,
-          "duration" : 42480
+          "start" : 1629830648125,
+          "stop" : 1629830692494,
+          "duration" : 44369
         },
         "flaky" : false,
         "newFailed" : false,
@@ -640,13 +743,13 @@
       "name" : "Timed out retrying after 4000ms: Expected <a#tab_speciation.nav-link> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_31",
-        "uid" : "6a34ee2ab87b445b",
+        "uid" : "bc1d1648bc01cce0",
         "parentUid" : "11b70a0417344754fdda45f137a1d0b2",
         "status" : "failed",
         "time" : {
-          "start" : 1629731855585,
-          "stop" : 1629731900450,
-          "duration" : 44865
+          "start" : 1629830735413,
+          "stop" : 1629830782831,
+          "duration" : 47418
         },
         "flaky" : false,
         "newFailed" : false,
@@ -657,260 +760,260 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#iframe_details`, but never found it.",
       "children" : [ {
         "name" : "EISQuestionnaire_50",
-        "uid" : "218a50d82ae82591",
+        "uid" : "a6fbca1e9f0cc7f",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629732752634,
-          "stop" : 1629732792759,
-          "duration" : 40125
+          "start" : 1629831643326,
+          "stop" : 1629831683990,
+          "duration" : 40664
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_52",
-        "uid" : "72b2d16655748cb6",
+        "uid" : "13c1a453f57b7207",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629732829541,
-          "stop" : 1629732869853,
-          "duration" : 40312
+          "start" : 1629831722039,
+          "stop" : 1629831762814,
+          "duration" : 40775
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_54",
-        "uid" : "6c920a9c3a8ce9ca",
+        "uid" : "75167a04a6ac1a88",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629732907289,
-          "stop" : 1629732947463,
-          "duration" : 40174
+          "start" : 1629831799729,
+          "stop" : 1629831840918,
+          "duration" : 41189
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_57",
-        "uid" : "9fccefd3c4e7c88c",
+        "uid" : "49a41f0a37d2e7d0",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733023086,
-          "stop" : 1629733064374,
-          "duration" : 41288
+          "start" : 1629831918170,
+          "stop" : 1629831959810,
+          "duration" : 41640
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_60",
-        "uid" : "9bbfdeda0f3898ab",
+        "uid" : "1435463ddbc54d0b",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733140726,
-          "stop" : 1629733181938,
-          "duration" : 41212
+          "start" : 1629832037403,
+          "stop" : 1629832079418,
+          "duration" : 42015
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_61",
-        "uid" : "f7f43241f75f0420",
+        "uid" : "84accb2e5cf09b09",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733181982,
-          "stop" : 1629733223475,
-          "duration" : 41493
+          "start" : 1629832079446,
+          "stop" : 1629832121642,
+          "duration" : 42196
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_63",
-        "uid" : "85db1cb4f07cc7af",
+        "uid" : "8cf2d18e32585bec",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733261848,
-          "stop" : 1629733303651,
-          "duration" : 41803
+          "start" : 1629832161461,
+          "stop" : 1629832203328,
+          "duration" : 41867
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_64",
-        "uid" : "25afc931d108b8bd",
+        "uid" : "fb9b4e769172b507",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733303692,
-          "stop" : 1629733345377,
-          "duration" : 41685
+          "start" : 1629832203355,
+          "stop" : 1629832246630,
+          "duration" : 43275
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_68",
-        "uid" : "ec3e069531060b98",
+        "uid" : "9d5f165e0b16376f",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733463836,
-          "stop" : 1629733506172,
-          "duration" : 42336
+          "start" : 1629832366062,
+          "stop" : 1629832409094,
+          "duration" : 43032
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_69",
-        "uid" : "505ffcd9c06e2042",
+        "uid" : "d10ffec3488a8616",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733506199,
-          "stop" : 1629733549449,
-          "duration" : 43250
+          "start" : 1629832409122,
+          "stop" : 1629832452727,
+          "duration" : 43605
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_74",
-        "uid" : "3abd29cb63416b68",
+        "uid" : "7b64b4264b007452",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733716327,
-          "stop" : 1629733764263,
-          "duration" : 47936
+          "start" : 1629832620994,
+          "stop" : 1629832668920,
+          "duration" : 47926
         },
         "flaky" : true,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_75",
-        "uid" : "6eed98a74a7d71fb",
+        "uid" : "dc903dcac353d532",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733764308,
-          "stop" : 1629733808025,
-          "duration" : 43717
+          "start" : 1629832668949,
+          "stop" : 1629832712217,
+          "duration" : 43268
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_76",
-        "uid" : "c5b262527c4b27d9",
+        "uid" : "8fc31c797ccb0e26",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733808050,
-          "stop" : 1629733851278,
-          "duration" : 43228
+          "start" : 1629832712241,
+          "stop" : 1629832755876,
+          "duration" : 43635
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_80",
-        "uid" : "86c4aa7ed9f76ec0",
+        "uid" : "57ceac432f44e8b8",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629733972489,
-          "stop" : 1629734016968,
-          "duration" : 44479
+          "start" : 1629832882417,
+          "stop" : 1629832928320,
+          "duration" : 45903
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_81",
-        "uid" : "68ad5288930fa85b",
+        "uid" : "bd15b765b4610993",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629734016991,
-          "stop" : 1629734064457,
-          "duration" : 47466
+          "start" : 1629832928365,
+          "stop" : 1629832975863,
+          "duration" : 47498
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_82",
-        "uid" : "2032d303ff1f3205",
+        "uid" : "3dd251cad70d2947",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629734064499,
-          "stop" : 1629734110732,
-          "duration" : 46233
+          "start" : 1629832975889,
+          "stop" : 1629833024397,
+          "duration" : 48508
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_96",
-        "uid" : "42e48631633443c5",
+        "uid" : "1abb5936f09cb26e",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629734550291,
-          "stop" : 1629734594864,
-          "duration" : 44573
+          "start" : 1629833472179,
+          "stop" : 1629833518235,
+          "duration" : 46056
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_97",
-        "uid" : "a91d4474691f4723",
+        "uid" : "67861f1ec05935ed",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629734594907,
-          "stop" : 1629734639382,
-          "duration" : 44475
+          "start" : 1629833518279,
+          "stop" : 1629833563492,
+          "duration" : 45213
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_98",
-        "uid" : "6dd04cc45f417061",
+        "uid" : "e9adf34a92fa7018",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629734639409,
-          "stop" : 1629734684158,
-          "duration" : 44749
+          "start" : 1629833563534,
+          "stop" : 1629833609218,
+          "duration" : 45684
         },
         "flaky" : true,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_99",
-        "uid" : "2f0e9d1cfe5b20a0",
+        "uid" : "2f81be3805a4de71",
         "parentUid" : "eabfaf5638347949d15314080ecb589e",
         "status" : "failed",
         "time" : {
-          "start" : 1629734684182,
-          "stop" : 1629734730059,
-          "duration" : 45877
+          "start" : 1629833609262,
+          "stop" : 1629833654594,
+          "duration" : 45332
         },
         "flaky" : false,
         "newFailed" : false,
@@ -921,13 +1024,13 @@
       "name" : "`cy.then()` timed out after waiting `30000ms`.\n\nYour callback function returned a promise that never resolved.\n\nThe callback function was:\n\nfunction ($frame) { return __awaiter(_this, void 0, void 0, function () {\n        var contentWindow, hasNavigated, loadLog;\n        var _a, _b;\n        return __generator(this, function (_c) {\n            switch (_c.label) {\n                case 0:\n                    (_a = log) === null || _a === void 0 ? void 0 : _a.set('$el', $frame);\n                    if ($frame.length !== 1) {\n                        throw new Error(\"cypress-iframe commands can only be applied to exactly one iframe at a time.  Instead found \" + $frame.length);\n                    }\n                    contentWindow = $frame.prop('contentWindow');\n                    hasNavigated = fullOpts.url\n                        ? function () {\n                            var _a;\n                            return typeof fullOpts.url === 'string'\n                                ? contentWindow.location.toString().includes(fullOpts.url)\n                                : (_a = fullOpts.url) === null || _a === void 0 ? void 0 : _a.test(contentWindow.location.toString());\n                        }\n                        : function () { return contentWindow.location.toString() !== 'about:blank'; };\n                    _c.label = 1;\n                case 1:\n                    if (!!hasNavigated()) return [3, 3];\n                    return [4, sleep(100)];\n                case 2:\n                    _c.sent();\n                    return [3, 1];\n                case 3:\n                    if (contentWindow.document.readyState === 'complete') {\n                        return [2, $frame];\n                    }\n                    loadLog = Cypress.log({\n                        name: 'Frame Load',\n                        message: [contentWindow.location.toString()],\n                        event: true,\n                    }).snapshot();\n                    return [4, new Promise(function (resolve) {\n                            Cypress.$(contentWindow).on('load', resolve);\n                        })];\n                case 4:\n                    _c.sent();\n                    loadLog.end();\n                    (_b = log) === null || _b === void 0 ? void 0 : _b.finish();\n                    return [2, $frame];\n            }\n        });\n    }); }\n\nhttps://on.cypress.io/then",
       "children" : [ {
         "name" : "EISQuestionnaire_100",
-        "uid" : "ead8410982d22cb6",
+        "uid" : "8f392575a22b7be2",
         "parentUid" : "f863a6ea0c62ae0425f0ddcaa44767bd",
         "status" : "failed",
         "time" : {
-          "start" : 1629734730082,
-          "stop" : 1629734793653,
-          "duration" : 63571
+          "start" : 1629833654637,
+          "stop" : 1629833718498,
+          "duration" : 63861
         },
         "flaky" : false,
         "newFailed" : false,
@@ -938,13 +1041,13 @@
       "name" : "Timed out retrying after 4000ms: Too many elements found. Found '2', expected '1'.",
       "children" : [ {
         "name" : "EISQuestionnaire_107",
-        "uid" : "f3a2a19647f0e590",
+        "uid" : "348fb39f67499bdc",
         "parentUid" : "606e99ed6a46bbf488b89ef396717b9e",
         "status" : "failed",
         "time" : {
-          "start" : 1629735034450,
-          "stop" : 1629735139434,
-          "duration" : 104984
+          "start" : 1629833967104,
+          "stop" : 1629834074997,
+          "duration" : 107893
         },
         "flaky" : false,
         "newFailed" : false,
@@ -955,26 +1058,26 @@
       "name" : "Timed out retrying after 4000ms: Expected <button#btnRunBEC.btn.btn-success.btn-outline.dropdown-toggle> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaire_108",
-        "uid" : "aeade69cdd56d02",
+        "uid" : "3be34eed200607de",
         "parentUid" : "c671b40673bcd6266cb27a6948ee4d20",
         "status" : "failed",
         "time" : {
-          "start" : 1629735139511,
-          "stop" : 1629735239689,
-          "duration" : 100178
+          "start" : 1629834075054,
+          "stop" : 1629834175387,
+          "duration" : 100333
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaire_109",
-        "uid" : "72384c3969a90fb3",
+        "uid" : "b206c2e5551877cf",
         "parentUid" : "c671b40673bcd6266cb27a6948ee4d20",
         "status" : "failed",
         "time" : {
-          "start" : 1629735239732,
-          "stop" : 1629735346550,
-          "duration" : 106818
+          "start" : 1629834175430,
+          "stop" : 1629834283706,
+          "duration" : 108276
         },
         "flaky" : false,
         "newFailed" : false,
@@ -985,13 +1088,13 @@
       "name" : "_AEMFacilitiesPage.default.clickOnUncheckMonthZeroEmissionsTable is not a function",
       "children" : [ {
         "name" : "EISQuestionnaire_110",
-        "uid" : "596985a5e64577dd",
+        "uid" : "54654e35bd420c33",
         "parentUid" : "c15f5e5f3bed0939eb16967bcc9a952f",
         "status" : "failed",
         "time" : {
-          "start" : 1629735346603,
-          "stop" : 1629735348051,
-          "duration" : 1448
+          "start" : 1629834283753,
+          "stop" : 1629834285144,
+          "duration" : 1391
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1002,13 +1105,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<button.btn.btn-default.MoveFirst>' to be 'enabled'",
       "children" : [ {
         "name" : "EISQuestionnaire_114",
-        "uid" : "f278d2ca61beafdf",
+        "uid" : "c1f5fca1eecb27c4",
         "parentUid" : "49502e9c5deb321f69fa896a640f8b1f",
         "status" : "failed",
         "time" : {
-          "start" : 1629735538717,
-          "stop" : 1629735576192,
-          "duration" : 37475
+          "start" : 1629834478203,
+          "stop" : 1629834517135,
+          "duration" : 38932
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1016,33 +1119,16 @@
       } ],
       "uid" : "49502e9c5deb321f69fa896a640f8b1f"
     }, {
-      "name" : "`cy.select()` can only be called on a `<select>`. Your subject is a: `<input type=\"text\" style=\"width:95%;padding:0px;\" name=\"Pollutant\" id=\"gs_Pollutant\" value=\"\">`\n\nhttps://on.cypress.io/select",
-      "children" : [ {
-        "name" : "EISQuestionnaireLO_02",
-        "uid" : "bf9813a6e05f11d6",
-        "parentUid" : "6e3b0e20f7e797ab9d042c838d5f0e27",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629735746097,
-          "stop" : 1629735764368,
-          "duration" : 18271
-        },
-        "flaky" : true,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6e3b0e20f7e797ab9d042c838d5f0e27"
-    }, {
       "name" : "Timed out retrying after 4000ms: Expected <a#tab_dataRequest.nav-link> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_12",
-        "uid" : "e0bd90ba2210ecc4",
+        "uid" : "5baaafb4d01bccfe",
         "parentUid" : "3f683e1a31ea82d0113b31b05af8c02a",
         "status" : "failed",
         "time" : {
-          "start" : 1629736075077,
-          "stop" : 1629736112793,
-          "duration" : 37716
+          "start" : 1629835012250,
+          "stop" : 1629835048508,
+          "duration" : 36258
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1053,13 +1139,13 @@
       "name" : "Timed out retrying after 4000ms: Expected <a#tab_speciation.nav-link.active> not to exist in the DOM, but it was continuously found. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_16",
-        "uid" : "7f8ac39e87471467",
+        "uid" : "e152e35addcb3a96",
         "parentUid" : "cd44479cf6bff35d2b71f47110fdac8f",
         "status" : "failed",
         "time" : {
-          "start" : 1629736230241,
-          "stop" : 1629736271177,
-          "duration" : 40936
+          "start" : 1629835157014,
+          "stop" : 1629835196188,
+          "duration" : 39174
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1070,13 +1156,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#ClearEQTN`, but never found it. Queried from element: <body>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_19",
-        "uid" : "3f0fe16d5102b9c0",
+        "uid" : "4e17217b4001125f",
         "parentUid" : "ce16b854d0ed6f833c9adb40d37cce84",
         "status" : "failed",
         "time" : {
-          "start" : 1629736359155,
-          "stop" : 1629736402071,
-          "duration" : 42916
+          "start" : 1629835279426,
+          "stop" : 1629835320726,
+          "duration" : 41300
         },
         "flaky" : true,
         "newFailed" : false,
@@ -1084,93 +1170,16 @@
       } ],
       "uid" : "ce16b854d0ed6f833c9adb40d37cce84"
     }, {
-      "name" : "Timed out retrying after 4000ms: expected '<input#AutoSumWorking.form-control.nvg-field-edit.nvg-field-ReadOnly>' to have value '2', but the value was ''",
-      "children" : [ {
-        "name" : "EISQuestionnaireLO_30",
-        "uid" : "119473b67b202d7",
-        "parentUid" : "a47f7bebfaa037f99263915a3810c236",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629736789077,
-          "stop" : 1629736821150,
-          "duration" : 32073
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "EISQuestionnaireLO_35",
-        "uid" : "296c0699fe795cf4",
-        "parentUid" : "a47f7bebfaa037f99263915a3810c236",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629736978578,
-          "stop" : 1629737011756,
-          "duration" : 33178
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a47f7bebfaa037f99263915a3810c236"
-    }, {
-      "name" : "Timed out retrying after 4000ms: expected '<input#AutoSumWorking.form-control.nvg-field-edit.nvg-field-ReadOnly>' to have value '4', but the value was ''",
-      "children" : [ {
-        "name" : "EISQuestionnaireLO_31",
-        "uid" : "3fb4eef52a67faae",
-        "parentUid" : "bf104bc0f8f6f1eb4ec63503bcef2555",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629736821198,
-          "stop" : 1629736853830,
-          "duration" : 32632
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "EISQuestionnaireLO_36",
-        "uid" : "a65ea7200f0f3cce",
-        "parentUid" : "bf104bc0f8f6f1eb4ec63503bcef2555",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629737011810,
-          "stop" : 1629737045399,
-          "duration" : 33589
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "bf104bc0f8f6f1eb4ec63503bcef2555"
-    }, {
-      "name" : "Timed out retrying after 4000ms: expected '<input#AutoMulitply.form-control.nvg-field-edit.nvg-field-ReadOnly>' to have value '1', but the value was ''",
-      "children" : [ {
-        "name" : "EISQuestionnaireLO_37",
-        "uid" : "b3a5379e5b01a05d",
-        "parentUid" : "06edb849426040a24925870c85842a68",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629737045423,
-          "stop" : 1629737096792,
-          "duration" : 51369
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "06edb849426040a24925870c85842a68"
-    }, {
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be > 0\"Value Greater than Zero\"', but the text was 'Value should be > 0'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_38",
-        "uid" : "149e404538ea3f48",
+        "uid" : "dece923cbf91c352",
         "parentUid" : "c425fed06d8a17a5a7b0049bb71cfd77",
         "status" : "failed",
         "time" : {
-          "start" : 1629737096837,
-          "stop" : 1629737139700,
-          "duration" : 42863
+          "start" : 1629836001513,
+          "stop" : 1629836039723,
+          "duration" : 38210
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1181,13 +1190,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be < 10\"Value Less Than Ten\"', but the text was 'Value should be < 10'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_40",
-        "uid" : "175652c65f88651c",
+        "uid" : "a2fac8e99d56ce08",
         "parentUid" : "c80b139b3ea191ef1857d31e8a82191d",
         "status" : "failed",
         "time" : {
-          "start" : 1629737174065,
-          "stop" : 1629737217855,
-          "duration" : 43790
+          "start" : 1629836071269,
+          "stop" : 1629836110167,
+          "duration" : 38898
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1198,13 +1207,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be >= 0\"Value Greater than or Equal to Zero\"', but the text was 'Value should be >= 0'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_42",
-        "uid" : "48346d33c09ba724",
+        "uid" : "f90577dd9510257a",
         "parentUid" : "ac941a72d74014d8044660c18d06b404",
         "status" : "failed",
         "time" : {
-          "start" : 1629737253036,
-          "stop" : 1629737297411,
-          "duration" : 44375
+          "start" : 1629836142182,
+          "stop" : 1629836181887,
+          "duration" : 39705
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1215,13 +1224,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be <= 10\"Value Less Than or Equal to Ten\"', but the text was 'Value should be <= 10'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_45",
-        "uid" : "a980627867b31fec",
+        "uid" : "8618495d52b7fa3d",
         "parentUid" : "344fa2142e98bfb01150d00795621e69",
         "status" : "failed",
         "time" : {
-          "start" : 1629737368740,
-          "stop" : 1629737414059,
-          "duration" : 45319
+          "start" : 1629836246592,
+          "stop" : 1629836286990,
+          "duration" : 40398
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1232,26 +1241,26 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be > 1 and < 5\"Value Between One and Five\"', but the text was 'Value should be > 1 and < 5'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_48",
-        "uid" : "a41da653ad4a3ad3",
+        "uid" : "9114c6fe1fdd2f6f",
         "parentUid" : "d020970087be4c8075de7fa845a5fd80",
         "status" : "failed",
         "time" : {
-          "start" : 1629737487006,
-          "stop" : 1629737533232,
-          "duration" : 46226
+          "start" : 1629836352569,
+          "stop" : 1629836394113,
+          "duration" : 41544
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_49",
-        "uid" : "efb9de92246178f6",
+        "uid" : "3f2527dc62056190",
         "parentUid" : "d020970087be4c8075de7fa845a5fd80",
         "status" : "failed",
         "time" : {
-          "start" : 1629737533284,
-          "stop" : 1629737580143,
-          "duration" : 46859
+          "start" : 1629836394146,
+          "stop" : 1629836436361,
+          "duration" : 42215
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1262,13 +1271,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be >= 1 and <= 5\"Value in Range of One to 5\"', but the text was 'Value should be >= 0 and <= 5'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_52",
-        "uid" : "62dc318a65d72638",
+        "uid" : "b5e646a861dcb899",
         "parentUid" : "7a88d039b5914bc316091feaa061d4c1",
         "status" : "failed",
         "time" : {
-          "start" : 1629737657975,
-          "stop" : 1629737706215,
-          "duration" : 48240
+          "start" : 1629836507717,
+          "stop" : 1629836550870,
+          "duration" : 43153
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1279,26 +1288,26 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be >= 1 and < 5\"Value Greater or Equal 1, but Less than 5\"', but the text was 'Value should be >= 1 and < 5'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_56",
-        "uid" : "13100906f7aba1c3",
+        "uid" : "346bf302f0ae41b1",
         "parentUid" : "abac01b9e21bf9a3ccbe05869c02c04c",
         "status" : "failed",
         "time" : {
-          "start" : 1629737821706,
-          "stop" : 1629737871903,
-          "duration" : 50197
+          "start" : 1629836655591,
+          "stop" : 1629836699311,
+          "duration" : 43720
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_57",
-        "uid" : "ae2dac3f9a77bbd3",
+        "uid" : "3a2c633b0d22330f",
         "parentUid" : "abac01b9e21bf9a3ccbe05869c02c04c",
         "status" : "failed",
         "time" : {
-          "start" : 1629737871935,
-          "stop" : 1629737922823,
-          "duration" : 50888
+          "start" : 1629836699362,
+          "stop" : 1629836743576,
+          "duration" : 44214
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1309,26 +1318,26 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Value should be > 1 and <= 5\"Value Greater than 1 and Less Than or Equal 5\"', but the text was 'Value should be > 0 and <= 5'",
       "children" : [ {
         "name" : "EISQuestionnaireLO_63",
-        "uid" : "1079a1b007c32beb",
+        "uid" : "16819aa7be271e05",
         "parentUid" : "da5f379f94b50d38d094a0ee8c514d94",
         "status" : "failed",
         "time" : {
-          "start" : 1629738134799,
-          "stop" : 1629738187163,
-          "duration" : 52364
+          "start" : 1629836932589,
+          "stop" : 1629836979664,
+          "duration" : 47075
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_64",
-        "uid" : "b28d10b17452835c",
+        "uid" : "b577492b814b7e39",
         "parentUid" : "da5f379f94b50d38d094a0ee8c514d94",
         "status" : "failed",
         "time" : {
-          "start" : 1629738187193,
-          "stop" : 1629738241495,
-          "duration" : 54302
+          "start" : 1629836979720,
+          "stop" : 1629837027887,
+          "duration" : 48167
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1339,13 +1348,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Episodic', but the text was ' '",
       "children" : [ {
         "name" : "EISQuestionnaireLO_68",
-        "uid" : "6285f7afa4e7c5b5",
+        "uid" : "d13f4a7e95d9f234",
         "parentUid" : "130226006d30361f43ce7e1011e321ec",
         "status" : "failed",
         "time" : {
-          "start" : 1629738366711,
-          "stop" : 1629738416747,
-          "duration" : 50036
+          "start" : 1629837141235,
+          "stop" : 1629837186310,
+          "duration" : 45075
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1356,13 +1365,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `option:selected`, but never found it. Queried from element: <select#LOOKUP_NO_DEFAULT.form-control.nvg-field-edit>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_74",
-        "uid" : "f0d574bee11bdab9",
+        "uid" : "423f244bd1186b6c",
         "parentUid" : "c1b5b79d433e5e6f5c7d81d5141adc0a",
         "status" : "failed",
         "time" : {
-          "start" : 1629738603353,
-          "stop" : 1629738638913,
-          "duration" : 35560
+          "start" : 1629837360905,
+          "stop" : 1629837395198,
+          "duration" : 34293
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1373,13 +1382,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `option:selected`, but never found it. Queried from element: <select#LOOKUP_DEFAULT_INVALID.form-control.nvg-field-edit>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_75",
-        "uid" : "5a9803d795619efa",
+        "uid" : "ae07a011d4b6e7b6",
         "parentUid" : "03fd0376bdae9a359e496892d4344297",
         "status" : "failed",
         "time" : {
-          "start" : 1629738638958,
-          "stop" : 1629738673060,
-          "duration" : 34102
+          "start" : 1629837395239,
+          "stop" : 1629837428458,
+          "duration" : 33219
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1390,13 +1399,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `option:selected`, but never found it. Queried from element: <select#LOOKUP_VALID.form-control.nvg-field-edit>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_76",
-        "uid" : "b5fdf9336dc6dda3",
+        "uid" : "750e2c16157b33ef",
         "parentUid" : "720d0db603f298828202668070f9aca5",
         "status" : "failed",
         "time" : {
-          "start" : 1629738673097,
-          "stop" : 1629738708285,
-          "duration" : 35188
+          "start" : 1629837428480,
+          "stop" : 1629837461908,
+          "duration" : 33428
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1407,13 +1416,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find element: `option:selected`, but never found it. Queried from element: <select#LOOKUP_DEF_NOT_FIRST.form-control.nvg-field-edit>",
       "children" : [ {
         "name" : "EISQuestionnaireLO_77",
-        "uid" : "6cacf5854cdbacd8",
+        "uid" : "f48ad107c24c6265",
         "parentUid" : "3ed2bdb1cfc4aafc6c73b826b267d702",
         "status" : "failed",
         "time" : {
-          "start" : 1629738708325,
-          "stop" : 1629738744069,
-          "duration" : 35744
+          "start" : 1629837461930,
+          "stop" : 1629837497738,
+          "duration" : 35808
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1424,39 +1433,39 @@
       "name" : "Timed out retrying after 4000ms: Too many elements found. Found '6', expected '2'.",
       "children" : [ {
         "name" : "EISQuestionnaireLO_84",
-        "uid" : "9b2b61bad09451ee",
+        "uid" : "6a3322c4d4b27a2a",
         "parentUid" : "f7fe8298550aa1f08ac94a33337a9bbf",
         "status" : "failed",
         "time" : {
-          "start" : 1629738932764,
-          "stop" : 1629738978916,
-          "duration" : 46152
+          "start" : 1629837679199,
+          "stop" : 1629837727629,
+          "duration" : 48430
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_85",
-        "uid" : "321f8f3b7e337193",
+        "uid" : "e6ca81146aa42cb6",
         "parentUid" : "f7fe8298550aa1f08ac94a33337a9bbf",
         "status" : "failed",
         "time" : {
-          "start" : 1629738978942,
-          "stop" : 1629739026109,
-          "duration" : 47167
+          "start" : 1629837727659,
+          "stop" : 1629837772343,
+          "duration" : 44684
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "EISQuestionnaireLO_86",
-        "uid" : "a81c78b695cc1ea3",
+        "uid" : "f21507174677e041",
         "parentUid" : "f7fe8298550aa1f08ac94a33337a9bbf",
         "status" : "failed",
         "time" : {
-          "start" : 1629739026154,
-          "stop" : 1629739074282,
-          "duration" : 48128
+          "start" : 1629837772368,
+          "stop" : 1629837817396,
+          "duration" : 45028
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1467,13 +1476,13 @@
       "name" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
       "children" : [ {
         "name" : "EISQuestionnaireLO_87",
-        "uid" : "624a02f602b64812",
+        "uid" : "b9819d9cbf71a638",
         "parentUid" : "ead33a77ca83218fc866ac4547424d6d",
         "status" : "failed",
         "time" : {
-          "start" : 1629739074309,
-          "stop" : 1629739122055,
-          "duration" : 47746
+          "start" : 1629837817441,
+          "stop" : 1629837862053,
+          "duration" : 44612
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1481,50 +1490,63 @@
       } ],
       "uid" : "ead33a77ca83218fc866ac4547424d6d"
     }, {
-      "name" : "Timed out retrying after 4000ms: expected '<td>' to have text 'Finished - (with Errors)', but the text was 'Finished'",
+      "name" : "Timed out retrying after 4000ms: Expected to find content: 'Mississippi Canyon - Gulf of Mexico OCS' within the element: <td> but never did.",
       "children" : [ {
-        "name" : "EMToolsFacilityData_06",
-        "uid" : "aca10917a84c4738",
-        "parentUid" : "9da6fb987c29a0468076abf5b34a75a2",
+        "name" : "EMToolsCERS_03",
+        "uid" : "5b393277c46851d9",
+        "parentUid" : "a0f8e0ec4c3dd9da6d3143963df67e8b",
         "status" : "failed",
         "time" : {
-          "start" : 1629739653071,
-          "stop" : 1629739698784,
-          "duration" : 45713
+          "start" : 1629838149955,
+          "stop" : 1629838167872,
+          "duration" : 17917
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "EMToolsCERS_04",
+        "uid" : "95e93b56824423e9",
+        "parentUid" : "a0f8e0ec4c3dd9da6d3143963df67e8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629838167963,
+          "stop" : 1629838187060,
+          "duration" : 19097
         },
         "flaky" : true,
         "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "9da6fb987c29a0468076abf5b34a75a2"
+      "uid" : "a0f8e0ec4c3dd9da6d3143963df67e8b"
     }, {
-      "name" : "Timed out retrying after 4050ms: `cy.select()` failed because this element:\n\n`<select class=\"form-control emission-density-emissions\">...</select>`\n\nis being covered by another element:\n\n`<div class=\"lk-sk-spinner-container\">...</div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+      "name" : "Timed out retrying after 4000ms: Expected to find element: `:nth-child(1) > .form-group > .form-control`, but never found it.",
       "children" : [ {
-        "name" : "GriddedEmissions_01",
-        "uid" : "6fa7ee75243a664d",
-        "parentUid" : "d4fd8dcf3c7fd43fb4b7656b1e22811f",
+        "name" : "GriddedEmissions_03",
+        "uid" : "337a581e3eddb996",
+        "parentUid" : "fb3d08c9c5a6729e3ac6a76caa7b27ab",
         "status" : "failed",
         "time" : {
-          "start" : 1629740054332,
-          "stop" : 1629740090825,
-          "duration" : 36493
+          "start" : 1629838921656,
+          "stop" : 1629838956798,
+          "duration" : 35142
         },
         "flaky" : false,
-        "newFailed" : false,
+        "newFailed" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "d4fd8dcf3c7fd43fb4b7656b1e22811f"
+      "uid" : "fb3d08c9c5a6729e3ac6a76caa7b27ab"
     }, {
       "name" : "Timed out retrying after 4000ms: `cy.select()` failed because it could not find a single `<option>` with value or text matching: `KILOGRAMS`\n\nhttps://on.cypress.io/select",
       "children" : [ {
         "name" : "GriddedEmissions_07",
-        "uid" : "34d8aeb33df54758",
+        "uid" : "cdac0cc7e501d4a3",
         "parentUid" : "82f20a5fabbbf61daacdbb2ca725af67",
         "status" : "failed",
         "time" : {
-          "start" : 1629740330179,
-          "stop" : 1629740365381,
-          "duration" : 35202
+          "start" : 1629839100862,
+          "stop" : 1629839136510,
+          "duration" : 35648
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1532,46 +1554,46 @@
       } ],
       "uid" : "82f20a5fabbbf61daacdbb2ca725af67"
     }, {
-      "name" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/boem/cosd/HtmlHelp/ver1.10.66/Index.htm?DshBrdMain.htm' to include '/Error/AccessDenied'",
+      "name" : "Timed out retrying after 4000ms: expected 'https://fat.ei.weblakes.com/boem/cosd/HtmlHelp/ver1.10.85/Index.htm?DshBrdMain.htm' to include '/Error/AccessDenied'",
       "children" : [ {
         "name" : "Help.Content_03",
-        "uid" : "bce2c7236a72f2c7",
-        "parentUid" : "816651ee29ebce3814787d468e146a9a",
+        "uid" : "9eeb74efc0b3c053",
+        "parentUid" : "82701f142623d6fdf9011b4ccb7ad400",
         "status" : "failed",
         "time" : {
-          "start" : 1629740683151,
-          "stop" : 1629740691341,
-          "duration" : 8190
+          "start" : 1629839469006,
+          "stop" : 1629839477676,
+          "duration" : 8670
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "816651ee29ebce3814787d468e146a9a"
+      "uid" : "82701f142623d6fdf9011b4ccb7ad400"
     }, {
       "name" : "Timed out retrying after 4000ms: Expected to find element: `#emptyTextDiv_PNTSITE > div`, but never found it.",
       "children" : [ {
         "name" : "InventoryCfg_06",
-        "uid" : "e61cf0fd4ba2c960",
+        "uid" : "2eb4b28ba6539a8c",
         "parentUid" : "944f983e586d451eebd76138c79a68bc",
         "status" : "failed",
         "time" : {
-          "start" : 1629740890716,
-          "stop" : 1629740904015,
-          "duration" : 13299
+          "start" : 1629839765609,
+          "stop" : 1629839781650,
+          "duration" : 16041
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "InventoryCfg_07",
-        "uid" : "fa96e99a7e6eb144",
+        "uid" : "58f48a9095379f0",
         "parentUid" : "944f983e586d451eebd76138c79a68bc",
         "status" : "failed",
         "time" : {
-          "start" : 1629740904077,
-          "stop" : 1629740911985,
-          "duration" : 7908
+          "start" : 1629839781716,
+          "stop" : 1629839790172,
+          "duration" : 8456
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1582,13 +1604,13 @@
       "name" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n\n`<a href=\"#\" onclick=\"openCustomActionAsDialog('/BOEM/WizUserCalcPT?DialogAction=CustomFinishDialogWizard')\">User Ca...</a>`\n\nThis element `<a>` is not visible because its parent `<ul.dropdown-menu>` has CSS property: `display: none`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
       "children" : [ {
         "name" : "LockedInventory_03",
-        "uid" : "61f20d34435efc50",
+        "uid" : "9dde1e0fb76bf68",
         "parentUid" : "28696faa7be7927b59ab8acbac33f859",
         "status" : "failed",
         "time" : {
-          "start" : 1629740931667,
-          "stop" : 1629740940844,
-          "duration" : 9177
+          "start" : 1629839820378,
+          "stop" : 1629839830653,
+          "duration" : 10275
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1599,13 +1621,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<div.validation-summary-valid.alert.alert-danger>' to contain text 'Current inventory is locked. Cannot import emissions at this time.', but the text was '\\n'",
       "children" : [ {
         "name" : "LockedInventory_05",
-        "uid" : "9833fb52bcf0a0c3",
+        "uid" : "ff7e25af8371d11a",
         "parentUid" : "25a34fdbd6ba68312cb8b359e07c2d7b",
         "status" : "failed",
         "time" : {
-          "start" : 1629740949537,
-          "stop" : 1629740959023,
-          "duration" : 9486
+          "start" : 1629839840299,
+          "stop" : 1629839850371,
+          "duration" : 10072
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1616,13 +1638,13 @@
       "name" : "Timed out retrying after 4000ms: Expected to find content: 'Zero Emission' within the element: [ <button.close>, 18 more... ] but never did.",
       "children" : [ {
         "name" : "LockedInventory_08",
-        "uid" : "cceee2d1e45d10aa",
+        "uid" : "6e33066b6c800428",
         "parentUid" : "9ae0213168ad77fd11875a1d289ca860",
         "status" : "failed",
         "time" : {
-          "start" : 1629740980688,
-          "stop" : 1629740993438,
-          "duration" : 12750
+          "start" : 1629839876388,
+          "stop" : 1629839890856,
+          "duration" : 14468
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1630,67 +1652,33 @@
       } ],
       "uid" : "9ae0213168ad77fd11875a1d289ca860"
     }, {
-      "name" : "Timed out retrying after 4000ms: expected '<span>' to contain '23-Aug-2021, 10:51'",
+      "name" : "Timed out retrying after 4000ms: expected '<span>' to contain '24-Aug-2021, 14:19'",
       "children" : [ {
         "name" : "LogOn_09",
-        "uid" : "5ffd40cabd1d2958",
-        "parentUid" : "6285bd8af5188ba403eedfc16e9fbae8",
+        "uid" : "820a20dd4b383722",
+        "parentUid" : "557cf354e25e27acfd167d4bf50fa17e",
         "status" : "failed",
         "time" : {
-          "start" : 1629741073800,
-          "stop" : 1629741087438,
-          "duration" : 13638
+          "start" : 1629839979348,
+          "stop" : 1629839992743,
+          "duration" : 13395
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "6285bd8af5188ba403eedfc16e9fbae8"
-    }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find content: 'Shapefile Layers' but never did.",
-      "children" : [ {
-        "name" : "Map_03",
-        "uid" : "3ac6a9dd95261498",
-        "parentUid" : "8036d6aa068badc6cf8a9ec60166e34b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629742230479,
-          "stop" : 1629742259307,
-          "duration" : 28828
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8036d6aa068badc6cf8a9ec60166e34b"
-    }, {
-      "name" : "Timed out retrying after 4000ms: Expected to find element: `#\\31  > td:nth-child(4) > input[type=checkbox]`, but never found it.",
-      "children" : [ {
-        "name" : "PortalSynchronize_02",
-        "uid" : "bbe0ea627b207dae",
-        "parentUid" : "7bf651d1392eb8efae877986d7020f99",
-        "status" : "failed",
-        "time" : {
-          "start" : 1629742354701,
-          "stop" : 1629742372572,
-          "duration" : 17871
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7bf651d1392eb8efae877986d7020f99"
+      "uid" : "557cf354e25e27acfd167d4bf50fa17e"
     }, {
       "name" : "`cy.visit()` failed trying to load:\n\nhttps://fat.ei.weblakes.com/boem/InputDetails/NavSourceConfig/DetailedEditor/Create/\n\nThe response we received from your web server was:\n\n  > 404: Not Found\n\nThis was considered a failure because the status code was not `2xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`",
       "children" : [ {
         "name" : "Url_03",
-        "uid" : "5479cfe922b0845f",
+        "uid" : "ffb853c26488e2ec",
         "parentUid" : "012a5e258f2e43412f97f2fbdc3fc36a",
         "status" : "failed",
         "time" : {
-          "start" : 1629743567527,
-          "stop" : 1629743572772,
-          "duration" : 5245
+          "start" : 1629842464940,
+          "stop" : 1629842472167,
+          "duration" : 7227
         },
         "flaky" : false,
         "newFailed" : false,
@@ -1701,13 +1689,13 @@
       "name" : "Timed out retrying after 4000ms: expected '<p.text-success.lkPanelHeaderText>' to contain text 'Facilities', but the text was ' Access Rights Message'",
       "children" : [ {
         "name" : "Url_11",
-        "uid" : "fd290b6f4ca66374",
+        "uid" : "db841049e5e77c71",
         "parentUid" : "71a22792c3bc99bd7b08172cb8ca982f",
         "status" : "failed",
         "time" : {
-          "start" : 1629743609965,
-          "stop" : 1629743617979,
-          "duration" : 8014
+          "start" : 1629842537235,
+          "stop" : 1629842545277,
+          "duration" : 8042
         },
         "flaky" : false,
         "newFailed" : false,
