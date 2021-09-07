@@ -1,0 +1,529 @@
+{
+  "uid" : "a0466c825ea3201c",
+  "name" : "Password.Policy_02",
+  "fullName" : "Password.Policy_02",
+  "historyId" : "9735be4bf6c92f0cf6ac6c8470833647",
+  "time" : {
+    "start" : 1631029130501,
+    "stop" : 1631029140326,
+    "duration" : 9825
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Number of Previous Passwords Remembered: should be between 1 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: The entered value is invalid\\n'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Number of Previous Passwords Remembered: should be between 1 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: The entered value is invalid\\n'\n    at Utilities.findDangerAlert (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:570:29)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:177:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Number of Previous Passwords Remembered: should be between 1 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: The entered value is invalid\\n'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Number of Previous Passwords Remembered: should be between 1 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: The entered value is invalid\\n'\n    at Utilities.findDangerAlert (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:570:29)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:177:24)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1631029130501,
+        "stop" : 1631029130519,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"https://fat.ei.weblakes.com/COSD/Account/LogOn\")",
+      "time" : {
+        "start" : 1631029130522,
+        "stop" : 1631029130636,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#UserName\")",
+      "time" : {
+        "start" : 1631029130636,
+        "stop" : 1631029130639,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"qa@weblakes.com\")",
+      "time" : {
+        "start" : 1631029130639,
+        "stop" : 1631029130919,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#Password\")",
+      "time" : {
+        "start" : 1631029130920,
+        "stop" : 1631029130926,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"Opengl10089\")",
+      "time" : {
+        "start" : 1631029130926,
+        "stop" : 1631029131217,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"Log In\")",
+      "time" : {
+        "start" : 1631029131217,
+        "stop" : 1631029131222,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631029131222,
+        "stop" : 1631029131320,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1631029131320,
+        "stop" : 1631029131320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631029131320,
+        "stop" : 1631029131320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".inventory-label > a\")",
+      "time" : {
+        "start" : 1631029131320,
+        "stop" : 1631029133044,
+        "duration" : 1724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : ".inventory-label > a get",
+      "time" : {
+        "start" : 1631029133044,
+        "stop" : 1631029133044,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"/AdminPasswordPolicy/Edit\")",
+      "time" : {
+        "start" : 1631029133044,
+        "stop" : 1631029133333,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1631029132966",
+      "time" : {
+        "start" : 1631029133333,
+        "stop" : 1631029133333,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1631029132967",
+      "time" : {
+        "start" : 1631029133333,
+        "stop" : 1631029133333,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#historyPasswordReuseLimit\")",
+      "time" : {
+        "start" : 1631029133333,
+        "stop" : 1631029133342,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1631029133342,
+        "stop" : 1631029133471,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"0\")",
+      "time" : {
+        "start" : 1631029133471,
+        "stop" : 1631029133554,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#page-wrapper > div.wrapper.wrapper-content > div.row.content-main > form > div > div:nth-child(1) > div > button.btn.btn-success\")",
+      "time" : {
+        "start" : 1631029133554,
+        "stop" : 1631029133562,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631029133562,
+        "stop" : 1631029133671,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1631029133671,
+        "stop" : 1631029133671,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631029133671,
+        "stop" : 1631029133671,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1631029133671,
+        "stop" : 1631029135906,
+        "duration" : 2235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "2000 wait",
+      "time" : {
+        "start" : 1631029135906,
+        "stop" : 1631029135906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631029133862",
+      "time" : {
+        "start" : 1631029135906,
+        "stop" : 1631029135906,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".alert-danger\")",
+      "time" : {
+        "start" : 1631029135906,
+        "stop" : 1631029135921,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.validation-summary-errors.alert.alert-danger>** to be **visible** assert",
+      "time" : {
+        "start" : 1631029135921,
+        "stop" : 1631029135921,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".alert-danger\")",
+      "time" : {
+        "start" : 1631029135921,
+        "stop" : 1631029140325,
+        "duration" : 4404
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.validation-summary-errors.alert.alert-danger>** to contain text **Number of Previous Passwords Remembered: should be between 1 and 32**, but the text was **There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: The entered value is invalid\\n** assert",
+      "time" : {
+        "start" : 1631029140325,
+        "stop" : 1631029140325,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1631029140327,
+        "stop" : 1631029140328,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6beeab8d5a10796e",
+      "name" : "COSD_Tests/Password.Policy.js:2021-09-07T15:38:59.934Z",
+      "source" : "6beeab8d5a10796e.png",
+      "type" : "image/png",
+      "size" : 240542
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 30
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Password.Policy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "eb2d5e45726dbe38",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '[ <div.alert.alert-danger>, 1 more... ]' to contain text 'Number of Previous Passwords Remembered: should be between 1 and 32', but the text was '25d ago [Error] August 05, 2021, 18:03:44Send Emails failednewView DetailsThere is a problem with the following entries:\\nNumber of Previous Passwords Remembered: The entered value is invalid\\n'",
+        "time" : {
+          "start" : 1630444558789,
+          "stop" : 1630444566915,
+          "duration" : 8126
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a0466c825ea3201c.json",
+  "parameterValues" : [ ]
+}
