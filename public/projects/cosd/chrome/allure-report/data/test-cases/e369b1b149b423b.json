@@ -1,0 +1,589 @@
+{
+  "uid" : "e369b1b149b423b",
+  "name" : "Password.Policy_06",
+  "fullName" : "Password.Policy_06",
+  "historyId" : "428f7d684a1ec21ab7edda2e98c88b49",
+  "time" : {
+    "start" : 1631311822696,
+    "stop" : 1631311831909,
+    "duration" : 9213
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Maximum Number of Login Attempts before lockout:  should be between 3 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: should be between 1 and 32\\nMinimum Password Length: should be between 8 and 128\\n'",
+  "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Maximum Number of Login Attempts before lockout:  should be between 3 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: should be between 1 and 32\\nMinimum Password Length: should be between 8 and 128\\n'\n    at Utilities.findDangerAlert (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:570:29)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:265:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Maximum Number of Login Attempts before lockout:  should be between 3 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: should be between 1 and 32\\nMinimum Password Length: should be between 8 and 128\\n'",
+    "statusTrace" : "AssertionError: Timed out retrying after 4000ms: expected '<div.validation-summary-errors.alert.alert-danger>' to contain text 'Maximum Number of Login Attempts before lockout:  should be between 3 and 32', but the text was 'There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: should be between 1 and 32\\nMinimum Password Length: should be between 8 and 128\\n'\n    at Utilities.findDangerAlert (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:570:29)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\COSD_Tests\\Password.Policy.js:265:24)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1631311822697,
+        "stop" : 1631311822729,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"https://fat.ei.weblakes.com/COSD/Account/LogOn\")",
+      "time" : {
+        "start" : 1631311822733,
+        "stop" : 1631311822841,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#UserName\")",
+      "time" : {
+        "start" : 1631311822841,
+        "stop" : 1631311822843,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"qa@weblakes.com\")",
+      "time" : {
+        "start" : 1631311822843,
+        "stop" : 1631311823128,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#Password\")",
+      "time" : {
+        "start" : 1631311823128,
+        "stop" : 1631311823132,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"Opengl10089\")",
+      "time" : {
+        "start" : 1631311823132,
+        "stop" : 1631311823408,
+        "duration" : 276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "contains (\"Log In\")",
+      "time" : {
+        "start" : 1631311823408,
+        "stop" : 1631311823412,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631311823412,
+        "stop" : 1631311823504,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1631311823504,
+        "stop" : 1631311823504,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631311823504,
+        "stop" : 1631311823504,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".inventory-label > a\")",
+      "time" : {
+        "start" : 1631311823504,
+        "stop" : 1631311824288,
+        "duration" : 784
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : ".inventory-label > a get",
+      "time" : {
+        "start" : 1631311824288,
+        "stop" : 1631311824288,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "visit (\"/AdminPasswordPolicy/Edit\")",
+      "time" : {
+        "start" : 1631311824288,
+        "stop" : 1631311824863,
+        "duration" : 575
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/DshBrdWorkflow/GridDataTicketsAll?gridId=Tickets_Assigned_to_Me&Context_Bootstrap_Flag=true&_search=false&nd=1631311824358&rows=10&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631311824217",
+      "time" : {
+        "start" : 1631311824861,
+        "stop" : 1631311824861,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/DshBrdWorkflow/GridDataTicketsAll?gridId=Tickets_Submitted_by_Me&Context_Bootstrap_Flag=true&_search=false&nd=1631311824400&rows=10&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631311824218",
+      "time" : {
+        "start" : 1631311824862,
+        "stop" : 1631311824862,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/DshBrdWorkflow/GridDataTicketsAll?gridId=All_Tickets&Context_Bootstrap_Flag=true&_search=false&nd=1631311824441&rows=10&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631311824219",
+      "time" : {
+        "start" : 1631311824862,
+        "stop" : 1631311824862,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/DshBrdWorkflow/GridDataTicketsAll?gridId=Assigned_Tickets&Context_Bootstrap_Flag=true&_search=false&nd=1631311824489&rows=10&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631311824220",
+      "time" : {
+        "start" : 1631311824862,
+        "stop" : 1631311824862,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/DshBrdWorkflow/GridDataTicketsAll?gridId=Unassigned_Tickets&Context_Bootstrap_Flag=true&_search=false&nd=1631311824533&rows=10&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631311824221",
+      "time" : {
+        "start" : 1631311824862,
+        "stop" : 1631311824862,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/DshBrdWorkflow/GridDataTicketsAll?gridId=Overdue_Tickets&Context_Bootstrap_Flag=true&_search=false&nd=1631311824572&rows=10&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631311824222",
+      "time" : {
+        "start" : 1631311824863,
+        "stop" : 1631311824863,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#minLength\")",
+      "time" : {
+        "start" : 1631311824863,
+        "stop" : 1631311824869,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1631311824869,
+        "stop" : 1631311825095,
+        "duration" : 226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "type (\"2\")",
+      "time" : {
+        "start" : 1631311825095,
+        "stop" : 1631311825170,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\"#page-wrapper > div.wrapper.wrapper-content > div.row.content-main > form > div > div:nth-child(1) > div > button.btn.btn-success\")",
+      "time" : {
+        "start" : 1631311825170,
+        "stop" : 1631311825174,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631311825174,
+        "stop" : 1631311825270,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1631311825270,
+        "stop" : 1631311825270,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631311825270,
+        "stop" : 1631311825270,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1631311825270,
+        "stop" : 1631311827451,
+        "duration" : 2181
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "2000 wait",
+      "time" : {
+        "start" : 1631311827450,
+        "stop" : 1631311827450,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/COSD/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631311825414",
+      "time" : {
+        "start" : 1631311827451,
+        "stop" : 1631311827451,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".alert-danger\")",
+      "time" : {
+        "start" : 1631311827451,
+        "stop" : 1631311827474,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.validation-summary-errors.alert.alert-danger>** to be **visible** assert",
+      "time" : {
+        "start" : 1631311827474,
+        "stop" : 1631311827474,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "get (\".alert-danger\")",
+      "time" : {
+        "start" : 1631311827474,
+        "stop" : 1631311831908,
+        "duration" : 4434
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "expected **<div.validation-summary-errors.alert.alert-danger>** to contain text **Maximum Number of Login Attempts before lockout:  should be between 3 and 32**, but the text was **There is a problem with the following entries:\\nNumber of Previous Passwords Remembered: should be between 1 and 32\\nMinimum Password Length: should be between 8 and 128\\n** assert",
+      "time" : {
+        "start" : 1631311831908,
+        "stop" : 1631311831908,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1631311831911,
+        "stop" : 1631311831912,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6e4e56128c6ef13c",
+      "name" : "COSD_Tests/Password.Policy.js:2021-09-10T22:10:31.496Z",
+      "source" : "6e4e56128c6ef13c.png",
+      "type" : "image/png",
+      "size" : 266950
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 34
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Password.Policy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "1a7fa8ab3823f6c1",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Expected to find element: `.alert-danger`, but never found it.",
+        "time" : {
+          "start" : 1631029170380,
+          "stop" : 1631029180624,
+          "duration" : 10244
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e369b1b149b423b.json",
+  "parameterValues" : [ ]
+}
