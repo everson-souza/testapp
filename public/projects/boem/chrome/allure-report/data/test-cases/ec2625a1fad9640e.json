@@ -1,0 +1,2817 @@
+{
+  "uid" : "ec2625a1fad9640e",
+  "name" : "EISQuestionnaireLO_87",
+  "fullName" : "EISQuestionnaireLO_87",
+  "historyId" : "ea2b01a2399ed54b1c4351c994edd5dc",
+  "time" : {
+    "start" : 1631905802023,
+    "stop" : 1631905849897,
+    "duration" : 47874
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 5000ms: Too many elements found. Found '7', expected '2'.",
+  "statusTrace" : "AssertionError: Timed out retrying after 5000ms: Too many elements found. Found '7', expected '2'.\n    at LOEmissionsManagerPage.checkNumberOfRowsInQAQCDataGrid (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\EISQuestionnaireLO.js:3421:136)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\EISQuestionnaireLO.js:2558:37)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit (\"/Account/LogIn\")",
+      "time" : {
+        "start" : 1631902396289,
+        "stop" : 1631902397367,
+        "duration" : 1078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#UserName\")",
+      "time" : {
+        "start" : 1631902397367,
+        "stop" : 1631902397391,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"qa_boem@weblakes.com\")",
+      "time" : {
+        "start" : 1631902397391,
+        "stop" : 1631902397740,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#Password\")",
+      "time" : {
+        "start" : 1631902397740,
+        "stop" : 1631902397748,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"e45eT%0n^SpXdsb2\")",
+      "time" : {
+        "start" : 1631902397748,
+        "stop" : 1631902398151,
+        "duration" : 403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Log In\")",
+      "time" : {
+        "start" : 1631902398151,
+        "stop" : 1631902398165,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902398165,
+        "stop" : 1631902398283,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1631902398283,
+        "stop" : 1631902398283,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631902398283,
+        "stop" : 1631902398283,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#navbar\")",
+      "time" : {
+        "start" : 1631902398283,
+        "stop" : 1631902401411,
+        "duration" : 3128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/UpdateGrid?anEnableHorizontalScroll=True&Context_Bootstrap_Flag=true&_=1631902399908",
+      "time" : {
+        "start" : 1631902401409,
+        "stop" : 1631902401409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/BOEM/DshBrdMain&Context_Bootstrap_Flag=true&_=1631902399909",
+      "time" : {
+        "start" : 1631902401409,
+        "stop" : 1631902401409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1631902399910",
+      "time" : {
+        "start" : 1631902401409,
+        "stop" : 1631902401409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1631902399911",
+      "time" : {
+        "start" : 1631902401409,
+        "stop" : 1631902401409,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1631902400320&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631902399912",
+      "time" : {
+        "start" : 1631902401410,
+        "stop" : 1631902401410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631902399913",
+      "time" : {
+        "start" : 1631902401410,
+        "stop" : 1631902401410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631902399914",
+      "time" : {
+        "start" : 1631902401410,
+        "stop" : 1631902401410,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631902399915",
+      "time" : {
+        "start" : 1631902401411,
+        "stop" : 1631902401411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=23&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631902399916",
+      "time" : {
+        "start" : 1631902401411,
+        "stop" : 1631902401411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "#navbar get",
+      "time" : {
+        "start" : 1631902401411,
+        "stop" : 1631902401411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"li\")",
+      "time" : {
+        "start" : 1631902401411,
+        "stop" : 1631902401437,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Admin\")",
+      "time" : {
+        "start" : 1631902401437,
+        "stop" : 1631902401456,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902401456,
+        "stop" : 1631902401668,
+        "duration" : 212
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631902401668,
+        "stop" : 1631902401668,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#wrapper > div.navbar-default.navbar-static-side\")",
+      "time" : {
+        "start" : 1631902401668,
+        "stop" : 1631902401903,
+        "duration" : 235
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/BOEM/Nav/Module/Admin/ADMIN&Context_Bootstrap_Flag=true&_=1631902401757",
+      "time" : {
+        "start" : 1631902401903,
+        "stop" : 1631902401903,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "#wrapper > div.navbar-default.navbar-static-side get",
+      "time" : {
+        "start" : 1631902401903,
+        "stop" : 1631902401903,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"li\")",
+      "time" : {
+        "start" : 1631902401903,
+        "stop" : 1631902401927,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"User Management\")",
+      "time" : {
+        "start" : 1631902401928,
+        "stop" : 1631902401948,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902401948,
+        "stop" : 1631902402091,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631902402091,
+        "stop" : 1631902402091,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#page-wrapper > div.wrapper.wrapper-content\")",
+      "time" : {
+        "start" : 1631902402091,
+        "stop" : 1631902402249,
+        "duration" : 158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "#page-wrapper > div.wrapper.wrapper-content get",
+      "time" : {
+        "start" : 1631902402248,
+        "stop" : 1631902402248,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"h2\")",
+      "time" : {
+        "start" : 1631902402249,
+        "stop" : 1631902402276,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Access Rights Manager\")",
+      "time" : {
+        "start" : 1631902402276,
+        "stop" : 1631902402297,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902402297,
+        "stop" : 1631902402493,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/BOEM/Nav/Module/ADMIN/ADMIN&Context_Bootstrap_Flag=true&_=1631902402157",
+      "time" : {
+        "start" : 1631902402493,
+        "stop" : 1631902402493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631902402493,
+        "stop" : 1631902402493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#formId > div > span > button\")",
+      "time" : {
+        "start" : 1631902402493,
+        "stop" : 1631902402926,
+        "duration" : 433
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "#formId > div > span > button get",
+      "time" : {
+        "start" : 1631902402926,
+        "stop" : 1631902402926,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902402926,
+        "stop" : 1631902403248,
+        "duration" : 322
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/BOEM/AdminAccessRights&Context_Bootstrap_Flag=true&_=1631902402836",
+      "time" : {
+        "start" : 1631902403247,
+        "stop" : 1631902403247,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/AdminAccessRights/IndexGridData?groupId=-1&gridId=Object&Context_Bootstrap_Flag=true&_search=false&nd=1631902403053&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631902402837",
+      "time" : {
+        "start" : 1631902403247,
+        "stop" : 1631902403247,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"3000\")",
+      "time" : {
+        "start" : 1631902403248,
+        "stop" : 1631902406255,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631902402838",
+      "time" : {
+        "start" : 1631902406255,
+        "stop" : 1631902406255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=https://fat.ei.weblakes.com/BOEM/AdminUserGroupSelection/DisplayNoTemplateGroupGrid&Context_Bootstrap_Flag=true&_=1631902402839",
+      "time" : {
+        "start" : 1631902406255,
+        "stop" : 1631902406255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter (\"#lkDialogFrame\")",
+      "time" : {
+        "start" : 1631902406255,
+        "stop" : 1631902406278,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#grid_GROUPS\")",
+      "time" : {
+        "start" : 1631902406280,
+        "stop" : 1631902406301,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"/^Administrators$/g\")",
+      "time" : {
+        "start" : 1631902406301,
+        "stop" : 1631902406324,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "parent (\"tr\")",
+      "time" : {
+        "start" : 1631902406324,
+        "stop" : 1631902406343,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"td\")",
+      "time" : {
+        "start" : 1631902406349,
+        "stop" : 1631902406386,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "eq (\"3\")",
+      "time" : {
+        "start" : 1631902406386,
+        "stop" : 1631902406409,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Administrators\")",
+      "time" : {
+        "start" : 1631902406409,
+        "stop" : 1631902406431,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"td\")",
+      "time" : {
+        "start" : 1631902406431,
+        "stop" : 1631902406466,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "eq (\"0\")",
+      "time" : {
+        "start" : 1631902406466,
+        "stop" : 1631902406489,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"1\")",
+      "time" : {
+        "start" : 1631902406489,
+        "stop" : 1631902406512,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902406512,
+        "stop" : 1631902406721,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "within",
+      "time" : {
+        "start" : 1631902406721,
+        "stop" : 1631902406721,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1631902406722,
+        "stop" : 1631902407727,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#btnSelect\")",
+      "time" : {
+        "start" : 1631902407727,
+        "stop" : 1631902407749,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902407749,
+        "stop" : 1631902407898,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631902407898,
+        "stop" : 1631902407898,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1631902407898,
+        "stop" : 1631902410490,
+        "duration" : 2592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "2000 wait",
+      "time" : {
+        "start" : 1631902410487,
+        "stop" : 1631902410487,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/BOEM/AdminAccessRights/Index/-1&Context_Bootstrap_Flag=true&_=1631902408408",
+      "time" : {
+        "start" : 1631902410488,
+        "stop" : 1631902410488,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/AdminAccessRights/IndexGridData?groupId=-1&gridId=Object&Context_Bootstrap_Flag=true&_search=false&nd=1631902408580&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631902408409",
+      "time" : {
+        "start" : 1631902410489,
+        "stop" : 1631902410489,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631902408410",
+      "time" : {
+        "start" : 1631902410490,
+        "stop" : 1631902410490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1631902410490,
+        "stop" : 1631902411493,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#gs_OBJECTTYPE\")",
+      "time" : {
+        "start" : 1631902411493,
+        "stop" : 1631902411522,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "select (\"Questionnaire - LO\")",
+      "time" : {
+        "start" : 1631902411522,
+        "stop" : 1631902411792,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/AdminAccessRights/IndexGridData?groupId=-1&gridId=Object&Context_Bootstrap_Flag=true&_search=true&nd=1631902411786&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&filters={\"groupOp\":\"AND\",\"rules\":[{\"field\":\"OBJECTTYPE\",\"op\":\"eq\",\"data\":\"Questionnaire - LO\"}]}&_=1631902408411",
+      "time" : {
+        "start" : 1631902411792,
+        "stop" : 1631902411792,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1631902411792,
+        "stop" : 1631902412795,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631902408412",
+      "time" : {
+        "start" : 1631902412795,
+        "stop" : 1631902412795,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"2000\")",
+      "time" : {
+        "start" : 1631902412795,
+        "stop" : 1631902414798,
+        "duration" : 2003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#sp_1_gridpager_Object\")",
+      "time" : {
+        "start" : 1631902414798,
+        "stop" : 1631902414830,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#grid_Object\")",
+      "time" : {
+        "start" : 1631902414831,
+        "stop" : 1631902414859,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"input[type=checkbox]\")",
+      "time" : {
+        "start" : 1631902414859,
+        "stop" : 1631902414929,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902414933,
+        "stop" : 1631902414959,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902414959,
+        "stop" : 1631902414966,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902414966,
+        "stop" : 1631902414992,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902414992,
+        "stop" : 1631902414998,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902414998,
+        "stop" : 1631902415022,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415022,
+        "stop" : 1631902415029,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415029,
+        "stop" : 1631902415054,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415054,
+        "stop" : 1631902415061,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415061,
+        "stop" : 1631902415088,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415088,
+        "stop" : 1631902415094,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415094,
+        "stop" : 1631902415122,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415122,
+        "stop" : 1631902415130,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415131,
+        "stop" : 1631902415161,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415161,
+        "stop" : 1631902415168,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415168,
+        "stop" : 1631902415197,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415197,
+        "stop" : 1631902415203,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415203,
+        "stop" : 1631902415235,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415235,
+        "stop" : 1631902415243,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415243,
+        "stop" : 1631902415271,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415271,
+        "stop" : 1631902415277,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415277,
+        "stop" : 1631902415306,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415306,
+        "stop" : 1631902415312,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415312,
+        "stop" : 1631902415340,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415340,
+        "stop" : 1631902415347,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wrap (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415347,
+        "stop" : 1631902415375,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "check (\"[object Object]\")",
+      "time" : {
+        "start" : 1631902415375,
+        "stop" : 1631902415382,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".user-identity\")",
+      "time" : {
+        "start" : 1631902415382,
+        "stop" : 1631902415411,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902415411,
+        "stop" : 1631902415718,
+        "duration" : 307
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1631902415718,
+        "stop" : 1631902416723,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#page-wrapper > div:nth-child(1) > div > ul > li.corner-logon.show > ul > li > a\")",
+      "time" : {
+        "start" : 1631902416723,
+        "stop" : 1631902416750,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631902416750,
+        "stop" : 1631902416930,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631902416930,
+        "stop" : 1631902416930,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 109,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 5000ms: Too many elements found. Found '7', expected '2'.",
+    "statusTrace" : "AssertionError: Timed out retrying after 5000ms: Too many elements found. Found '7', expected '2'.\n    at LOEmissionsManagerPage.checkNumberOfRowsInQAQCDataGrid (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\EISQuestionnaireLO.js:3421:136)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\EISQuestionnaireLO.js:2558:37)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1631905802023,
+        "stop" : 1631905802524,
+        "duration" : 501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "visit (\"/Account/LogIn\")",
+      "time" : {
+        "start" : 1631905802531,
+        "stop" : 1631905803000,
+        "duration" : 469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#UserName\")",
+      "time" : {
+        "start" : 1631905803000,
+        "stop" : 1631905803007,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"qa@weblakes.com\")",
+      "time" : {
+        "start" : 1631905803007,
+        "stop" : 1631905803321,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#Password\")",
+      "time" : {
+        "start" : 1631905803321,
+        "stop" : 1631905803328,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "type (\"Opengl10089\")",
+      "time" : {
+        "start" : 1631905803328,
+        "stop" : 1631905803623,
+        "duration" : 295
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Log In\")",
+      "time" : {
+        "start" : 1631905803623,
+        "stop" : 1631905803632,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631905803632,
+        "stop" : 1631905803731,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--submitting form-- form sub",
+      "time" : {
+        "start" : 1631905803731,
+        "stop" : 1631905803731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "--waiting for new page to load-- page load",
+      "time" : {
+        "start" : 1631905803731,
+        "stop" : 1631905803731,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"1000\")",
+      "time" : {
+        "start" : 1631905803731,
+        "stop" : 1631905808589,
+        "duration" : 4858
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/UpdateGrid?anEnableHorizontalScroll=True&Context_Bootstrap_Flag=true&_=1631905805678",
+      "time" : {
+        "start" : 1631905808588,
+        "stop" : 1631905808588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "1000 wait",
+      "time" : {
+        "start" : 1631905808588,
+        "stop" : 1631905808588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/BOEM/DshBrdMain&Context_Bootstrap_Flag=true&_=1631905805679",
+      "time" : {
+        "start" : 1631905808588,
+        "stop" : 1631905808588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetNumberFormatLocale?Context_Bootstrap_Flag=true&_=1631905805680",
+      "time" : {
+        "start" : 1631905808588,
+        "stop" : 1631905808588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Chart/GetDateTimeFormatLocale?Context_Bootstrap_Flag=true&_=1631905805681",
+      "time" : {
+        "start" : 1631905808588,
+        "stop" : 1631905808588,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GridData?gridId=EmissionsByAgency&Context_Bootstrap_Flag=true&_search=false&nd=1631905807749&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631905805682",
+      "time" : {
+        "start" : 1631905808589,
+        "stop" : 1631905808589,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=2&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631905805683",
+      "time" : {
+        "start" : 1631905808589,
+        "stop" : 1631905808589,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=3&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631905805684",
+      "time" : {
+        "start" : 1631905808589,
+        "stop" : 1631905808589,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=9&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631905805685",
+      "time" : {
+        "start" : 1631905808589,
+        "stop" : 1631905808589,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/DshBrdMain/GetChartData?aPollutant=23&fChartType=bar&MaxLegendEntries=12&IsStack=False&IsCategory=False&Context_Bootstrap_Flag=true&_=1631905805686",
+      "time" : {
+        "start" : 1631905808589,
+        "stop" : 1631905808589,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\".inventory-label > a\")",
+      "time" : {
+        "start" : 1631905808589,
+        "stop" : 1631905808949,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "visit (\"/InputDetails/NavNPLOEmissionsManager/DetailedEditor/Index/7021/309\")",
+      "time" : {
+        "start" : 1631905808949,
+        "stop" : 1631905811221,
+        "duration" : 2272
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631905805687",
+      "time" : {
+        "start" : 1631905811221,
+        "stop" : 1631905811221,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"10000\")",
+      "time" : {
+        "start" : 1631905811221,
+        "stop" : 1631905821256,
+        "duration" : 10035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/RazorSetting/RenderColor?path=/boem/InputDetails/NavNPLOEmissionsManager/DetailedEditor/Index/7021/309&Context_Bootstrap_Flag=true&_=1631905810625",
+      "time" : {
+        "start" : 1631905821255,
+        "stop" : 1631905821255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/EntityName/ByIds?Context_Bootstrap_Flag=true&aThemeId=7021&anEntityId=309&aParentId=-1&_=1631905810626",
+      "time" : {
+        "start" : 1631905821255,
+        "stop" : 1631905821255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/InputDetails/NavNPLOEmissionsManager/DetailedEditor/GetChildThemeGridData/7025?aParentEntityKey=309&anEntityLinkClick=ThemeGridLinkCallBackNPLO_SOURCE&aViewLink=True&anEditLink=True&aDeleteLink=True&gridId=NPLO_SOURCE&Context_Bootstrap_Flag=true&_search=false&nd=1631905812517&rows=20&page=1&sidx=&sord=asc&ssSearchField=__ANY_COLUMN&ssSearchOper=cn&ssSearchString=&_=1631905810627",
+      "time" : {
+        "start" : 1631905821255,
+        "stop" : 1631905821255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Input/NavNPLOEmissionsManager/NploLease/GetNavigationKeys?aKey=309&amp;themeId=7021&Context_Bootstrap_Flag=true&_=1631905810628",
+      "time" : {
+        "start" : 1631905821255,
+        "stop" : 1631905821255,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET https://fat.ei.weblakes.com/BOEM/Toaster/QueryNotification?Context_Bootstrap_Flag=true&_=1631905810629",
+      "time" : {
+        "start" : 1631905821256,
+        "stop" : 1631905821256,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "get (\"#grid_NPLO_SOURCE > tbody > tr:nth-child(10) > td:nth-child(1)\")",
+      "time" : {
+        "start" : 1631905821256,
+        "stop" : 1631905821607,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631905821607,
+        "stop" : 1631905822645,
+        "duration" : 1038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"7000\")",
+      "time" : {
+        "start" : 1631905822645,
+        "stop" : 1631905829676,
+        "duration" : 7031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter (\"#questionnaire-iframe-modal\")",
+      "time" : {
+        "start" : 1631905829676,
+        "stop" : 1631905830030,
+        "duration" : 354
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#tab_dataRequest\")",
+      "time" : {
+        "start" : 1631905830031,
+        "stop" : 1631905830477,
+        "duration" : 446
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631905830477,
+        "stop" : 1631905831522,
+        "duration" : 1045
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter (\"#questionnaire-iframe-modal\")",
+      "time" : {
+        "start" : 1631905831522,
+        "stop" : 1631905831871,
+        "duration" : 349
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#BOOL_1\")",
+      "time" : {
+        "start" : 1631905831872,
+        "stop" : 1631905832323,
+        "duration" : 451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "parent",
+      "time" : {
+        "start" : 1631905832323,
+        "stop" : 1631905832780,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **<div.col-sm-6.nvg-field-control.editor-field-mandatory>** to have class **editor-field-mandatory** assert",
+      "time" : {
+        "start" : 1631905832780,
+        "stop" : 1631905832780,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter (\"#questionnaire-iframe-modal\")",
+      "time" : {
+        "start" : 1631905832780,
+        "stop" : 1631905833135,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#BOOL_1\")",
+      "time" : {
+        "start" : 1631905833136,
+        "stop" : 1631905833584,
+        "duration" : 448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "select (\"\"; \"[object Object]\")",
+      "time" : {
+        "start" : 1631905833584,
+        "stop" : 1631905834554,
+        "duration" : 970
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "enter (\"#questionnaire-iframe-modal\")",
+      "time" : {
+        "start" : 1631905834554,
+        "stop" : 1631905834905,
+        "duration" : 351
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#PeriodQAQC\")",
+      "time" : {
+        "start" : 1631905834906,
+        "stop" : 1631905835353,
+        "duration" : 447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1631905835353,
+        "stop" : 1631905836390,
+        "duration" : 1037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "wait (\"5000\")",
+      "time" : {
+        "start" : 1631905836390,
+        "stop" : 1631905841400,
+        "duration" : 5010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "frameLoaded (\"#questionnaire-iframe-modal\")",
+      "time" : {
+        "start" : 1631905841400,
+        "stop" : 1631905841775,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "iframeCustom",
+      "time" : {
+        "start" : 1631905841775,
+        "stop" : 1631905841899,
+        "duration" : 124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#lkDialogFrame\")",
+      "time" : {
+        "start" : 1631905841899,
+        "stop" : 1631905842354,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "iframeCustom",
+      "time" : {
+        "start" : 1631905842354,
+        "stop" : 1631905842359,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"h3\")",
+      "time" : {
+        "start" : 1631905842359,
+        "stop" : 1631905842716,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **<h3>** to have text **QA/QC Data** assert",
+      "time" : {
+        "start" : 1631905842716,
+        "stop" : 1631905842716,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "frameLoaded (\"#questionnaire-iframe-modal\")",
+      "time" : {
+        "start" : 1631905842716,
+        "stop" : 1631905843064,
+        "duration" : 348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "iframeCustom",
+      "time" : {
+        "start" : 1631905843064,
+        "stop" : 1631905843189,
+        "duration" : 125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#lkDialogFrame\")",
+      "time" : {
+        "start" : 1631905843189,
+        "stop" : 1631905843645,
+        "duration" : 456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "iframeCustom",
+      "time" : {
+        "start" : 1631905843645,
+        "stop" : 1631905843668,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"#grid_QAQC > tbody > tr\")",
+      "time" : {
+        "start" : 1631905843668,
+        "stop" : 1631905849897,
+        "duration" : 6229
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "expected **[ <tr.jqgfirstrow>, 6 more... ]** to have a length of **2** but got **7** assert",
+      "time" : {
+        "start" : 1631905849897,
+        "stop" : 1631905849897,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1631905849899,
+        "stop" : 1631905849900,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "83ded6ec857ecdef",
+      "name" : "BOEM_Tests/EISQuestionnaireLO.js:2021-09-17T19:10:49.076Z",
+      "source" : "83ded6ec857ecdef.png",
+      "type" : "image/png",
+      "size" : 296413
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 60,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "time" : { },
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 5000ms: Expected to find content: 'Admin' within the element: [ <li>, 5 more... ] but never did.",
+    "statusTrace" : "AssertionError: Timed out retrying after 5000ms: Expected to find content: 'Admin' within the element: [ <li>, 5 more... ] but never did.\n    at Toolbar.clickOnMenu (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\EISQuestionnaireLO.js:4481:34)\n    at Context.eval (https://fat.ei.weblakes.com/__cypress/tests?p=cypress\\integration\\BOEM_Tests\\EISQuestionnaireLO.js:168:22)",
+    "steps" : [ {
+      "name" : "get (\"#navbar\")",
+      "time" : {
+        "start" : 1631906234222,
+        "stop" : 1631906234579,
+        "duration" : 357
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "find (\"li\")",
+      "time" : {
+        "start" : 1631906234579,
+        "stop" : 1631906234938,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "contains (\"Admin\")",
+      "time" : {
+        "start" : 1631906234938,
+        "stop" : 1631906240809,
+        "duration" : 5871
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "EISQuestionnaireLO"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 16,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "1f0488752b6d7471",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 5000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1631841726751,
+          "stop" : 1631841774061,
+          "duration" : 47310
+        }
+      }, {
+        "uid" : "2f80d7eab6ea1946",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1631745305738,
+          "stop" : 1631745350658,
+          "duration" : 44920
+        }
+      }, {
+        "uid" : "9b424b4ccbb879a4",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1631644604013,
+          "stop" : 1631644648980,
+          "duration" : 44967
+        }
+      }, {
+        "uid" : "295b2733d4b06b76",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1631580836019,
+          "stop" : 1631580880731,
+          "duration" : 44712
+        }
+      }, {
+        "uid" : "5f6bdfd76eb24267",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1631324358877,
+          "stop" : 1631324403426,
+          "duration" : 44549
+        }
+      }, {
+        "uid" : "b9819d9cbf71a638",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1629837817441,
+          "stop" : 1629837862053,
+          "duration" : 44612
+        }
+      }, {
+        "uid" : "624a02f602b64812",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1629739074309,
+          "stop" : 1629739122055,
+          "duration" : 47746
+        }
+      }, {
+        "uid" : "c6afebcb50acedd",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1629389304417,
+          "stop" : 1629389351352,
+          "duration" : 46935
+        }
+      }, {
+        "uid" : "b3be19a82a5701e4",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1629303493079,
+          "stop" : 1629303539600,
+          "duration" : 46521
+        }
+      }, {
+        "uid" : "61cb9e8100bbecec",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1629225674423,
+          "stop" : 1629225721862,
+          "duration" : 47439
+        }
+      }, {
+        "uid" : "ae6bbf5f52fc212d",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1629151105945,
+          "stop" : 1629151153121,
+          "duration" : 47176
+        }
+      }, {
+        "uid" : "33da20f0ddf0192e",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '7', expected '2'.",
+        "time" : {
+          "start" : 1628285554567,
+          "stop" : 1628285600149,
+          "duration" : 45582
+        }
+      }, {
+        "uid" : "7debf88cce132599",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: expected '<div.row.nvg-field-form-group>' to have class 'editor-field-mandatory'",
+        "time" : {
+          "start" : 1628201927445,
+          "stop" : 1628201968355,
+          "duration" : 40910
+        }
+      }, {
+        "uid" : "8620adf8a9499843",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '6', expected '2'.",
+        "time" : {
+          "start" : 1628092990249,
+          "stop" : 1628093034466,
+          "duration" : 44217
+        }
+      }, {
+        "uid" : "ff322ecd4525df76",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 4000ms: Too many elements found. Found '6', expected '2'.",
+        "time" : {
+          "start" : 1627662132417,
+          "stop" : 1627662176919,
+          "duration" : 44502
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ec2625a1fad9640e.json",
+  "parameterValues" : [ ]
+}
