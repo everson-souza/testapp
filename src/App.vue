@@ -12,7 +12,7 @@
           contain
           :src="require('../src/assets/lakes_logo.png')"
           transition="scale-transition"
-          width="70"
+          width="100"
         />
 
       </div>
