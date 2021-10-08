@@ -5,7 +5,7 @@ module.exports = {
   devServer: {
     proxy: {
       '^/api': {
-        target: 'http://localhost',
+        target: 'http://qab01.weblakes.com:3080',
         changeOrigin: true
       }      
     },
